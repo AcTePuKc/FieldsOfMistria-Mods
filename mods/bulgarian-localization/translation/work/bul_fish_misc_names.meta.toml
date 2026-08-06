@@ -1,0 +1,10 @@
+[meta_properties]
+id = "bulgarian_fish_misc_names"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/misc/clam/name" = "Мида"
+"items/fish/misc/freshwater_oyster/name" = "Сладководна стрида"
+"items/fish/misc/newt/name" = "Тритон"
+"items/fish/misc/pearl_clam/name" = "Перлена мида"
+"items/fish/misc/seaweed/name" = "Морско водорасло"
