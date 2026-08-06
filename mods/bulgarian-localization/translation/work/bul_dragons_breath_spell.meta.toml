@@ -4,5 +4,5 @@ asset_kind = "L10nTarget"
 
 [asset_properties]
 "ui/tutorials/dragons_breath_spell/steps/0/text" = "Заклинанието Драконов дъх може да се използва за изстрелване на разрушителна струя огън за кратко време."
-"ui/tutorials/dragons_breath_spell/steps/1/text" = "С него можеш също да отваряш някои области, до които преди не си имал достъп!"
+"ui/tutorials/dragons_breath_spell/steps/1/text" = "С него можеш също да отваряш някои области, до които досега нямаш достъп!"
 "ui/tutorials/dragons_breath_spell/title" = "Урок: Заклинанието Драконов дъх"
