@@ -118,13 +118,13 @@ status = "working"
 [names]
 "Astrid" = { bulgarian = "Астрид", status = "approved for current work" }
 "Brid" = { bulgarian = "Брид", status = "approved for current work" }
-"Cedar" = { bulgarian = "Сидър", status = "provisional", notes = "Character name; retained as a name rather than translated as Кедър." }
+"Cedar" = { bulgarian = "Кедър", status = "approved for current work", notes = "Bulgarian semantic adaptation of the character name." }
 "Ellie" = { bulgarian = "Ели", status = "approved for current work" }
-"Fray" = { bulgarian = "Фрей", status = "approved for current work" }
-"Kam" = { bulgarian = "Кам", status = "approved for current work" }
+"Fray" = { bulgarian = "Фрея", status = "approved for current work" }
+"Kam" = { bulgarian = "Камен", status = "approved for current work" }
 "Rowan" = { bulgarian = "Роуън", status = "approved for current work" }
-"Rune" = { bulgarian = "Рун", status = "approved for current work" }
-"Sterling" = { bulgarian = "Стърлинг", status = "approved for current work" }
+"Rune" = { bulgarian = "Руна", status = "approved for current work" }
+"Sterling" = { bulgarian = "Сребрин", status = "approved for current work" }
 "Tephra" = { bulgarian = "Тефра", status = "approved for current work" }
 "Torin" = { bulgarian = "Торин", status = "approved for current work" }
 "Wilder" = { bulgarian = "Уайлдър", status = "approved for current work" }
