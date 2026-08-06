@@ -1,0 +1,15 @@
+[meta_properties]
+id = "bulgarian_infusions_1"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"infusions/fairy/name" = "Фея"
+"infusions/fairy/description" = "Еднократно те съживява при припадък, като възстановява 50% от здравето и издръжливостта ти."
+"infusions/fortified/name" = "Укрепено"
+"infusions/fortified/description" = "Максималното ти здраве се увеличава с +4."
+"infusions/hasty/name" = "Пъргаво"
+"infusions/hasty/description" = "Увеличава скоростта ти на движение с 4%."
+"infusions/leeching/name" = "Източване"
+"infusions/leeching/description" = "Възстановява 1 здраве всеки път, когато нанася щети на чудовище."
+"infusions/lightweight/name" = "Лекота"
+"infusions/lightweight/description" = "Инструментите с тази инфузия понякога изпускат кълба издръжливост при използване."
