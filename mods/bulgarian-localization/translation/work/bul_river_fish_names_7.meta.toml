@@ -1,0 +1,8 @@
+[meta_properties]
+id = "bulgarian_river_fish_names_7"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/river/smallmouth_bass/name" = "Малкоуст костур"
+"items/fish/river/sweetfish/name" = "Сладка риба"
+"items/fish/river/walleye/name" = "Стъклоок костур"
