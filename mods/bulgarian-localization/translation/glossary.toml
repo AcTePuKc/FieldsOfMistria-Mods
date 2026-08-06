@@ -173,6 +173,11 @@ status = "working"
 "Shad" = { bulgarian = "карагьоз", status = "working", notes = "Use the established Bulgarian name for shad-type fish; review if a more specific species is identified." }
 "Tarpon" = { bulgarian = "тарпон", status = "approved for current work", notes = "Use the established Bulgarian transliteration Тарпон." }
 "Walleye" = { bulgarian = "стъклоок костур", status = "approved for current work", notes = "Use Стъклоок костур as the player-facing Bulgarian name." }
+"Upper Mines" = { bulgarian = "горни мини", status = "approved for current work", notes = "Use Горни мини as the location name." }
+"The Tide Caverns" = { bulgarian = "приливни пещери", status = "approved for current work", notes = "Use Приливни пещери as the location name." }
+"Deep Earth" = { bulgarian = "дълбока земя", status = "approved for current work", notes = "Use Дълбока земя as the location name." }
+"The Lava Caves" = { bulgarian = "лавови пещери", status = "approved for current work", notes = "Use Лавови пещери as the location name." }
+"Ancient Ruins" = { bulgarian = "древни руини", status = "approved for current work", notes = "Use Древни руини as the location name." }
 "Muskie" = { bulgarian = "маскинонг", status = "approved for current work", notes = "Use Маскинонг; do not use the Russian-derived Мускунг." }
 "Silver Redhorse" = { bulgarian = "сребриста моксостома", status = "approved for current work", notes = "Use the biologically precise Bulgarian genus-based name rather than the Russian-derived чукучан." }
 "Sunny" = { bulgarian = "слънчевка", status = "approved for current work", notes = "Common Bulgarian name for pumpkinseed sunfish; avoid the diminutive слънчева рибка." }

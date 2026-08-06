@@ -1,0 +1,10 @@
+[meta_properties]
+id = "bulgarian_dungeon_biome_names"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"dungeons/dungeons/biomes/0/name" = "Горни мини"
+"dungeons/dungeons/biomes/1/name" = "Приливни пещери"
+"dungeons/dungeons/biomes/2/name" = "Дълбока земя"
+"dungeons/dungeons/biomes/3/name" = "Лавови пещери"
+"dungeons/dungeons/biomes/4/name" = "Древни руини"
