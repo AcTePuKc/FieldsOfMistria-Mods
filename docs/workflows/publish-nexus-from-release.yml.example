@@ -1,0 +1,98 @@
+# This is intentionally stored outside .github/workflows and cannot run.
+# Move it to .github/workflows/publish-nexus-from-release.yml only after the
+# first Nexus main file has been uploaded manually and the secrets exist.
+
+name: Publish Bulgarian Mod From Release
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: GitHub release tag to publish to Nexus
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: nexus-bg-${{ github.event.release.tag_name || inputs.tag }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: windows-latest
+    env:
+      REPOSITORY: AcTePuKc/FieldsOfMistria-Mods
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Resolve release metadata
+        id: release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ("${{ github.event_name }}" -eq "release") {
+            $tag = "${{ github.event.release.tag_name }}"
+          } else {
+            $tag = "${{ inputs.tag }}"
+          }
+
+          if ([string]::IsNullOrWhiteSpace($tag)) {
+            throw "A GitHub release tag is required."
+          }
+
+          $release = gh release view $tag --repo $env:REPOSITORY --json tagName | ConvertFrom-Json
+          $version = $release.tagName.TrimStart("v")
+          "tag=$($release.tagName)" | Out-File $env:GITHUB_OUTPUT -Encoding utf8 -Append
+          "version=$version" | Out-File $env:GITHUB_OUTPUT -Encoding utf8 -Append
+
+          $description = (Get-Content -LiteralPath "release/nexus-description.txt" -Raw).Trim()
+          "nexus_description<<EOF" | Out-File $env:GITHUB_OUTPUT -Encoding utf8 -Append
+          $description | Out-File $env:GITHUB_OUTPUT -Encoding utf8 -Append
+          "EOF" | Out-File $env:GITHUB_OUTPUT -Encoding utf8 -Append
+
+          $changelog = (Get-Content -LiteralPath "release/nexus-changelog.txt" -Raw).Trim()
+          "changelog<<EOF" | Out-File $env:GITHUB_OUTPUT -Encoding utf8 -Append
+          $changelog | Out-File $env:GITHUB_OUTPUT -Encoding utf8 -Append
+          "EOF" | Out-File $env:GITHUB_OUTPUT -Encoding utf8 -Append
+
+      - name: Download release archive
+        id: download
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          New-Item -ItemType Directory -Force -Path .\release-download | Out-Null
+          gh release download "${{ steps.release.outputs.tag }}" `
+            --repo $env:REPOSITORY `
+            --pattern "FieldsOfMistriaBulgarian-*.zip" `
+            --dir .\release-download
+
+          $archives = @(Get-ChildItem -LiteralPath .\release-download -Filter "FieldsOfMistriaBulgarian-*.zip")
+          if ($archives.Count -ne 1) {
+            throw "Expected exactly one Bulgarian localization archive, found $($archives.Count)."
+          }
+          "asset_path=$($archives[0].FullName)" | Out-File $env:GITHUB_OUTPUT -Encoding utf8 -Append
+
+      - name: Publish to Nexus Mods
+        uses: Nexus-Mods/upload-action@v1.0.0-beta.10
+        with:
+          api_key: ${{ secrets.NEXUS_API_KEY }}
+          file_id: ${{ secrets.NEXUS_BG_FILE_ID }}
+          filename: ${{ steps.download.outputs.asset_path }}
+          version: ${{ steps.release.outputs.version }}
+          description: ${{ steps.release.outputs.nexus_description }}
+          mod_id: ${{ secrets.NEXUS_BG_MOD_ID }}
+          changelog: ${{ steps.release.outputs.changelog }}
+          display_name: FieldsOfMistria Bulgarian Localization ${{ steps.release.outputs.version }}
+          category: main
+          archive_existing_version: true
+          primary_mod_manager_download: true
+          allow_mod_manager_download: true
+          show_requirements_pop_up: false

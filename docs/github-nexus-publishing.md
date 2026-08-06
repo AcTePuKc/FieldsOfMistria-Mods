@@ -2,6 +2,12 @@
 
 The first version of each mod should be uploaded to Nexus Mods manually. No Nexus secret is needed for that release.
 
+The not-yet-active workflow template is stored at
+`docs/workflows/publish-nexus-from-release.yml.example`. Because it is not
+under `.github/workflows/`, GitHub Actions will not discover or run it.
+Activate it only after the first manual Nexus upload has created the target
+main file.
+
 ## Secrets used after the first Nexus file exists
 
 If GitHub Actions is enabled later, configure these as repository secrets:
