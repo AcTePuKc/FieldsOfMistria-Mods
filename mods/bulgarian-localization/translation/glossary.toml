@@ -149,6 +149,8 @@ status = "working"
 "Pink Scallop Shell" = { bulgarian = "розово ветрило", status = "approved for current work", notes = "Use the concise item name Розово ветрило rather than a literal shell/mussel construction." }
 "Copper Rockfish" = { bulgarian = "меден костур", status = "approved for current work", notes = "Use Меден костур for the bait fish item." }
 "Massive Minnow" = { bulgarian = "гигантска лещанка", status = "approved for current work", notes = "Use Гигантска лещанка rather than a generic дребна риба description." }
+"Cherry Fish" = { bulgarian = "черешова рибка", status = "approved for current work", notes = "Cozy item name; the real-world reference is cherry barb, but the game key uses Cherry Fish." }
+"Snapping Turtle" = { bulgarian = "хапеща костенурка", status = "approved for current work", notes = "Use the clear player-facing name Хапеща костенурка; Кайманова костенурка is the more biological alternative." }
 "Muskie" = { bulgarian = "маскинонг", status = "approved for current work", notes = "Use Маскинонг; do not use the Russian-derived Мускунг." }
 "Silver Redhorse" = { bulgarian = "сребриста моксостома", status = "approved for current work", notes = "Use the biologically precise Bulgarian genus-based name rather than the Russian-derived чукучан." }
 "Sunny" = { bulgarian = "слънчевка", status = "approved for current work", notes = "Common Bulgarian name for pumpkinseed sunfish; avoid the diminutive слънчева рибка." }

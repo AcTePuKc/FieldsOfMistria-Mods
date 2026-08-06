@@ -4,5 +4,5 @@ asset_kind = "L10nTarget"
 
 [asset_properties]
 "items/fish/pond/barb/name" = "Барбус"
-"items/fish/pond/cherry_fish/name" = "Черешова риба"
-"items/fish/pond/snapping_turtle/name" = "Щракаща костенурка"
+"items/fish/pond/cherry_fish/name" = "Черешова рибка"
+"items/fish/pond/snapping_turtle/name" = "Хапеща костенурка"
