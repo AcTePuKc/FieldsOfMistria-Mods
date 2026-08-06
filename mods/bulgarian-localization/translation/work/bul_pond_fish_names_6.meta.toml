@@ -1,0 +1,8 @@
+[meta_properties]
+id = "bulgarian_pond_fish_names_6"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/pond/barb/name" = "Барбус"
+"items/fish/pond/cherry_fish/name" = "Черешова риба"
+"items/fish/pond/snapping_turtle/name" = "Щракаща костенурка"
