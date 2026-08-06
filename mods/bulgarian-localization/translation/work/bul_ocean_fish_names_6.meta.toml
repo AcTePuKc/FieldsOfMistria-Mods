@@ -4,4 +4,4 @@ asset_kind = "L10nTarget"
 
 [asset_properties]
 "items/fish/ocean/butterfish/name" = "Маслена риба"
-"items/fish/ocean/char/name" = "Голец"
+"items/fish/ocean/char/name" = "Сивен"
