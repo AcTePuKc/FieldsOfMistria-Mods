@@ -1,0 +1,10 @@
+[meta_properties]
+id = "bulgarian_river_fish_names_2"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/river/bream/name" = "Платика"
+"items/fish/river/crayfish/name" = "Речен рак"
+"items/fish/river/goby/name" = "Попче"
+"items/fish/river/lamprey/name" = "Минога"
+"items/fish/river/sturgeon/name" = "Есетра"
