@@ -50,3 +50,18 @@ or removed. A source key that contains pronoun variants must retain equivalent
 variants in the Bulgarian value, unless the sentence is deliberately
 rewritten so that grammatical gender is no longer needed. Existing work files
 with gendered player-facing text must be reviewed under this rule during QA.
+
+## Russian localization as a review reference
+
+The Russian localization is a secondary diagnostic reference, not a source of
+meaning or style. It contains many dialogue entries with explicit `m/f/p/n`
+variants, including cases where the English source does not make the
+grammatical issue obvious. Use those entries to identify dialogue that may
+need Bulgarian variants, then write the Bulgarian text from the English source
+and the scene context.
+
+Prefer neutral Bulgarian wording in UI labels, tutorials, item descriptions,
+and system messages when it is natural. Use conditional `m/f/p/n` variants in
+dialogue or other player-facing text when gender agreement materially changes
+the sentence. Do not copy Russian wording or assume that every Russian gender
+choice is grammatically or stylistically correct for Bulgarian.
