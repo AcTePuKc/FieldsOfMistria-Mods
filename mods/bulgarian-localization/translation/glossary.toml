@@ -184,8 +184,8 @@ status = "working"
 "Spring Festival" = { bulgarian = "пролетен фестивал", status = "approved for current work", notes = "Use Пролетен фестивал as the festival name." }
 "Infusion" = { bulgarian = "инфузия", status = "approved for current work", notes = "Use the established game term Инфузия for temporary item and equipment effects." }
 "Fairy" = { bulgarian = "фея", status = "approved for current work", notes = "Infusion name." }
-"Fortified" = { bulgarian = "укрепено", status = "approved for current work", notes = "Infusion name; use the neuter form for the effect label." }
-"Hasty" = { bulgarian = "пъргаво", status = "approved for current work", notes = "Infusion name; use Пъргаво for the movement-speed effect." }
+"Fortified" = { bulgarian = "укрепване", status = "approved for current work", notes = "Use the noun Укрепване for the infusion name." }
+"Hasty" = { bulgarian = "пъргавина", status = "approved for current work", notes = "Use the noun Пъргавина for the movement-speed infusion." }
 "Leeching" = { bulgarian = "източване", status = "approved for current work", notes = "Infusion name for restoring health through damage." }
 "Lightweight" = { bulgarian = "лекота", status = "approved for current work", notes = "Infusion name for tools that can drop stamina orbs." }
 "Muskie" = { bulgarian = "маскинонг", status = "approved for current work", notes = "Use Маскинонг; do not use the Russian-derived Мускунг." }
