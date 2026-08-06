@@ -1,0 +1,9 @@
+[meta_properties]
+id = "fom-bg-work-sacred-light"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"ui/tutorials/sacred_light/steps/0/text" = "Свещена светлина е ново заклинание,\nкоето можеш да закачиш от раздела\n„Магия“ в дневника си."
+"ui/tutorials/sacred_light/steps/1/text" = "Използвай това заклинание на тъмните етажи..."
+"ui/tutorials/sacred_light/steps/2/text" = "За да ги осветиш за 5 минути!"
+"ui/tutorials/sacred_light/title" = "Урок: Свещена светлина"

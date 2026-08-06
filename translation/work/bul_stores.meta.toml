@@ -1,0 +1,21 @@
+[meta_properties]
+id = "bulgarian_stores"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"stores/balor/name" = "Фургонът на Балор"
+"stores/blacksmith/name" = "Ковачницата"
+"stores/carpenter/name" = "Дърводелската работилница"
+"stores/darcy/name" = "Щандът на Дарси"
+"stores/elsie_spring_festival/name" = "Щанд за дрехи"
+"stores/general/name" = "Смесен магазин"
+"stores/hayden/name" = "Магазинът на Хейдън"
+"stores/inn/name" = "Ханът „Спящият дракон“"
+"stores/louis/name" = "Щандът на Луи"
+"stores/maple_spring_festival/name" = "Щанд за храна"
+"stores/merri/name" = "Щандът на Мери"
+"stores/nora_souvenir_stall/name" = "Щанд за сувенири"
+"stores/terithia/name" = "Магазин за риболовни принадлежности"
+"stores/valens_clinic/name" = "Клиниката на Вален"
+"stores/vera/name" = "Щандът на Вера"
+"stores/wheedle/name" = "Щандът на Уийдъл"

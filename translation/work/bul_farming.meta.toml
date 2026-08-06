@@ -1,0 +1,12 @@
+[meta_properties]
+id = "fom-bg-work-farming"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"ui/tutorials/farming/steps/0/text" = "Стъпка 1:\nИзползвай мотиката върху разчистените\nучастъци от полето, за да разореш почвата."
+"ui/tutorials/farming/steps/1/text" = "Стъпка 2:\nПосади семената в разораните\nпочвени плочки."
+"ui/tutorials/farming/steps/2/text" = "Стъпка 3:\nПоливай културите си всеки ден,\nдокато пораснат напълно."
+"ui/tutorials/farming/steps/3/text" = "Стъпка 4:\nПрибери реколтата!"
+"ui/tutorials/farming/steps/4/text" = "Можеш да купиш лопата от Общия магазин, когато искаш да разшириш полетата си."
+"ui/tutorials/farming/steps/5/text" = "Продай, сготви или дори нахрани\nживотните си с културите!"
+"ui/tutorials/farming/title" = "Урок: Земеделие"

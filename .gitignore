@@ -1,0 +1,25 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+
+# Game archives, extracted assets, and copyrighted source localization data
+*.zip
+*.bak
+localization_inspection/
+poc_runtime/
+poc/
+translation/source_keys/
+translation/qa_reports/
+
+# Local generated data and diagnostics
+__pycache__/
+*.py[cod]
+dist/
+release-download/
+_portrait_diag/
+
+# Local build output and binaries
+bin/
+obj/
+tools/*.exe

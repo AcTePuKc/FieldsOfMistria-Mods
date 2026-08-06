@@ -1,0 +1,11 @@
+[meta_properties]
+id = "fom-bg-work-blacksmithing"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"ui/tutorials/blacksmithing/steps/0/text" = "Стъпка 1:\nОтвори менюто за ковачество, като\nвзаимодействаш с наковалнята."
+"ui/tutorials/blacksmithing/steps/1/text" = "Стъпка 2:\nИзбери какво искаш да изработиш\nот лявата страна на менюто."
+"ui/tutorials/blacksmithing/steps/2/text" = "Стъпка 3:\nМатериалите, нивото на умението и\nнеобходимото време за изработка са вдясно."
+"ui/tutorials/blacksmithing/steps/3/text" = "Стъпка 4:\nИзбери „ОК“, за да изработиш предмета!"
+"ui/tutorials/blacksmithing/steps/4/text" = "Отключи умения, за да създаваш инфузирани предмети със специални свойства!"
+"ui/tutorials/blacksmithing/title" = "Урок: Ковачество"

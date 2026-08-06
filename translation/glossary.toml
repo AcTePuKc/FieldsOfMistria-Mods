@@ -1,0 +1,137 @@
+[meta]
+player_address_default = "masculine"
+pronoun_variants = "Plan future feminine and neutral Bulgarian variants after the masculine base translation is complete and the engine macro syntax is confirmed."
+version = 1
+source_language = "eng"
+target_language = "bul"
+status = "working"
+
+# Add approved terms as quoted English keys. Keep uncertain choices as
+# pending entries until they have been checked in context.
+
+[terms]
+"Farming" = { bulgarian = "Земеделие", status = "provisional", notes = "Tutorial and skill/category label; review against the final UI context." }
+"General Store" = { bulgarian = "Смесен магазин", status = "approved for current work", notes = "Natural Bulgarian term for the village shop carrying varied goods; confirmed against other localizations." }
+"crop" = { bulgarian = "култура", status = "provisional", notes = "Use реколта when the sentence means harvested produce." }
+"till the soil" = { bulgarian = "разореш почвата", status = "provisional", notes = "Natural imperative for the tutorial." }
+"crafting" = { bulgarian = "изработка", status = "provisional", notes = "Menu and tutorial label; review against the final UI." }
+"Milling" = { bulgarian = "Мелене", status = "provisional", notes = "Tutorial and menu label; verify the final in-game wording." }
+"milling station" = { bulgarian = "станция за мелене", status = "provisional", notes = "Interactable station name." }
+"Date" = { bulgarian = "среща", status = "provisional", notes = "Romance activity; use срещаш се with the verb form." }
+"Date Inspiration" = { bulgarian = "Идеи за среща", status = "approved for current work", notes = "UI label and item concept; use предмети с идеи за срещи for the item form." }
+"Date Available" = { bulgarian = "Възможна е среща", status = "pending UI check", notes = "Likely a singular status label; confirm whether it is a list heading." }
+"Date Completed" = { bulgarian = "Приключила среща", status = "pending UI check", notes = "Likely a singular completion notification; confirm whether it is a list heading." }
+"Date Inspiration Item" = { bulgarian = "предмет с идея за среща", status = "approved for current work", notes = "Actual date_photo items are photos; use предмети с идеи за срещи in tutorial text." }
+"Date Type" = { bulgarian = "вид среща", status = "provisional", notes = "Unlockable date activity type." }
+"Photo Card" = { bulgarian = "снимка от среща", status = "approved for current work", notes = "Source item names are Bath/Beach/etc. Date Photo and are placed on house walls." }
+"Romantic Path" = { bulgarian = "романтична линия", status = "approved for current work", notes = "Relationship route selected in an 8-Heart Event; avoid the literal път." }
+"Apiary" = { bulgarian = "пчелин", status = "approved for current work", notes = "Placeable bee structure." }
+"Terrarium" = { bulgarian = "терариум", status = "approved for current work", notes = "Placeable bug habitat and production structure." }
+"Bug Pheromones" = { bulgarian = "феромони за насекоми", status = "approved for current work", notes = "Item used to summon a bug on open ground." }
+"Fish Bait" = { bulgarian = "стръв за риба", status = "approved for current work", notes = "Item used to summon fish and bait the Fish Trap." }
+"Common Bug Pheromones" = { bulgarian = "обикновени феромони за насекоми", status = "provisional", notes = "Item name; rarity wording should match the final rarity UI." }
+"Uncommon Bug Pheromones" = { bulgarian = "необичайни феромони за насекоми", status = "provisional", notes = "Item name; rarity wording should match the final rarity UI." }
+"Rare Bug Pheromones" = { bulgarian = "редки феромони за насекоми", status = "provisional", notes = "Item name; rarity wording should match the final rarity UI." }
+"Legendary Bug Pheromones" = { bulgarian = "легендарни феромони за насекоми", status = "provisional", notes = "Item name; rarity wording should match the final rarity UI." }
+"Common Fish Bait" = { bulgarian = "обикновена стръв за риба", status = "provisional", notes = "Item name; rarity wording should match the final rarity UI." }
+"Uncommon Fish Bait" = { bulgarian = "необичайна стръв за риба", status = "provisional", notes = "Item name; rarity wording should match the final rarity UI." }
+"Rare Fish Bait" = { bulgarian = "рядка стръв за риба", status = "provisional", notes = "Item name; rarity wording should match the final rarity UI." }
+"Deluxe Honey" = { bulgarian = "премиум мед", status = "provisional", notes = "Item name; verify whether the final UI uses премиум or another quality term." }
+"Legendary Honey" = { bulgarian = "легендарен мед", status = "provisional", notes = "Item name; rarity wording should match the final rarity UI." }
+"Premium Honey" = { bulgarian = "висококачествен мед", status = "provisional", notes = "Item name; verify against Deluxe Honey in the final UI." }
+"Honeycomb" = { bulgarian = "пчелна пита", status = "provisional", notes = "Item name." }
+"cooking" = { bulgarian = "готвене", status = "provisional", notes = "Menu and tutorial label." }
+"skill level" = { bulgarian = "ниво на умението", status = "provisional", notes = "Use consistently in crafting and cooking UI." }
+"kitchen level" = { bulgarian = "ниво на кухнята", status = "provisional", notes = "Review against the kitchen upgrade UI." }
+"infused item" = { bulgarian = "инфузиран предмет", status = "provisional", notes = "Technical game term; do not replace with подсилен until the mechanic is reviewed." }
+"special attributes" = { bulgarian = "специални свойства", status = "provisional", notes = "Natural UI phrasing." }
+"Fishing" = { bulgarian = "Риболов", status = "provisional", notes = "Tutorial and skill/category label." }
+"fish shadow" = { bulgarian = "сянка на риба", status = "provisional", notes = "Review in the fishing tutorial and fishing UI." }
+"school of fish" = { bulgarian = "пасаж от риби", status = "provisional", notes = "Natural Bulgarian gameplay term." }
+"dive spot" = { bulgarian = "място за гмуркане", status = "provisional", notes = "Review against the map/UI label." }
+"OK button" = { bulgarian = "ОК / Добре", status = "pending UI check", notes = "Determine whether the button is text or an image before finalizing." }
+"Ranching" = { bulgarian = "Животновъдство", status = "provisional", notes = "Tutorial and skill/category label." }
+"Barn" = { bulgarian = "Плевня", status = "provisional", notes = "Verify the official building label in the game UI." }
+"Coop" = { bulgarian = "Курник", status = "provisional", notes = "Verify the official building label in the game UI." }
+"trough" = { bulgarian = "хранилка", status = "provisional", notes = "Indoor animal feeding object." }
+"graze" = { bulgarian = "пасе", status = "provisional", notes = "Use паша when referring to the activity or system." }
+"Blacksmithing" = { bulgarian = "Ковачество", status = "provisional", notes = "Tutorial and skill/category label." }
+"anvil" = { bulgarian = "наковалня", status = "provisional", notes = "Use the established Bulgarian game term." }
+"Pets" = { bulgarian = "Домашни любимци", status = "provisional", notes = "Tutorial and UI category label." }
+"cosmetic" = { bulgarian = "аксесоар", status = "provisional", notes = "The source uses this separately from pet skin; current evidence points to bows, hats, collars, and similar wearable items." }
+"pet skin" = { bulgarian = "външен вид на любимец", status = "provisional", notes = "Keep distinct from cosmetic accessories; verify the final item/menu label." }
+"animal cosmetic" = { bulgarian = "аксесоар за животно", status = "provisional", notes = "Use animal context; keep distinct from pet skin." }
+"Magic Spells" = { bulgarian = "Магически заклинания", status = "provisional", notes = "Tutorial title and magic category label." }
+"Sacred Light" = { bulgarian = "Свещена светлина", status = "provisional", notes = "Spell name; verify the final in-game label." }
+"pin a spell" = { bulgarian = "закачи заклинание", status = "pending UI check", notes = "Verify whether the game UI uses закачи or фиксирай." }
+"Mana" = { bulgarian = "мана", status = "provisional", notes = "Established fantasy-game term." }
+"Mana orb" = { bulgarian = "кълбо мана", status = "provisional", notes = "Review the item/UI label." }
+"Lost & Found" = { bulgarian = "Изгубени вещи", status = "provisional", notes = "Natural Bulgarian tutorial/title phrasing; verify the actual box label." }
+"Lost & Found box" = { bulgarian = "кутия за изгубени вещи", status = "provisional", notes = "Use consistently for the town collection box." }
+"Essence" = { bulgarian = "Есенция", status = "provisional", notes = "Established game resource term; verify capitalization in the UI." }
+"skill perk" = { bulgarian = "умение", status = "pending terminology review", notes = "Natural Bulgarian for the tutorial; consider бонус/перк only if the official UI distinguishes it." }
+"Ruins" = { bulgarian = "Руините", status = "provisional", notes = "Location name in the Dark Floors tutorial." }
+"Dark Floors" = { bulgarian = "Тъмни етажи", status = "approved for current work", notes = "Mine floor terminology; use етажи rather than подове." }
+"Void Sight" = { bulgarian = "Поглед към Бездната", status = "approved for current work", notes = "Use Бездната as the lore term." }
+"Void" = { bulgarian = "Бездната", status = "approved for current work", notes = "Use natural от Бездната constructions for material names." }
+"Void Stone" = { bulgarian = "камък от Бездната", status = "approved for current work", notes = "Material name." }
+"Void Pearl" = { bulgarian = "перла от Бездната", status = "approved for current work", notes = "Material name." }
+"Void Powder" = { bulgarian = "прах от Бездната", status = "approved for current work", notes = "Material name." }
+"Void Herb" = { bulgarian = "билка от Бездната", status = "approved for current work", notes = "Material name." }
+"Lava Caves" = { bulgarian = "Лавови пещери", status = "provisional", notes = "Tutorial and location label." }
+"Watering Can" = { bulgarian = "лейка", status = "provisional", notes = "Verify the final item label." }
+"Rain Spell" = { bulgarian = "заклинание за дъжд", status = "provisional", notes = "Verify the final spell label." }
+"pool of lava" = { bulgarian = "лавов басейн", status = "provisional", notes = "Use басейни rather than локви; the English source describes pools, not rivers." }
+"The Mines" = { bulgarian = "Мините", status = "provisional", notes = "Location and tutorial title." }
+"forage" = { bulgarian = "събирам растения", status = "provisional", notes = "Use context-specific phrasing rather than a literal noun." }
+"elevator platform" = { bulgarian = "асансьорна платформа", status = "provisional", notes = "Verify the actual mine UI label." }
+"mining" = { bulgarian = "копаене", status = "provisional", notes = "Current tutorial wording; compare with the skill menu label." }
+"museum ledger" = { bulgarian = "музеен регистър", status = "provisional", notes = "Verify the actual object/menu label." }
+"Donate" = { bulgarian = "Даряване", status = "provisional", notes = "Noun-form button label; verify the final UI text." }
+"museum wings" = { bulgarian = "музейни зали", status = "provisional", notes = "Natural Bulgarian for museum sections; verify the UI label." }
+"set completion" = { bulgarian = "завършеност на колекцията", status = "provisional", notes = "Use колекция for museum set terminology." }
+"Breath of Spring" = { bulgarian = "Пролетен дъх", status = "approved for current work", notes = "Specific Mistrian flower/item name." }
+"Spring Festival" = { bulgarian = "Пролетен фестивал", status = "provisional", notes = "Festival name." }
+"festival booth inventory" = { bulgarian = "стоки на фестивалните сергии", status = "provisional", notes = "Natural phrasing for booth inventories." }
+"Animal Sprite Statue" = { bulgarian = "статуя на животински дух", status = "provisional", notes = "Item name; verify capitalization and final item label." }
+"Water Sprite Statue" = { bulgarian = "статуя на Воден дух", status = "provisional", notes = "Item name; verify capitalization and final item label." }
+"Mistmare" = { bulgarian = "Мъглокон", status = "provisional", notes = "Mount name; verify the final localized name and grammatical forms." }
+"Horse statue" = { bulgarian = "статуя на коня", status = "provisional", notes = "Upgrade statue; verify the final item label." }
+"Essence Stone" = { bulgarian = "камък от есенция", status = "provisional", notes = "Material name; use камъни от есенция in plural." }
+"Stone Refinery" = { bulgarian = "пречиствател за камъни", status = "provisional", notes = "Machine/building name; review against the final UI and quest text." }
+"Teleportation Chalice" = { bulgarian = "чаша за телепортация", status = "provisional", notes = "Item/location name; verify capitalization in the UI." }
+"warp home" = { bulgarian = "прибирам се чрез телепортация", status = "provisional", notes = "Use natural player-facing phrasing in tutorials." }
+"Dragon's Breath Spell" = { bulgarian = "заклинанието Драконов дъх", status = "approved for current work", notes = "Natural Bulgarian spell name." }
+"Gossip" = { bulgarian = "Клюки", status = "provisional", notes = "Menu option; verify the exact UI label." }
+"Gift Hint" = { bulgarian = "подсказка за подарък", status = "provisional", notes = "Tutorial and relationship UI term." }
+"liked gift" = { bulgarian = "подарък, който жителят харесва", status = "provisional", notes = "Keep distinct from loved gift." }
+"loved gift" = { bulgarian = "подарък, който жителят обича", status = "provisional", notes = "Keep distinct from liked gift." }
+
+[names]
+"Ari" = { bulgarian = "Ари", status = "approved for current work" }
+"Caldarus" = { bulgarian = "Калдаръс", status = "provisional", notes = "Use consistently in dialogue and UI." }
+"Hayden" = { bulgarian = "Хейдън", status = "provisional", notes = "Use consistently in dialogue and UI." }
+"Mistria" = { bulgarian = "Мистрия", status = "provisional", notes = "Game world name; verify whether the official Bulgarian title keeps the English spelling." }
+"Mistril" = { bulgarian = "Мистрил", status = "provisional", notes = "Material name; verify against item localization." }
+"Mistril Armor" = { bulgarian = "Мистрилова броня", status = "provisional", notes = "Armor set name; review equipment terminology in the final UI." }
+"Mistril Greaves" = { bulgarian = "Мистрилови наколенници", status = "approved for current work", notes = "Confirmed against the in-game item image and Bulgarian terminology." }
+"Mistril Helmet" = { bulgarian = "Мистрилов шлем", status = "provisional", notes = "Armor piece name." }
+"Mistril Legplates" = { bulgarian = "Мистрилови набедреници", status = "approved for current work", notes = "Armor for the thighs; distinct from greaves/наколенници." }
+"Mistril Ring" = { bulgarian = "Мистрилов пръстен", status = "approved for current work", notes = "Accessory name." }
+"Corrupted Mistril Sword" = { bulgarian = "Покварен Мистрилов меч", status = "provisional", notes = "Weapon name; verify whether corrupted is rendered as покварен or повреден." }
+"Mistril Axe" = { bulgarian = "Мистрилова брадва", status = "provisional", notes = "Tool name." }
+"Mistril Fishing Rod" = { bulgarian = "Мистрилова въдица", status = "provisional", notes = "Tool name." }
+"Mistril Hoe" = { bulgarian = "Мистрилова мотика", status = "provisional", notes = "Tool name." }
+"Mistril Ingot" = { bulgarian = "Мистрилово кюлче", status = "approved for current work", notes = "Natural Bulgarian item term." }
+"Mistril Net" = { bulgarian = "Мистрилова мрежа за насекоми", status = "approved for current work", notes = "Bug-catching net; not a fishing net." }
+"Mistril Pickaxe" = { bulgarian = "Мистрилова кирка", status = "provisional", notes = "Tool name." }
+"Mistril Shovel" = { bulgarian = "Мистрилова лопата", status = "provisional", notes = "Tool name." }
+"Mistril Sword" = { bulgarian = "Мистрилов меч", status = "provisional", notes = "Weapon name." }
+"Mistril Watering Can" = { bulgarian = "Мистрилова лейка", status = "provisional", notes = "Tool name." }
+"charge a tool" = { bulgarian = "задържам бутона за действие", status = "pending UI check", notes = "The source describes a held-button powered action; no action placeholder is present in this key." }
+"heart level" = { bulgarian = "ниво на обичта", status = "pending UI check", notes = "Natural Bulgarian phrasing; compare with the actual heart UI label." }
+"Heart Quests" = { bulgarian = "Лични задачи", status = "approved for current work", notes = "Quest Log category for character-related quests; confirmed against the heart quest category and available translations." }
+"Daycare" = { bulgarian = "забавачница", status = "approved for current work", notes = "Animal care location; playful UI term preferred over the literal детска градина." }
+"Alda" = { bulgarian = "Алда", status = "approved for current work", notes = "Ancient civilization/people that remained to found Aldaria; keep distinct from Aldaria and Aldarian." }
+"Aldaria" = { bulgarian = "Алдария", status = "approved for current work", notes = "Country/region founded by the Alda; do not replace the distinct historical name Alda." }
+"pet treats" = { bulgarian = "лакомства за домашни любимци", status = "provisional", notes = "Review item terminology in the inventory." }

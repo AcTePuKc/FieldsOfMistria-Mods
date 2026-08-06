@@ -1,0 +1,7 @@
+[meta_properties]
+id = "fom-bg-work-mistmare-labels"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"misc_local/mistmare" = "Мъглокон"
+"ranching/animals/horse/variants/mistmare/name" = "Мъглокон"

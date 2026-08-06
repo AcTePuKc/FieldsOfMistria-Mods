@@ -1,0 +1,15 @@
+[meta_properties]
+id = "fom-bg-work-mistril-tools-descriptions"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/other/blacksmithing/axe_mistril/description" = "Брадва, изработена от Мистрил. Задръж бутона за действие, за да сечеш в зона 6x9."
+"items/other/blacksmithing/fishing_rod_mistril/description" = "Въдица, изработена от Мистрил. Обхватът на замятане е 16."
+"items/other/blacksmithing/hoe_mistril/description" = "Мотика, изработена от Мистрил. Задръж бутона за действие, за да обработиш площ 6x9."
+"items/other/blacksmithing/mistril_ingot/description" = "Кюлче от чист Мистрил. Използва се в различни рецепти за ковачество и изработка."
+"items/other/blacksmithing/net_mistril/description" = "Мрежа за насекоми, изработена от Мистрил. Единствената промяна е във външния вид."
+"items/other/blacksmithing/pick_axe_mistril/description" = "Кирка, изработена от Мистрил. Задръж бутона за действие, за да разбиеш площ 6x9."
+"items/other/blacksmithing/shovel_mistril/description" = "Лопата, изработена от Мистрил. Задръж бутона за действие, за да изкопаеш площ 6x9."
+"items/other/blacksmithing/sword_corrupted_mistril/description" = "Покварен Мистрилов меч."
+"items/other/blacksmithing/sword_mistril/description" = "Меч, изработен от Мистрил."
+"items/other/blacksmithing/watering_can_mistril/description" = "Лейка, изработена от Мистрил. Задръж бутона за действие, за да полееш площ 6x9."

@@ -1,0 +1,15 @@
+[meta_properties]
+id = "fom-bg-work-mistril-tools-names"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/other/blacksmithing/axe_mistril/name" = "Мистрилова брадва"
+"items/other/blacksmithing/fishing_rod_mistril/name" = "Мистрилова въдица"
+"items/other/blacksmithing/hoe_mistril/name" = "Мистрилова мотика"
+"items/other/blacksmithing/mistril_ingot/name" = "Мистрилово кюлче"
+"items/other/blacksmithing/net_mistril/name" = "Мистрилова мрежа за насекоми"
+"items/other/blacksmithing/pick_axe_mistril/name" = "Мистрилова кирка"
+"items/other/blacksmithing/shovel_mistril/name" = "Мистрилова лопата"
+"items/other/blacksmithing/sword_corrupted_mistril/name" = "Покварен Мистрилов меч"
+"items/other/blacksmithing/sword_mistril/name" = "Мистрилов меч"
+"items/other/blacksmithing/watering_can_mistril/name" = "Мистрилова лейка"

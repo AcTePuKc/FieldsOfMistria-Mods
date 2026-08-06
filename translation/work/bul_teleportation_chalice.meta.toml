@@ -1,0 +1,8 @@
+[meta_properties]
+id = "fom-bg-work-teleportation-chalice"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"ui/tutorials/teleportation_chalice/steps/0/text" = "Когато искаш бързо да се прибереш, можеш да дариш малко есенция в Чашата за телепортация."
+"ui/tutorials/teleportation_chalice/steps/1/text" = "Така незабавно ще се озовеш при статуята на Калдаръс във фермата си!"
+"ui/tutorials/teleportation_chalice/title" = "Урок: Чаша за телепортация"

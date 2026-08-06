@@ -1,0 +1,10 @@
+[meta_properties]
+id = "fom-bg-work-mistril-armor-descriptions"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/other/armor/mistril_armor/description" = "Броня за торса, изработена от Мистрил. Екипирай я, за да увеличиш защитата."
+"items/other/armor/mistril_boots/description" = "Наколенници, изработени от Мистрил. Екипирай ги, за да увеличиш защитата."
+"items/other/armor/mistril_helmet/description" = "Шлем, изработен от Мистрил. Екипирай го, за да увеличиш защитата."
+"items/other/armor/mistril_legplates/description" = "Набедреници, изработени от Мистрил. Екипирай ги, за да увеличиш защитата."
+"items/other/armor/mistril_ring/description" = "Пръстен, изработен от Мистрил. Екипирай го, за да увеличиш защитата."

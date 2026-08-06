@@ -1,0 +1,17 @@
+[meta_properties]
+id = "fom-bg-work-apiaries-terrariums"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"ui/tutorials/apiaries_and_terrariums/steps/0/text" = "Пчелините и терариумите могат да се поставят\nнавън във фермата ти и след това да се напълнят\nсъответно с пчели и насекоми."
+"ui/tutorials/apiaries_and_terrariums/steps/1/text" = "Пчелините могат да се напълнят с различни\nвидове пчели, за да произвеждат различни\nвидове мед според рядкостта."
+"ui/tutorials/apiaries_and_terrariums/steps/2/text" = "Например, ако поставиш 4 легендарни\nпчели в пчелин, той ще произвежда\nлегендарен мед."
+"ui/tutorials/apiaries_and_terrariums/steps/3/text" = "По същия начин терариумите ще произвеждат\nразлични феромони за насекоми и стръв за риба\nспоред рядкостта на насекомите в тях."
+"ui/tutorials/apiaries_and_terrariums/steps/4/text" = "На всеки 3 дни пчелите и насекомите ти ще\nпоискат определен вид храна."
+"ui/tutorials/apiaries_and_terrariums/steps/5/text" = "Когато ги нахраниш, пчелите ще ти дадат\nмед, а насекомите ще ти дадат\nферомони за насекоми или стръв за риба."
+"ui/tutorials/apiaries_and_terrariums/steps/6/text" = "Феромоните за насекоми могат да се използват\nна открит терен, за да призовеш насекомо,\nкоето да уловиш."
+"ui/tutorials/apiaries_and_terrariums/steps/7/text" = "Рядкостта на призованото насекомо\nще съответства на рядкостта на\nизползвания феромон за насекоми."
+"ui/tutorials/apiaries_and_terrariums/steps/8/text" = "По същия начин стръвта за риба може да се използва\nв открита вода, за да призовеш риба,\nкоято след това можеш да уловиш."
+"ui/tutorials/apiaries_and_terrariums/steps/9/text" = "Рядкостта на призованата\nриба ще съответства на рядкостта на\nизползваната стръв за риба."
+"ui/tutorials/apiaries_and_terrariums/steps/10/text" = "И накрая, стръвта за риба може да се използва и\nза залагане на стръв в капана за риба от\nзападната страна на Плажа."
+"ui/tutorials/apiaries_and_terrariums/title" = "Урок: Пчелини и терариуми"

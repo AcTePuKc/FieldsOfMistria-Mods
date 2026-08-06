@@ -1,0 +1,18 @@
+[meta_properties]
+id = "fom-bg-work-apiaries-terrariums-item-descriptions"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/other/apiaries_and_terrariums/apiary/description" = "Постави този предмет във фермата си и го напълни с пчели, за да произвежда мед."
+"items/other/apiaries_and_terrariums/bug_pheromone_common/description" = "Използвай на открит терен, за да призовеш обикновено насекомо."
+"items/other/apiaries_and_terrariums/bug_pheromone_uncommon/description" = "Използвай на открит терен, за да призовеш необичайно насекомо."
+"items/other/apiaries_and_terrariums/bug_pheromone_rare/description" = "Използвай на открит терен, за да призовеш рядко насекомо."
+"items/other/apiaries_and_terrariums/bug_pheromone_legendary/description" = "Използвай на открит терен, за да призовеш легендарно насекомо."
+"items/other/apiaries_and_terrariums/fish_bait_common/description" = "Използвай, докато гледаш към водата, за да призовеш сянка на обикновена риба. Може да се използва и за залагане на стръв в капан за риба."
+"items/other/apiaries_and_terrariums/fish_bait_uncommon/description" = "Използвай, докато гледаш към водата, за да призовеш сянка на необичайна риба. Може да се използва и за залагане на стръв в капан за риба."
+"items/other/apiaries_and_terrariums/fish_bait_rare/description" = "Използвай, докато гледаш към водата, за да призовеш сянка на рядка риба. Може да се използва и за залагане на стръв в капан за риба."
+"items/other/apiaries_and_terrariums/honey_deluxe/description" = "Търсен сироп, произведен от редки пчели. Местен деликатес!"
+"items/other/apiaries_and_terrariums/honey_legendary/description" = "Легендарен сироп, произведен от легендарни пчели. Наистина най-добрият мед."
+"items/other/apiaries_and_terrariums/honey_premium/description" = "Премиум сироп, произведен от необичайни пчели. По-добър от обикновения мед."
+"items/other/apiaries_and_terrariums/honeycomb/description" = "Красива пчелна пита, специално направена за теб от пчелите. Продава се на добра цена!"
+"items/other/apiaries_and_terrariums/terrarium/description" = "Постави този предмет във фермата си и го напълни с насекоми, за да произвежда стръв и феромони."

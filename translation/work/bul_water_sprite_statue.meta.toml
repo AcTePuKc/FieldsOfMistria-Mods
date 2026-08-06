@@ -1,0 +1,11 @@
+[meta_properties]
+id = "fom-bg-work-water-sprite-statue"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"ui/tutorials/water_sprite_statue/steps/0/text" = "Постави статуя на Воден дух в полето си, за да полива автоматично растенията в радиус от 2 клетки."
+"ui/tutorials/water_sprite_statue/steps/1/text" = "Статуите на Воден дух трябва да се зареждат с камък от есенция, за да работят."
+"ui/tutorials/water_sprite_statue/steps/2/text" = "Колкото по-голям е камъкът от есенция, толкова повече дни заряд съдържа."
+"ui/tutorials/water_sprite_statue/steps/3/text" = "Камъните от есенция могат да се изработват, след като отключиш пречиствателя за камъни."
+"ui/tutorials/water_sprite_statue/steps/4/text" = "Понякога можеш да намериш камъни от есенция и в сандъците със съкровища в Мините!"
+"ui/tutorials/water_sprite_statue/title" = "Урок: Статуи на Воден дух"

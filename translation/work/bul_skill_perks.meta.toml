@@ -1,0 +1,10 @@
+[meta_properties]
+id = "fom-bg-work-skill-perks"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"ui/tutorials/skill_perks/steps/0/text" = "Събирай есенция от дейности като\nземеделие, риболов, добив и други!"
+"ui/tutorials/skill_perks/steps/1/text" = "Взаимодействай с Калдаръс, за да\nвидиш менюто за умения."
+"ui/tutorials/skill_perks/steps/2/text" = "Избери умение, за да видиш описанието му."
+"ui/tutorials/skill_perks/steps/3/text" = "Купи умение с\nесенция, за да го отключиш!"
+"ui/tutorials/skill_perks/title" = "Урок: Есенция и умения"

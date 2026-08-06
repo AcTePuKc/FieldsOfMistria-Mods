@@ -1,0 +1,20 @@
+[meta_properties]
+id = "bulgarian_spells"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"spells/fire_breath/name" = "Драконов дъх"
+"spells/fire_breath/description" = "Изстрелва огнена струя, която за кратко унищожава предмети и чудовища."
+"spells/fire_breath/type" = "Нападение"
+"spells/full_restore/name" = "Пълно възстановяване"
+"spells/full_restore/description" = "При използване възстановява цялата ти издръжливост и здраве."
+"spells/full_restore/type" = "Лечение"
+"spells/growth/name" = "Растеж"
+"spells/growth/description" = "Отглежда културите в зона 3x3. Ускорява растежа на дърво с 1 етап."
+"spells/growth/type" = "Земеделие"
+"spells/sacred_light/name" = "Свещена светлина"
+"spells/sacred_light/description" = "Осветява тъмните етажи в дълбините под земята на Руините."
+"spells/sacred_light/type" = "Помощно"
+"spells/summon_rain/name" = "Призоваване на дъжд"
+"spells/summon_rain/description" = "Призовава кратка дъждовна буря, която полива всичките ти култури."
+"spells/summon_rain/type" = "Земеделие"

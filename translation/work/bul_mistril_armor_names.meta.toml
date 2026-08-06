@@ -1,0 +1,10 @@
+[meta_properties]
+id = "fom-bg-work-mistril-armor-names"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/other/armor/mistril_armor/name" = "Мистрилова броня"
+"items/other/armor/mistril_boots/name" = "Мистрилови наколенници"
+"items/other/armor/mistril_helmet/name" = "Мистрилов шлем"
+"items/other/armor/mistril_legplates/name" = "Мистрилови набедреници"
+"items/other/armor/mistril_ring/name" = "Мистрилов пръстен"

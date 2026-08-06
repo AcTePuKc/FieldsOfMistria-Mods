@@ -1,0 +1,16 @@
+[meta_properties]
+id = "bulgarian_renown_ranks"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"renown/ranks/0/name" = "Дърво"
+"renown/ranks/1/name" = "Камък"
+"renown/ranks/2/name" = "Мед"
+"renown/ranks/3/name" = "Рубин"
+"renown/ranks/4/name" = "Желязо"
+"renown/ranks/5/name" = "Сапфир"
+"renown/ranks/6/name" = "Сребро"
+"renown/ranks/7/name" = "Изумруд"
+"renown/ranks/8/name" = "Злато"
+"renown/ranks/9/name" = "Диамант"
+"renown/ranks/10/name" = "Мистрил"

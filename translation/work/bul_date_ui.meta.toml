@@ -1,0 +1,8 @@
+[meta_properties]
+id = "fom-bg-work-date-ui"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"misc_local/date_available" = "Възможна е среща"
+"misc_local/date_completed" = "Приключила среща"
+"misc_local/date_inspiration" = "Идеи за среща"

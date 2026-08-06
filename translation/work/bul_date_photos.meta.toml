@@ -1,0 +1,21 @@
+[meta_properties]
+id = "fom-bg-work-date-photos"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/other/dating/date_photo_bath/name" = "Снимка от среща в банята"
+"items/other/dating/date_photo_bath/description" = "Спомен от срещата в банята. Постави я на стената, за да можеш да я разглеждаш!"
+"items/other/dating/date_photo_beach/name" = "Снимка от среща на плажа"
+"items/other/dating/date_photo_beach/description" = "Спомен от срещата на плажа. Постави я на стената, за да можеш да я разглеждаш!"
+"items/other/dating/date_photo_deep_woods/name" = "Снимка от среща на пикник в Дълбоката гора"
+"items/other/dating/date_photo_deep_woods/description" = "Спомен от пикник в Дълбоката гора. Постави я на стената, за да можеш да я разглеждаш!"
+"items/other/dating/date_photo_gem_cutting/name" = "Снимка от среща с рязане на скъпоценни камъни"
+"items/other/dating/date_photo_gem_cutting/description" = "Спомен от среща с рязане на скъпоценни камъни. Постави я на стената, за да можеш да я разглеждаш!"
+"items/other/dating/date_photo_harvest/name" = "Снимка от среща на Танца на реколтата"
+"items/other/dating/date_photo_harvest/description" = "Спомен от срещата на Фестивала на реколтата. Постави я на стената, за да можеш да я разглеждаш!"
+"items/other/dating/date_photo_inn/name" = "Снимка от среща в странноприемницата"
+"items/other/dating/date_photo_inn/description" = "Спомен от среща с храна в странноприемницата. Постави я на стената, за да можеш да я разглеждаш!"
+"items/other/dating/date_photo_park/name" = "Снимка от среща в парка"
+"items/other/dating/date_photo_park/description" = "Спомен от среща в парка. Постави я на стената, за да можеш да я разглеждаш!"
+"items/other/dating/date_photo_shooting_star/name" = "Снимка от среща на Фестивала на падащите звезди"
+"items/other/dating/date_photo_shooting_star/description" = "Спомен от среща на Фестивала на падащите звезди. Постави я на стената, за да можеш да я разглеждаш!"

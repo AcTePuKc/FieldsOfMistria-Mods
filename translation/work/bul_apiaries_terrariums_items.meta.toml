@@ -1,0 +1,18 @@
+[meta_properties]
+id = "fom-bg-work-apiaries-terrariums-items"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/other/apiaries_and_terrariums/apiary/name" = "Пчелин"
+"items/other/apiaries_and_terrariums/bug_pheromone_common/name" = "Обикновени феромони за насекоми"
+"items/other/apiaries_and_terrariums/bug_pheromone_uncommon/name" = "Необичайни феромони за насекоми"
+"items/other/apiaries_and_terrariums/bug_pheromone_rare/name" = "Редки феромони за насекоми"
+"items/other/apiaries_and_terrariums/bug_pheromone_legendary/name" = "Легендарни феромони за насекоми"
+"items/other/apiaries_and_terrariums/fish_bait_common/name" = "Обикновена стръв за риба"
+"items/other/apiaries_and_terrariums/fish_bait_uncommon/name" = "Необичайна стръв за риба"
+"items/other/apiaries_and_terrariums/fish_bait_rare/name" = "Рядка стръв за риба"
+"items/other/apiaries_and_terrariums/honey_deluxe/name" = "Премиум мед"
+"items/other/apiaries_and_terrariums/honey_legendary/name" = "Легендарен мед"
+"items/other/apiaries_and_terrariums/honey_premium/name" = "Висококачествен мед"
+"items/other/apiaries_and_terrariums/honeycomb/name" = "Пчелна пита"
+"items/other/apiaries_and_terrariums/terrarium/name" = "Терариум"

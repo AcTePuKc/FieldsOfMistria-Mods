@@ -1,0 +1,9 @@
+[meta_properties]
+id = "fom-bg-work-dark-mines"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"ui/tutorials/dark_mines/steps/0/text" = "Дълбоко под земята в Руините\nнякои етажи са обвити в мрак."
+"ui/tutorials/dark_mines/steps/1/text" = "Радиусът на светлината ти ще се\nувеличава с всяка част от броня от Мистрил,\nкоято изковеш и екипираш."
+"ui/tutorials/dark_mines/steps/2/text" = "На някои етажи има кристални\nсветлини, които можеш да удариш, за да\nосветиш цялото помещение."
+"ui/tutorials/dark_mines/title" = "Урок: Тъмни етажи"
