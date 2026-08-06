@@ -3,5 +3,5 @@ id = "bulgarian_fish_misc_names_3"
 asset_kind = "L10nTarget"
 
 [asset_properties]
-"items/fish/misc/blue_conch_shell/name" = "Синя конхова раковина"
-"items/fish/misc/pink_scallop_shell/name" = "Розова раковина от мида Сен Жак"
+"items/fish/misc/blue_conch_shell/name" = "Синя раковина"
+"items/fish/misc/pink_scallop_shell/name" = "Розово ветрило"
