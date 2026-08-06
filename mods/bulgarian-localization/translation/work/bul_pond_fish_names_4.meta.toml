@@ -1,0 +1,11 @@
+[meta_properties]
+id = "bulgarian_pond_fish_names_4"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/pond/alligator_gar/name" = "Алигаторова щука"
+"items/fish/pond/bluefish/name" = "Луфар"
+"items/fish/pond/brown_bullhead/name" = "Кафяв сом"
+"items/fish/pond/burbot/name" = "Михалца"
+"items/fish/pond/flathead_catfish/name" = "Плоскоглав сом"
+"items/fish/pond/snakehead/name" = "Змиеглав"
