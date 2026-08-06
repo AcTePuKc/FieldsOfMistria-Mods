@@ -1,0 +1,9 @@
+[meta_properties]
+id = "bulgarian_festival_names"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"festivals/animal/name" = "Фестивал на животните"
+"festivals/harvest/name" = "Фестивал на реколтата"
+"festivals/shooting_star/name" = "Фестивал на падащите звезди"
+"festivals/spring/name" = "Пролетен фестивал"
