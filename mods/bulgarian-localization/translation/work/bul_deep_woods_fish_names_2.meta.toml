@@ -1,0 +1,7 @@
+[meta_properties]
+id = "bulgarian_deep_woods_fish_names_2"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/deep_woods/silver_redhorse/name" = "Сребрист чукучан"
+"items/fish/deep_woods/sunny/name" = "Слънчева рибка"
