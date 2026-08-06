@@ -135,3 +135,5 @@ status = "working"
 "Alda" = { bulgarian = "Алда", status = "approved for current work", notes = "Ancient civilization/people that remained to found Aldaria; keep distinct from Aldaria and Aldarian." }
 "Aldaria" = { bulgarian = "Алдария", status = "approved for current work", notes = "Country/region founded by the Alda; do not replace the distinct historical name Alda." }
 "pet treats" = { bulgarian = "лакомства за домашни любимци", status = "provisional", notes = "Review item terminology in the inventory." }
+"Grouper" = { bulgarian = "меро", status = "approved for current work", notes = "Use Меро for the fish item; do not use the direct loan Групер." }
+"Haddock" = { bulgarian = "пикша", status = "pending verification", notes = "Candidate Bulgarian name; compare with the other localizations before using it." }

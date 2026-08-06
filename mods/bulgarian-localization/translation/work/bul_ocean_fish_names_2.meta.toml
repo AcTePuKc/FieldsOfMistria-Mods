@@ -3,7 +3,7 @@ id = "bulgarian_ocean_fish_names_2"
 asset_kind = "L10nTarget"
 
 [asset_properties]
-"items/fish/ocean/grouper/name" = "Групер"
+"items/fish/ocean/grouper/name" = "Меро"
 "items/fish/ocean/halibut/name" = "Камбала"
 "items/fish/ocean/octopus/name" = "Октопод"
 "items/fish/ocean/pollock/name" = "Минтай"
