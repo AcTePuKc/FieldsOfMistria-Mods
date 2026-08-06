@@ -141,3 +141,4 @@ status = "working"
 "Char" = { bulgarian = "сивен", status = "approved for current work", notes = "Use the Bulgarian fish name Сивен; do not use the Russian term Голец." }
 "Sand Lance" = { bulgarian = "пясъчница", status = "approved for current work", notes = "Official Bulgarian usage also includes пясъчна змиорка; use the shorter item name Пясъчница." }
 "Snow Fish" = { bulgarian = "снежна риба", status = "approved for current work", notes = "The game gives no scientific species; keep the literal name rather than guessing саблена риба or черна треска." }
+"Dart" = { bulgarian = "помпано", status = "provisional", notes = "French Pompaneau and Spanish Pámpano indicate pompano; keep Помпано until a more specific species is confirmed." }
