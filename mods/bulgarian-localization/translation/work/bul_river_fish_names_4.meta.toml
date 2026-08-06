@@ -1,0 +1,10 @@
+[meta_properties]
+id = "bulgarian_river_fish_names_4"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/river/gar/name" = "Гар"
+"items/fish/river/grayling/name" = "Липан"
+"items/fish/river/herring/name" = "Херинга"
+"items/fish/river/leaf_fish/name" = "Листна риба"
+"items/fish/river/lightning_fish/name" = "Светкавична риба"

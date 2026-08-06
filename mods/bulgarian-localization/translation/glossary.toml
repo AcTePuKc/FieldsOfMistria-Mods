@@ -156,6 +156,11 @@ status = "working"
 "Bowfish" = { bulgarian = "амия", status = "approved for current work", notes = "Use the Bulgarian transliteration of the fish genus rather than a literal bow-based translation." }
 "Chub" = { bulgarian = "клен", status = "approved for current work", notes = "Natural Bulgarian name for the freshwater fish; do not use the generic кефал here." }
 "Chum" = { bulgarian = "кета", status = "approved for current work", notes = "Established Bulgarian name for chum salmon." }
+"Gar" = { bulgarian = "гар", status = "approved for current work", notes = "Use the concise Bulgarian fish name Гар." }
+"Grayling" = { bulgarian = "липан", status = "approved for current work", notes = "Established Bulgarian name for grayling." }
+"Herring" = { bulgarian = "херинга", status = "approved for current work", notes = "Standard Bulgarian name." }
+"Leaf Fish" = { bulgarian = "листна риба", status = "working", notes = "Literal translation retained because the game provides no species context." }
+"Lightning Fish" = { bulgarian = "светкавична риба", status = "working", notes = "Literal translation retained because the game provides no species context." }
 "Muskie" = { bulgarian = "маскинонг", status = "approved for current work", notes = "Use Маскинонг; do not use the Russian-derived Мускунг." }
 "Silver Redhorse" = { bulgarian = "сребриста моксостома", status = "approved for current work", notes = "Use the biologically precise Bulgarian genus-based name rather than the Russian-derived чукучан." }
 "Sunny" = { bulgarian = "слънчевка", status = "approved for current work", notes = "Common Bulgarian name for pumpkinseed sunfish; avoid the diminutive слънчева рибка." }
