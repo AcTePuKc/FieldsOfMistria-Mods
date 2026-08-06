@@ -1,0 +1,10 @@
+[meta_properties]
+id = "bulgarian_ocean_fish_names_3"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/ocean/bonito/name" = "Паламуд"
+"items/fish/ocean/horse_mackerel/name" = "Сафрид"
+"items/fish/ocean/mullet/name" = "Кефал"
+"items/fish/ocean/saury/name" = "Сайра"
+"items/fish/ocean/stingray/name" = "Скат"
