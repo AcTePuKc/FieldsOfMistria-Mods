@@ -139,3 +139,5 @@ status = "working"
 "Grouper" = { bulgarian = "меро", status = "approved for current work", notes = "Use Меро for the fish item; do not use the direct loan Групер." }
 "Haddock" = { bulgarian = "пикша", status = "pending verification", notes = "Candidate Bulgarian name; compare with the other localizations before using it." }
 "Char" = { bulgarian = "сивен", status = "approved for current work", notes = "Use the Bulgarian fish name Сивен; do not use the Russian term Голец." }
+"Sand Lance" = { bulgarian = "пясъчница", status = "approved for current work", notes = "Official Bulgarian usage also includes пясъчна змиорка; use the shorter item name Пясъчница." }
+"Snow Fish" = { bulgarian = "снежна риба", status = "approved for current work", notes = "The game gives no scientific species; keep the literal name rather than guessing саблена риба or черна треска." }

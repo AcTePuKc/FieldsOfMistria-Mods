@@ -5,5 +5,5 @@ asset_kind = "L10nTarget"
 [asset_properties]
 "items/fish/ocean/king_crab/name" = "Кралски рак"
 "items/fish/ocean/oarfish/name" = "Риба весло"
-"items/fish/ocean/sand_lance/name" = "Морска игла"
+"items/fish/ocean/sand_lance/name" = "Пясъчница"
 "items/fish/ocean/snow_fish/name" = "Снежна риба"
