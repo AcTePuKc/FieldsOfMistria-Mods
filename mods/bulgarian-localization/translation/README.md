@@ -24,3 +24,29 @@ Generated source keys, QA reports, extracted assets, archives, and translated
 game data are ignored by Git. This directory contains translator-owned work
 files for the Bulgarian localization; future Fields of Mistria mods belong in
 their own directory under `mods/`.
+
+## Pronoun and grammatical variants
+
+The game supports pronoun selections through `l10n.meta.toml` and conditional
+markup inside translated strings. The Bulgarian registration should use the
+same compact macro names used by the shipped Russian localization:
+
+```toml
+they_them = { display = "Те / Тях", macros = ["p"] }
+she_her = { display = "Тя / Нея", macros = ["f"] }
+he_him = { display = "Той / Него", macros = ["m"] }
+it_its = { display = "То / Него", macros = ["n"] }
+```
+
+When a translated sentence requires grammatical agreement, use the matching
+tags in the value:
+
+```text
+<m>той е готов</m><f>тя е готова</f><p>те са готови</p><n>то е готово</n>
+```
+
+These tags are runtime markup and must not be translated, renamed, reordered,
+or removed. A source key that contains pronoun variants must retain equivalent
+variants in the Bulgarian value, unless the sentence is deliberately
+rewritten so that grammatical gender is no longer needed. Existing work files
+with gendered player-facing text must be reviewed under this rule during QA.
