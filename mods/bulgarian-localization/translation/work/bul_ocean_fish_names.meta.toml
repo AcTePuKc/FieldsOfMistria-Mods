@@ -1,0 +1,15 @@
+[meta_properties]
+id = "bulgarian_ocean_fish_names"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/ocean/anchovy/name" = "Аншоа"
+"items/fish/ocean/cod/name" = "Трески"
+"items/fish/ocean/crab/name" = "Раци"
+"items/fish/ocean/jellyfish/name" = "Медузи"
+"items/fish/ocean/lobster/name" = "Омари"
+"items/fish/ocean/mackerel/name" = "Скумрии"
+"items/fish/ocean/sardine/name" = "Сардини"
+"items/fish/ocean/shark/name" = "Акули"
+"items/fish/ocean/shrimp/name" = "Скариди"
+"items/fish/ocean/squid/name" = "Калмари"
