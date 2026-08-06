@@ -151,6 +151,7 @@ status = "working"
 "Massive Minnow" = { bulgarian = "гигантска лещанка", status = "approved for current work", notes = "Use Гигантска лещанка rather than a generic дребна риба description." }
 "Cherry Fish" = { bulgarian = "черешова рибка", status = "approved for current work", notes = "Cozy item name; the real-world reference is cherry barb, but the game key uses Cherry Fish." }
 "Snapping Turtle" = { bulgarian = "хапеща костенурка", status = "approved for current work", notes = "Use the clear player-facing name Хапеща костенурка; Кайманова костенурка is the more biological alternative." }
+"Amberjack" = { bulgarian = "жълтоопашка", status = "approved for current work", notes = "Use Жълтоопашка as the natural Bulgarian item name; Сериола is the scientific/genus-style alternative." }
 "Muskie" = { bulgarian = "маскинонг", status = "approved for current work", notes = "Use Маскинонг; do not use the Russian-derived Мускунг." }
 "Silver Redhorse" = { bulgarian = "сребриста моксостома", status = "approved for current work", notes = "Use the biologically precise Bulgarian genus-based name rather than the Russian-derived чукучан." }
 "Sunny" = { bulgarian = "слънчевка", status = "approved for current work", notes = "Common Bulgarian name for pumpkinseed sunfish; avoid the diminutive слънчева рибка." }

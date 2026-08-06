@@ -3,7 +3,7 @@ id = "bulgarian_trap_fish_names"
 asset_kind = "L10nTarget"
 
 [asset_properties]
-"items/fish/trap_fish/amberjack/name" = "Сериола"
+"items/fish/trap_fish/amberjack/name" = "Жълтоопашка"
 "items/fish/trap_fish/bait_thief/name" = "Крадец на стръв"
 "items/fish/trap_fish/blue_crab/name" = "Син рак"
 "items/fish/trap_fish/hake/name" = "Хек"
