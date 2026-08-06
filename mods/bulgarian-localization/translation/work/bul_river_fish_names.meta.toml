@@ -1,0 +1,10 @@
+[meta_properties]
+id = "bulgarian_river_fish_names"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/river/carp/name" = "Шаран"
+"items/fish/river/perch/name" = "Костур"
+"items/fish/river/pike/name" = "Щука"
+"items/fish/river/salmon/name" = "Сьомга"
+"items/fish/river/trout/name" = "Пъстърва"
