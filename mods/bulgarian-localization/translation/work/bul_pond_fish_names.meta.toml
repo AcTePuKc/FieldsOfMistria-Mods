@@ -1,0 +1,12 @@
+[meta_properties]
+id = "bulgarian_pond_fish_names"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/pond/catfish/name" = "Сом"
+"items/fish/pond/frog/name" = "Жаба"
+"items/fish/pond/goldfish/name" = "Златна рибка"
+"items/fish/pond/koi/name" = "Кои"
+"items/fish/pond/rainbow_trout/name" = "Дъгова пъстърва"
+"items/fish/pond/turtle/name" = "Костенурка"
+"items/fish/pond/tilapia/name" = "Тилапия"
