@@ -1,6 +1,7 @@
 [meta]
-player_address_default = "masculine"
-pronoun_variants = "Plan future feminine and neutral Bulgarian variants after the masculine base translation is complete and the engine macro syntax is confirmed."
+player_address_default = "he_him"
+pronoun_variants = "Use conditional grammatical variants whenever a translated sentence depends on player or character gender/pronoun. Do not make masculine-only wording the default rule."
+pronoun_macro_map = { masculine = "m", feminine = "f", plural = "p", neuter = "n" }
 version = 1
 source_language = "eng"
 target_language = "bul"
