@@ -143,6 +143,8 @@ status = "working"
 "Snow Fish" = { bulgarian = "снежна риба", status = "approved for current work", notes = "The game gives no scientific species; keep the literal name rather than guessing саблена риба or черна треска." }
 "Dart" = { bulgarian = "помпано", status = "provisional", notes = "French Pompaneau and Spanish Pámpano indicate pompano; keep Помпано until a more specific species is confirmed." }
 "Bluefish" = { bulgarian = "лефер", status = "approved for current work", notes = "Use Лефер; this is also the intended Bulgarian term in the related Dave the Diver work." }
+"Paper Pondshell" = { bulgarian = "тънкостенна езерна мида", status = "approved for current work", notes = "Use the natural Bulgarian species-style name rather than the literal Хартиена езерна мида." }
+"Spirula Shell" = { bulgarian = "овнешки рог", status = "approved for current work", notes = "Common name referring to the ram's-horn shell of Spirula; the item is found on the beach." }
 "Killifish" = { bulgarian = "пъстро шаранче", status = "approved for current work", notes = "Use the Bulgarian fish name Пъстро шаранче." }
 "Lake Chub" = { bulgarian = "езерен кефал", status = "approved for current work", notes = "Езерен клен is an acceptable alternative; current project choice is Езерен кефал." }
 "Roach" = { bulgarian = "червеноперка", status = "approved for current work", notes = "Use Червеноперка; do not use the Russian-derived Бабушка." }
