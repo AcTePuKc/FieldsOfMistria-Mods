@@ -5,4 +5,4 @@ asset_kind = "L10nTarget"
 [asset_properties]
 "items/fish/deep_woods/forest_perch/name" = "Горски костур"
 "items/fish/deep_woods/lake_trout/name" = "Езерна пъстърва"
-"items/fish/deep_woods/muskie/name" = "Мускунг"
+"items/fish/deep_woods/muskie/name" = "Маскинонг"
