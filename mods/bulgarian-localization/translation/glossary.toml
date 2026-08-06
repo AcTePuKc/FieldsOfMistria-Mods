@@ -116,6 +116,38 @@ status = "working"
 "loved gift" = { bulgarian = "подарък, който жителят обича", status = "provisional", notes = "Keep distinct from liked gift." }
 
 [names]
+"Adeline" = { bulgarian = "Аделайн", status = "approved for current work" }
+"Balor" = { bulgarian = "Балор", status = "approved for current work" }
+"Celine" = { bulgarian = "Селин", status = "approved for current work" }
+"Darcy" = { bulgarian = "Дарси", status = "approved for current work" }
+"Dell" = { bulgarian = "Дел", status = "approved for current work" }
+"Dozy" = { bulgarian = "Доузи", status = "approved for current work" }
+"Eiland" = { bulgarian = "Айленд", status = "approved for current work" }
+"Elsie" = { bulgarian = "Елси", status = "approved for current work" }
+"Errol" = { bulgarian = "Ерол", status = "approved for current work" }
+"Hemlock" = { bulgarian = "Хемлок", status = "approved for current work" }
+"Henrietta" = { bulgarian = "Хенриета", status = "approved for current work" }
+"Holt" = { bulgarian = "Холт", status = "approved for current work" }
+"Josephine" = { bulgarian = "Жозефин", status = "approved for current work" }
+"Juniper" = { bulgarian = "Джунипър", status = "approved for current work" }
+"Landen" = { bulgarian = "Ландън", status = "approved for current work" }
+"Louis" = { bulgarian = "Луи", status = "approved for current work" }
+"Luc" = { bulgarian = "Люк", status = "approved for current work" }
+"Maple" = { bulgarian = "Мейпъл", status = "approved for current work" }
+"March" = { bulgarian = "Марч", status = "approved for current work" }
+"Merri" = { bulgarian = "Мери", status = "approved for current work" }
+"Nora" = { bulgarian = "Нора", status = "approved for current work" }
+"Olric" = { bulgarian = "Олрик", status = "approved for current work" }
+"Reina" = { bulgarian = "Рейна", status = "approved for current work" }
+"Ryis" = { bulgarian = "Райс", status = "approved for current work" }
+"Seridia" = { bulgarian = "Серидия", status = "approved for current work" }
+"Stillwell" = { bulgarian = "Стилуел", status = "approved for current work" }
+"Taliferro" = { bulgarian = "Талиферо", status = "approved for current work" }
+"Terithia" = { bulgarian = "Терития", status = "approved for current work" }
+"Valen" = { bulgarian = "Вален", status = "approved for current work" }
+"Vera" = { bulgarian = "Вера", status = "approved for current work" }
+"Wheedle" = { bulgarian = "Уийдъл", status = "approved for current work" }
+"Zorel" = { bulgarian = "Зорел", status = "approved for current work" }
 "Astrid" = { bulgarian = "Астрид", status = "approved for current work" }
 "Brid" = { bulgarian = "Брид", status = "approved for current work" }
 "Cedar" = { bulgarian = "Сидър", status = "approved for current work", notes = "Transliterated character name; do not translate as the tree name." }
