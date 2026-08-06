@@ -62,6 +62,12 @@ status = "working"
 "cosmetic" = { bulgarian = "аксесоар", status = "provisional", notes = "The source uses this separately from pet skin; current evidence points to bows, hats, collars, and similar wearable items." }
 "pet skin" = { bulgarian = "външен вид на любимец", status = "provisional", notes = "Keep distinct from cosmetic accessories; verify the final item/menu label." }
 "animal cosmetic" = { bulgarian = "аксесоар за животно", status = "provisional", notes = "Use animal context; keep distinct from pet skin." }
+"bow (pet accessory)" = { bulgarian = "панделка", status = "approved for current work", notes = "Pet accessory; do not translate as лък." }
+"Flower Crown" = { bulgarian = "венец от цветя", status = "provisional", notes = "Pet accessory name." }
+"Halo" = { bulgarian = "ореол", status = "provisional", notes = "Pet accessory name." }
+"Skull Mask" = { bulgarian = "маска с череп", status = "provisional", notes = "Pet accessory name." }
+"Sun Hat" = { bulgarian = "слънчева шапка", status = "provisional", notes = "Pet accessory name; verify against the item image." }
+"Unicorn Horn" = { bulgarian = "рог на еднорог", status = "provisional", notes = "Pet accessory name." }
 "Magic Spells" = { bulgarian = "Магически заклинания", status = "provisional", notes = "Tutorial title and magic category label." }
 "Sacred Light" = { bulgarian = "Свещена светлина", status = "provisional", notes = "Spell name; verify the final in-game label." }
 "pin a spell" = { bulgarian = "закачи заклинание", status = "pending UI check", notes = "Verify whether the game UI uses закачи or фиксирай." }

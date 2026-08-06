@@ -1,0 +1,17 @@
+[meta_properties]
+id = "fom-bg-work-pet-cosmetics"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"pets/cosmetic_sets/black_bow/name" = "Черна панделка"
+"pets/cosmetic_sets/blue_bow/name" = "Синя панделка"
+"pets/cosmetic_sets/flower_crown/name" = "Венец от цветя"
+"pets/cosmetic_sets/green_bow/name" = "Зелена панделка"
+"pets/cosmetic_sets/halo/name" = "Ореол"
+"pets/cosmetic_sets/pink_bow/name" = "Розова панделка"
+"pets/cosmetic_sets/purple_bow/name" = "Лилава панделка"
+"pets/cosmetic_sets/red_bow/name" = "Червена панделка"
+"pets/cosmetic_sets/skull_mask/name" = "Маска с череп"
+"pets/cosmetic_sets/sun_hat/name" = "Слънчева шапка"
+"pets/cosmetic_sets/unicorn_horn/name" = "Рог на еднорог"
+"pets/cosmetic_sets/yellow_bow/name" = "Жълта панделка"
