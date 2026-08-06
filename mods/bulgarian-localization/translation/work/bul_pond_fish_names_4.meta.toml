@@ -4,7 +4,7 @@ asset_kind = "L10nTarget"
 
 [asset_properties]
 "items/fish/pond/alligator_gar/name" = "Алигаторова щука"
-"items/fish/pond/bluefish/name" = "Луфар"
+"items/fish/pond/bluefish/name" = "Лефер"
 "items/fish/pond/brown_bullhead/name" = "Кафяв сом"
 "items/fish/pond/burbot/name" = "Михалца"
 "items/fish/pond/flathead_catfish/name" = "Плоскоглав сом"
