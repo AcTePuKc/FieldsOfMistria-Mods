@@ -1,0 +1,13 @@
+[meta_properties]
+id = "bulgarian_ocean_fish_names_2"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/ocean/grouper/name" = "Групери"
+"items/fish/ocean/halibut/name" = "Камбали"
+"items/fish/ocean/octopus/name" = "Октоподи"
+"items/fish/ocean/pollock/name" = "Минтаи"
+"items/fish/ocean/sea_bass/name" = "Морски костури"
+"items/fish/ocean/sea_bream/name" = "Ципури"
+"items/fish/ocean/swordfish/name" = "Риби меч"
+"items/fish/ocean/tuna/name" = "Риби тон"
