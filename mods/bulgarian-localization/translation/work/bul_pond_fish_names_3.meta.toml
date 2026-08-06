@@ -1,0 +1,9 @@
+[meta_properties]
+id = "bulgarian_pond_fish_names_3"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/pond/angel_fish/name" = "Скалария"
+"items/fish/pond/bullfrog/name" = "Бикова жаба"
+"items/fish/pond/giant_tilapia/name" = "Гигантска тилапия"
+"items/fish/pond/striped_bass/name" = "Ивичест костур"
