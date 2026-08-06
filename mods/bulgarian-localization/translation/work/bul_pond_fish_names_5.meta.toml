@@ -1,0 +1,10 @@
+[meta_properties]
+id = "bulgarian_pond_fish_names_5"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/pond/golden_shiner/name" = "Златен уклей"
+"items/fish/pond/killifish/name" = "Медака"
+"items/fish/pond/lake_chub/name" = "Езерна клен"
+"items/fish/pond/roach/name" = "Бабушка"
+"items/fish/pond/sauger/name" = "Судак"
