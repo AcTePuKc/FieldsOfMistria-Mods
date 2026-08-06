@@ -164,7 +164,7 @@ status = "working"
 "Loach" = { bulgarian = "виюн", status = "approved for current work", notes = "Established Bulgarian name for loach." }
 "Minnow" = { bulgarian = "лещанка", status = "approved for current work", notes = "Use Лещанка; Massive Minnow is translated separately as Гигантска лещанка." }
 "Paddlefish" = { bulgarian = "веслонос", status = "approved for current work", notes = "Established Bulgarian name for paddlefish." }
-"Rock Bass" = { bulgarian = "каменен костур", status = "approved for current work", notes = "Use Каменен костур rather than the English loanword бас." }
+"Rock Bass" = { bulgarian = "скален костур", status = "approved for current work", notes = "Use Скален костур rather than Каменен костур or the English loanword бас." }
 "Shadow Bass" = { bulgarian = "сенчест костур", status = "approved for current work", notes = "Keep the same костур structure as Rock Bass." }
 "Tarpon" = { bulgarian = "тарпон", status = "approved for current work", notes = "Use the established Bulgarian transliteration Тарпон." }
 "Muskie" = { bulgarian = "маскинонг", status = "approved for current work", notes = "Use Маскинонг; do not use the Russian-derived Мускунг." }
