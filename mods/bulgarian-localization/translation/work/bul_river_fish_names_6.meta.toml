@@ -1,0 +1,7 @@
+[meta_properties]
+id = "bulgarian_river_fish_names_6"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/river/rock_bass/name" = "Каменен костур"
+"items/fish/river/shadow_bass/name" = "Сенчест костур"
