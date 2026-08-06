@@ -1,0 +1,21 @@
+[meta_properties]
+id = "fom-bg-work-character-names"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"children/astrid/name" = "Астрид"
+"children/brid/name" = "Брид"
+"children/cedar/name" = "Сидър"
+"children/ellie/name" = "Ели"
+"children/fray/name" = "Фрей"
+"children/kam/name" = "Кам"
+"children/rowan/name" = "Роуън"
+"children/rune/name" = "Рун"
+"children/sterling/name" = "Стърлинг"
+"children/tephra/name" = "Тефра"
+"children/torin/name" = "Торин"
+"children/wilder/name" = "Уайлдър"
+"cameos/darren/name" = "Дарън"
+"cameos/linnet/name" = "Линет"
+"cameos/wiscar/name" = "Уискар"
+"cameos/wynne/name" = "Уин"

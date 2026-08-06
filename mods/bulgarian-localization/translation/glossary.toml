@@ -116,6 +116,22 @@ status = "working"
 "loved gift" = { bulgarian = "подарък, който жителят обича", status = "provisional", notes = "Keep distinct from liked gift." }
 
 [names]
+"Astrid" = { bulgarian = "Астрид", status = "approved for current work" }
+"Brid" = { bulgarian = "Брид", status = "approved for current work" }
+"Cedar" = { bulgarian = "Сидър", status = "provisional", notes = "Character name; retained as a name rather than translated as Кедър." }
+"Ellie" = { bulgarian = "Ели", status = "approved for current work" }
+"Fray" = { bulgarian = "Фрей", status = "approved for current work" }
+"Kam" = { bulgarian = "Кам", status = "approved for current work" }
+"Rowan" = { bulgarian = "Роуън", status = "approved for current work" }
+"Rune" = { bulgarian = "Рун", status = "approved for current work" }
+"Sterling" = { bulgarian = "Стърлинг", status = "approved for current work" }
+"Tephra" = { bulgarian = "Тефра", status = "approved for current work" }
+"Torin" = { bulgarian = "Торин", status = "approved for current work" }
+"Wilder" = { bulgarian = "Уайлдър", status = "approved for current work" }
+"Darren" = { bulgarian = "Дарън", status = "approved for current work" }
+"Linnet" = { bulgarian = "Линет", status = "approved for current work" }
+"Wiscar" = { bulgarian = "Уискар", status = "approved for current work" }
+"Wynne" = { bulgarian = "Уин", status = "approved for current work" }
 "Ari" = { bulgarian = "Ари", status = "approved for current work" }
 "Caldarus" = { bulgarian = "Калдаръс", status = "provisional", notes = "Use consistently in dialogue and UI." }
 "Hayden" = { bulgarian = "Хейдън", status = "provisional", notes = "Use consistently in dialogue and UI." }
