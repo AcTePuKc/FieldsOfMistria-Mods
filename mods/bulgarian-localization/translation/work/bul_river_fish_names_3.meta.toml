@@ -1,0 +1,9 @@
+[meta_properties]
+id = "bulgarian_river_fish_names_3"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/river/bluegill/name" = "Синя слънчева риба"
+"items/fish/river/bowfish/name" = "Амия"
+"items/fish/river/chub/name" = "Клен"
+"items/fish/river/chum/name" = "Кета"
