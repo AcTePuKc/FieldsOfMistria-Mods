@@ -4,7 +4,7 @@ asset_kind = "L10nTarget"
 
 [asset_properties]
 "items/fish/pond/golden_shiner/name" = "Златен уклей"
-"items/fish/pond/killifish/name" = "Медака"
-"items/fish/pond/lake_chub/name" = "Езерна клен"
-"items/fish/pond/roach/name" = "Бабушка"
-"items/fish/pond/sauger/name" = "Судак"
+"items/fish/pond/killifish/name" = "Пъстро шаранче"
+"items/fish/pond/lake_chub/name" = "Езерен кефал"
+"items/fish/pond/roach/name" = "Червеноперка"
+"items/fish/pond/sauger/name" = "Петниста бяла риба"
