@@ -1,0 +1,8 @@
+[meta_properties]
+id = "bulgarian_ocean_fish_names_4"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/ocean/ocean_sunfish/name" = "Риба луна"
+"items/fish/ocean/puffer_fish/name" = "Риба балон"
+"items/fish/ocean/red_snapper/name" = "Червен луциан"
