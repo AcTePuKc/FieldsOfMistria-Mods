@@ -1,0 +1,9 @@
+[meta_properties]
+id = "bulgarian_river_fish_names_5"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/river/loach/name" = "Виюн"
+"items/fish/river/minnow/name" = "Лещанка"
+"items/fish/river/paddlefish/name" = "Веслонос"
+"items/fish/river/tarpon/name" = "Тарпон"

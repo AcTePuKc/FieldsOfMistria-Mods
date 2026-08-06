@@ -161,6 +161,10 @@ status = "working"
 "Herring" = { bulgarian = "херинга", status = "approved for current work", notes = "Standard Bulgarian name." }
 "Leaf Fish" = { bulgarian = "риба-лист", status = "approved for current work", notes = "Use Риба-лист as the natural Bulgarian item name rather than the adjective-based Листна риба." }
 "Lightning Fish" = { bulgarian = "светкавична риба", status = "working", notes = "Literal translation retained because the game provides no species context." }
+"Loach" = { bulgarian = "виюн", status = "approved for current work", notes = "Established Bulgarian name for loach." }
+"Minnow" = { bulgarian = "лещанка", status = "approved for current work", notes = "Use Лещанка; Massive Minnow is translated separately as Гигантска лещанка." }
+"Paddlefish" = { bulgarian = "веслонос", status = "approved for current work", notes = "Established Bulgarian name for paddlefish." }
+"Tarpon" = { bulgarian = "тарпон", status = "approved for current work", notes = "Use the established Bulgarian transliteration Тарпон." }
 "Muskie" = { bulgarian = "маскинонг", status = "approved for current work", notes = "Use Маскинонг; do not use the Russian-derived Мускунг." }
 "Silver Redhorse" = { bulgarian = "сребриста моксостома", status = "approved for current work", notes = "Use the biologically precise Bulgarian genus-based name rather than the Russian-derived чукучан." }
 "Sunny" = { bulgarian = "слънчевка", status = "approved for current work", notes = "Common Bulgarian name for pumpkinseed sunfish; avoid the diminutive слънчева рибка." }
