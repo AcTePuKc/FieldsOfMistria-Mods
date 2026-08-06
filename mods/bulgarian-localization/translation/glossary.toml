@@ -152,7 +152,7 @@ status = "working"
 "Cherry Fish" = { bulgarian = "черешова рибка", status = "approved for current work", notes = "Cozy item name; the real-world reference is cherry barb, but the game key uses Cherry Fish." }
 "Snapping Turtle" = { bulgarian = "хапеща костенурка", status = "approved for current work", notes = "Use the clear player-facing name Хапеща костенурка; Кайманова костенурка is the more biological alternative." }
 "Amberjack" = { bulgarian = "жълтоопашка", status = "approved for current work", notes = "Use Жълтоопашка as the natural Bulgarian item name; Сериола is the scientific/genus-style alternative." }
-"Blue Gill" = { bulgarian = "синя слънчева риба", status = "approved for current work", notes = "Keep distinct from Sunny, which is translated as Слънчевка." }
+"Blue Gill" = { bulgarian = "синьохрил", status = "approved for current work", notes = "Use the concise Bulgarian name Синьохрил; avoid the transliteration Блугил and keep it distinct from Sunny, translated as Слънчевка." }
 "Bowfish" = { bulgarian = "амия", status = "approved for current work", notes = "Use the Bulgarian transliteration of the fish genus rather than a literal bow-based translation." }
 "Chub" = { bulgarian = "клен", status = "approved for current work", notes = "Natural Bulgarian name for the freshwater fish; do not use the generic кефал here." }
 "Chum" = { bulgarian = "кета", status = "approved for current work", notes = "Established Bulgarian name for chum salmon." }
