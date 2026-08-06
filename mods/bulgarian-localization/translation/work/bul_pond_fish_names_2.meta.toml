@@ -1,0 +1,11 @@
+[meta_properties]
+id = "bulgarian_pond_fish_names_2"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/pond/brown_trout/name" = "Кафява пъстърва"
+"items/fish/pond/crucian_carp/name" = "Каракуда"
+"items/fish/pond/freshwater_eel/name" = "Сладководна змиорка"
+"items/fish/pond/giant_koi/name" = "Гигантски кои"
+"items/fish/pond/tetra/name" = "Тетра"
+"items/fish/pond/white_perch/name" = "Бял костур"
