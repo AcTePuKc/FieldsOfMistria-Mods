@@ -1,0 +1,8 @@
+[meta_properties]
+id = "bulgarian_river_fish_names_8"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/river/dace/name" = "Кленче"
+"items/fish/river/razorback/name" = "Острогръб смукач"
+"items/fish/river/shad/name" = "Карагьоз"

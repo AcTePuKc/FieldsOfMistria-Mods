@@ -168,6 +168,9 @@ status = "working"
 "Shadow Bass" = { bulgarian = "сенчест костур", status = "approved for current work", notes = "Keep the same костур structure as Rock Bass." }
 "Smallmouth Bass" = { bulgarian = "малкоуст костур", status = "approved for current work", notes = "Use the descriptive Bulgarian compound rather than the English loanword бас." }
 "Sweetfish" = { bulgarian = "сладка риба", status = "approved for current work", notes = "Use Сладка риба for the player-facing item name; Аю is the real-world species name but is too niche for the current cozy-game context." }
+"Dace" = { bulgarian = "кленче", status = "working", notes = "Use Кленче to distinguish the small dace from Chub, translated as Клен." }
+"Razorback" = { bulgarian = "острогръб смукач", status = "working", notes = "Provisional descriptive name based on the razorback sucker reference; review against the fish icon if needed." }
+"Shad" = { bulgarian = "карагьоз", status = "working", notes = "Use the established Bulgarian name for shad-type fish; review if a more specific species is identified." }
 "Tarpon" = { bulgarian = "тарпон", status = "approved for current work", notes = "Use the established Bulgarian transliteration Тарпон." }
 "Walleye" = { bulgarian = "стъклоок костур", status = "approved for current work", notes = "Use Стъклоок костур as the player-facing Bulgarian name." }
 "Muskie" = { bulgarian = "маскинонг", status = "approved for current work", notes = "Use Маскинонг; do not use the Russian-derived Мускунг." }
