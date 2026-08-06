@@ -167,7 +167,7 @@ status = "working"
 "Rock Bass" = { bulgarian = "скален костур", status = "approved for current work", notes = "Use Скален костур rather than Каменен костур or the English loanword бас." }
 "Shadow Bass" = { bulgarian = "сенчест костур", status = "approved for current work", notes = "Keep the same костур structure as Rock Bass." }
 "Smallmouth Bass" = { bulgarian = "малкоуст костур", status = "approved for current work", notes = "Use the descriptive Bulgarian compound rather than the English loanword бас." }
-"Sweetfish" = { bulgarian = "сладка риба", status = "working", notes = "Literal player-facing name retained because the game provides no species context." }
+"Sweetfish" = { bulgarian = "аю", status = "approved for current work", notes = "Use the established species name Аю; avoid the redundant Риба Аю and the diminutive Сладка рибка." }
 "Tarpon" = { bulgarian = "тарпон", status = "approved for current work", notes = "Use the established Bulgarian transliteration Тарпон." }
 "Walleye" = { bulgarian = "стъклоок костур", status = "approved for current work", notes = "Use Стъклоок костур as the player-facing Bulgarian name." }
 "Muskie" = { bulgarian = "маскинонг", status = "approved for current work", notes = "Use Маскинонг; do not use the Russian-derived Мускунг." }
