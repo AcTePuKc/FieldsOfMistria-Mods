@@ -150,8 +150,8 @@ status = "working"
 "Copper Rockfish" = { bulgarian = "меден костур", status = "approved for current work", notes = "Use Меден костур for the bait fish item." }
 "Massive Minnow" = { bulgarian = "гигантска лещанка", status = "approved for current work", notes = "Use Гигантска лещанка rather than a generic дребна риба description." }
 "Muskie" = { bulgarian = "маскинонг", status = "approved for current work", notes = "Use Маскинонг; do not use the Russian-derived Мускунг." }
-"Silver Redhorse" = { bulgarian = "сребрист чукучан", status = "provisional", notes = "Species-style name based on the sucker fish group; review against Bulgarian fish terminology." }
-"Sunny" = { bulgarian = "слънчева рибка", status = "provisional", notes = "The other localizations identify this as pumpkinseed/sunfish; verify the preferred Bulgarian common name." }
+"Silver Redhorse" = { bulgarian = "сребриста моксостома", status = "approved for current work", notes = "Use the biologically precise Bulgarian genus-based name rather than the Russian-derived чукучан." }
+"Sunny" = { bulgarian = "слънчевка", status = "approved for current work", notes = "Common Bulgarian name for pumpkinseed sunfish; avoid the diminutive слънчева рибка." }
 "Killifish" = { bulgarian = "пъстро шаранче", status = "approved for current work", notes = "Use the Bulgarian fish name Пъстро шаранче." }
 "Lake Chub" = { bulgarian = "езерен кефал", status = "approved for current work", notes = "Езерен клен is an acceptable alternative; current project choice is Езерен кефал." }
 "Roach" = { bulgarian = "червеноперка", status = "approved for current work", notes = "Use Червеноперка; do not use the Russian-derived Бабушка." }
