@@ -1,0 +1,8 @@
+[meta_properties]
+id = "bulgarian_fish_misc_names_2"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/misc/paper_pondshell/name" = "Хартиена езерна мида"
+"items/fish/misc/sand_dollar/name" = "Пясъчен долар"
+"items/fish/misc/spirula_shell/name" = "Раковина от спирула"
