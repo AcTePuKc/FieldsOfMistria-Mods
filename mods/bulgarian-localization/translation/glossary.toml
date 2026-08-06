@@ -188,6 +188,14 @@ status = "working"
 "Hasty" = { bulgarian = "пъргавина", status = "approved for current work", notes = "Use the noun Пъргавина for the movement-speed infusion." }
 "Leeching" = { bulgarian = "източване", status = "approved for current work", notes = "Infusion name for restoring health through damage." }
 "Lightweight" = { bulgarian = "лекота", status = "approved for current work", notes = "Infusion name for tools that can drop stamina orbs." }
+"Likeable" = { bulgarian = "харесвано", status = "provisional", notes = "Infusion applied to dishes that are universally liked as gifts." }
+"Loveable" = { bulgarian = "обичано", status = "provisional", notes = "Infusion applied to dishes that are universally loved as gifts." }
+"Magical" = { bulgarian = "магия", status = "provisional", notes = "Infusion that restores one mana orb." }
+"Quality" = { bulgarian = "качество", status = "provisional", notes = "Furniture sale-value infusion." }
+"Restorative" = { bulgarian = "възстановяване", status = "provisional", notes = "Infusion that improves HP and Stamina restoration." }
+"Sharp" = { bulgarian = "острота", status = "provisional", notes = "Attack-power infusion." }
+"Speedy" = { bulgarian = "бързина", status = "provisional", notes = "Used by both speedy infusion entries in the source." }
+"Tireless" = { bulgarian = "неуморност", status = "provisional", notes = "Infusion that increases base Stamina." }
 "Muskie" = { bulgarian = "маскинонг", status = "approved for current work", notes = "Use Маскинонг; do not use the Russian-derived Мускунг." }
 "Silver Redhorse" = { bulgarian = "сребриста моксостома", status = "approved for current work", notes = "Use the biologically precise Bulgarian genus-based name rather than the Russian-derived чукучан." }
 "Sunny" = { bulgarian = "слънчевка", status = "approved for current work", notes = "Common Bulgarian name for pumpkinseed sunfish; avoid the diminutive слънчева рибка." }
