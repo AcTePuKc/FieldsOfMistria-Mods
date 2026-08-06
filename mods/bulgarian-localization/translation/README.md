@@ -21,4 +21,6 @@ They must not replace the English source when meaning, placeholders, or tone
 are ambiguous.
 
 Generated source keys, QA reports, extracted assets, archives, and translated
-game data are ignored by Git.
+game data are ignored by Git. This directory contains translator-owned work
+files for the Bulgarian localization; future Fields of Mistria mods belong in
+their own directory under `mods/`.

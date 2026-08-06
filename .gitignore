@@ -11,6 +11,8 @@ poc_runtime/
 poc/
 translation/source_keys/
 translation/qa_reports/
+mods/*/translation/source_keys/
+mods/*/translation/qa_reports/
 
 # Local generated data and diagnostics
 __pycache__/

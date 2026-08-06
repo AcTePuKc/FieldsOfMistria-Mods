@@ -9,12 +9,12 @@ The project is currently intended to remain private while the translation and re
 ## Workflow
 
 1. Inspect the current game archive with the tools in `tools/`.
-2. Prepare and review Bulgarian work files under `translation/work/`.
+2. Prepare and review Bulgarian work files under `mods/bulgarian-localization/translation/work/`.
 3. Run the Bulgarian token-preservation QA tool before packaging.
 4. Build a MOMI-compatible localization package or use the safety-checked injector for local testing.
 5. Validate the resulting archive before using it in the game.
 
-See `translation/README.md` for the translation workflow and `docs/github-nexus-publishing.md` for the optional Nexus Mods release automation.
+See `mods/bulgarian-localization/translation/README.md` for the translation workflow and `docs/github-nexus-publishing.md` for the optional Nexus Mods release automation.
 
 ## Release policy
 

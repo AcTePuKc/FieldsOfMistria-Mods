@@ -1,16 +1,16 @@
 # GitHub and Nexus Mods publishing
 
-The first version should be uploaded to Nexus Mods manually. No Nexus secret is needed for that release.
+The first version of each mod should be uploaded to Nexus Mods manually. No Nexus secret is needed for that release.
 
 ## Secrets used after the first Nexus file exists
 
 If GitHub Actions is enabled later, configure these as repository secrets:
 
 - `NEXUS_API_KEY`: the Nexus API key used by the upload action.
-- `NEXUS_FILE_ID`: the v3 `mod_file` ID of the existing main file that receives new versions.
-- `NEXUS_MOD_ID`: the v3 internal Nexus mod ID used when creating changelog entries.
+- `NEXUS_BG_FILE_ID`: the v3 `mod_file` ID of the Bulgarian mod's existing main file.
+- `NEXUS_BG_MOD_ID`: the v3 internal Nexus mod ID used for the Bulgarian mod's changelog entries.
 
-These values have different meanings. `NEXUS_FILE_ID` is not a replacement for `NEXUS_MOD_ID`, and the older `NEXUS_FILE_GROUP_ID` must not be used with the current v3 upload action.
+These values have different meanings. `NEXUS_BG_FILE_ID` is not a replacement for `NEXUS_BG_MOD_ID`, and the older `NEXUS_FILE_GROUP_ID` must not be used with the current v3 upload action. A future mod receives its own namespaced pair, while `NEXUS_API_KEY` remains shared.
 
 The numeric ID in a Nexus mod URL is game-scoped. It can be used with the Nexus v3 API to resolve the internal mod ID and then list the mod files. The active main file's `id` is the value used for `NEXUS_FILE_ID`.
 

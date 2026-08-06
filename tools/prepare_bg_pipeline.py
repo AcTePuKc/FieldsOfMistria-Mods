@@ -12,9 +12,10 @@ from pathlib import Path
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("archive", type=Path)
-    ap.add_argument("--work", type=Path, default=Path("translation/source_keys"))
+    ap.add_argument("--work", type=Path, default=Path("mods/bulgarian-localization/translation/source_keys"))
+    repo_root = Path(__file__).resolve().parents[1]
     args = ap.parse_args()
-    inspection = args.work / ".." / ".." / "localization_inspection"
+    inspection = repo_root / "localization_inspection"
     subprocess.run([sys.executable, str(Path(__file__).with_name("inspect_fom_localization.py")), str(args.archive), "--extract", "--output", str(inspection)], check=True)
     root = inspection / "extracted" / "assets" / "localization"
     candidates = sorted((root / "source_caches").glob("*.meta.toml"))
