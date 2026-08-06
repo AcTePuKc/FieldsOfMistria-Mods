@@ -1,0 +1,7 @@
+[meta_properties]
+id = "bulgarian_ocean_fish_names_6"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/ocean/butterfish/name" = "Маслена риба"
+"items/fish/ocean/char/name" = "Голец"
