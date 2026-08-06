@@ -1,0 +1,10 @@
+[meta_properties]
+id = "bulgarian_bait_fish_names"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/bait_fish/copper_rockfish/name" = "Меден морски костур"
+"items/fish/bait_fish/golden_eel/name" = "Златна змиорка"
+"items/fish/bait_fish/iron_fish/name" = "Желязна риба"
+"items/fish/bait_fish/massive_minnow/name" = "Огромна дребна риба"
+"items/fish/bait_fish/silver_squid/name" = "Сребърен калмар"
