@@ -1,0 +1,13 @@
+[meta_properties]
+id = "fom-bg-work-building-names"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"object_prototypes/building/large_barn/name" = "Голяма плевня"
+"object_prototypes/building/large_coop/name" = "Голям курник"
+"object_prototypes/building/large_greenhouse/name" = "Голяма оранжерия"
+"object_prototypes/building/medium_barn/name" = "Средна плевня"
+"object_prototypes/building/medium_coop/name" = "Среден курник"
+"object_prototypes/building/small_barn/name" = "Малка плевня"
+"object_prototypes/building/small_coop/name" = "Малък курник"
+"object_prototypes/building/small_greenhouse/name" = "Малка оранжерия"

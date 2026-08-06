@@ -54,6 +54,7 @@ status = "working"
 "Ranching" = { bulgarian = "Животновъдство", status = "provisional", notes = "Tutorial and skill/category label." }
 "Barn" = { bulgarian = "Плевня", status = "provisional", notes = "Verify the official building label in the game UI." }
 "Coop" = { bulgarian = "Курник", status = "provisional", notes = "Verify the official building label in the game UI." }
+"Greenhouse" = { bulgarian = "оранжерия", status = "approved for current work", notes = "Building name; use feminine agreement for size adjectives." }
 "trough" = { bulgarian = "хранилка", status = "provisional", notes = "Indoor animal feeding object." }
 "graze" = { bulgarian = "пасе", status = "provisional", notes = "Use паша when referring to the activity or system." }
 "Blacksmithing" = { bulgarian = "Ковачество", status = "provisional", notes = "Tutorial and skill/category label." }
