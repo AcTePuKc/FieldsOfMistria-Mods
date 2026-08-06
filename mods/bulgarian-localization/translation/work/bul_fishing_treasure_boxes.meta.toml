@@ -1,0 +1,9 @@
+[meta_properties]
+id = "bulgarian_fishing_treasure_boxes"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/misc/treasure_box_copper/name" = "Меден сандък със съкровище"
+"items/fish/misc/treasure_box_gold/name" = "Златен сандък със съкровище"
+"items/fish/misc/treasure_box_silver/name" = "Сребърен сандък със съкровище"
+"items/fish/misc/treasure_box_wood/name" = "Дървен сандък със съкровище"
