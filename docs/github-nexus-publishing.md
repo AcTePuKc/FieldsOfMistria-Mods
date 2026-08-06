@@ -2,6 +2,12 @@
 
 The first version of each mod should be uploaded to Nexus Mods manually. No Nexus secret is needed for that release.
 
+The first release can be packaged with the manually triggered
+`Package Bulgarian Mod` workflow. It creates only a validated GitHub Actions
+artifact and SHA-256 file; it does not contact Nexus Mods. Download that
+artifact and upload it manually as version `0.1.0`. The package directory must
+be populated first at `mods/bulgarian-localization/package/`.
+
 The not-yet-active workflow template is stored at
 `docs/workflows/publish-nexus-from-release.yml.example`. Because it is not
 under `.github/workflows/`, GitHub Actions will not discover or run it.

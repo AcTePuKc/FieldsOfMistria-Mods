@@ -1,0 +1,67 @@
+name: Package Bulgarian Mod
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Release version, for example 0.1.0
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    env:
+      MOD_ROOT: mods/bulgarian-localization
+      PACKAGE_ROOT: mods/bulgarian-localization/package
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate package input
+        shell: bash
+        run: |
+          version='${{ inputs.version }}'
+          if [[ ! "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "Version must use MAJOR.MINOR.PATCH format." >&2
+            exit 1
+          fi
+
+          if [[ ! -d "$PACKAGE_ROOT" ]]; then
+            echo "The Bulgarian mod package directory does not exist yet: $PACKAGE_ROOT" >&2
+            echo "Populate the validated release package before running this workflow." >&2
+            exit 1
+          fi
+
+          if [[ -z "$(find "$PACKAGE_ROOT" -type f -print -quit)" ]]; then
+            echo "The Bulgarian mod package directory is empty." >&2
+            exit 1
+          fi
+
+          if find "$PACKAGE_ROOT" -type f \( -name '*.zip' -o -name '*.bak' -o -name '*.exe' \) -print -quit | grep -q .; then
+            echo "The package directory contains a prohibited nested archive or executable." >&2
+            exit 1
+          fi
+
+      - name: Create release archive
+        shell: bash
+        run: |
+          mkdir -p dist
+          archive="dist/FieldsOfMistriaBulgarian-${{ inputs.version }}.zip"
+          (cd "$PACKAGE_ROOT" && zip -r -X "$GITHUB_WORKSPACE/$archive" .)
+          unzip -t "$archive"
+          sha256sum "$archive" | tee "$archive.sha256"
+
+      - name: Upload GitHub artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: FieldsOfMistriaBulgarian-${{ inputs.version }}
+          path: |
+            dist/FieldsOfMistriaBulgarian-${{ inputs.version }}.zip
+            dist/FieldsOfMistriaBulgarian-${{ inputs.version }}.zip.sha256
+          if-no-files-found: error
+          retention-days: 30
