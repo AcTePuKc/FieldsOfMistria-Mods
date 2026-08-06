@@ -1,0 +1,24 @@
+# Bulgarian language registration template.
+# Asset IDs are stable project identifiers for the eventual package and must
+# match the translation and source-cache metadata used by the injector.
+[asset_properties.languages.bul]
+display_name = "Български"
+translation = "fom-bg-translation"
+src_cache = "fom-bg-source-cache"
+ship = false
+default_pronoun = "he_him"
+automatic_linebreaks = true
+date_order = "DayFirst"
+infusion_order = "Adjective"
+infusion_space = " "
+commas_in_numbers = true
+common_button_height = 19
+pronoun_display_order = ["they_them", "she_her", "he_him", "it_its", "all", "none"]
+
+[asset_properties.languages.bul.pronouns]
+they_them = { display = "Те / Тях", macros = ["p"] }
+she_her = { display = "Тя / Нея", macros = ["f"] }
+he_him = { display = "Той / Него", macros = ["m"] }
+it_its = { display = "То / Него", macros = ["n"] }
+all = { display = "Всички", macros = ["p", "m", "f", "n"] }
+none = { display = "Без местоимение", macros = ["none"] }

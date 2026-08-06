@@ -14,6 +14,7 @@ FieldsOfMistria-Mods/
 │  └─ bulgarian-localization/
 │     └─ translation/
 │        ├─ README.md
+│        ├─ bul_l10n.meta.toml          # Bulgarian language/pronoun registration
 │        ├─ glossary.toml
 │        ├─ work/                       # translator-owned files
 │        ├─ source_keys/                # generated working data, ignored
