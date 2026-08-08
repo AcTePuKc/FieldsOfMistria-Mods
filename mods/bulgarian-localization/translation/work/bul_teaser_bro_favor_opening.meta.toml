@@ -1,0 +1,12 @@
+[meta_properties]
+id = "fom-bg-work-teaser-bro-favor-opening"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Cutscenes/Story Events/do_a_bro_a_favor/do_a_bro_a_favor/init" = "А, ето ни!"
+"Cutscenes/Story Events/do_a_bro_a_favor/do_a_bro_a_favor/1" = "А, хаха, просто помагам тук. Всъщност преди бях миньор! После земетресението удари и трябваше да затворим $мините$."
+"Cutscenes/Story Events/do_a_bro_a_favor/do_a_bro_a_favor/2" = "О, благодаря, че забеляза! Преди бях миньор, преди земетресението да удари и да се наложи да затворим $мините$. Сега просто помагам тук, а брат ми е ковачът на града."
+"Cutscenes/Story Events/do_a_bro_a_favor/do_a_bro_a_favor/3" = "Ако искаш да научиш повече за $мините$, трябва да говориш с $Ерол$! Преди беше надзирател на мините, а сега е уредник на музея. Изглежда сякаш е издялан от камък."
+"Cutscenes/Story Events/do_a_bro_a_favor/do_a_bro_a_favor/4" = "О, вярно! Исках да ти дам старата си $кирка$! Чупенето на камъни е чудесен начин да влезеш във форма!"
+"Cutscenes/Story Events/do_a_bro_a_favor/do_a_bro_a_favor/5" = "Малко е стара, но трябва да е достатъчно здрава за малки камъни. Ако искаш по-здрава кирка, ще трябва да я $изковеш$ или да си купиш от нас."
+"Cutscenes/Story Events/do_a_bro_a_favor/do_a_bro_a_favor/6" = "Радвам се, че ще я използваш добре."

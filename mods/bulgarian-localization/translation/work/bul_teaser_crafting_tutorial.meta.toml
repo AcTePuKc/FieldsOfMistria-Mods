@@ -1,0 +1,18 @@
+[meta_properties]
+id = "fom-bg-work-teaser-crafting-tutorial"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Cutscenes/Story Events/crafting_tutorial/crafting_tutorial/init" = "Тук можеш да изработваш предмети. Работната маса е на твое разположение по всяко време. В града също има работна маса, а можеш дори да си купиш такава от нас и да я поставиш във фермата си!"
+"Cutscenes/Story Events/crafting_tutorial/crafting_tutorial/1" = "Ако някога имаш нужда от съвет, просто попитай!"
+"Cutscenes/Story Events/crafting_tutorial/crafting_tutorial/2" = "Ще видиш колко удобно е да можеш да изработваш собствени огради. Можеш да ги използваш, за да разделяш земята си и да поддържаш фермата си подредена."
+"Cutscenes/Story Events/crafting_tutorial/crafting_tutorial/3" = "Така кокошките ти няма да влизат в царевицата, а плевелите няма да превземат нивите ти!"
+"Cutscenes/Story Events/crafting_tutorial/crafting_tutorial/4" = "Освен това са добра тренировка. Скоро ще се заемеш с по-големи проекти."
+"Cutscenes/Story Events/crafting_tutorial/crafting_tutorial/5" = "<he>Готов ли си</he><she>Готова ли си</she><they>Готови ли сте</they> да разгледаме по-подробно как се изработват?"
+"Cutscenes/Story Events/crafting_tutorial/crafting_tutorial/5/prompts/0" = "Да започнем урока за оградите!"
+"Cutscenes/Story Events/crafting_tutorial/crafting_tutorial/5/prompts/1" = "Мисля, че се справям!"
+"Cutscenes/Story Events/crafting_tutorial/crafting_tutorial/7" = "Харесва ми тази увереност! Напомняш ми на... ами, на мен самия!"
+"Cutscenes/Story Events/crafting_tutorial/crafting_tutorial/8" = "Чудесно!"
+"Cutscenes/Story Events/crafting_tutorial/crafting_tutorial/9" = "И още как!"
+"Cutscenes/Story Events/crafting_tutorial/crafting_tutorial/10" = "Нека, докато си тук, изработиш още няколко секции от ограда, за да се уверим, че си <he>разбрал</he><she>разбрала</she><they>разбрали</they> как се прави."
+"Cutscenes/Story Events/crafting_tutorial/crafting_tutorial_turn_in/init" = "Изглежда, че си <he>готов</he><she>готова</she><they>готови</they> за урока по изработване. Хайде, първо трябва да подготвя няколко неща."

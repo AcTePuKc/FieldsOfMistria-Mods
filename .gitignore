@@ -20,6 +20,10 @@ __pycache__/
 dist/
 release-download/
 _portrait_diag/
+_private_work/
+
+# Generated localization package data; rebuild locally from translation work
+mods/*/localization/
 
 # Local build output and binaries
 bin/

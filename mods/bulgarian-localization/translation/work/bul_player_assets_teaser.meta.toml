@@ -1,0 +1,19 @@
+[meta_properties]
+id = "fom-bg-work-player-assets-teaser"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"player_assets/head_aviator_goggles/name" = "Авиаторски очила"
+"player_assets/head_fighter_headband/name" = "Лента на боец"
+"player_assets/head_hijab/name" = "Хиджаб"
+"player_assets/head_cloth_helmet/name" = "Платнен шлем"
+"player_assets/head_bandana/name" = "Бандана"
+"player_assets/head_ribbons_basic/name" = "Обикновени панделки"
+"player_assets/head_short_bow/name" = "Малка панделка"
+"player_assets/head_baseball_cap/name" = "Бейзболна шапка"
+"player_assets/head_beret/name" = "Барета"
+"player_assets/head_cowboy_hat_basic/name" = "Каубойска шапка"
+"player_assets/head_witch_hat/name" = "Вещерска шапка"
+"player_assets/face_gear_glasses/name" = "Очила"
+"player_assets/face_gear_blush/name" = "Руж"
+"player_assets/top_cami/name" = "Потник"

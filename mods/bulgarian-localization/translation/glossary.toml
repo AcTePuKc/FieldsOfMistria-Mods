@@ -104,6 +104,7 @@ status = "working"
 "Animal Sprite Statue" = { bulgarian = "статуя на животински дух", status = "provisional", notes = "Item name; verify capitalization and final item label." }
 "Water Sprite Statue" = { bulgarian = "статуя на Воден дух", status = "provisional", notes = "Item name; verify capitalization and final item label." }
 "Mistmare" = { bulgarian = "Мъглокон", status = "provisional", notes = "Mount name; verify the final localized name and grammatical forms." }
+"Mistgrove Farm" = { bulgarian = "Ферма Мъглива горичка", status = "provisional", notes = "Default farm name; verify in the opening customization screen." }
 "Horse statue" = { bulgarian = "статуя на коня", status = "provisional", notes = "Upgrade statue; verify the final item label." }
 "Essence Stone" = { bulgarian = "камък от есенция", status = "provisional", notes = "Material name; use камъни от есенция in plural." }
 "Stone Refinery" = { bulgarian = "пречиствател за камъни", status = "provisional", notes = "Machine/building name; review against the final UI and quest text." }
