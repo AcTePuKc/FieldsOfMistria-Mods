@@ -1,0 +1,22 @@
+[meta_properties]
+id = "fom-bg-work-special-crafting-stations"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/other/misc/abyssal_chest/name" = "Сандък от Бездната"
+"items/other/misc/abyssal_chest/description" = "Сандък от Бездната."
+"items/other/misc/crafting_scroll/name" = "Свитък за изработка: {}"
+"items/other/misc/crafting_scroll/description" = "Използвай този свитък, за да научиш как се изработва следният предмет: {}."
+"items/other/misc/forge/description" = "Ковачница, която може да се постави. Използва се за изработка на инструменти и оръжия от всички нива."
+"items/other/misc/forge_mistril/name" = "Мистрилова ковачница"
+"items/other/misc/forge_mistril/description" = "Ковачница от мистрил, която може да се постави. Използва се за изработка на инструменти и оръжия от всички нива."
+"items/other/misc/gemstone_bridge_v1/name" = "Мост от скъпоценни камъни"
+"items/other/misc/gemstone_bridge_v1/description" = "Каменен мост, който може да се постави и е украсен с разноцветни скъпоценни камъни."
+"items/other/misc/gemstone_bridge_v2/name" = "Мост от скъпоценни камъни"
+"items/other/misc/gemstone_bridge_v2/description" = "Каменен мост, който може да се постави и е украсен с разноцветни скъпоценни камъни."
+"items/other/misc/gemstone_bridge_v3/name" = "Мост от скъпоценни камъни"
+"items/other/misc/gemstone_bridge_v3/description" = "Каменен мост, който може да се постави и е украсен с разноцветни скъпоценни камъни."
+"items/other/misc/mini_mill/name" = "Мини мелница"
+"items/other/misc/mini_mill/description" = "Мини мелница, която може да се постави. Използва се за изработка на животински продукти и фураж. Намалява времето за мелене до 0."
+"items/other/misc/perpetual_soup_pot/name" = "Вечен казан за супа"
+"items/other/misc/perpetual_soup_pot/description" = "Казан по образец на този в Хана на Спящия дракон. Ако сложиш в него нещо годно за ядене, веднъж на ден можеш да го превърнеш в засищаща супа."

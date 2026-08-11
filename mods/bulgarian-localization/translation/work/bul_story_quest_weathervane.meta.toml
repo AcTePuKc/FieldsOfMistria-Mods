@@ -1,0 +1,19 @@
+[meta_properties]
+id = "fom-bg-work-story-quest-weathervane"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Cutscenes/Story Events/find_the_weathervane/find_the_weathervane/init" = "Добро утро, [Ari]! Каква буря само имаше снощи..."
+"Cutscenes/Story Events/find_the_weathervane/find_the_weathervane/1" = "Само исках да проверя дали тук всичко е наред. Изглежда, че няма щети!"
+"Cutscenes/Story Events/find_the_weathervane/find_the_weathervane/2" = "Само че... вятърът отнесе $ветропоказателя$ от новата ми плевня..."
+"Cutscenes/Story Events/find_the_weathervane/find_the_weathervane/3" = "Ще ми помогнеш ли да го намеря? Искам да го върна на мястото му, преди Райс и Ландън да разберат..."
+"Cutscenes/Story Events/find_the_weathervane/find_the_weathervane/4" = "Вятърът духаше на северозапад... Така че се обзалгам, че е отлетял $някъде в Теснините$."
+"Cutscenes/Story Events/find_the_weathervane/find_the_weathervane/5" = "Кажи ми, ако успееш да го намериш!"
+"Cutscenes/Story Events/find_the_weathervane/find_the_weathervane_turn_in/init" = "О, намери $ветропоказателя$ ми! Благодаря ти, [Ari]."
+"Cutscenes/Story Events/find_the_weathervane/find_the_weathervane_turn_in/1" = "Сега ще го върна на мястото му, преди някой да разбере..."
+"Cutscenes/Story Events/find_the_weathervane_setup/find_the_weathervane_setup/init" = "През нощта се разрази силен вятър..."
+"items/other/misc/haydens_weathervane/name" = "Ветропоказателят на Хейдън"
+"items/other/misc/haydens_weathervane/description" = "Ветропоказателят, който бурята отнесе от плевнята на Хейдън."
+"quests/story_quests/find_the_weathervane/name" = "Намери ветропоказателя"
+"quests/story_quests/find_the_weathervane/description" = "Хейдън ме помоли да намеря ветропоказателя му, който бурята е отнесла. Мисли, че може да е някъде в Теснините."
+"quests/story_quests/find_the_weathervane/stages/0/objective_description" = "Намери ветропоказателя на Хейдън в Теснините и му го занеси."

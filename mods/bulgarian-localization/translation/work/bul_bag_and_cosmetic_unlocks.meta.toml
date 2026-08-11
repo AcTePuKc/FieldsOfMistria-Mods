@@ -1,0 +1,12 @@
+[meta_properties]
+id = "fom-bg-work-bag-and-cosmetic-unlocks"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/other/misc/animal_cosmetic/description" = "Използвай този предмет, за да отключиш аксесоара, който животните ти могат да носят!"
+"items/other/misc/basic_pouch/name" = "Подобрение на чантата"
+"items/other/misc/basic_pouch/description" = "Използвай този предмет, за да увеличиш вместимостта на чантата си с 10 места!"
+"items/other/misc/cosmetic/description" = "Използвай този предмет, за да отключиш аксесоар, който да носиш!"
+"items/other/misc/large_pouch/name" = "Подобрение на чантата"
+"items/other/misc/large_pouch/description" = "Използвай този предмет, за да увеличиш вместимостта на чантата си с 10 места!"
+"items/other/misc/pet_cosmetic/description" = "Използвай този предмет, за да отключиш аксесоар за любимците си!"

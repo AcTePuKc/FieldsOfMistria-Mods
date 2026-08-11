@@ -1,0 +1,27 @@
+[meta_properties]
+id = "fom-bg-work-language-pack-additions"
+asset_kind = "L10nTarget"
+
+# These entries are present in multiple non-English language packs but are
+# absent from the current English/source key index. Keep them isolated until
+# their presence in the current game build is confirmed.
+
+[asset_properties]
+"Conversations/Bank/Adeline/Gift Lines/gift_lines/paper/1" = "Благодаря."
+"Conversations/Bank/Adeline/Gift Lines/gift_lines/paper_2/init" = "А, благодаря, [Ari]! В работата си използвам много =хартия=. Точно от това имах нужда."
+"Conversations/Bank/Balor/Gift Lines/gift_lines/perfect_diamond_2/1" = "<he>Сигурен ли си, че си избрал</he><she>Сигурна ли си, че си избрала</she><they>Сигурни ли сте, че сте избрали</they> правилната професия? Май имаш търговски усет: знаеш какво ще се хареса на всеки."
+"Conversations/Bank/Balor/Gift Lines/gift_lines/perfect_diamond_2/init" = "=Перфектен диамант=! Благодаря, [Ari]."
+
+"Conversations/Bank/Stillwell/Banked Lines/packing_up/packing_up_1/init" = "Вече е време да затварям, но Третото око винаги е отворено. Поне за теб, [Ari]."
+"Conversations/Bank/Stillwell/Banked Lines/packing_up/packing_up_2/init" = "Уф, как мразя да прибирам сергията... Защо всичко е толкова тежко..."
+"Conversations/Bank/Stillwell/Banked Lines/packing_up/packing_up_3/init" = "Съдбата повелява... Да прибера сергията..."
+"Conversations/Bank/Stillwell/Banked Lines/packing_up/packing_up_4/init" = "Толкова ми се спи, че не мога да прибера сергията... Помогни ми..."
+"Conversations/Bank/Stillwell/Banked Lines/packing_up/packing_up_5/1" = "Хм, прибирай се, преди съдбата да се намеси..."
+"Conversations/Bank/Stillwell/Banked Lines/packing_up/packing_up_5/init" = "Будуваш до късно, [Ari]... Откъде намираш толкова енергия...?"
+"Conversations/Bank/Stillwell/Banked Lines/packing_up/packing_up_6/1" = "Но може би просто означават, че е станало късно и трябва да се прибереш."
+"Conversations/Bank/Stillwell/Banked Lines/packing_up/packing_up_6/init" = "Звездите крият толкова много значения..."
+"Conversations/Bank/Stillwell/Banked Lines/packing_up/packing_up_7/init" = "Тази роба и тази сергия са ми завещани от баба ми... В днешно време не можеш да намериш такава мистична шатра."
+"Conversations/Bank/Stillwell/Banked Lines/packing_up/packing_up_8/1" = "Уф. Май просто трябва да си събера багажа..."
+"Conversations/Bank/Stillwell/Banked Lines/packing_up/packing_up_8/init" = "Нора каза, че не мога да оставя сергията тук до следващия съботен пазар,\nдори да спя зад масата..."
+
+"items/other/misc/mini_museum_blueprint/name" = "Чертеж на минимузея"

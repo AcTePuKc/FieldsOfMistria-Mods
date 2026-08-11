@@ -77,6 +77,43 @@ Practical provisional targets:
 - 40–45 characters should be treated as exceptional and tested individually;
 - do not add manual `\n` to short controls unless the game layout explicitly requires it.
 
+### Button names inside tutorial text
+
+The control-description keys below do not contain a source `{}` placeholder and
+the inspected `fiddle/ui/text_markers.toml` does not define an action-button
+marker for them:
+
+- `misc_local/input_use_tool_charged`
+- `misc_local/input_use_tool_repeated`
+- `misc_local/input_cast_pinned_spell`
+- `misc_local/input_throw`
+- `misc_local/input_toolbar_inc_up`
+- `misc_local/input_toolbar_inc_down`
+
+Do not insert `{}` or invent an `[action_x]` marker in these strings. The only
+confirmed `{}` usage in this UI group is `misc_local/input_in_use`, where the
+game supplies the conflicting input name. Showing the currently bound button
+inside tutorial text would require engine/UI support beyond the localization
+value itself.
+
+### Tutorial runtime test points
+
+The extracted `fiddle/ui/tutorials.toml` records the runtime conditions for
+several tutorial cards. The easiest controlled test is the Fishing tutorial,
+which appears when the player obtains their first fishing rod. Other useful
+triggers are:
+
+- Blacksmithing: interact with the anvil.
+- Fishing: obtain the first fishing rod.
+- Crafting: `crafting_tutorial.6`.
+- Mines: enter floor 1 for the first time, after the entry floor.
+- Skill Perks: finish the relevant conversation with the Caldarus statue.
+
+Use the Fishing tutorial for a temporary placeholder experiment. First test a
+single `{}` in `ui/tutorials/fishing/steps/0/text`; if it renders literally or
+causes a formatting error, remove it immediately and keep the production text
+without a button placeholder.
+
 Additional strings observed as still needing review:
 
 - `Next Toolbar Item`
@@ -85,6 +122,20 @@ Additional strings observed as still needing review:
 - `Weather Strength`
 - `Time Particle Strength`
 - the Credits label and its surrounding screen text
+
+## NPC job-label length check
+
+These translations are currently acceptable, but should be checked manually in
+the in-game NPC information view because their width may exceed the available
+label space:
+
+- `npcs/celine/job` — `Градинар на непълен работен ден`
+- `npcs/hemlock/job` — `Съсобственик на странноприемницата, барман`
+- `npcs/vera/job` — `Продавач на прически и аксесоари`
+- `npcs/wheedle/job` — `Продавач на игри със съкровища`
+
+Do not shorten these automatically. Review the rendered UI first and only then
+choose a shorter natural Bulgarian form if clipping or overlap is visible.
 
 Exit labels must be reviewed separately because they are different source keys:
 
@@ -119,7 +170,27 @@ Source location:
 
 `Cutscenes/Story Events/day_zero/day_zero/init`
 
-This block is large and should be translated in a separate focused pass. Prioritize the first visible scene and tutorial prompts for the teaser, then return for the remainder.
+Status: complete. All 50 text keys, including prompts and gender variants, are in `work/bul_teaser_day_zero_opening.meta.toml`.
+
+## Farming introduction / first farm scene
+
+The scene remembered as the first farming lesson is:
+
+`Cutscenes/Story Events/farm_introduction/farm_introduction`
+
+Status: complete. All 27 text keys are in `work/bul_farming.meta.toml`.
+
+It is a gameplay-triggered scene after the opening setup, not the generic farming tutorial card alone. The speakers and gifts are:
+
+- Celine arrives first and gives the player a `Hoe` and three bags of `Tulip Seeds`.
+- Hayden then arrives on horseback from Sweetwater Farm and gives the player a `Watering Can` and three bags of `Turnip Seeds`.
+- Celine and Hayden both take part in the conversation; Adeline is not the speaker in this scene.
+
+The separate tutorial card is defined in `fiddle/ui/tutorials.toml` under `[farming]`. It covers tilling, planting, watering, harvesting, field expansion, and using crops. Test the cutscene and the tutorial card separately, because they are different content systems.
+
+The cutscene state flag is `cutscene_seen_farm_introduction = true`; this can be used when preparing a controlled replay/test state.
+
+The extracted cutscene definition confirms the trigger: `test_target = "main_story"` and `trigger = { location = "farm" }`. It grants the hoe, watering can, tulip seeds, and turnip seeds after the scene. The exact day is therefore controlled by the main-story progression and should not be hard-coded as “day 1” in the translation notes.
 
 ## QA notes for the first playthrough
 

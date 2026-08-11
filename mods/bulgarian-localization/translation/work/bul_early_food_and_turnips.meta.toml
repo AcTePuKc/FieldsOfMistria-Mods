@@ -1,0 +1,20 @@
+[meta_properties]
+id = "fom-bg-work-early-food-and-turnips"
+asset_kind = "Translation"
+
+[asset_properties]
+"items/other/crops_and_forage/seed_turnip/name" = "Семена от ряпа"
+"items/other/crops_and_forage/seed_turnip/description" = "Семена от ряпа. Тази бързорастяща пролетна култура се прибира само веднъж."
+"items/other/crops_and_forage/turnip/name" = "Ряпа"
+"items/other/crops_and_forage/turnip/description" = "Бързорастяща пролетна култура. Сурова е люта, а сготвена става сладка."
+"items/other/cooked_dishes/vegetable_soup/description" = "Засищаща и полезна супа от пресни зеленчуци."
+"items/other/cooked_dishes/sliced_turnip/name" = "Нарязана ряпа"
+"items/other/cooked_dishes/sliced_turnip/description" = "Хрупкави резенчета ряпа с леко сладък вкус. Вкусни и освежаващи."
+"items/other/cooked_dishes/hard_boiled_egg/name" = "Твърдо сварено яйце"
+"items/other/cooked_dishes/hard_boiled_egg/description" = "Идеално сварено твърдо яйце."
+"items/other/cooked_dishes/spring_salad/name" = "Пролетна салата"
+"items/other/cooked_dishes/spring_salad/description" = "Смес от диви зеленчуци, която носи вкуса на пролетта."
+"items/other/cooked_dishes/turnip_and_cabbage_salad/name" = "Салата от ряпа и зеле"
+"items/other/cooked_dishes/turnip_and_cabbage_salad/description" = "Свежа салата с приятно хрупкава текстура."
+"items/other/cooked_dishes/turnip_and_potato_gratin/name" = "Огретен от ряпа и картофи"
+"items/other/cooked_dishes/turnip_and_potato_gratin/description" = "Ястие от тънко нарязани ряпа и картофи с много сирене и масло."

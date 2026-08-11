@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import shutil
 import tomllib
 from pathlib import Path
 
@@ -73,6 +74,7 @@ def main() -> int:
             override_count += 1
 
     root = args.overlay / "localization"
+    shutil.copyfile(l10n_template, root / "l10n.meta.toml")
     write_table(root / "source_caches" / "bul.meta.toml", args.source_cache_id, "L10nSourceCache", source)
     write_table(root / "translations" / "bul.meta.toml", args.translation_id, "L10nTarget", translations)
     print(f"Built {len(source)} source keys and {override_count} Bulgarian overrides")

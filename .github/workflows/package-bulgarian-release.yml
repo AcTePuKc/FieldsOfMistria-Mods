@@ -42,6 +42,22 @@ jobs:
             exit 1
           fi
 
+          python3 - <<'PY'
+          import os
+          import tomllib
+          from pathlib import Path
+
+          manifest = Path(os.environ["PACKAGE_ROOT"]) / "manifest.toml"
+          if not manifest.is_file():
+              raise SystemExit(f"Package manifest is missing: {manifest}")
+          package_version = tomllib.loads(manifest.read_text(encoding="utf-8"))["version"]
+          requested_version = "${{ inputs.version }}"
+          if package_version != requested_version:
+              raise SystemExit(
+                  f"Package version {package_version!r} does not match requested version {requested_version!r}."
+              )
+          PY
+
           if find "$PACKAGE_ROOT" -type f \( -name '*.zip' -o -name '*.bak' -o -name '*.exe' \) -print -quit | grep -q .; then
             echo "The package directory contains a prohibited nested archive or executable." >&2
             exit 1

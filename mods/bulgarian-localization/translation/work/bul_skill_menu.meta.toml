@@ -1,0 +1,15 @@
+[meta_properties]
+id = "fom-bg-work-skill-menu"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"ui/skill_menu/archaeology/name" = "Археология"
+"ui/skill_menu/blacksmithing/name" = "Ковачество"
+"ui/skill_menu/combat/name" = "Бой"
+"ui/skill_menu/cooking/name" = "Готвене"
+"ui/skill_menu/farming/name" = "Земеделие"
+"ui/skill_menu/fishing/name" = "Риболов"
+"ui/skill_menu/mining/name" = "Минно дело"
+"ui/skill_menu/mount/name" = "Мъглокон"
+"ui/skill_menu/ranching/name" = "Животновъдство"
+"ui/skill_menu/woodcrafting/name" = "Дърводелство"

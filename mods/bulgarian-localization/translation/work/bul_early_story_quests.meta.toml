@@ -1,0 +1,16 @@
+[meta_properties]
+id = "fom-bg-work-early-story-quests"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"quests/story_quests/greet_the_townsfolk/name" = "Поздрави жителите на града"
+"quests/story_quests/greet_the_townsfolk/description" = """Вероятно вече познаваш някои от съседите си, но не би ли било хубаво да поздравиш всички?
+
+Не се притеснявай, представи се!"""
+"quests/story_quests/greet_the_townsfolk/stages/0/objective_description" = "Представи се на всички жители на града, после поговори с Аделайн. Картата ти ще ти помогне да ги откриеш!"
+"quests/story_quests/lost_and_found/name" = "Изгубени вещи"
+"quests/story_quests/lost_and_found/description" = "Аделайн ми изпрати писмо, с което ме кани на градско събрание в трапезарията на Имението."
+"quests/story_quests/lost_and_found/stages/0/objective_description" = "Срещни се с Аделайн в трапезарията на Имението."
+"quests/story_quests/museum_donation_wanted/name" = "Дарения за музея"
+"quests/story_quests/museum_donation_wanted/description" = "Ерол ми изпрати писмо да се срещна с него в Музея, западно от града. Казва, че е новият куратор и иска да поговори с мен за дарения."
+"quests/story_quests/museum_donation_wanted/stages/0/objective_description" = "Срещни се с Ерол в Музея в Теснините."

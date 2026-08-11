@@ -1,0 +1,6 @@
+[meta_properties]
+id = "fom-bg-work-patch-tutorial-titles"
+asset_kind = "Translation"
+
+[asset_properties]
+"ui/tutorials/baby/title" = "Урок: Грижи за бебето"

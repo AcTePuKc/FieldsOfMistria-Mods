@@ -1,0 +1,7 @@
+[meta_properties]
+id = "d6e2a8f1047c935b"
+asset_kind = "Animation"
+
+[asset_properties]
+frame_size = [24, 12]
+atlas = "UI"

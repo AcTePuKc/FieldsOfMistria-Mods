@@ -1,0 +1,17 @@
+[meta_properties]
+id = "fom-bg-work-date-inspiration-items"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/other/dating/bath_soap/name" = "Сапун за баня"
+"items/other/dating/bath_soap/description" = "Този изискан сапун за баня те изпълва с вдъхновение. Използвай го, за да отключиш срещата в банята."
+"items/other/dating/dollhouse_bench/name" = "Пейка за куклена къща"
+"items/other/dating/dollhouse_bench/description" = "Тази миниатюрна паркова пейка те изпълва с вдъхновение. Използвай я, за да отключиш срещата в парка."
+"items/other/dating/inn_menu/name" = "Меню от хана"
+"items/other/dating/inn_menu/description" = "Това меню те изпълва с вдъхновение. Използвай го, за да отключиш срещата с храна в хана."
+"items/other/dating/lovely_seashell/name" = "Красива раковина"
+"items/other/dating/lovely_seashell/description" = "Тази симпатична розова раковина те изпълва с вдъхновение. Използвай я, за да отключиш срещата на плажа."
+"items/other/dating/picnic_set/name" = "Комплект за пикник"
+"items/other/dating/picnic_set/description" = "Този комплект за пикник те изпълва с вдъхновение. Използвай го, за да отключиш пикника в Дълбоката гора."
+"items/other/dating/rough_gemstone/name" = "Необработен скъпоценен камък"
+"items/other/dating/rough_gemstone/description" = "Този необработен скъпоценен камък те изпълва с вдъхновение. Използвай го, за да отключиш срещата за рязане на скъпоценни камъни."

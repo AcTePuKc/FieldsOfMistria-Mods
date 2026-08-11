@@ -3,7 +3,7 @@ id = "fom-bg-work-npc-names-jobs"
 asset_kind = "L10nTarget"
 
 [asset_properties]
-"npcs/adeline/job" = "Градски водач"
+"npcs/adeline/job" = "Кмет"
 "npcs/adeline/name" = "Аделайн"
 "npcs/balor/job" = "Скитащ търговец"
 "npcs/balor/name" = "Балор"

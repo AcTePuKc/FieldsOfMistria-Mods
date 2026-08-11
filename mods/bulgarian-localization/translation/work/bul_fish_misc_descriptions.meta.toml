@@ -1,0 +1,19 @@
+[meta_properties]
+id = "fom-bg-work-fish-misc-descriptions"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/fish/misc/blue_conch_shell/description" = "Често срещана синя раковина."
+"items/fish/misc/clam/description" = "Често срещана находка, която се намира през всички сезони."
+"items/fish/misc/freshwater_oyster/description" = "Често срещана речна мида, която се намира през всички сезони."
+"items/fish/misc/newt/description" = "Често срещано земноводно, което се намира през всички сезони."
+"items/fish/misc/paper_pondshell/description" = "Често срещана езерна мида, която се намира през всички сезони."
+"items/fish/misc/pearl_clam/description" = "Често срещан морски мекотел, който се намира през всички сезони."
+"items/fish/misc/pink_scallop_shell/description" = "Често срещана раковина, която се намира на плажа."
+"items/fish/misc/sand_dollar/description" = "Често срещана раковина, която се намира на плажа."
+"items/fish/misc/seaweed/description" = "Често срещано растение, което расте през всички сезони."
+"items/fish/misc/spirula_shell/description" = "Често срещана раковина, която се намира на плажа."
+"items/fish/misc/treasure_box_copper/description" = "Необичаен меден сандък със съкровище. Отвори го, за да разбереш какво има вътре!"
+"items/fish/misc/treasure_box_gold/description" = "Много рядък златен сандък със съкровище. Отвори го, за да разбереш какво има вътре!"
+"items/fish/misc/treasure_box_silver/description" = "Рядък сребърен сандък със съкровище. Отвори го, за да разбереш какво има вътре!"
+"items/fish/misc/treasure_box_wood/description" = "Често срещан дървен сандък със съкровище. Отвори го, за да разбереш какво има вътре!"

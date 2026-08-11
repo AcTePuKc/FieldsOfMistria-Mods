@@ -1,0 +1,19 @@
+[meta_properties]
+id = "fom-bg-work-magic-consumables"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/other/misc/fairy_syrup/name" = "Сироп от феи"
+"items/other/misc/fairy_syrup/description" = "Този лечебен сироп дава бонус за деня, който те съживява веднъж при припадък. Има вкус на ягода."
+"items/other/misc/fast_food/name" = "Бърза храна"
+"items/other/misc/fast_food/description" = "Популярна нова закуска от Столицата. Увеличава скоростта ти с 5% за 6 часа. Може да се приема многократно до 300%."
+"items/other/misc/fire_snake_oil/name" = "Масло от огнена змия"
+"items/other/misc/fire_snake_oil/description" = "Омагьосва меча ти с огън за 6 часа."
+"items/other/misc/heal_syrup/name" = "Лечебен сироп"
+"items/other/misc/heal_syrup/description" = "Този лечебен сироп възстановява 100 точки здраве, когато го изпиеш. Има вкус на череша."
+"items/other/misc/heart_crystal/name" = "Сърдечен кристал"
+"items/other/misc/heart_crystal/description" = "Този светещ кристал излъчва усещане за сила. Усещаш желание да... го изядеш?"
+"items/other/misc/ice_snake_oil/name" = "Масло от ледена змия"
+"items/other/misc/ice_snake_oil/description" = "Омагьосва меча ти с лед за 6 часа."
+"items/other/misc/mana_potion/name" = "Отвара за мана"
+"items/other/misc/mana_potion/description" = "Тази отвара възстановява 1 кълбо мана, когато я изпиеш. Има вкус на боровинки."

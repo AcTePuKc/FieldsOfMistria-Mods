@@ -1,0 +1,17 @@
+[meta_properties]
+id = "fom-bg-work-story-quest-magic-key"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"quests/story_quests/find_the_magic_key/description" = "За да продължа по-навътре в Руините, трябва да намеря Магически ключ някъде в Покоите на жрицата."
+"quests/story_quests/find_the_magic_key/name" = "Намери Магическия ключ"
+"quests/story_quests/find_the_magic_key/stages/0/objective_description" = "Разгледай северозападната стая в Покоите на жрицата."
+"quests/story_quests/find_the_magic_key/stages/1/objective_description" = "Запали Драконовата ковачница в югозападната стая."
+"quests/story_quests/find_the_magic_key/stages/2/objective_description" = "Разгледай библиотеката."
+"quests/story_quests/find_the_magic_key/stages/3/objective_description" = "Поднеси храмово цвете и невен на Плочата на жрицата."
+"quests/story_quests/find_the_magic_key/stages/4/objective_description" = "Отгледай Семето на равновесието в Стаята с почва."
+"quests/story_quests/find_the_magic_key/stages/5/objective_description" = "Използвай Магическия ключ, за да отключиш вратата в Покоите на жрицата."
+"items/other/misc/magic_key/name" = "Магически ключ"
+"items/other/misc/magic_key/description" = "С този ключ можеш да отключиш пътя напред в Покоите на жрицата."
+"items/other/misc/seed_magic_key/name" = "Семе на равновесието"
+"items/other/misc/seed_magic_key/description" = "Това семе трябва да се засади в Стаята с почва в Покоите на жрицата."

@@ -1,0 +1,21 @@
+[meta_properties]
+id = "fom-bg-work-early-spring-seeds"
+asset_kind = "Translation"
+
+[asset_properties]
+"items/other/crops_and_forage/seed_cabbage/name" = "Семена от зеле"
+"items/other/crops_and_forage/seed_cabbage/description" = "Семена от зеле. Тази бавнорастяща пролетна култура се прибира само веднъж."
+"items/other/crops_and_forage/seed_carrot/name" = "Семена от моркови"
+"items/other/crops_and_forage/seed_carrot/description" = "Семена от моркови. Тази пролетна култура се прибира само веднъж."
+"items/other/crops_and_forage/seed_chickpea/name" = "Семена от нахут"
+"items/other/crops_and_forage/seed_chickpea/description" = "Семена от нахут. Тази пролетна култура може да се прибира на всеки 3 дни, след като узрее."
+"items/other/crops_and_forage/seed_daffodil/name" = "Семена от нарцис"
+"items/other/crops_and_forage/seed_daffodil/description" = "Семена от нарцис. Това бързорастящо пролетно цвете се прибира само веднъж."
+"items/other/crops_and_forage/seed_lilac/name" = "Семена от люляк"
+"items/other/crops_and_forage/seed_lilac/description" = "Семена от люляк. Това пролетно цвете може да се прибира на всеки 3 дни, след като узрее."
+"items/other/crops_and_forage/seed_peas/name" = "Семена от грах"
+"items/other/crops_and_forage/seed_peas/description" = "Семена от грах. Тази пролетна култура може да се прибира на всеки 3 дни, след като узрее."
+"items/other/crops_and_forage/seed_potato/name" = "Семена от картофи"
+"items/other/crops_and_forage/seed_potato/description" = "Семена от картофи. Тази популярна пролетна култура се прибира само веднъж."
+"items/other/crops_and_forage/seed_strawberry/name" = "Семена от ягоди"
+"items/other/crops_and_forage/seed_strawberry/description" = "Семена от ягоди. Тази пролетна култура може да се прибира на всеки 3 дни, след като узрее."

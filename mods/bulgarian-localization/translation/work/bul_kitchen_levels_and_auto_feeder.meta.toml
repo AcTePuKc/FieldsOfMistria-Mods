@@ -1,0 +1,13 @@
+[meta_properties]
+id = "fom-bg-work-kitchen-levels-and-auto-feeder"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/other/misc/adept_kitchen/name" = "Кухня ниво 3"
+"items/other/misc/adept_kitchen/description" = "Майсторска кухня за приготвяне на 1-5-звездни ястия. Подходяща е за нива на готвене от 0 до 40 и повече."
+"items/other/misc/auto_feeder/name" = "Автоматична хранилка"
+"items/other/misc/auto_feeder/description" = "Автоматична хранилка, която може да се поставя в големи плевни и курници. Сложи вътре годни за ядене предмети, за да се пълнят хранилките всяка сутрин със съответния по качество фураж."
+"items/other/misc/beginner_kitchen/name" = "Кухня ниво 1"
+"items/other/misc/beginner_kitchen/description" = "Проста кухня за приготвяне на 1-2-звездни ястия. Подходяща е за нива на готвене от 0 до 19."
+"items/other/misc/cozy_kitchen/name" = "Кухня ниво 2"
+"items/other/misc/cozy_kitchen/description" = "Средна кухня за приготвяне на 1-3-звездни ястия. Подходяща е за нива на готвене от 0 до 39."

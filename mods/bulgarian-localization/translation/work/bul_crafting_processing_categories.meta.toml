@@ -1,0 +1,21 @@
+[meta_properties]
+id = "fom-bg-work-crafting-processing-categories"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"ui/crafting/dragon_forging/categories/0/name" = "Мечове"
+"ui/crafting/dragon_forging/categories/0/sub_categories/0/name" = "Мечове"
+"ui/crafting/dragon_forging/categories/1/name" = "Материали"
+"ui/crafting/dragon_forging/categories/1/sub_categories/0/name" = "Материали"
+"ui/crafting/milling/categories/0/name" = "Храна за животни"
+"ui/crafting/milling/categories/0/sub_categories/0/name" = "Храна за животни"
+"ui/crafting/milling/categories/1/name" = "Животински продукти"
+"ui/crafting/milling/categories/1/sub_categories/0/name" = "Животински продукти"
+"ui/crafting/milling/categories/2/name" = "Смлени съставки"
+"ui/crafting/milling/categories/2/sub_categories/0/name" = "Смлени съставки"
+"ui/crafting/milling/categories/3/name" = "Разни"
+"ui/crafting/milling/categories/3/sub_categories/0/name" = "Разни"
+"ui/crafting/refining/categories/0/name" = "Камъни на есенцията"
+"ui/crafting/refining/categories/0/sub_categories/0/name" = "Камъни на есенцията"
+"ui/crafting/refining/categories/1/name" = "Материали"
+"ui/crafting/refining/categories/1/sub_categories/0/name" = "Материали"
