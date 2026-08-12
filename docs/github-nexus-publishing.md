@@ -8,23 +8,28 @@ artifact and SHA-256 file; it does not contact Nexus Mods. Download that
 artifact and upload it manually as version `0.1.0`. The package directory must
 be populated first at `mods/bulgarian-localization/package/`.
 
-The not-yet-active workflow template is stored at
-`docs/workflows/publish-nexus-from-release.yml.example`. Because it is not
-under `.github/workflows/`, GitHub Actions will not discover or run it.
-Activate it only after the first manual Nexus upload has created the target
-main file.
+After the first manual upload has created the target main file, the active
+`.github/workflows/publish-nexus-from-release.yml` workflow can publish future
+GitHub releases to Nexus Mods.
 
 ## Secrets used after the first Nexus file exists
 
 If GitHub Actions is enabled later, configure these as repository secrets:
 
 - `NEXUS_API_KEY`: the Nexus API key used by the upload action.
-- `NEXUS_BG_FILE_ID`: the v3 `mod_file` ID of the Bulgarian mod's existing main file.
-- `NEXUS_BG_MOD_ID`: the v3 internal Nexus mod ID used for the Bulgarian mod's changelog entries.
+- `NEXUS_FILE_ID`: the existing main file's **Group ID** from Nexus's API Info
+  dialog. The upload action retains the older `file_id` input name, although
+  Nexus now calls this value a Group ID.
+- `NEXUS_MOD_ID`: the numeric mod ID from the mod page URL. It is used to add
+  the Nexus changelog entry.
 
-These values have different meanings. `NEXUS_BG_FILE_ID` is not a replacement for `NEXUS_BG_MOD_ID`, and the older `NEXUS_FILE_GROUP_ID` must not be used with the current v3 upload action. A future mod receives its own namespaced pair, while `NEXUS_API_KEY` remains shared.
+These values have different meanings. `NEXUS_FILE_ID` is not a replacement for
+`NEXUS_MOD_ID`. A future mod receives its own pair, while `NEXUS_API_KEY`
+remains shared.
 
-The numeric ID in a Nexus mod URL is game-scoped. It can be used with the Nexus v3 API to resolve the internal mod ID and then list the mod files. The active main file's `id` is the value used for `NEXUS_FILE_ID`.
+The numeric ID in a Nexus mod URL is the value used for `NEXUS_MOD_ID`. Open
+the main file's **API Info** dialog in the Nexus Files tab and copy its Group
+ID as `NEXUS_FILE_ID`.
 
 ## Safe local lookup
 

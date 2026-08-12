@@ -15,22 +15,46 @@ function bulgarian_lvl_register() {
 
 function bulgarian_lvl_menu_opened(_ctx) {
     var _menu = _ctx.menu;
-    if (_menu == undefined || _menu[$ "type"] != Menu.Player) return;
+    if (_menu == undefined) return;
 
-    var _level_text = format(
-        "{Local} {}",
-        "misc_local/renown_lvl_insert",
-        renown_to_level(ARI.renown)
-    );
-
-    try {
-        bulgarian_lvl_find_and_replace(_menu.journal.left_body, _level_text);
-    } catch (_e) {
-        mmapi_warn_rate_limited(
-            "bulgarian_lvl.menu_opened",
-            "bulgarian_localization",
-            "Could not update the Player menu level label: " + string(_e)
+    if (_menu[$ "type"] == Menu.Player) {
+        var _level_text = format(
+            "{Local} {}",
+            "misc_local/renown_lvl_insert",
+            renown_to_level(ARI.renown)
         );
+
+        try {
+            bulgarian_lvl_find_and_replace(_menu.journal.left_body, _level_text);
+        } catch (_e) {
+            mmapi_warn_rate_limited(
+                "bulgarian_lvl.player_menu",
+                "bulgarian_localization",
+                "Could not update the Player menu level label: " + string(_e)
+            );
+        }
+        return;
+    }
+
+    if (_menu[$ "type"] == Menu.Crafting && _menu.book != undefined) {
+        try {
+            _menu.book.set_think_callback(function(_crafting_menu) {
+                // ui.menu_opened fires before CraftingMenu.initialize(). Wait until
+                // initialize has set the context, then apply this once and detach.
+                if (_crafting_menu.context == undefined) return;
+
+                if (_crafting_menu.context == RecipeContext.Cooking) {
+                    _crafting_menu.book.set_sprite(spr_ui_cooking_backplate_bul);
+                }
+                _crafting_menu.book.event_callbacks.think = undefined;
+            }, [_menu]);
+        } catch (_e) {
+            mmapi_warn_rate_limited(
+                "bulgarian_lvl.cooking_backplate",
+                "bulgarian_localization",
+                "Could not update the Cooking menu baked level label: " + string(_e)
+            );
+        }
     }
 }
 
