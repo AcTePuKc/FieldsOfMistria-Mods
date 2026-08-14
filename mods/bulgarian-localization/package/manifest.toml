@@ -1,5 +1,5 @@
 name = "Bulgarian Localization"
 author = "AcTePuKc"
-version = "0.1.1"
+version = "0.1.2"
 minInstallerVersion = "0.15.1"
 requires_hooks = ["ui.menu_opened"]

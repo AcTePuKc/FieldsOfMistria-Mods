@@ -1,0 +1,17 @@
+[meta_properties]
+id = "fom-bg-work-bugs-basics-5"
+asset_kind = "Translation"
+
+[asset_properties]
+"items/other/bugs/tiger_swallowtail_butterfly/name" = "Тигрова лястовича опашка"
+"items/other/bugs/tiger_swallowtail_butterfly/description" = "Необичайно насекомо, което се среща през деня през есента."
+"items/other/bugs/walking_leaf/name" = "Ходещо листо"
+"items/other/bugs/walking_leaf/description" = "Необичайно насекомо, което се среща през деня през есента. Понякога се намира при разтърсване на дървета."
+"items/other/bugs/walking_stick/name" = "Пръчица"
+"items/other/bugs/walking_stick/description" = "Необичайно насекомо, което се среща през зимата."
+"items/other/bugs/waterbug/name" = "Водна буболечка"
+"items/other/bugs/waterbug/description" = "Обикновено насекомо, което се среща на плажа през всички сезони."
+"items/other/bugs/windleaf_butterfly/name" = "Пеперуда ветрено листо"
+"items/other/bugs/windleaf_butterfly/description" = "Обикновено насекомо от Дълбоката гора. Умелият камуфлаж го кара да прилича на пърхащи листа."
+"items/other/bugs/winterpillar/name" = "Зимна гъсеница"
+"items/other/bugs/winterpillar/description" = "Обикновено насекомо, което се среща през зимата. Понякога се намира при разтърсване на дървета."

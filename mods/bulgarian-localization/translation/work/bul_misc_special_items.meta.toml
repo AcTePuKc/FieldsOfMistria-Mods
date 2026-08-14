@@ -1,0 +1,18 @@
+[meta_properties]
+id = "fom-bg-work-misc-special-items"
+asset_kind = "Translation"
+
+[asset_properties]
+"items/other/misc/baby_cradle/name" = "Бебешка люлка"
+"items/other/misc/baby_cradle/description" = "Сложи бебето си в тази люлка, когато е време да си почине."
+"items/other/misc/engagement_ring/name" = "Годежен пръстен"
+"items/other/misc/engagement_ring/description" = "Използвай този предмет, за да поговориш за бъдещето с романтичния си партньор, след като достигнете 10 сърца."
+"items/other/misc/engagement_ring_recipe_scroll/name" = "Свитък с рецепта за годежен пръстен"
+"items/other/misc/engagement_ring_recipe_scroll/description" = "Използвай този свитък, за да отключиш рецептата за изработка на годежен пръстен!"
+"items/other/misc/lopsided_animal/name" = "Криво плюшено животинче"
+"items/other/misc/lopsided_animal/description" = "Дори не е ясно какво животно трябва да е това."
+"items/other/misc/mini_museum_blueprint/description" = "Използвай този чертеж, за да поставиш строителна площадка за миниатюрен музей във фермата си! Необходими материали: 40 обработен камък, 40 твърдо дърво."
+"items/other/misc/mistril_star_trophy/name" = "Трофей „Мистрилова звезда“"
+"items/other/misc/mistril_star_trophy/description" = "Трофей в чест на постигането на градски ранг „Мистрилова звезда“!"
+"items/other/misc/mystical_feather/name" = "Мистично перо"
+"items/other/misc/mystical_feather/description" = "Използвай този предмет, за да поговориш за създаване на семейство със своя партньор."

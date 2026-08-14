@@ -3,7 +3,7 @@ id = "fom-bg-work-mistmare"
 asset_kind = "L10nTarget"
 
 [asset_properties]
-"ui/tutorials/mistmare/steps/0/text" = "Вече можеш да призоваваш Мъглокона, когато си на открито!"
-"ui/tutorials/mistmare/steps/1/text" = "Призови го с новия бутон на екрана си и го персонализирай от менюто за животни в дневника си."
-"ui/tutorials/mistmare/steps/2/text" = "Статуята на коня може да се използва за закупуване на подобрения за твоя Мъглокон."
+"ui/tutorials/mistmare/steps/0/text" = "Призовавай Мъглокона,\nкогато си на открито!"
+"ui/tutorials/mistmare/steps/1/text" = "Призови го от бутона на екрана\nи го настрой от дневника."
+"ui/tutorials/mistmare/steps/2/text" = "Купувай подобрения за Мъглокона\nот статуята на коня."
 "ui/tutorials/mistmare/title" = "Урок: Мъглокон"

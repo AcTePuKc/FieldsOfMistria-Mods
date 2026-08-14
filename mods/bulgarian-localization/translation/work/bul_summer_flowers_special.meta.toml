@@ -1,0 +1,21 @@
+[meta_properties]
+id = "fom-bg-work-summer-flowers-special"
+asset_kind = "Translation"
+
+[asset_properties]
+"items/other/crops_and_forage/catmint/name" = "Котешка мента"
+"items/other/crops_and_forage/catmint/description" = "Симпатично лилаво цвете, което расте през лятото. Подходящо е за подарък или за различни рецепти за изработка."
+"items/other/crops_and_forage/seed_catmint/name" = "Семена от котешка мента"
+"items/other/crops_and_forage/seed_catmint/description" = "Семена от котешка мента. Това лятно цвете се прибира веднъж."
+"items/other/crops_and_forage/cosmos/name" = "Космея"
+"items/other/crops_and_forage/cosmos/description" = "Наситеночервено цвете, което расте през лятото. Подходящо е за подарък или за различни рецепти за изработка."
+"items/other/crops_and_forage/seed_cosmos/name" = "Семена от космея"
+"items/other/crops_and_forage/seed_cosmos/description" = "Семена от космея. Това лятно цвете се прибира веднъж."
+"items/other/crops_and_forage/marigold/name" = "Турта"
+"items/other/crops_and_forage/marigold/description" = "Яркооранжево цвете, което расте през лятото. Подходящо е за подарък или за различни рецепти за изработка."
+"items/other/crops_and_forage/seed_marigold/name" = "Семена от турта"
+"items/other/crops_and_forage/seed_marigold/description" = "Семена от турта. Това лятно цвете се прибира веднъж."
+"items/other/crops_and_forage/night_queen/name" = "Царица на нощта"
+"items/other/crops_and_forage/night_queen/description" = "Красиво цвете, което расте през лятото. Подходящо е за подарък."
+"items/other/crops_and_forage/seed_night_queen/name" = "Семена от царица на нощта"
+"items/other/crops_and_forage/seed_night_queen/description" = "Семена от царица на нощта. Това лятно цвете се прибира веднъж."

@@ -5,6 +5,6 @@ asset_kind = "L10nTarget"
 [asset_properties]
 "ui/tutorials/lost_and_found/steps/0/text" = "Кутията за изгубени вещи се намира\nдо стълбите към града."
 "ui/tutorials/lost_and_found/steps/1/text" = "Предметите, оставени да лежат\nпо картата, се събират в кутията\nвсеки понеделник сутрин."
-"ui/tutorials/lost_and_found/steps/2/text" = "Това включва и предметите, оставени вътре в\nсградите из града."
-"ui/tutorials/lost_and_found/steps/3/text" = "Не забравяй да проверяваш всеки понеделник!\nМоже дори да те очакват\nнякои изненади."
+"ui/tutorials/lost_and_found/steps/2/text" = "Това важи и за вещи в сградите\nиз града."
+"ui/tutorials/lost_and_found/steps/3/text" = "Проверявай кутията всеки\nпонеделник — може да те чакат\nизненади!"
 "ui/tutorials/lost_and_found/title" = "Урок: Изгубени вещи"

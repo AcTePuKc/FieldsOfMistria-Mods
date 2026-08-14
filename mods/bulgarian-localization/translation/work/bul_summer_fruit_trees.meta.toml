@@ -1,0 +1,15 @@
+[meta_properties]
+id = "fom-bg-work-summer-fruit-trees"
+asset_kind = "Translation"
+
+[asset_properties]
+"items/other/crops_and_forage/coconut/name" = "Кокос"
+"items/other/crops_and_forage/coconut/description" = "Универсалният плод на кокосовото дърво, което ражда през лятото. Полезен е за много рецепти."
+"items/other/crops_and_forage/peach/name" = "Праскова"
+"items/other/crops_and_forage/peach/description" = "Нежният сладък плод на прасковеното дърво, което ражда през лятото. Използва се в различни рецепти."
+"items/other/crops_and_forage/pear/name" = "Круша"
+"items/other/crops_and_forage/pear/description" = "Сладкият сочен плод на крушовото дърво, което ражда през лятото. Използва се в различни рецепти."
+"items/other/crops_and_forage/sapling_peach/name" = "Прасковена фиданка"
+"items/other/crops_and_forage/sapling_peach/description" = "Фиданка от праскова. Може да се засади през всеки сезон, но ще ражда само през лятото."
+"items/other/crops_and_forage/sapling_pear/name" = "Крушова фиданка"
+"items/other/crops_and_forage/sapling_pear/description" = "Фиданка от круша. Може да се засади през всеки сезон, но ще ражда само през лятото."

@@ -1,0 +1,21 @@
+[meta_properties]
+id = "fom-bg-work-fruit-trees-basics"
+asset_kind = "Translation"
+
+[asset_properties]
+"items/other/crops_and_forage/apple/name" = "Ябълка"
+"items/other/crops_and_forage/apple/description" = "Вкусният плод на ябълковото дърво, което ражда през есента. Популярна съставка за много рецепти."
+"items/other/crops_and_forage/orange/name" = "Портокал"
+"items/other/crops_and_forage/orange/description" = "Цитрусовият плод на портокаловото дърво, което ражда през есента. Популярна съставка за много рецепти."
+"items/other/crops_and_forage/pomegranate/name" = "Нар"
+"items/other/crops_and_forage/pomegranate/description" = "Плодът със семена на наровото дърво, което ражда през зимата. Използва се в различни рецепти."
+"items/other/crops_and_forage/sapling_apple/name" = "Ябълкова фиданка"
+"items/other/crops_and_forage/sapling_apple/description" = "Фиданка от ябълка. Дървото може да се засади през всеки сезон, но ражда само през есента."
+"items/other/crops_and_forage/sapling_cherry/name" = "Черешова фиданка"
+"items/other/crops_and_forage/sapling_cherry/description" = "Фиданка от череша. Дървото може да се засади през всеки сезон, но ражда само през пролетта."
+"items/other/crops_and_forage/sapling_lemon/name" = "Лимонова фиданка"
+"items/other/crops_and_forage/sapling_lemon/description" = "Фиданка от лимон. Дървото може да се засади през всеки сезон, но ражда само през пролетта."
+"items/other/crops_and_forage/sapling_orange/name" = "Портокалова фиданка"
+"items/other/crops_and_forage/sapling_orange/description" = "Фиданка от портокал. Дървото може да се засади през всеки сезон, но ражда само през есента."
+"items/other/crops_and_forage/sapling_pomegranate/name" = "Нарова фиданка"
+"items/other/crops_and_forage/sapling_pomegranate/description" = "Фиданка от нар. Дървото може да се засади през всеки сезон, но ражда само през зимата."

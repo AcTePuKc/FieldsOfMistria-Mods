@@ -1,0 +1,19 @@
+[meta_properties]
+id = "fom-bg-work-fantasy-foraging-basics"
+asset_kind = "Translation"
+
+[asset_properties]
+"items/other/crops_and_forage/glowberry/name" = "Светеща ягода"
+"items/other/crops_and_forage/glowberry/description" = "Диво растение, което се намира през зимата. Има сладък вкус и свети естествено. Използва се за изработка и готвене."
+"items/other/crops_and_forage/middlemist/name" = "Мидълмист"
+"items/other/crops_and_forage/middlemist/description" = "Рядко и красиво червено цвете, което расте през пролетта. Подходящо е за подарък или за различни рецепти за изработка."
+"items/other/crops_and_forage/pineshroom/name" = "Борова гъба"
+"items/other/crops_and_forage/pineshroom/description" = "Дива гъба, която се намира през зимата. Сладка е с лек аромат на ванилия и често се използва в готвенето."
+"items/other/crops_and_forage/plum_blossom/name" = "Цвят от слива"
+"items/other/crops_and_forage/plum_blossom/description" = "Нежно розово цвете, което расте през зимата. Подходящо е за подарък или за различни рецепти за изработка."
+"items/other/crops_and_forage/snowdrop_anemone/name" = "Кокичева анемона"
+"items/other/crops_and_forage/snowdrop_anemone/description" = "Рядко и красиво цвете, което расте през пролетта. Може да се продаде, подари или използва в определени рецепти за изработка."
+"items/other/crops_and_forage/seed_snowdrop_anemone/name" = "Семена от кокичева анемона"
+"items/other/crops_and_forage/seed_snowdrop_anemone/description" = "Семена от кокичева анемона. Това пролетно цвете се прибира веднъж."
+"items/other/crops_and_forage/spirit_mushroom/name" = "Гъба на духовете"
+"items/other/crops_and_forage/spirit_mushroom/description" = "Дива гъба, която се намира през всички сезони. Расте сякаш само дълбоко в гората. Понякога се използва в готвенето."

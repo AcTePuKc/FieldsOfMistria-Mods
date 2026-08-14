@@ -1,0 +1,13 @@
+[meta_properties]
+id = "fom-bg-work-summer-flowers-basics"
+asset_kind = "Translation"
+
+[asset_properties]
+"items/other/crops_and_forage/daisy/name" = "Маргаритка"
+"items/other/crops_and_forage/daisy/description" = "Красиво бяло цвете, което расте през лятото. Може да се подари или да се използва в различни рецепти за изработка."
+"items/other/crops_and_forage/hydrangea/name" = "Хортензия"
+"items/other/crops_and_forage/hydrangea/description" = "Диво синьо цвете, което расте през лятото. Подходящо е за подарък."
+"items/other/crops_and_forage/iris/name" = "Ирис"
+"items/other/crops_and_forage/iris/description" = "Красиво синьо цвете, което расте през лятото. Подходящо е за подарък."
+"items/other/crops_and_forage/rose/name" = "Роза"
+"items/other/crops_and_forage/rose/description" = "Красиво червено цвете, което расте през лятото. Може да се подари или да се използва в различни рецепти за изработка."

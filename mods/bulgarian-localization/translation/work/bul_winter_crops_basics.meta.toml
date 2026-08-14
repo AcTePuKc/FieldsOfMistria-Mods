@@ -1,0 +1,21 @@
+[meta_properties]
+id = "fom-bg-work-winter-crops-basics"
+asset_kind = "Translation"
+
+[asset_properties]
+"items/other/crops_and_forage/beet/name" = "Цвекло"
+"items/other/crops_and_forage/beet/description" = "Бързорастяща зимна култура със силен земен вкус. Често се използва в готвенето."
+"items/other/crops_and_forage/seed_beet/name" = "Семена от цвекло"
+"items/other/crops_and_forage/seed_beet/description" = "Семена от цвекло. Тази бързорастяща зимна култура се прибира веднъж."
+"items/other/crops_and_forage/daikon_radish/name" = "Дайкон"
+"items/other/crops_and_forage/daikon_radish/description" = "Бавнорастяща зимна култура с леко сладък и пикантен вкус. Често се използва в готвенето."
+"items/other/crops_and_forage/seed_daikon_radish/name" = "Семена от дайкон"
+"items/other/crops_and_forage/seed_daikon_radish/description" = "Семена от дайкон. Тази бавнорастяща зимна култура се прибира веднъж."
+"items/other/crops_and_forage/frost_lily/name" = "Ледена лилия"
+"items/other/crops_and_forage/frost_lily/description" = "Омагьосващо бързорастящо зимно цвете. Може да се използва в рецепти за изработка."
+"items/other/crops_and_forage/seed_frost_lily/name" = "Семена от ледена лилия"
+"items/other/crops_and_forage/seed_frost_lily/description" = "Семена от ледена лилия. Това бързорастящо зимно цвете се прибира веднъж."
+"items/other/crops_and_forage/snow_peas/name" = "Захарен грах"
+"items/other/crops_and_forage/snow_peas/description" = "Зимна култура, която израства отново. Има много сладък вкус и често се използва в готвенето."
+"items/other/crops_and_forage/seed_snow_peas/name" = "Семена от захарен грах"
+"items/other/crops_and_forage/seed_snow_peas/description" = "Семена от захарен грах. Тази зимна култура се прибира на всеки 3 дни, след като узрее."

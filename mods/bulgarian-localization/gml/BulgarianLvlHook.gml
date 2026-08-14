@@ -11,6 +11,35 @@ function bulgarian_lvl_register() {
     _runtime.registered = true;
 
     mmapi_on("ui.menu_opened", bulgarian_lvl_menu_opened);
+    mmapi_register(bulgarian_lvl_backfill_pronouns);
+}
+
+// Compatibility for saves created before Bulgarian was installed. Adapted with
+// permission from XernPL's Polish localization compatibility hook.
+function bulgarian_lvl_backfill_pronouns() {
+    if (ARI == undefined || PRONOUNS == undefined) return;
+    if (!is_struct(ARI) || !struct_exists(ARI, "pronouns")) return;
+
+    var _saved = ARI.pronouns;
+    if (!is_struct(_saved) || struct_exists(_saved, "bul")) return;
+    if (!is_struct(PRONOUNS) || !struct_exists(PRONOUNS, "bul")) return;
+
+    var _bul = PRONOUNS[$ "bul"];
+    if (!is_struct(_bul)) return;
+
+    // Preserve the save's existing English profile where Bulgarian supports it.
+    var _choice = struct_exists(_saved, "eng") ? _saved[$ "eng"] : undefined;
+    if (!is_string(_choice) || !struct_exists(_bul, _choice)) {
+        var _defaults = default_pronouns();
+        _choice = is_struct(_defaults) && struct_exists(_defaults, "bul")
+            ? _defaults[$ "bul"]
+            : "they_them";
+    }
+
+    if (!struct_exists(_bul, _choice)) _choice = "they_them";
+    _saved[$ "bul"] = _choice;
+    local_set_pronouns(_saved);
+    mmapi_log_info("bulgarian_localization", "Added the missing Bulgarian pronoun profile to the loaded save state.");
 }
 
 function bulgarian_lvl_menu_opened(_ctx) {

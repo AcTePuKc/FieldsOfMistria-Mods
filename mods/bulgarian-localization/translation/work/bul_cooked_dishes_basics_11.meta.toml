@@ -1,0 +1,21 @@
+[meta_properties]
+id = "fom-bg-work-cooked-dishes-basics-11"
+asset_kind = "Translation"
+
+[asset_properties]
+"items/other/cooked_dishes/water_chestnut_fritters/name" = "Панирани водни кестени"
+"items/other/cooked_dishes/water_chestnut_fritters/description" = "Тези хрупкави водни кестени имат дебела пържена обвивка."
+"items/other/cooked_dishes/white_chocolate/name" = "Бял шоколад"
+"items/other/cooked_dishes/white_chocolate/description" = "Този бял шоколад е върхът на шоколадовото майсторство."
+"items/other/cooked_dishes/white_wine/name" = "Бяло вино"
+"items/other/cooked_dishes/white_wine/description" = "Сладко вино, което подхожда на много ястия."
+"items/other/cooked_dishes/wild_berry_jam/name" = "Сладко от диви плодове"
+"items/other/cooked_dishes/wild_berry_jam/description" = "Това плодово пролетно сладко е сладко и тръпчиво."
+"items/other/cooked_dishes/wildberry_pie/name" = "Пай с диви плодове"
+"items/other/cooked_dishes/wildberry_pie/description" = "Този вкусен плодов пай е направен с местни диви плодове."
+"items/other/cooked_dishes/wildberry_scone/name" = "Скон с диви плодове"
+"items/other/cooked_dishes/wildberry_scone/description" = "Този крехък скон е пълен със сладки диви плодове."
+"items/other/cooked_dishes/winter_stew/name" = "Зимна яхния"
+"items/other/cooked_dishes/winter_stew/description" = "Сгряваща яхния, пълна със зимни зеленчуци."
+"items/other/cooked_dishes/wintergreen_ice_cream/name" = "Сладолед с гоултерия"
+"items/other/cooked_dishes/wintergreen_ice_cream/description" = "Този сладолед е овкусен с гоултерия, което го прави още по-освежаващ."

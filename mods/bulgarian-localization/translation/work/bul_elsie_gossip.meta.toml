@@ -3,8 +3,8 @@ id = "fom-bg-work-elsie-gossip"
 asset_kind = "L10nTarget"
 
 [asset_properties]
-"ui/tutorials/elsie_gossip/steps/0/text" = "Веднъж дневно можеш да получиш подсказки за подаръци от Елси, като избереш „Клюки“."
-"ui/tutorials/elsie_gossip/steps/1/text" = "Тя ще ти даде избор от 3 жители, като ще посочи дали подсказката е за подарък, който жителят харесва или обича."
-"ui/tutorials/elsie_gossip/steps/2/text" = "Направи своя избор, за да разкриеш едно от предпочитанията на този жител за подаръци!"
-"ui/tutorials/elsie_gossip/steps/3/text" = "Подаръците от подсказките ще се появяват като избледнели икони на страниците на дневника на жителите, докато не бъдат подарени. (Обърни внимание на плътната икона на лале.)"
-"ui/tutorials/elsie_gossip/title" = "Урок: Клюките на Елси (Подсказки за подаръци)"
+"ui/tutorials/elsie_gossip/steps/0/text" = "Веднъж дневно избери „Клюки“\nпри Елси за подсказка за подарък."
+"ui/tutorials/elsie_gossip/steps/1/text" = "Избери един от 3 жители.\nЩе разбереш дали харесва\nили обича даден подарък."
+"ui/tutorials/elsie_gossip/steps/2/text" = "Изборът разкрива едно\nпредпочитание за подарък."
+"ui/tutorials/elsie_gossip/steps/3/text" = "Подсказаните подаръци се виждат\nкато избледнели икони в дневника,\nдокато не ги подариш."
+"ui/tutorials/elsie_gossip/title" = "Урок: Клюки на Елси"

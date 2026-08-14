@@ -3,6 +3,9 @@ id = "fom-bg-work-story-bro-favor-continuation"
 asset_kind = "L10nTarget"
 
 [asset_properties]
+"quests/story_quests/do_a_bro_a_favor/name" = "Услуга за приятел"
+"quests/story_quests/do_a_bro_a_favor/description" = "<he>Нов си</he><she>Нова си</she><they>Нови сте</they> в града! Забеляза ли, че Мистрия е пълна с камъни? Имам точния инструмент за тях. Твой е, ако ми направиш една услуга!\n\nЕла да поговорим за подробностите!"
+"quests/story_quests/do_a_bro_a_favor/stages/0/objective_description" = "Поговори с Олрик."
 "Cutscenes/Story Events/do_a_bro_a_favor/do_a_bro_a_favor/7" = "Напоследък помагам на малкия си брат Марч в семейната ни ковачница! Той е страхотен ковач, но... ъъ... как да го кажа... не се разбира особено с хората..."
 "Cutscenes/Story Events/do_a_bro_a_favor/do_a_bro_a_favor/8" = "Олрик, тук ли си? Трябва ми..."
 "Cutscenes/Story Events/do_a_bro_a_favor/do_a_bro_a_favor/9" = "А? Какво правиш тук?"

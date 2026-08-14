@@ -142,8 +142,8 @@ status = "working"
 "Priestess Quarters" = { bulgarian = "Покоите на жрицата", status = "approved for current work", notes = "Named story location. The explicit location key is The Priestess' Quarters and nearly all official localizations use singular." }
 "Dragon Forge" = { bulgarian = "Драконова ковачница", status = "approved for current work", notes = "Story crafting station; use the definite form Драконовата ковачница in objectives." }
 "Priestess Tablet" = { bulgarian = "Плоча на жрицата", status = "approved for current work", notes = "Story interactable; use Плочата на жрицата in the objective." }
-"Temple Flower" = { bulgarian = "храмово цвете", status = "approved for current work", notes = "Forage and story-quest flower; use the lowercase item form when grammar requires it." }
-"Marigold" = { bulgarian = "невен", status = "approved for current work", notes = "Summer flower and story-quest item." }
+"Temple Flower" = { bulgarian = "плумерия", status = "approved for current work", notes = "Forage and story-quest flower; French and Spanish identify the real-world species as plumeria." }
+"Marigold" = { bulgarian = "турта", status = "approved for current work", notes = "Summer flower and story-quest item; the game icon is Tagetes-like, not calendula." }
 "Seed of Balance" = { bulgarian = "Семе на равновесието", status = "approved for current work", notes = "Named story-quest seed." }
 "Field Room" = { bulgarian = "Стая с почва", status = "approved for current work", notes = "Named room in the Priestess Quarters; use Стаята с почва in objectives." }
 "Treasure Box" = { bulgarian = "сандък със съкровище", status = "approved for current work", notes = "Use for fishing treasure boxes; keep the material adjective before the noun." }
@@ -181,6 +181,140 @@ status = "working"
 "Blueprint" = { bulgarian = "чертеж за", status = "approved for current work", notes = "Use the item-name pattern Чертеж за [building]." }
 "Refined Stone" = { bulgarian = "обработен камък", status = "approved for current work", notes = "Construction material used by greenhouse blueprints." }
 "Hard Wood" = { bulgarian = "твърдо дърво", status = "approved for current work", notes = "Construction material used by greenhouse blueprints." }
+"Basil" = { bulgarian = "босилек", status = "approved for current work", notes = "Summer crop and cooking herb." }
+"Chili Pepper" = { bulgarian = "люта чушка", status = "approved for current work", notes = "Summer crop; keep the natural Bulgarian food name rather than a chili loanword." }
+"Corn" = { bulgarian = "царевица", status = "approved for current work", notes = "Summer crop." }
+"Cucumber" = { bulgarian = "краставица", status = "approved for current work", notes = "Summer crop." }
+"Dill" = { bulgarian = "копър", status = "approved for current work", notes = "Summer cooking herb; distinct from Fennel, translated as див копър." }
+"Oregano" = { bulgarian = "риган", status = "approved for current work", notes = "Summer cooking herb." }
+"Sage" = { bulgarian = "градински чай", status = "approved for current work", notes = "Summer cooking herb; avoid the ambiguous bare чай." }
+"Sugar Cane" = { bulgarian = "захарна тръстика", status = "approved for current work", notes = "Summer crop refined into sugar." }
+"Tea" = { bulgarian = "чай", status = "approved for current work", notes = "Regrowing summer crop used for drinks; seed item is Семена за чай." }
+"Thyme" = { bulgarian = "мащерка", status = "approved for current work", notes = "Summer crop." }
+"Tomato" = { bulgarian = "домат", status = "approved for current work", notes = "Summer crop." }
+"Watermelon" = { bulgarian = "диня", status = "approved for current work", notes = "Summer crop." }
+"Coconut" = { bulgarian = "кокос", status = "approved for current work", notes = "Summer fruit-tree crop." }
+"Peach" = { bulgarian = "праскова", status = "approved for current work", notes = "Summer fruit-tree crop; sapling name is Прасковена фиданка." }
+"Pear" = { bulgarian = "круша", status = "approved for current work", notes = "Summer fruit-tree crop; sapling name is Крушова фиданка." }
+"Daisy" = { bulgarian = "маргаритка", status = "approved for current work", notes = "Summer flower." }
+"Hydrangea" = { bulgarian = "хортензия", status = "approved for current work", notes = "Summer flower." }
+"Iris" = { bulgarian = "ирис", status = "approved for current work", notes = "Summer flower." }
+"Rose" = { bulgarian = "роза", status = "approved for current work", notes = "Summer flower." }
+"Catmint" = { bulgarian = "котешка мента", status = "approved for current work", notes = "Summer flower; not catnip as a generic pet product." }
+"Cosmos" = { bulgarian = "космея", status = "approved for current work", notes = "Summer flower; use the established Bulgarian flower name." }
+"Night Queen" = { bulgarian = "царица на нощта", status = "approved for current work", notes = "Summer flower; retain the evocative item name." }
+"Broccoli" = { bulgarian = "броколи", status = "approved for current work", notes = "Fall crop." }
+"Celosia" = { bulgarian = "целозия", status = "approved for current work", notes = "Pink fall flower; use the botanical Bulgarian name." }
+"Cranberry" = { bulgarian = "червена боровинка", status = "approved for current work", notes = "Fall crop; distinct from blueberry." }
+"Garlic" = { bulgarian = "чесън", status = "approved for current work", notes = "Fall crop." }
+"Onion" = { bulgarian = "лук", status = "approved for current work", notes = "Fall crop." }
+"Pumpkin" = { bulgarian = "тиква", status = "approved for current work", notes = "Fall crop." }
+"Sweet Potato" = { bulgarian = "сладък картоф", status = "approved for current work", notes = "Fall crop." }
+"Wheat" = { bulgarian = "пшеница", status = "approved for current work", notes = "Fall crop refined into flour." }
+"Beet" = { bulgarian = "цвекло", status = "approved for current work", notes = "Winter crop." }
+"Daikon Radish" = { bulgarian = "дайкон", status = "approved for current work", notes = "Winter crop; keep the familiar loanword rather than the literal Japanese radish." }
+"Frost Lily" = { bulgarian = "ледена лилия", status = "approved for current work", notes = "Fantasy winter flower." }
+"Snow Peas" = { bulgarian = "захарен грах", status = "approved for current work", notes = "Edible-pod pea; established Bulgarian food name." }
+"Apple" = { bulgarian = "ябълка", status = "approved for current work", notes = "Fall fruit-tree crop; sapling name is Ябълкова фиданка." }
+"Cherry" = { bulgarian = "череша", status = "approved for current work", notes = "Spring fruit-tree crop; sapling name is Черешова фиданка." }
+"Lemon" = { bulgarian = "лимон", status = "approved for current work", notes = "Spring fruit-tree crop; sapling name is Лимонова фиданка." }
+"Orange" = { bulgarian = "портокал", status = "approved for current work", notes = "Fall fruit-tree crop; sapling name is Портокалова фиданка." }
+"Pomegranate" = { bulgarian = "нар", status = "approved for current work", notes = "Winter fruit-tree crop; sapling name is Нарова фиданка." }
+"Blackberry" = { bulgarian = "къпина", status = "approved for current work", notes = "Fall forageable berry." }
+"Chestnut" = { bulgarian = "кестен", status = "approved for current work", notes = "Fall forageable nut." }
+"Chrysanthemum" = { bulgarian = "хризантема", status = "approved for current work", notes = "Dark-red fall flower." }
+"Fog Orchid" = { bulgarian = "мъглива орхидея", status = "approved for current work", notes = "Fall forageable fantasy flower." }
+"Heather" = { bulgarian = "калуна", status = "approved for current work", notes = "Fall forageable flower; use Калуна rather than the broader Пирен, whose season does not match the game item." }
+"Horseradish" = { bulgarian = "хрян", status = "approved for current work", notes = "Fall forageable cooking ingredient." }
+"Moon Fruit" = { bulgarian = "лунен плод", status = "approved for current work", notes = "Rare fall forageable fantasy fruit." }
+"Rosemary" = { bulgarian = "розмарин", status = "approved for current work", notes = "Fall cooking herb." }
+"Viola" = { bulgarian = "трицветна теменужка", status = "approved for current work", notes = "Yellow-purple fall flower; use the specific Bulgarian flower name." }
+"Wild Grapes" = { bulgarian = "диво грозде", status = "approved for current work", notes = "Summer forageable fruit." }
+"Burdock Root" = { bulgarian = "корен от репей", status = "approved for current work", notes = "Winter forageable cooking ingredient." }
+"Cattail Fluff" = { bulgarian = "пух от папур", status = "approved for current work", notes = "Crafting material from a cattail seed head." }
+"Crocus" = { bulgarian = "минзухар", status = "approved for current work", notes = "Winter forageable flower." }
+"Holly" = { bulgarian = "джел", status = "approved for current work", notes = "Winter forageable plant; use the Bulgarian plant name." }
+"Ice Block" = { bulgarian = "леден блок", status = "approved for current work", notes = "Forageable cooking material." }
+"Jasmine" = { bulgarian = "жасмин", status = "approved for current work", notes = "Winter forageable flower." }
+"Oyster Mushroom" = { bulgarian = "кладница", status = "approved for current work", notes = "Winter forageable mushroom." }
+"Poinsettia" = { bulgarian = "коледна звезда", status = "approved for current work", notes = "Winter flower; use the common Bulgarian name." }
+"Rose Hip" = { bulgarian = "шипка", status = "approved for current work", notes = "Winter forageable fruit." }
+"Snapdragon" = { bulgarian = "кученце", status = "approved for current work", notes = "Winter forageable flower; common Bulgarian name." }
+"Acorn" = { bulgarian = "жълъд", status = "approved for current work", notes = "Oak nut used in cooking and crafting." }
+"Bell Berry" = { bulgarian = "камбанкова ягода", status = "provisional", notes = "Mistria-only fantasy fruit; translate its bell-shaped appearance rather than inventing a real species." }
+"Pinecone" = { bulgarian = "шишарка", status = "approved for current work", notes = "Pine seed cone used in crafting." }
+"Sesame" = { bulgarian = "сусам", status = "approved for current work", notes = "Summer forageable cooking ingredient." }
+"Sunflower" = { bulgarian = "слънчоглед", status = "approved for current work", notes = "Summer flower; seed item is Семена от слънчоглед." }
+"Thorn Vine" = { bulgarian = "бодлива лоза", status = "approved for current work", notes = "All-season forageable plant." }
+"Walnut" = { bulgarian = "орех", status = "approved for current work", notes = "All-season forageable nut." }
+"Water Chestnut" = { bulgarian = "воден кестен", status = "approved for current work", notes = "Invasive cooking ingredient; do not confuse with chestnut." }
+"Wintergreen Berry" = { bulgarian = "плод на гоултерия", status = "approved for current work", notes = "Winter forageable fruit; use the plant name гоултерия." }
+"Glowberry" = { bulgarian = "светеща ягода", status = "approved for current work", notes = "Fantasy winter forageable berry that naturally glows." }
+"Middlemist" = { bulgarian = "Мидълмист", status = "approved for current work", notes = "Proper name of a rare red camellia; do not translate it as mist." }
+"Pineshroom" = { bulgarian = "борова гъба", status = "approved for current work", notes = "Winter mushroom; translate the pine/mushroom compound naturally." }
+"Plum Blossom" = { bulgarian = "цвят от слива", status = "approved for current work", notes = "Winter flower; use the blossom form rather than the fruit." }
+"Snowdrop Anemone" = { bulgarian = "кокичева анемона", status = "provisional", notes = "Spring flower; literal compound retained until in-game visual QA." }
+"Spirit Mushroom" = { bulgarian = "гъба на духовете", status = "approved for current work", notes = "All-season fantasy mushroom." }
+"Cauliflower" = { bulgarian = "карфиол", status = "approved for current work", notes = "Winter crop." }
+"Rice Stalk" = { bulgarian = "оризово стъбло", status = "approved for current work", notes = "Fall crop refined into rice." }
+"Tulip" = { bulgarian = "лале", status = "approved for current work", notes = "Spring flower; seed item is Семена от лале." }
+"Magic Seed" = { bulgarian = "вълшебно семе", status = "approved for current work", notes = "Mystery seed bag item." }
+"Wood" = { bulgarian = "дърво", status = "approved for current work", notes = "Basic cut-wood crafting material." }
+"Chocolate" = { bulgarian = "шоколад", status = "approved for current work", notes = "Cooking ingredient." }
+"Clay" = { bulgarian = "глина", status = "approved for current work", notes = "Crafting material." }
+"Curry Powder" = { bulgarian = "къри на прах", status = "approved for current work", notes = "Cooking spice blend." }
+"Fiber" = { bulgarian = "влакна", status = "approved for current work", notes = "Plant-based crafting material." }
+"Glass" = { bulgarian = "стъкло", status = "approved for current work", notes = "Naturally formed crafting material." }
+"Grass Seed" = { bulgarian = "фураж", status = "approved for current work", notes = "Basic feed for small animals; keep the item name short because it appears in recipes." }
+"Hay" = { bulgarian = "сено", status = "approved for current work", notes = "Feed for large animals." }
+"Honey" = { bulgarian = "мед", status = "approved for current work", notes = "Cooking ingredient." }
+"Oil" = { bulgarian = "олио", status = "approved for current work", notes = "Vegetable oil for cooking and crafting." }
+"Copper Ore" = { bulgarian = "медна руда", status = "approved for current work", notes = "Mine ore refined into ingots." }
+"Gold Ore" = { bulgarian = "златна руда", status = "approved for current work", notes = "Mine ore refined into ingots." }
+"Iron Ore" = { bulgarian = "желязна руда", status = "approved for current work", notes = "Mine ore refined into ingots." }
+"Mistril Ore" = { bulgarian = "мистрилова руда", status = "approved for current work", notes = "Mine ore refined into ingots." }
+"Silver Ore" = { bulgarian = "сребърна руда", status = "approved for current work", notes = "Mine ore refined into ingots." }
+"Stone" = { bulgarian = "камък", status = "approved for current work", notes = "Basic crafting material." }
+"Peat" = { bulgarian = "торф", status = "approved for current work", notes = "Compressed organic crafting material." }
+"Rock Salt" = { bulgarian = "каменна сол", status = "approved for current work", notes = "Cooking ingredient." }
+"Shards" = { bulgarian = "отломки", status = "approved for current work", notes = "Unknown-artifact crafting material." }
+"Shard Mass" = { bulgarian = "купчина отломки", status = "approved for current work", notes = "Large unknown-artifact crafting material." }
+"Sod" = { bulgarian = "чим", status = "approved for current work", notes = "Cut turf square used in crafting." }
+"Soy Sauce" = { bulgarian = "соев сос", status = "approved for current work", notes = "Cooking condiment." }
+"Void Cake" = { bulgarian = "сладкиш от Бездната", status = "approved for current work", notes = "Special Eiland gift item." }
+"Void Newt" = { bulgarian = "тритон от Бездната", status = "approved for current work", notes = "Special Juniper gift item." }
+"Royal Chest" = { bulgarian = "кралски сандък", status = "approved for current work", notes = "Extra-large storage chest; color remains in the description." }
+"Tablet Rubbing" = { bulgarian = "претривка от плоча", status = "approved for current work", notes = "Archaeological paper rubbing; use Земна/Огнена/Водна or от руините as context requires." }
+"Alpaca Wool" = { bulgarian = "алпакова вълна", status = "approved for current work" }
+"Animal Treat" = { bulgarian = "лакомство за животни", status = "approved for current work" }
+"Bristle" = { bulgarian = "четина", status = "approved for current work" }
+"Bull Horn" = { bulgarian = "бичи рог", status = "approved for current work" }
+"Horse Hair" = { bulgarian = "конски косъм", status = "approved for current work" }
+"Rabbit Wool" = { bulgarian = "заешка вълна", status = "approved for current work" }
+"Sheep Wool" = { bulgarian = "овча вълна", status = "approved for current work" }
+"Shiny Bead" = { bulgarian = "блестящо мънисто", status = "approved for current work", notes = "Ranching currency item." }
+"Alda" = { bulgarian = "Алда", status = "approved for current work", notes = "Use Алдийски for historical items and people; keep distinct from Алдария." }
+"Aldarian" = { bulgarian = "алдарийски", status = "approved for current work" }
+"Caldosian" = { bulgarian = "калдосиански", status = "approved for current work" }
+"Perfect" = { bulgarian = "безупречен", status = "approved for current work", notes = "Artifact-quality prefix; inflect for the item gender." }
+"Ritual" = { bulgarian = "ритуален", status = "approved for current work", notes = "Inflect for the item gender." }
+"Vintage" = { bulgarian = "старовременен", status = "approved for current work", notes = "Artifact prefix; avoids anachronistic modern wording." }
+"Plushie" = { bulgarian = "плюшен", status = "approved for current work", notes = "Inflect for the animal/item gender." }
+"Queen Berry" = { bulgarian = "кралска ягода", status = "approved for current work", notes = "Festival berry; do not generalize it to плод." }
+"Sweetroot" = { bulgarian = "сладък корен", status = "approved for current work", notes = "Fantasy root vegetable used in cooking; inflect as needed." }
+"Earthshroom" = { bulgarian = "земна гъба", status = "approved for current work", notes = "Fantasy mushroom used in cooking; inflect as needed." }
+"Crystal Berry" = { bulgarian = "кристална ягода", status = "approved for current work", notes = "Fantasy berry used in cooking; inflect as needed." }
+"Spell Fruit" = { bulgarian = "магически плод", status = "approved for current work", notes = "Rare magical mine fruit; use consistently in items, quests, and dialogue." }
+"Clod" = { bulgarian = "буца", status = "provisional", notes = "Mine-monster family: каменна/рудна/сребърна буца as context requires." }
+"Essence Bat" = { bulgarian = "есенциален прилеп", status = "provisional", notes = "Mine monster; use the same form for pet skins and related furniture." }
+"Flame Spirit" = { bulgarian = "огнен дух", status = "provisional", notes = "Mine monster and pet-skin name." }
+"Flying Tome" = { bulgarian = "летящ том", status = "provisional", notes = "Mine monster and pet-skin name." }
+"Gryphon Statue" = { bulgarian = "статуя на грифон", status = "provisional", notes = "Mine monster and historical-furniture subject." }
+"Lava Cat" = { bulgarian = "лавова котка", status = "provisional", notes = "Mine monster and pet-skin name." }
+"Mimic" = { bulgarian = "мимик", status = "provisional", notes = "Treasure-chest monster; masculine grammatical gender." }
+"Rock Stack" = { bulgarian = "каменна купчина", status = "provisional", notes = "Mine monster and pet-skin name." }
+"Stalagmite" = { bulgarian = "сталагмит", status = "provisional", notes = "Mine monster and pet-skin name." }
+"Void Cat" = { bulgarian = "котка на Пустотата", status = "provisional", notes = "Mine monster; capitalize Пустотата as the named realm." }
 
 [names]
 "Adeline" = { bulgarian = "Аделайн", status = "approved for current work" }

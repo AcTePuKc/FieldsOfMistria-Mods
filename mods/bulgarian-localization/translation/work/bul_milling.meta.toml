@@ -3,8 +3,8 @@ id = "fom-bg-work-milling"
 asset_kind = "L10nTarget"
 
 [asset_properties]
-"ui/tutorials/milling/steps/0/text" = "Стъпка 1:\nОтвори менюто за мелене, като взаимодействаш\nсъс станцията за мелене."
-"ui/tutorials/milling/steps/1/text" = "Стъпка 2:\nИзбери какво искаш да изработиш от\nлявата страна на менюто."
-"ui/tutorials/milling/steps/2/text" = "Стъпка 3:\nНеобходимите съставки и време са\nотдясно."
-"ui/tutorials/milling/steps/3/text" = "Стъпка 4:\nИзбери „ОК“, за да изработиш предмета!"
+"ui/tutorials/milling/steps/0/text" = "Отвори менюто за мелене\nот мелницата."
+"ui/tutorials/milling/steps/1/text" = "Избери предмет отляво\nв менюто за мелене."
+"ui/tutorials/milling/steps/2/text" = "Съставките и времето\nса вдясно."
+"ui/tutorials/milling/steps/3/text" = "Избери „ОК“, за да изработиш!"
 "ui/tutorials/milling/title" = "Урок: Мелене"

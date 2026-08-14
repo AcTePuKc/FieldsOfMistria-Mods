@@ -3,6 +3,6 @@ id = "fom-bg-work-lava-caves"
 asset_kind = "L10nTarget"
 
 [asset_properties]
-"ui/tutorials/lava_caves/steps/0/text" = "В този район понякога ще се натъкваш на лавови басейни."
-"ui/tutorials/lava_caves/steps/1/text" = "Използвай лейката или заклинанието за дъжд, за да преминеш през тях!"
+"ui/tutorials/lava_caves/steps/0/text" = "Ще срещаш лавови басейни\nв този район."
+"ui/tutorials/lava_caves/steps/1/text" = "За да минеш, използвай\nлейка или заклинание за дъжд!"
 "ui/tutorials/lava_caves/title" = "Урок: Лавови пещери"

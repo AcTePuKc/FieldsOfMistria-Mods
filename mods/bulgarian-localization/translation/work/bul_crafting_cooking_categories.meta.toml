@@ -3,7 +3,7 @@ id = "fom-bg-work-crafting-cooking-categories"
 asset_kind = "L10nTarget"
 
 [asset_properties]
-"ui/crafting/cooking/categories/0/name" = "Килер"
+"ui/crafting/cooking/categories/0/name" = "Храни"
 "ui/crafting/cooking/categories/0/sub_categories/0/name" = "Млечни продукти"
 "ui/crafting/cooking/categories/0/sub_categories/1/name" = "Сладки"
 "ui/crafting/cooking/categories/0/sub_categories/2/name" = "Сосове и подправки"

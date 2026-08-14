@@ -3,8 +3,8 @@ id = "fom-bg-work-spring-festival"
 asset_kind = "L10nTarget"
 
 [asset_properties]
-"ui/tutorials/spring_festival/steps/0/text" = "Цветя „Пролетен дъх“ могат да се получат\nкато бонус предмет при извършване на\nразлични дейности."
-"ui/tutorials/spring_festival/steps/1/text" = "Тези дейности включват земеделие,\nриболов, копаене и други!"
-"ui/tutorials/spring_festival/steps/2/text" = "Опитай се да събереш колкото можеш повече до\nПролетния фестивал на 17-и!"
-"ui/tutorials/spring_festival/steps/3/text" = "Колкото повече събереш, толкова по-добри ще бъдат\nнаградите, украсите и стоките на фестивалните\nсергии!"
+"ui/tutorials/spring_festival/steps/0/text" = "Цветя „Пролетен дъх“ се намират\nкато бонус от различни дейности."
+"ui/tutorials/spring_festival/steps/1/text" = "Земеделие, риболов, копаене\nи още много!"
+"ui/tutorials/spring_festival/steps/2/text" = "Събери колкото можеш повече\nдо Пролетния фестивал на 17-и!"
+"ui/tutorials/spring_festival/steps/3/text" = "Повече цветя носят по-добри\nнагради, украси и стоки\nна фестивалните сергии!"
 "ui/tutorials/spring_festival/title" = "Урок: Пролетен дъх"

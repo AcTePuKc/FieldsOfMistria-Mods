@@ -1,0 +1,18 @@
+[meta_properties]
+id = "fom-bg-work-misc-royal-chests"
+asset_kind = "Translation"
+
+[asset_properties]
+"items/other/misc/royal_chest_blue/name" = "Кралски сандък"
+"items/other/misc/royal_chest_blue/description" = "Син кралски сандък с изключително голям капацитет за съхранение."
+"items/other/misc/royal_chest_dark_wood/name" = "Кралски сандък"
+"items/other/misc/royal_chest_dark_wood/description" = "Кралски сандък от тъмно дърво с изключително голям капацитет за съхранение."
+"items/other/misc/royal_chest_green/name" = "Кралски сандък"
+"items/other/misc/royal_chest_green/description" = "Зелен кралски сандък с изключително голям капацитет за съхранение."
+"items/other/misc/royal_chest_purple/name" = "Кралски сандък"
+"items/other/misc/royal_chest_purple/description" = "Лилав кралски сандък с изключително голям капацитет за съхранение."
+"items/other/misc/royal_chest_red/name" = "Кралски сандък"
+"items/other/misc/royal_chest_red/description" = "Червен кралски сандък с изключително голям капацитет за съхранение."
+"items/other/misc/royal_chest_wood/name" = "Кралски сандък"
+"items/other/misc/royal_chest_wood/description" = "Дървен кралски сандък с изключително голям капацитет за съхранение."
+"items/other/misc/ruins_tablet_rubbing/name" = "Претривка от плоча от руините"
