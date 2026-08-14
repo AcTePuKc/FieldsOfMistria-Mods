@@ -20,8 +20,9 @@ If GitHub Actions is enabled later, configure these as repository secrets:
 - `NEXUS_FILE_ID`: the existing main file's **Group ID** from Nexus's API Info
   dialog. The upload action retains the older `file_id` input name, although
   Nexus now calls this value a Group ID.
-- `NEXUS_MOD_ID`: the numeric mod ID from the mod page URL. It is used to add
-  the Nexus changelog entry.
+- `NEXUS_MOD_ID`: the numeric mod-page ID from the mod page URL. The workflow
+  resolves Nexus's separate internal mod ID automatically before adding the
+  changelog entry.
 
 These values have different meanings. `NEXUS_FILE_ID` is not a replacement for
 `NEXUS_MOD_ID`. A future mod receives its own pair, while `NEXUS_API_KEY`

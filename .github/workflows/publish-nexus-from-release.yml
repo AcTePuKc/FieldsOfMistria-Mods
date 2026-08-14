@@ -85,6 +85,24 @@ jobs:
 
           "asset_path=$($archives[0].FullName)" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
 
+      - name: Resolve Nexus internal mod ID
+        id: nexus_mod
+        shell: pwsh
+        env:
+          NEXUS_API_KEY: ${{ secrets.NEXUS_API_KEY }}
+          NEXUS_MOD_PAGE_ID: ${{ secrets.NEXUS_MOD_ID }}
+        run: |
+          $headers = @{
+            apikey = $env:NEXUS_API_KEY
+            "User-Agent" = "FieldsOfMistriaBulgarian-release-workflow"
+          }
+          $uri = "https://api.nexusmods.com/v3/games/fieldsofmistria/mods/$($env:NEXUS_MOD_PAGE_ID)"
+          $mod = Invoke-RestMethod -Uri $uri -Headers $headers
+          if ([string]::IsNullOrWhiteSpace([string]$mod.id)) {
+            throw "Nexus did not return an internal mod ID for page ID '$($env:NEXUS_MOD_PAGE_ID)'."
+          }
+          "mod_id=$($mod.id)" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+
       - name: Publish to Nexus Mods
         uses: Nexus-Mods/upload-action@v1.0.0-beta.10
         with:
@@ -92,7 +110,7 @@ jobs:
           # Nexus calls this the Group ID in its UI; the action keeps the older
           # input name file_id. Both refer to the existing file update chain.
           file_id: ${{ secrets.NEXUS_FILE_ID }}
-          mod_id: ${{ secrets.NEXUS_MOD_ID }}
+          mod_id: ${{ steps.nexus_mod.outputs.mod_id }}
           filename: ${{ steps.download.outputs.asset_path }}
           version: ${{ steps.release.outputs.version }}
           changelog: ${{ steps.release.outputs.changelog }}
