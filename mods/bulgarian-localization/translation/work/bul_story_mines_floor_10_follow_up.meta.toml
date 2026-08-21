@@ -1,0 +1,19 @@
+[meta_properties]
+id = "fom-bg-work-story-mines-floor-10-follow-up"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/floor_10/mines_floor_ten/init" = "Тих шепот разкъсва тишината..."
+"Conversations/floor_10/mines_floor_ten/1" = "^<he>Герою</he><she>Героиньо</she><they>Герои</they>... Помогни...^"
+"Conversations/Bank/Caldarus/Statue Lines/cutscene_follow_up/floor_10_follow_up/init" = "Глас в Мините?"
+"Conversations/Bank/Caldarus/Statue Lines/cutscene_follow_up/floor_10_follow_up/1" = "Спомням си, че хората някога са отправяли молитви и над, и под земята..."
+"Conversations/Bank/Caldarus/Statue Lines/cutscene_follow_up/floor_10_follow_up/2" = "Но... това е било отдавна, а човешкият живот е кратък."
+"Conversations/floor_10/floor_10_follow_up_eiland/init" = "Здравей, [Ari], какво те води насам? Още нямам новини за онази втора драконова статуя."
+"Conversations/floor_10/floor_10_follow_up_eiland/1" = "Искаш да разбереш историята на Мините?"
+"Conversations/floor_10/floor_10_follow_up_eiland/2" = "Не знаем много, но има доказателства, че предалдарийско общество някога е използвало подземните зали за културни и религиозни дейности."
+"Conversations/floor_10/floor_10_follow_up_eiland/3" = "Предалдарийско, преди Алда — произходът му вероятно предхожда дори управлението на Вещерските кралици."
+"Conversations/floor_10/floor_10_follow_up_eiland/4" = "Сигурно още има неоткрити артефакти, които ще разкрият повече за тях."
+"Conversations/floor_10/floor_10_follow_up_errol/init" = "Глас... в Мините?"
+"Conversations/floor_10/floor_10_follow_up_errol/1" = "..."
+"Conversations/floor_10/floor_10_follow_up_errol/2" = "Казвам ти, от земетресението насам там се случват зловещи неща."
+"Conversations/floor_10/floor_10_follow_up_errol/3" = "Радвам се, че има някой смел, който да проучи това."

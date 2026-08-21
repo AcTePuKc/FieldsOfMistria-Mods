@@ -1,0 +1,14 @@
+[meta_properties]
+id = "fom-bg-work-story-mines-post-earth-seal"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Cutscenes/Story Events/Mines/post_earth_seal/post_earth_seal/init" = "Ела тук, [Ari]. Имам нещо да ти кажа."
+"Cutscenes/Story Events/Mines/post_earth_seal/post_earth_seal/1" = "$Печатът на земята$ е разбит. Дължа ти искрени благодарности."
+"Cutscenes/Story Events/Mines/post_earth_seal/post_earth_seal/2" = "Ще ти дам $Растеж$. Ще можеш да използваш това $заклинание$ от $Дневника$ си. С него можеш да $отгледаш мигновено растения в зона 3x3$. Използвай го разумно."
+"Cutscenes/Story Events/Mines/post_earth_seal/post_earth_seal/3" = "Някои спомени се завръщат..."
+"Cutscenes/Story Events/Mines/post_earth_seal/post_earth_seal/4" = "$Портата между световете$ някога е била пазена от $Драконовите жрици$."
+"Cutscenes/Story Events/Mines/post_earth_seal/post_earth_seal/5" = "Преди еони драконите са донесли магията в тази земя през тази порта."
+"Cutscenes/Story Events/Mines/post_earth_seal/post_earth_seal/6" = "Връзката ни с човечеството е била взаимноизгодна, но портата сигурно е била затворена в някакъв момент. Защо и от кого?"
+"Cutscenes/Story Events/Mines/post_earth_seal/post_earth_seal/7" = "Там паметта ми се губи, [Ari]."
+"Cutscenes/Story Events/Mines/post_earth_seal/post_earth_seal/8" = "Остават три печата. Поверявам ти задачата да ги разбиеш."

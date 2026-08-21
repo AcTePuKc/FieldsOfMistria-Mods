@@ -1,0 +1,13 @@
+[meta_properties]
+id = "fom-bg-work-story-small-events"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Cutscenes/Story Events/birth/ari_birth/init" = "[Ari], какво има? Бебето идва!? Да те заведем в Клиниката!"
+"Cutscenes/Story Events/birth/spouse_birth/init" = "[Ari], събуди се, бебето идва! Можеш ли да ми помогнеш да стигна до Клиниката?"
+"Cutscenes/Story Events/birth/stork_birth/init" = "[Ari], чуваш ли това?"
+"Cutscenes/Story Events/pet_arrival/pet_arrival/init" = "Колко странно! Изглежда [pet_type] е решил да живее с теб!"
+"Cutscenes/Story Events/pet_arrival/pet_arrival/1" = "По някаква причина вече знаеш, че се казва [pet_name]."
+"Cutscenes/Story Events/pet_dream/pet_dream/init" = "Сънуваш $познато присъствие$..."
+"Cutscenes/Story Events/pet_dream/pet_dream/1" = "Съсредоточаваш се и започва да се оформя образ..."
+"Cutscenes/Story Events/pet_dream/pet_dream/2" = "Какъв хубав сън..."

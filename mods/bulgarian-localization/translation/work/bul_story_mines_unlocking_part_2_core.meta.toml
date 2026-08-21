@@ -1,0 +1,23 @@
+[meta_properties]
+id = "fom-bg-work-story-mines-unlocking-part-2-core"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Cutscenes/Story Events/Mines/unlocking_the_mines_pt_2/unlocking_the_mines_pt_2/init" = "[Ari]! Какъв радостен ден! Повишаването на Ранга на града на Мистрия показва, че сме на прав път."
+"Cutscenes/Story Events/Mines/unlocking_the_mines_pt_2/unlocking_the_mines_pt_2/1" = "Само си помислете... ако оставим Мините затворени, можем да насочим усилията си към други градски начинания—"
+"Cutscenes/Story Events/Mines/unlocking_the_mines_pt_2/unlocking_the_mines_pt_2/2" = "Ерол, и двамата знаем, че градът няма да продължи да се развива без надежден източник на камък и руда. А новите артефакти за музея също ще са от голяма полза!"
+"Cutscenes/Story Events/Mines/unlocking_the_mines_pt_2/unlocking_the_mines_pt_2/3" = "Виждам, че няма да ви разубедя и двамата."
+"Cutscenes/Story Events/Mines/unlocking_the_mines_pt_2/unlocking_the_mines_pt_2/4" = "Добре, добре. Ще продължим с повторното отваряне."
+"Cutscenes/Story Events/Mines/unlocking_the_mines_pt_2/unlocking_the_mines_pt_2/5" = "Внимавай, [Ari]. Земетресението е разкрило неизследвани пещерни проходи под Мините."
+"Cutscenes/Story Events/Mines/unlocking_the_mines_pt_2/unlocking_the_mines_pt_2/6" = "Вярвам, че ще се справиш с всичко, което се крие долу. Бъди нащрек."
+"Cutscenes/Story Events/Mines/unlocking_the_mines_pt_2/unlocking_the_mines_pt_2/7" = "За Мистрия!"
+"Cutscenes/Story Events/Mines/unlocking_the_mines_pt_2/unlocking_the_mines_pt_2/8" = "Успех. Ще направя каквото мога, за да помагам и на двама ви с находките в музея."
+"Cutscenes/Story Events/Mines/unlocking_the_mines_pt_2/unlocking_the_mines_pt_2/9" = "Главната шахта е срутена, затова ще трябва да слезеш по стълбата."
+"Cutscenes/Story Events/Mines/unlocking_the_mines_pt_2/unlocking_the_mines_pt_2/10" = "$Асансьорът$ не работи, но Ерол смята, че ако преоткриеш $асансьорните платформи$ по-надолу, ще може да бъде пуснат отново."
+"Cutscenes/Story Events/Mines/unlocking_the_mines_pt_2/unlocking_the_mines_pt_2/11" = "Невероятно! ОЩЕ една статуя на дракон?! Тук я нямаше преди земетресението!"
+"Cutscenes/Story Events/Mines/unlocking_the_mines_pt_2/unlocking_the_mines_pt_2/11/prompts/0" = "Прилича на статуята във фермата ми!"
+"Cutscenes/Story Events/Mines/unlocking_the_mines_pt_2/unlocking_the_mines_pt_2/11/prompts/1" = "Още една изумителна находка на [Ari]!"
+"Cutscenes/Story Events/Mines/unlocking_the_mines_pt_2/unlocking_the_mines_pt_2/12" = "Хаха, явно и теб те е ухапала археоложката буболечка!"
+"Cutscenes/Story Events/Mines/unlocking_the_mines_pt_2/unlocking_the_mines_pt_2/13" = "Трябва да се посъветвам с Ерол и да започна щателно проучване на историята на Мините. Трудно е да повярвам, че няма нито един запис за тази статуя."
+"Cutscenes/Story Events/Mines/unlocking_the_mines_pt_2/unlocking_the_mines_pt_2/14" = "Не ми се иска да си тръгвам толкова скоро, но това е от огромно археологическо значение. Ще се оправиш ли, [Ari]?"
+"Cutscenes/Story Events/Mines/unlocking_the_mines_pt_2/unlocking_the_mines_pt_2/15" = "Успех! Всички очакваме с нетърпение находките ти!"

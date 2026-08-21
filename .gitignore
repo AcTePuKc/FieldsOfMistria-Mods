@@ -21,6 +21,11 @@ dist/
 release-download/
 _portrait_diag/
 _private_work/
+_inspection*/
+_private_*.png
+findings.json
+report.md
+mods/*/translation/*_comparison.tsv
 
 # Generated localization package data; rebuild locally from translation work
 mods/*/localization/

@@ -1,5 +1,9 @@
 name = "Bulgarian Localization"
+name_bg = "Българска локализация"
+id = "bulgarian_localization_act"
 author = "AcTePuKc"
-version = "0.1.2"
+description = "Adds Bulgarian Language to the game. Compatible with 1.0.4"
+description_bg = "Добавя български език в играта. Съвместим с версия 1.0.4"
+version = "0.1.3"
 minInstallerVersion = "0.15.1"
 requires_hooks = ["ui.menu_opened"]

@@ -1,0 +1,14 @@
+[meta_properties]
+id = "fom-bg-work-interactive-statues"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/gameplay_triggered/chicken_statue_has_currency/init" = "Загадъчно изглеждаща статуя на кокошка. Да хвърлиш вътре малко блестящи мъниста?"
+"Conversations/gameplay_triggered/chicken_statue_has_currency/init/prompts/0" = "[statue_cost_low] Мъниста"
+"Conversations/gameplay_triggered/chicken_statue_has_currency/init/prompts/1" = "[statue_cost_high] Мъниста"
+"Conversations/gameplay_triggered/chicken_statue_has_currency/init/prompts/2" = "Не днес."
+"Conversations/gameplay_triggered/chicken_statue_no_currency/init" = "Загадъчно изглеждаща статуя на кокошка. На дъното на съдчето ѝ проблясват блестящи мъниста."
+"Conversations/gameplay_triggered/horse_statue_inspect/init" = "Тази статуя я нямаше преди бурята..."
+"Conversations/gameplay_triggered/horse_statue_inspect/1" = "Усещаш как привлича есенцията ти към себе си. Да принесеш Есенция?"
+"Conversations/gameplay_triggered/horse_statue_inspect/1/prompts/0" = "Принеси 100 Есенция."
+"Conversations/gameplay_triggered/horse_statue_inspect/1/prompts/1" = "Не-е."

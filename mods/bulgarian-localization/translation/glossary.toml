@@ -28,6 +28,8 @@ status = "working"
 "Date Type" = { bulgarian = "вид среща", status = "provisional", notes = "Unlockable date activity type." }
 "Photo Card" = { bulgarian = "снимка от среща", status = "approved for current work", notes = "Source item names are Bath/Beach/etc. Date Photo and are placed on house walls." }
 "Romantic Path" = { bulgarian = "романтична линия", status = "approved for current work", notes = "Relationship route selected in an 8-Heart Event; avoid the literal път." }
+"Best Friends" = { bulgarian = "Най-добри приятели", status = "approved for current work", notes = "Relationship status; the source marks the label with $." }
+"Something More" = { bulgarian = "Нещо повече", status = "approved for current work", notes = "Relationship status; preserve the source =...= marker." }
 "Apiary" = { bulgarian = "пчелин", status = "approved for current work", notes = "Placeable bee structure." }
 "Terrarium" = { bulgarian = "терариум", status = "approved for current work", notes = "Placeable bug habitat and production structure." }
 "Bug Pheromones" = { bulgarian = "феромони за насекоми", status = "approved for current work", notes = "Item used to summon a bug on open ground." }
@@ -81,9 +83,14 @@ status = "working"
 "Lost & Found" = { bulgarian = "Изгубени вещи", status = "provisional", notes = "Natural Bulgarian tutorial/title phrasing; verify the actual box label." }
 "Lost & Found box" = { bulgarian = "кутия за изгубени вещи", status = "provisional", notes = "Use consistently for the town collection box." }
 "Essence" = { bulgarian = "Есенция", status = "provisional", notes = "Established game resource term; verify capitalization in the UI." }
+"Shrine" = { bulgarian = "светилище", status = "approved for current work", notes = "Caldarus's shrine and related interaction point." }
 "skill perk" = { bulgarian = "умение", status = "pending terminology review", notes = "Natural Bulgarian for the tutorial; consider бонус/перк only if the official UI distinguishes it." }
 "Ruins" = { bulgarian = "Руините", status = "approved for current work", notes = "Location name in the Dark Floors tutorial and story quests." }
 "Dark Floors" = { bulgarian = "Тъмни етажи", status = "approved for current work", notes = "Mine floor terminology; use етажи rather than подове." }
+"Jade Dulse" = { bulgarian = "нефритно водорасло", status = "approved for current work", notes = "Green forageable seaweed named in the Earth Tablet riddle." }
+"Jump Attack" = { bulgarian = "атака в скок", status = "approved for current work", notes = "Combat action; use this clear player-facing form consistently." }
+"perch (bird)" = { bulgarian = "стойка за птици", status = "approved for current work", notes = "Use for an object or character used by a bird as a perch; avoid the more literal „кацалка“ in this project." }
+"Pits" = { bulgarian = "пропасти", status = "approved for current work", notes = "Mine traversal hazards that the player crosses with a jump." }
 "Void Sight" = { bulgarian = "Поглед към Бездната", status = "approved for current work", notes = "Use Бездната as the lore term." }
 "Void" = { bulgarian = "Бездната", status = "approved for current work", notes = "Use natural от Бездната constructions for material names." }
 "Void Stone" = { bulgarian = "камък от Бездната", status = "approved for current work", notes = "Material name." }
@@ -92,9 +99,11 @@ status = "working"
 "Void Herb" = { bulgarian = "билка от Бездната", status = "approved for current work", notes = "Material name." }
 "Lava Caves" = { bulgarian = "Лавови пещери", status = "provisional", notes = "Tutorial and location label." }
 "Watering Can" = { bulgarian = "лейка", status = "provisional", notes = "Verify the final item label." }
-"Rain Spell" = { bulgarian = "заклинание за дъжд", status = "provisional", notes = "Verify the final spell label." }
+"Rain Spell" = { bulgarian = "Призоваване на дъжд", status = "approved for current work", notes = "Exact in-game spell name; use заклинание за дъжд only as a generic descriptive phrase." }
 "pool of lava" = { bulgarian = "лавов басейн", status = "provisional", notes = "Use басейни rather than локви; the English source describes pools, not rivers." }
 "The Mines" = { bulgarian = "Мините", status = "provisional", notes = "Location and tutorial title." }
+"Stone Star" = { bulgarian = "Каменна звезда", status = "provisional", notes = "Town Rank reached when the Mines reopen." }
+"Stone Star Rank" = { bulgarian = "Ранг Каменна звезда", status = "provisional", notes = "Specific Town Rank label used in dialogue." }
 "forage" = { bulgarian = "събирам растения", status = "provisional", notes = "Use context-specific phrasing rather than a literal noun." }
 "elevator platform" = { bulgarian = "асансьорна платформа", status = "provisional", notes = "Verify the actual mine UI label." }
 "mining" = { bulgarian = "копаене", status = "provisional", notes = "Current tutorial wording; compare with the skill menu label." }
@@ -115,6 +124,9 @@ status = "working"
 "Horse statue" = { bulgarian = "статуя на коня", status = "provisional", notes = "Upgrade statue; verify the final item label." }
 "Essence Stone" = { bulgarian = "камък от есенция", status = "provisional", notes = "Material name; use камъни от есенция in plural." }
 "Stone Refinery" = { bulgarian = "пречиствател за камъни", status = "provisional", notes = "Machine/building name; review against the final UI and quest text." }
+"Donation Box" = { bulgarian = "кутия за дарения", status = "provisional", notes = "Collection box for a town project; distinct from Balor's Payment Box." }
+"Storage Chest" = { bulgarian = "сандък за съхранение", status = "provisional", notes = "Storage furniture included with the Stone Refinery." }
+"Sap" = { bulgarian = "смола", status = "approved for current work", notes = "Basic crafting material collected from trees." }
 "Teleportation Chalice" = { bulgarian = "чаша за телепортация", status = "provisional", notes = "Item/location name; verify capitalization in the UI." }
 "warp home" = { bulgarian = "прибирам се чрез телепортация", status = "provisional", notes = "Use natural player-facing phrasing in tutorials." }
 "Dragon's Breath Spell" = { bulgarian = "заклинанието Драконов дъх", status = "approved for current work", notes = "Natural Bulgarian spell name." }
@@ -142,6 +154,8 @@ status = "working"
 "Priestess Quarters" = { bulgarian = "Покоите на жрицата", status = "approved for current work", notes = "Named story location. The explicit location key is The Priestess' Quarters and nearly all official localizations use singular." }
 "Dragon Forge" = { bulgarian = "Драконова ковачница", status = "approved for current work", notes = "Story crafting station; use the definite form Драконовата ковачница in objectives." }
 "Priestess Tablet" = { bulgarian = "Плоча на жрицата", status = "approved for current work", notes = "Story interactable; use Плочата на жрицата in the objective." }
+"Dragon Priestess" = { bulgarian = "Драконовата жрица", status = "approved for current work", notes = "Title revealed after the Water Seal scene; use the definite form in this spoken fragment." }
+"Dragon Priestesses" = { bulgarian = "Драконовите жрици", status = "approved for current work", notes = "Plural historical group that guarded the gate between realms." }
 "Temple Flower" = { bulgarian = "плумерия", status = "approved for current work", notes = "Forage and story-quest flower; French and Spanish identify the real-world species as plumeria." }
 "Marigold" = { bulgarian = "турта", status = "approved for current work", notes = "Summer flower and story-quest item; the game icon is Tagetes-like, not calendula." }
 "Seed of Balance" = { bulgarian = "Семе на равновесието", status = "approved for current work", notes = "Named story-quest seed." }
@@ -174,10 +188,13 @@ status = "working"
 "Forge" = { bulgarian = "ковачница", status = "approved for current work", notes = "Placeable crafting station; distinct from the anvil used in the tutorial." }
 "Mistril Forge" = { bulgarian = "мистрилова ковачница", status = "approved for current work", notes = "Mistril placeable forge." }
 "Crafting Scroll" = { bulgarian = "свитък за изработка", status = "approved for current work", notes = "Recipe-learning item; preserve the {} placeholder." }
+"Sealing Scroll" = { bulgarian = "Свитък за запечатване", status = "approved for current work", notes = "Story item used to seal dangerous magical entities." }
+"Payment Box" = { bulgarian = "Кутия за плащане", status = "approved for current work", notes = "Balor's wagon drop-off container for the Sealing Scroll payment." }
 "Abyssal Chest" = { bulgarian = "сандък от Бездната", status = "approved for current work", notes = "Special chest item; use the established lore term Бездната." }
 "Mini Mill" = { bulgarian = "мини мелница", status = "approved for current work", notes = "Placeable machine that processes animal products and feed instantly." }
 "Perpetual Soup Pot" = { bulgarian = "вечен казан за супа", status = "approved for current work", notes = "Once-per-day soup-making item." }
 "Sleeping Dragon Inn" = { bulgarian = "Ханът на Спящия дракон", status = "approved for current work", notes = "Inn name referenced by the perpetual soup pot." }
+"Historical Society" = { bulgarian = "Историческо дружество", status = "approved for current work", notes = "Eiland's Mistria history and archaeology group." }
 "Blueprint" = { bulgarian = "чертеж за", status = "approved for current work", notes = "Use the item-name pattern Чертеж за [building]." }
 "Refined Stone" = { bulgarian = "обработен камък", status = "approved for current work", notes = "Construction material used by greenhouse blueprints." }
 "Hard Wood" = { bulgarian = "твърдо дърво", status = "approved for current work", notes = "Construction material used by greenhouse blueprints." }
@@ -258,6 +275,8 @@ status = "working"
 "Cauliflower" = { bulgarian = "карфиол", status = "approved for current work", notes = "Winter crop." }
 "Rice Stalk" = { bulgarian = "оризово стъбло", status = "approved for current work", notes = "Fall crop refined into rice." }
 "Tulip" = { bulgarian = "лале", status = "approved for current work", notes = "Spring flower; seed item is Семена от лале." }
+"Request Board" = { bulgarian = "Табло за заявки", status = "approved for current work", notes = "Town board where villagers post requests." }
+"Request" = { bulgarian = "заявка", status = "approved for current work", notes = "Villager task accepted from the Request Board." }
 "Magic Seed" = { bulgarian = "вълшебно семе", status = "approved for current work", notes = "Mystery seed bag item." }
 "Wood" = { bulgarian = "дърво", status = "approved for current work", notes = "Basic cut-wood crafting material." }
 "Chocolate" = { bulgarian = "шоколад", status = "approved for current work", notes = "Cooking ingredient." }
@@ -367,6 +386,7 @@ status = "working"
 "Wynne" = { bulgarian = "Уин", status = "approved for current work" }
 "Ari" = { bulgarian = "Ари", status = "approved for current work" }
 "Caldarus" = { bulgarian = "Калдаръс", status = "provisional", notes = "Use consistently in dialogue and UI." }
+"Codex Mistria" = { bulgarian = "Кодексът на Мистрия", status = "approved for current work", notes = "Book used to translate Mine seals; retain the definite form when the dialogue refers to the specific book." }
 "Hayden" = { bulgarian = "Хейдън", status = "provisional", notes = "Use consistently in dialogue and UI." }
 "Weathervane" = { bulgarian = "ветропоказател", status = "approved for current work", notes = "Quest item and farm-roof object; use lowercase in dialogue and capitalized only when the item-name style requires it." }
 "Mistria" = { bulgarian = "Мистрия", status = "provisional", notes = "Game world name; verify whether the official Bulgarian title keeps the English spelling." }
@@ -448,9 +468,19 @@ status = "working"
 "Upper Mines" = { bulgarian = "горни мини", status = "approved for current work", notes = "Use Горни мини as the location name." }
 "The Tide Caverns" = { bulgarian = "приливни пещери", status = "approved for current work", notes = "Use Приливни пещери as the location name." }
 "Deep Earth" = { bulgarian = "земните недра", status = "approved for current work", notes = "Use Земните недра as the natural underground location name rather than the literal Дълбока земя." }
+"Deep Woods" = { bulgarian = "Дълбоката гора", status = "approved for current work", notes = "Named forest location; use the definite form in the Fire Seal scene." }
+"gate between realms" = { bulgarian = "Портата между световете", status = "approved for current work", notes = "Named magical gate in Caldarus's historical exposition." }
+"The Final Seal" = { bulgarian = "Последният печат", status = "approved for current work", notes = "Named final Mine seal and location." }
+"Dragonsworn Tablet" = { bulgarian = "Плочата на Драконовия заклетник", status = "approved for current work", notes = "Story tablet that reveals the offerings for the Final Seal." }
+"Dragonsworn" = { bulgarian = "Драконов заклетник / Драконова заклетница", status = "approved for current work", notes = "Use gender branches in player-facing prophecy text; the existing tablet title retains the masculine singular form." }
+"Magic Essence" = { bulgarian = "магическата есенция", status = "approved for current work", notes = "Use this lore phrase distinctly from the collectible resource label Есенция when context requires it." }
+"Witchspeak" = { bulgarian = "вещерски език", status = "approved for current work", notes = "Language used on Mine tablets; use the definite form вещерския език in dialogue." }
 "The Lava Caves" = { bulgarian = "лавови пещери", status = "approved for current work", notes = "Use Лавови пещери as the location name." }
 "Ancient Ruins" = { bulgarian = "древни руини", status = "approved for current work", notes = "Use Древни руини as the location name." }
 "Animal Festival" = { bulgarian = "фестивал на животните", status = "approved for current work", notes = "Use Фестивал на животните as the festival name." }
+"Heart Shaped Treats" = { bulgarian = "сърцевидни лакомства", status = "approved for current work", notes = "Breeding treats for farm animals." }
+"milled feed" = { bulgarian = "смлян фураж", status = "approved for current work", notes = "Starter feed given after the Mill quest." }
+"rare colors" = { bulgarian = "редки окраски", status = "approved for current work", notes = "Animal-color variants unlocked through breeding." }
 "Harvest Festival" = { bulgarian = "фестивал на реколтата", status = "approved for current work", notes = "Use Фестивал на реколтата as the festival name." }
 "Shooting Star Festival" = { bulgarian = "фестивал на падащите звезди", status = "approved for current work", notes = "Use Фестивал на падащите звезди as the festival name." }
 "Spring Festival" = { bulgarian = "пролетен фестивал", status = "approved for current work", notes = "Use Пролетен фестивал as the festival name." }

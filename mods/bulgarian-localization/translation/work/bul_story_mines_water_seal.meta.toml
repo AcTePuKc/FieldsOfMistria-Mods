@@ -1,0 +1,19 @@
+[meta_properties]
+id = "fom-bg-work-story-mines-water-seal"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Cutscenes/Story Events/Mines/water_seal/water_seal/init" = "Тих шепот разкъсва тишината..."
+"Cutscenes/Story Events/Mines/water_seal/water_seal/1" = "^<he>Герою</he><she>Героиньо</she><they>Герои</they>... Печатът на водата...^"
+"Cutscenes/Story Events/Mines/water_seal/water_seal/2" = "На плочата е изписан непознат език. $Айленд може да успее да преведе текста, ако му занесеш претривка от плочата$."
+"Cutscenes/Story Events/Mines/water_seal/break_water_seal/init" = "^<he>Герою</he><she>Героиньо</she><they>Герои</they>... благодаря ти... Аз съм...^"
+"Cutscenes/Story Events/Mines/water_seal/break_water_seal/1" = "^Драконовата... жрица...^"
+"Cutscenes/Story Events/Mines/water_seal/break_water_seal/2" = "^Среща... долу...^"
+"Cutscenes/Story Events/Mines/water_seal/break_water_seal_follow_up_eiland/init" = "Преводът на плочата ти помогна да откриеш път към по-дълбоките нива? Невероятно!"
+"Cutscenes/Story Events/Mines/water_seal/break_water_seal_follow_up_eiland/1" = "Нямам търпение да разбера какво ще откриеш след това. Колко вълнуващо!"
+"Cutscenes/Story Events/Mines/water_seal/break_water_seal_follow_up_juniper/init" = "[Ari], [Ari], [Ari]..."
+"Cutscenes/Story Events/Mines/water_seal/break_water_seal_follow_up_juniper/1" = "Криеш нещо от мен, нали?"
+"Cutscenes/Story Events/Mines/water_seal/break_water_seal_follow_up_juniper/2" = "Усещам засилване на магическата енергия. Какво точно направи?"
+"Cutscenes/Story Events/Mines/water_seal/break_water_seal_follow_up_juniper/3" = "Разби магически печат? Очакваш да ти повярвам?"
+"Cutscenes/Story Events/Mines/water_seal/break_water_seal_follow_up_juniper/4" = "О, хо-хо-хо!"
+"Cutscenes/Story Events/Mines/water_seal/break_water_seal_follow_up_juniper/5" = "По-добре се придържай към земеделието. Остави магическите неща на мен."

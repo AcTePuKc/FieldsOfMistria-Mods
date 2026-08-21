@@ -65,7 +65,10 @@ def main() -> int:
     override_count = 0
     for work_file in sorted(args.work.glob("*.toml")):
         work = tomllib.loads(work_file.read_text(encoding="utf-8-sig"))
-        for key, value in work.get("asset_properties", {}).items():
+        values = work.get("asset_properties")
+        if not isinstance(values, dict):
+            raise ValueError(f"Translation file is missing a flat [asset_properties] table: {work_file}")
+        for key, value in values.items():
             if key not in source:
                 raise ValueError(f"Translation key is not in the current source cache: {key}")
             if not isinstance(value, str):

@@ -1,0 +1,9 @@
+[meta_properties]
+id = "fom-bg-work-tide-caverns-items"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"items/mines/tide_caverns/tide_lettuce/name" = "Приливна маруля"
+"items/mines/tide_caverns/tide_lettuce/description" = "Тази дива маруля има богат вкус и приятна хрупкавост. Използва се в различни рецепти."
+"items/mines/tide_caverns/waterfly/name" = "Водна светулка"
+"items/mines/tide_caverns/waterfly/description" = "Често срещано насекомо от Приливните пещери. Подобно на светулката, използва синьото си сияние, за да подава сигнали."

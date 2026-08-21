@@ -1,0 +1,20 @@
+[meta_properties]
+id = "fom-bg-work-story-dying"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Cutscenes/Story Events/dying/dying/init" = "А, най-сетне отвори очи!"
+"Cutscenes/Story Events/dying/dying/1" = "Доста ни уплаши."
+"Cutscenes/Story Events/dying/dying/2" = "Моля те, отнасяй се по-сериозно към здравето си, [Ari]."
+"Cutscenes/Story Events/dying/dying/3" = "Добре, че те открихме при статуята на дракона в Мините."
+"Cutscenes/Story Events/dying/dying/4" = "Радвам се, че изглежда се чувстваш по-добре. Да те приберем да си починеш."
+"Cutscenes/Story Events/dying/dying_dating_valen/init" = "[Ari], най-сетне отвори очи!"
+"Cutscenes/Story Events/dying/dying_dating_valen/1" = "Не ме плаши така!"
+"Cutscenes/Story Events/dying/dying_dating_valen/2" = "Моля те, отнасяй се по-сериозно към здравето си..."
+"Cutscenes/Story Events/dying/dying_dating_valen/3" = "Ако не заради себе си, то поне заради мен."
+"Cutscenes/Story Events/dying/dying_dating_valen/4" = "Радвам се, че изглежда се чувстваш по-добре. Да те приберем да си починеш."
+"Cutscenes/Story Events/dying/dying_married_valen/init" = "[Ari], най-сетне отвори очи!"
+"Cutscenes/Story Events/dying/dying_married_valen/1" = "Не плаши жена си така!"
+"Cutscenes/Story Events/dying/dying_married_valen/2" = "Моля те, отнасяй се по-сериозно към здравето си..."
+"Cutscenes/Story Events/dying/dying_married_valen/3" = "Ако не заради себе си, то поне заради мен."
+"Cutscenes/Story Events/dying/dying_married_valen/4" = "Радвам се, че изглежда се чувстваш по-добре. Да те приберем у дома да си починеш."

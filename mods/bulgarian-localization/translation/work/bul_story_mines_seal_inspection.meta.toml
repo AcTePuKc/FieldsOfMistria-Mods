@@ -1,0 +1,13 @@
+[meta_properties]
+id = "fom-bg-work-story-mines-seal-inspection"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/gameplay_triggered/inspect_earth_seal/init" = "Прилича на някакъв печат. Усещаш как през пукнатината се процежда малко сила."
+"Conversations/gameplay_triggered/inspect_earth_tablet/init" = "Древният текст сигурно съдържа ключа към разбиването на печата. По-добре да поговоря с $Джунипър$."
+"Conversations/gameplay_triggered/inspect_fire_seal/init" = "Прилича на някакъв печат. Усещаш как през пукнатината се процежда сила."
+"Conversations/gameplay_triggered/inspect_fire_tablet/init" = "Древният текст сигурно съдържа ключа към разбиването на печата. По-добре да поговоря с $Джунипър$."
+"Conversations/gameplay_triggered/inspect_ruins_seal/init" = "Прилича на някакъв печат. Усещаш постоянен поток сила през пукнатината."
+"Conversations/gameplay_triggered/inspect_ruins_tablet/init" = "Древният текст сигурно съдържа ключа към разбиването на печата. Изглежда, че засега дотук мога да стигна..."
+"Conversations/gameplay_triggered/inspect_sealing_scroll_claw/init" = "Според превода на Джунипър тази лапа трябва да държи $Свитък за запечатване$."
+"Conversations/gameplay_triggered/inspect_water_tablet/init" = "Древният текст сигурно съдържа ключа към разбиването на печата. $Айленд може да знае повече$."

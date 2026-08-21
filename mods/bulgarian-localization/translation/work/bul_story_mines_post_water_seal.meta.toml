@@ -1,0 +1,15 @@
+[meta_properties]
+id = "fom-bg-work-story-mines-post-water-seal"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Cutscenes/Story Events/Mines/post_water_seal/post_water_seal/init" = "Приближи се, [Ari]. Трябва да поговорим."
+"Cutscenes/Story Events/Mines/post_water_seal/post_water_seal/1" = "$Печатът на водата$ е разбит. Част от силата ми се върна. Справи се добре."
+"Cutscenes/Story Events/Mines/post_water_seal/post_water_seal/2" = "Ще ти дам $Призоваване на дъжд$. Ще можеш да използваш това $заклинание$ от $Дневника$ си. То може да $призове кратка дъждовна буря във фермата ти$. Използвай го разумно."
+"Cutscenes/Story Events/Mines/post_water_seal/post_water_seal/3" = "Някои спомени се завръщат..."
+"Cutscenes/Story Events/Mines/post_water_seal/post_water_seal/4" = "Общо са $пет печата$. Земетресението сигурно ги е повредило..."
+"Cutscenes/Story Events/Mines/post_water_seal/post_water_seal/5" = "Потокът от магия, който се е получил, ми позволи да се пробудя, когато поправи светилището ми."
+"Cutscenes/Story Events/Mines/post_water_seal/post_water_seal/6" = "Но не си спомням нито кой е затворил печатите, нито защо."
+"Cutscenes/Story Events/Mines/post_water_seal/post_water_seal/7" = "[Ari], трябва да отвориш отново останалите печати. Ще направя всичко по силите си, за да ти помогна."
+"Cutscenes/Story Events/Mines/post_water_seal/post_water_seal/8" = "Засега ми позволи да те излекувам."
+"Cutscenes/Story Events/Mines/post_water_seal/post_water_seal/9" = "Върви с благословията ми."

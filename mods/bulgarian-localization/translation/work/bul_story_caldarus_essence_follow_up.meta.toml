@@ -1,0 +1,17 @@
+[meta_properties]
+id = "fom-bg-work-story-caldarus-essence-follow-up"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Caldarus/Statue Lines/cutscene_follow_up/cutscene_follow_up_1/init" = "А, поздрави, смъртни. Време е да започнеш да събираш $Есенция$."
+"Conversations/Bank/Caldarus/Statue Lines/cutscene_follow_up/cutscene_follow_up_1/2" = "$Есенция$ ще се появява под формата на $малки лилави кълба$, докато вършиш всекидневните си дейности. Опитай със $земеделие$, $риболов$ и $копаене$. Със сигурност ще откриеш."
+"Conversations/Bank/Caldarus/Statue Lines/cutscene_follow_up/cutscene_follow_up_1/3" = "Използвай това $светилище$, когато искаш да принесеш събраната $Есенция$. В замяна ще използвам възвърнатата си сила, за да ти дам $умения$."
+"Conversations/Bank/Caldarus/Statue Lines/cutscene_follow_up/cutscene_follow_up_1/4" = "Тези $умения$ ще улеснят живота ти."
+"Conversations/Bank/Caldarus/Statue Lines/cutscene_follow_up/cutscene_follow_up_1/5" = "..."
+"Conversations/Bank/Caldarus/Statue Lines/cutscene_follow_up/cutscene_follow_up_1/6" = "Изморявам се... Нека поговорим пак утре."
+"Conversations/Bank/Caldarus/Statue Lines/cutscene_follow_up/cutscene_follow_up_2/init" = "А, поздрави, смъртни. Виждам, че вече имаш малко есенция. Добре."
+"Conversations/Bank/Caldarus/Statue Lines/cutscene_follow_up/cutscene_follow_up_2/2" = "$Есенция$ ще се появява под формата на $малки лилави кълба$, докато вършиш всекидневните си дейности. Опитай със $земеделие$, $риболов$ и $копаене$. Със сигурност ще откриеш."
+"Conversations/Bank/Caldarus/Statue Lines/cutscene_follow_up/cutscene_follow_up_2/3" = "Използвай това $светилище$, когато искаш да принесеш събраната $Есенция$. В замяна ще използвам възвърнатата си сила, за да ти дам $умения$."
+"Conversations/Bank/Caldarus/Statue Lines/cutscene_follow_up/cutscene_follow_up_2/4" = "Тези $умения$ ще улеснят живота ти."
+"Conversations/Bank/Caldarus/Statue Lines/cutscene_follow_up/cutscene_follow_up_2/5" = "..."
+"Conversations/Bank/Caldarus/Statue Lines/cutscene_follow_up/cutscene_follow_up_2/6" = "Изморявам се... Нека поговорим пак утре."

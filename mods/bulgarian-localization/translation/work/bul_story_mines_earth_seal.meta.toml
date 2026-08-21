@@ -1,0 +1,14 @@
+[meta_properties]
+id = "fom-bg-work-story-mines-earth-seal"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Cutscenes/Story Events/Mines/earth_seal/earth_seal/init" = "^<he>Герою</he><she>Героиньо</she><they>Герои</they>... разбий... печата...^"
+"Cutscenes/Story Events/Mines/earth_seal/earth_seal/1" = "^Силата... на дракона...^"
+"Cutscenes/Story Events/Mines/earth_seal/earth_seal/2" = "^Възстанови...!^"
+"Cutscenes/Story Events/Mines/earth_seal/break_earth_seal/init" = "^<he>Герою</he><she>Героиньо</she><they>Герои</they>... благодаря ти, че го разби...^"
+"Cutscenes/Story Events/Mines/earth_seal/break_earth_seal/1" = "^Печатът... браво...^"
+"Cutscenes/Story Events/Mines/earth_seal/break_earth_seal/2" = "^Принеси есенция... на статуята на дракона... горе...^"
+"Cutscenes/Story Events/Mines/earth_seal/break_earth_seal/3" = "^Събери сили... за да продължиш.^"
+"Cutscenes/Story Events/Mines/earth_seal/break_earth_seal_follow_up_celine/init" = "Успя ли с превода, [Ari]?"
+"Cutscenes/Story Events/Mines/earth_seal/break_earth_seal_follow_up_celine/1" = "Толкова се радвам! Кодексът на Мистрия наистина е полезен, нали?"

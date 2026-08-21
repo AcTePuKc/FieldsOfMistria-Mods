@@ -1,5 +1,5 @@
 [meta_properties]
-id = "fom-bg-work-teaser-crafting-tutorial"
+id = "fom-bg-work-story-crafting-tutorial"
 asset_kind = "L10nTarget"
 
 [asset_properties]
@@ -15,4 +15,4 @@ asset_kind = "L10nTarget"
 "Cutscenes/Story Events/crafting_tutorial/crafting_tutorial/8" = "Чудесно!"
 "Cutscenes/Story Events/crafting_tutorial/crafting_tutorial/9" = "И още как!"
 "Cutscenes/Story Events/crafting_tutorial/crafting_tutorial/10" = "Нека, докато си тук, изработиш още няколко секции от ограда, за да се уверим, че си <he>разбрал</he><she>разбрала</she><they>разбрали</they> как се прави."
-"Cutscenes/Story Events/crafting_tutorial/crafting_tutorial_turn_in/init" = "Изглежда, че си <he>готов</he><she>готова</she><they>готови</they> за урока по изработване. Хайде, първо трябва да подготвя няколко неща."
+"Cutscenes/Story Events/crafting_tutorial/crafting_tutorial_turn_in/init" = "Изглежда, че си <he>готов</he><she>готова</she><they>готови</they> за урока по изработка. Хайде, първо трябва да подготвя няколко неща."

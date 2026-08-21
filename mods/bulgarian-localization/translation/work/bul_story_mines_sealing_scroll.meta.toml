@@ -1,0 +1,22 @@
+[meta_properties]
+id = "fom-bg-work-story-mines-sealing-scroll"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Cutscenes/Story Events/Mines/sealing_scroll/procuring_the_sealing_scroll/init" = "Ето те! Имам добри новини — свързах се с продавач."
+"Cutscenes/Story Events/Mines/sealing_scroll/procuring_the_sealing_scroll/1" = "Продавачът полага големи усилия да пази самоличността си в тайна и иска плащане в непроследими кюлчета и скъпоценни камъни."
+"Cutscenes/Story Events/Mines/sealing_scroll/procuring_the_sealing_scroll/2" = "Смяташ ли, че ще се справиш с това?"
+"Cutscenes/Story Events/Mines/sealing_scroll/procuring_the_sealing_scroll/2/prompts/0" = "Да, благодаря, че откри свитъка!"
+"Cutscenes/Story Events/Mines/sealing_scroll/procuring_the_sealing_scroll/2/prompts/1" = "Мислиш ли, че можеш малко да се попазариш вместо мен?"
+"Cutscenes/Story Events/Mines/sealing_scroll/procuring_the_sealing_scroll/3" = "Винаги съм на разположение, разбира се. Беше си доста предизвикателство!"
+"Cutscenes/Story Events/Mines/sealing_scroll/procuring_the_sealing_scroll/4" = "Поласкан съм, че мислиш толкова високо за уменията ми, но подозирам, че ако опитаме да се пазарим, продавачът просто ще изчезне."
+"Cutscenes/Story Events/Mines/sealing_scroll/procuring_the_sealing_scroll/5" = "Ще ти трябват $10 сребърни кюлчета$, $10 рубина$, $10 сапфира$ и $10 смарагда$."
+"Cutscenes/Story Events/Mines/sealing_scroll/procuring_the_sealing_scroll/6" = "Знам. Нека просто се радваме, че не поиска повече."
+"Cutscenes/Story Events/Mines/sealing_scroll/procuring_the_sealing_scroll/7" = "Ще оставя $Кутията за плащане$ до вагона си."
+"Cutscenes/Story Events/Mines/sealing_scroll/procuring_the_sealing_scroll_finished/init" = "Кюлчета от чисто сребро и скъпоценни камъни с изключително качество. Сигурен съм, че продавачът ще е много доволен."
+"Cutscenes/Story Events/Mines/sealing_scroll/procuring_the_sealing_scroll_finished/1" = "Ще направя размяната тази вечер и $утре ще ти донеса Свитъка за запечатване$."
+"Cutscenes/Story Events/Mines/sealing_scroll/delivering_the_sealing_scroll/init" = "Добро утро, [Ari]. Исках лично да ти предам $Свитъка за запечатване$."
+"Cutscenes/Story Events/Mines/sealing_scroll/delivering_the_sealing_scroll/1" = "За мен беше удоволствие да правим бизнес."
+"Cutscenes/Story Events/Mines/sealing_scroll/delivering_the_sealing_scroll/2" = "Не знам какво смяташ да правиш с него, но продавачът неведнъж ме предупреди да не се отваря при никакви обстоятелства."
+"Cutscenes/Story Events/Mines/sealing_scroll/delivering_the_sealing_scroll/3" = "Не знам дали вярвам на всичките приказки за проклятия и магия, но..."
+"Cutscenes/Story Events/Mines/sealing_scroll/delivering_the_sealing_scroll/4" = "По-добре се пази, [Ari]."

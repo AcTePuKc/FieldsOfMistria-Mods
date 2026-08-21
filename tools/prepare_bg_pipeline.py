@@ -21,6 +21,7 @@ HIDDEN_RUNTIME_UI = {
     "misc_local/frame_rate_cap": "Frame Rate Cap: 60 FPS",
     "misc_local/brightness": "Brightness",
     "misc_local/saturation": "Saturation",
+    "misc_local/song_crystal": "Song Crystals",
 }
 
 

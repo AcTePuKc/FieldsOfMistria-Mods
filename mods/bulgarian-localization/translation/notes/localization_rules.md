@@ -25,6 +25,36 @@ becomes:
 
 This rule is separate from gender/variant markup such as `<he>...</he><she>...</she><they>...</they>`. Those tags must also be preserved, while each alternative is translated independently.
 
+## Equals (`=...=`) marker
+
+Text enclosed in equals signs is rendered in dark pink. It is player-facing
+text, not an asset ID.
+
+When translating:
+
+- preserve the opening and closing `=` characters exactly;
+- translate the text inside the markers into Bulgarian;
+- retain its grammatical form in the surrounding sentence.
+
+An in-game Day 0 test compared `=Пролетна салата=` and `=Spring Salad=` in
+two consecutive Balor lines. Both rendered as dark-pink text, confirming that
+the inner text is displayed directly.
+
+## At-sign (`@`) marker
+
+The source currently contains one known example: `@INCREDIBLE!` in the Water
+Tablet turn-in scene. A direct in-game Day 0 test confirmed that a leading
+`@` and an enclosing `@word@` are consumed by the engine and are not rendered
+as visible text in ordinary dialogue. Its exact special use is still unknown.
+
+When it appears in source text:
+
+- preserve each `@` in the same position relative to the translated text;
+- do not translate it, remove it, or add new ones;
+- treat it as engine markup even when it has no visible effect in a test.
+
+The current Bulgarian form is `@НЕВЕРОЯТНО!`.
+
 ## Player pronouns and grammatical variants
 
 The public Bulgarian pack exposes exactly three player choices:
@@ -46,6 +76,16 @@ Do not use masculine wording as the fallback. Do not add `<it>`, `<all>`, or
 `<none>` branches to ordinary Bulgarian dialogue. The Bulgarian pack does not
 offer those selections because the current text has no matching variants; a
 visible choice without a matching branch can make part of a line disappear.
+
+## Children in partner-specific dialogue
+
+Child-related dialogue is authored separately for each partner. Do not assume
+that `[child_0]` has one universal gender. Verify the corresponding delivery or
+relationship lines for that partner before using gendered Bulgarian agreement.
+
+For Celine's partner-specific lines, the child is a boy (`baby boy`, `him`,
+`grandson` in the source), so masculine agreement is correct there. Other
+partners can have a girl and need their own review.
 
 ## Language asset IDs
 

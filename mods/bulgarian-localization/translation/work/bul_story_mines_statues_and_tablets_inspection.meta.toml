@@ -1,0 +1,16 @@
+[meta_properties]
+id = "fom-bg-work-story-mines-statues-and-tablets-inspection"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/gameplay_triggered/caldarus_dragonsworn_statue_text/init" = "При по-внимателен оглед изглежда, че Калдаръс е оставял дарове пред статуята ти. Получаваш малко $Есенция$."
+"Conversations/gameplay_triggered/inspect_caldarus_statue/init" = "Статуята излъчва достолепие. Почти изглежда жива."
+"Conversations/gameplay_triggered/inspect_dragonsworn_tablet/init" = "Времето и магията текат;\nСтояща срещу течението;\nПортата между световете."
+"Conversations/gameplay_triggered/inspect_dragonsworn_tablet/1" = "Светлината се спуска;\nМракът се надига;\nМежду тях полята разцъфтяват."
+"Conversations/gameplay_triggered/inspect_dragonsworn_tablet/2" = "<he>Този, когото</he><she>Тази, която</she><they>Тези, които</they> наричат $<he>Драконов заклетник</he><she>Драконова заклетница</she><they>Драконови заклетници</they>$;\n$Възстанови равновесието на всички$."
+"Conversations/gameplay_triggered/inspect_seridia_statue/init" = "Разпадащата се статуя излъчва слабо присъствие... Изглежда, че $тук можеш да принесеш есенция$, въпреки състоянието ѝ."
+"Conversations/gameplay_triggered/inspect_upper_mines_mushroom_claw/init" = "Според превода на Джунипър тази лапа трябва да държи $Гъба от Горните мини$."
+"Conversations/gameplay_triggered/pq_tablet/init" = "В каменната плоча е издълбано пророчество."
+"Conversations/gameplay_triggered/pq_tablet/1" = "„$Един, който спи в сянката на гората$.“"
+"Conversations/gameplay_triggered/pq_tablet/2" = "„$Неотлъчно до него, въпреки всичко$.“"
+"Conversations/gameplay_triggered/pq_tablet/3" = "„$Отново заедно, връщат равновесието$.“"

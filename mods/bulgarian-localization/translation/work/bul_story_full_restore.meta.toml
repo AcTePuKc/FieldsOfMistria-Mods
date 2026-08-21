@@ -1,0 +1,19 @@
+[meta_properties]
+id = "fom-bg-work-story-full-restore"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Cutscenes/Story Events/full_restore/full_restore/init" = "Трудиш се усърдно из Мистрия, [Ari]. Магията, която се връща към мен благодарение на усилията ти, започна да прояснява съзнанието ми."
+"Cutscenes/Story Events/full_restore/full_restore/init/prompts/0" = "За мен е чест да помогна!"
+"Cutscenes/Story Events/full_restore/full_restore/init/prompts/1" = "Чакай, <he>НАБЛЮДАВАЛ СИ</he><she>НАБЛЮДАВАЛА СИ</she><they>НАБЛЮДАВАЛИ СТЕ</they> ме?"
+"Cutscenes/Story Events/full_restore/full_restore/1" = "Благодарен съм."
+"Cutscenes/Story Events/full_restore/full_restore/2" = "..."
+"Cutscenes/Story Events/full_restore/full_restore/3" = "Силите и зрението на един дракон са необятни."
+"Cutscenes/Story Events/full_restore/full_restore/4" = "Както казвах..."
+"Cutscenes/Story Events/full_restore/full_restore/5" = "Сега си спомних едно $заклинание$, подходящо за човешка употреба, както и как да ти го предам."
+"Cutscenes/Story Events/full_restore/full_restore/6" = "Ще ти дам $заклинанието „Пълно възстановяване“$. Ще можеш да го използваш от $Дневника$ си. Както подсказва името, то ще $възстановява изцяло здравето и издръжливостта ти$."
+"Cutscenes/Story Events/full_restore/full_restore/7" = "Твоята $мана$ се възстановява малко по малко всяка нощ, след като е използвано $заклинание$. Използвай я разумно."
+"Cutscenes/Story Events/full_restore/full_restore/7/prompts/0" = "Благодаря ти, велики Калдаръс, че ми повери това заклинание."
+"Cutscenes/Story Events/full_restore/full_restore/7/prompts/1" = "Пълно възстановяване? Наистина ли? Не можеше ли да му дадеш по-готино име?"
+"Cutscenes/Story Events/full_restore/full_restore/8" = "Няма защо. Упражнявай магията си и продължавай да усъвършенстваш способностите си. Скоро пак ще говорим."
+"Cutscenes/Story Events/full_restore/full_restore/9" = "Мислех, че това да получиш магически сили от дракон е достатъчно „готино“ само по себе си. Събуди се, дръзки смъртни."

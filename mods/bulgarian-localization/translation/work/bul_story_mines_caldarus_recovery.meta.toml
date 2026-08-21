@@ -1,0 +1,20 @@
+[meta_properties]
+id = "fom-bg-work-story-mines-caldarus-recovery"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Caldarus/Banked Lines/cutscene_follow_up/caldarus_recovery_follow_up/init" = "Изглежда, че има връзка между статуята в храма ми и тази във фермата ти."
+"Conversations/Bank/Caldarus/Banked Lines/cutscene_follow_up/caldarus_recovery_follow_up/1" = "Смятам, че е възможно да се телепортираш между тях, но за съжаление аз самият нямам силата да го направя..."
+"Conversations/Bank/Caldarus/Banked Lines/cutscene_follow_up/caldarus_recovery_follow_up/2" = "Но може да ти е полезно, когато имаш време да ме посетиш."
+"Cutscenes/Story Events/Mines/caldarus_recovery/caldarus_recovery/init" = "[Ari]!"
+"Cutscenes/Story Events/Mines/caldarus_recovery/caldarus_recovery/1" = "Не се тревожи толкова."
+"Cutscenes/Story Events/Mines/caldarus_recovery/caldarus_recovery/2" = "Това, че приех тази форма... бе малка цена, за да гарантирам безопасността ти."
+"Cutscenes/Story Events/Mines/caldarus_recovery/caldarus_recovery/2/prompts/0" = "Ще бъдеш ли добре?"
+"Cutscenes/Story Events/Mines/caldarus_recovery/caldarus_recovery/2/prompts/1" = "Мога ли да направя нещо?"
+"Cutscenes/Story Events/Mines/caldarus_recovery/caldarus_recovery/3" = "Ще се възстановя с времето."
+"Cutscenes/Story Events/Mines/caldarus_recovery/caldarus_recovery/4" = "Вече направи много за мен. Обаче..."
+"Cutscenes/Story Events/Mines/caldarus_recovery/caldarus_recovery/5" = "$Разбиването на последните печати$ ще помогне за възстановяването ми. Моля те, продължавай да принасяш $есенция$ в светилището ми."
+"Cutscenes/Story Events/Mines/caldarus_recovery/caldarus_recovery/6" = "..."
+"Cutscenes/Story Events/Mines/caldarus_recovery/caldarus_recovery/7" = "И... ако имаш време, ще съм много благодарен да ме посещаваш от време на време."
+"Cutscenes/Story Events/Mines/caldarus_recovery/caldarus_recovery/8" = "Въпреки състоянието ми е невероятно отново да мога да преживявам този свят в телесна форма."
+"Cutscenes/Story Events/Mines/caldarus_recovery/caldarus_recovery/9" = "Благодаря ти за всичко, [Ari]."

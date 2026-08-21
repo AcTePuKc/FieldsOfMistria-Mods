@@ -1,0 +1,10 @@
+[meta_properties]
+id = "fom-bg-work-story-mines-water-seal-statue-follow-up"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Caldarus/Statue Lines/cutscene_follow_up/water_seal_follow_up/init" = "Намери $напукан печат$ под земята...?"
+"Conversations/Bank/Caldarus/Statue Lines/cutscene_follow_up/water_seal_follow_up/1" = "А... Като че ли си спомням, че такива печати някога са служели за управление на потока магия между нашите светове."
+"Conversations/Bank/Caldarus/Statue Lines/cutscene_follow_up/water_seal_follow_up/2" = "Разбий печата, [Ari], за да възвърна силите си."
+"Conversations/Bank/Caldarus/Statue Lines/cutscene_follow_up/water_seal_follow_up/3" = "Поверявам ти тази задача."
+"Conversations/gameplay_triggered/inspect_water_seal/init" = "Прилича на някакъв печат. Усещаш как през пукнатината се процежда малко сила."
