@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import csv
+import re
 import tomllib
 from pathlib import Path
 
@@ -15,10 +16,43 @@ OUTPUT_DIRECTORY = ROOT / "translation" / "review"
 COLUMNS = ("key", "english", "french", "russian", "bulgarian")
 
 
+def filename_part(value: str) -> str:
+    """Turn one localization-key segment into a stable filename component."""
+    value = re.sub(r"[^0-9A-Za-z]+", "_", value).strip("_").lower()
+    return value or "misc"
+
+
+def dialogue_category_for_key(key: str) -> str:
+    """Split the large dialogue set using meaningful key segments."""
+    parts = key.split("/")
+    root = parts[0]
+
+    if root == "Conversations":
+        if len(parts) < 2:
+            return "dialogue_conversations_misc"
+
+        section = parts[1]
+        if section == "Bank" and len(parts) >= 3:
+            return f"dialogue_bank_{filename_part(parts[2])}"
+        if section == "Activity Dialogue" and len(parts) >= 3:
+            return f"dialogue_activity_{filename_part(parts[2])}"
+        return f"dialogue_{filename_part(section)}"
+
+    if root == "Cutscenes":
+        if len(parts) >= 2:
+            return f"dialogue_cutscenes_{filename_part(parts[1])}"
+        return "dialogue_cutscenes_misc"
+
+    if root == "letters":
+        return "dialogue_letters"
+
+    return "dialogue_misc"
+
+
 def category_for_key(key: str) -> str:
     """Choose a stable, human-readable TSV category from the key prefix."""
     if key.startswith(("Conversations/", "Cutscenes/", "letters/")):
-        return "dialogue"
+        return dialogue_category_for_key(key)
     if key.startswith("items/"):
         return "items"
     if key.startswith("quests/"):
@@ -65,6 +99,12 @@ def main() -> None:
         )
 
     OUTPUT_DIRECTORY.mkdir(parents=True, exist_ok=True)
+
+    # Remove old dialogue exports so changing the grouping cannot leave a stale
+    # monolithic dialogue.tsv or obsolete dialogue chunks beside the new files.
+    for stale_file in OUTPUT_DIRECTORY.glob("dialogue*.tsv"):
+        stale_file.unlink()
+
     for category, rows in sorted(categorized_rows.items()):
         output_file = OUTPUT_DIRECTORY / f"{category}.tsv"
         with output_file.open("w", encoding="utf-8-sig", newline="") as stream:
