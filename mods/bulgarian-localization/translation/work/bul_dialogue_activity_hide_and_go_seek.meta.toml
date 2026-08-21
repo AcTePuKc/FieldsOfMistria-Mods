@@ -1,0 +1,19 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-activity-hide-and-go-seek"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Activity Dialogue/hide_and_go_seek/dell_hgs_1/init" = "Едно... две... три..."
+"Conversations/Activity Dialogue/hide_and_go_seek/dell_hgs_2/init" = "Май Люк е този, който търси?"
+"Conversations/Activity Dialogue/hide_and_go_seek/dell_hgs_3/init" = "Ще ви намеря, да знаете! Само чакайте!"
+"Conversations/Activity Dialogue/hide_and_go_seek/josephine_hgs_1/1" = "Веднъж не можаха да я намерят с часове. Когато се прибраха за вечеря, Дел изскочи изпод масата. Направо изпищях, [Ari]."
+"Conversations/Activity Dialogue/hide_and_go_seek/josephine_hgs_1/init" = "Дел е невероятно добра в криенето, затова винаги ми олеква, когато тя е тази, която търси."
+"Conversations/Activity Dialogue/hide_and_go_seek/luc_hgs_1/init" = "Дел никога няма да ме намери тук!"
+"Conversations/Activity Dialogue/hide_and_go_seek/luc_hgs_2/init" = "По моите наблюдения Мейпъл е тази, която търси."
+"Conversations/Activity Dialogue/hide_and_go_seek/luc_hgs_3/init" = "Дел никога няма да ме намери! Не и докато използвам камуфлажните сили на могъщия скакалец!"
+"Conversations/Activity Dialogue/hide_and_go_seek/maple_hgs_1/init" = "Съжалявам, [Ari], но това е моето скривалище! Намери си друго!"
+"Conversations/Activity Dialogue/hide_and_go_seek/maple_hgs_2/init" = "Дел определено е тази, която търси."
+"Conversations/Activity Dialogue/hide_and_go_seek/maple_hgs_3/1" = "Играем на кралска криеница!"
+"Conversations/Activity Dialogue/hide_and_go_seek/maple_hgs_3/2" = "Като обикновена криеница е, само че оставяме кралица Мейпъл веднага да ни намери, за да спечелим благоволението ѝ в двора."
+"Conversations/Activity Dialogue/hide_and_go_seek/maple_hgs_3/init" = "Едно, две, три..."
+"Conversations/Activity Dialogue/hide_and_go_seek/maple_hgs_4/init" = "Дел вече се отчайва, личи си. И... о, Люк влиза ли в режим „скакалец“? Да, Дел никога няма да ни намери."
