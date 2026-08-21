@@ -1,0 +1,244 @@
+﻿key	english	french	russian	bulgarian
+ui/character_customization/back/0/name	Backpacks	Sacs à dos	Рюкзаки	Раници
+ui/character_customization/back/1/name	Capes	Capes	Плащи	Пелерини
+ui/character_customization/back/2/name	Miscellaneous	Divers	Разное	Разни
+ui/character_customization/bottom/0/name	Pants	Pantalons	Штаны	Панталони
+ui/character_customization/bottom/1/name	Shorts	Shorts	Шорты	Къси панталони
+ui/character_customization/bottom/2/name	Skirts	Jupes	Юбки	Поли
+ui/character_customization/bottom/3/name	Miscellaneous	Autres	Прочее	Разни
+ui/character_customization/eyes/0/name	Eyes	Yeux	Глаза	Очи
+ui/character_customization/face_gear/0/name	Glasses	Lunettes	Очки	Очила
+ui/character_customization/face_gear/1/name	Ear Accessories	Bijoux d'oreille	Ушные украшения	Аксесоари за уши
+ui/character_customization/face_gear/2/name	Face Accessory	Accessoires de visage	Украшение лица	Аксесоар за лице
+ui/character_customization/facial_hair/0/name	Facial Hair	Moustaches et barbes	Усы и бороды	Окосмяване по лицето
+ui/character_customization/feet/0/name	Boots	Bottes	Ботинки	Ботуши
+ui/character_customization/feet/1/name	Shoes	Chaussures	Кроссовки	Обувки
+ui/character_customization/feet/2/name	Sandals	Sandales	Сандалии	Сандали
+ui/character_customization/feet/3/name	Wedding Shoes			Wedding Shoes
+ui/character_customization/feet/4/name	Miscellaneous	Autres	Прочее	Разни
+ui/character_customization/hair/0/name	Short Hair	Coupes courtes	Короткие волосы	Къса коса
+ui/character_customization/hair/1/name	Medium Hair	Coupes mi-longues	Средние волосы	Средна коса
+ui/character_customization/hair/2/name	Long Hair	Coupes longues	Длинные волосы	Дълга коса
+ui/character_customization/head_gear/0/name	Hats	Chapeaux	Шляпы	Шапки
+ui/character_customization/head_gear/1/name	Hair Accessories	Accessoires capillaires	Украшения для волос	Аксесоари за коса
+ui/character_customization/head_gear/2/name	Helmets	Casques	Шлемы	Шлемове
+ui/character_customization/head_gear/3/name	Crowns	Couronnes	Короны	Корони
+ui/character_customization/head_gear/4/name	Wedding Accessories			Wedding Accessories
+ui/character_customization/head_gear/5/name	Miscellaneous	Autres	Прочее	Разни
+ui/character_customization/skin/0/name	Skin Tone	Couleur de peau	Цвет кожи	Тон на кожата
+ui/character_customization/top/0/name	Sleeveless Tops	Hauts sans manches	Безрукавки	Топове без ръкави
+ui/character_customization/top/1/name	Short Sleeved Tops	Hauts à manches courtes	Короткие рукава	Топове с къси ръкави
+ui/character_customization/top/2/name	Long Sleeved Tops	Hauts à manches longues	Длинные рукава	Топове с дълги ръкави
+ui/character_customization/top/3/name	Jackets			Якета
+ui/character_customization/top/4/name	Dresses	Robes	Платья	Рокли
+ui/character_customization/top/5/name	Robes and Coats	Capotes et manteaux	Пальто и мантии	Мантии и палта
+ui/character_customization/top/6/name	Suits	Tenues complètes	Костюмы	Костюми
+ui/character_customization/top/7/name	Wedding Dresses	Robes de mariage	Свадебные платья	Булчински рокли
+ui/character_customization/top/8/name	Wedding Suits	Costumes de mariage	Свадебные костюмы	Сватбени костюми
+ui/character_customization/top/9/name	Miscellaneous	Autres	Прочее	Разни
+ui/crafting/blacksmithing/categories/0/name	Ingots	Lingots	Слитки	Кюлчета
+ui/crafting/blacksmithing/categories/0/sub_categories/0/name	Ingots	Lingots	Слитки	Кюлчета
+ui/crafting/blacksmithing/categories/1/name	Pickaxes	Pioches	Кирки	Кирки
+ui/crafting/blacksmithing/categories/1/sub_categories/0/name	Pickaxes	Pioches	Кирки	Кирки
+ui/crafting/blacksmithing/categories/10/name	Special	Divers		Специални
+ui/crafting/blacksmithing/categories/10/sub_categories/0/name	Special	Divers		Специални
+ui/crafting/blacksmithing/categories/2/name	Axes	Haches	Топоры	Брадви
+ui/crafting/blacksmithing/categories/2/sub_categories/0/name	Axes	Haches	Топоры	Брадви
+ui/crafting/blacksmithing/categories/3/name	Hoes	Houes	Мотыги	Мотики
+ui/crafting/blacksmithing/categories/3/sub_categories/0/name	Hoes	Houes	Мотыги	Мотики
+ui/crafting/blacksmithing/categories/4/name	Watering Cans	Arrosoirs	Лейки	Лейки
+ui/crafting/blacksmithing/categories/4/sub_categories/0/name	Watering Cans	Arrosoirs	Лейки	Лейки
+ui/crafting/blacksmithing/categories/5/name	Fishing Rods	Cannes à pêche	Удочки	Въдици
+ui/crafting/blacksmithing/categories/5/sub_categories/0/name	Fishing Rods	Cannes à pêche	Удочки	Въдици
+ui/crafting/blacksmithing/categories/6/name	Shovels	Pelles	Лопаты	Лопати
+ui/crafting/blacksmithing/categories/6/sub_categories/0/name	Shovels	Pelles	Лопаты	Лопати
+ui/crafting/blacksmithing/categories/7/name	Bug Nets	Filets à insectes	Сачки	Мрежи за насекоми
+ui/crafting/blacksmithing/categories/7/sub_categories/0/name	Bug Nets	Filets à insectes	Сачки	Мрежи за насекоми
+ui/crafting/blacksmithing/categories/8/name	Swords	Épées	Мечи	Мечове
+ui/crafting/blacksmithing/categories/8/sub_categories/0/name	Swords	Épées	Мечи	Мечове
+ui/crafting/blacksmithing/categories/9/name	Armor	Armures	Доспехи	Броня
+ui/crafting/blacksmithing/categories/9/sub_categories/0/name	Armor	Armures	Доспехи	Броня
+ui/crafting/cooking/categories/0/name	Pantry	Garde-manger	Буфет	Храни
+ui/crafting/cooking/categories/0/sub_categories/0/name	Dairy	Produits laitiers	Молочные продукты	Млечни продукти
+ui/crafting/cooking/categories/0/sub_categories/1/name	Jams	Confitures	Варенье	Сладки
+ui/crafting/cooking/categories/0/sub_categories/2/name	Sauces & Condiments	Sauces et condiments	Соусы и приправы	Сосове и подправки
+ui/crafting/cooking/categories/0/sub_categories/3/name	Pickles & Fermenting	Produits marinés et fermentés	Соленья и брожение	Туршии и ферментация
+ui/crafting/cooking/categories/0/sub_categories/4/name	Miscellaneous	Divers	Прочее	Разни
+ui/crafting/cooking/categories/1/name	Snacks	Encas	Закуски	Закуски
+ui/crafting/cooking/categories/1/sub_categories/0/name	Snacks	Encas	Закуски	Закуски
+ui/crafting/cooking/categories/2/name	Salads & Greens	Salades et légumes	Салаты и зелень	Салати и зеленолистни
+ui/crafting/cooking/categories/2/sub_categories/0/name	Salads	Salades	Салаты	Салати
+ui/crafting/cooking/categories/2/sub_categories/1/name	Greens	Légumes	Зелень	Зеленолистни
+ui/crafting/cooking/categories/3/name	Soups & Stews	Soupes et plats en sauce	Супы и рагу	Супи и яхнии
+ui/crafting/cooking/categories/3/sub_categories/0/name	Soups	Soupes	Супы	Супи
+ui/crafting/cooking/categories/3/sub_categories/1/name	Stews	Plats en sauce	Рагу	Яхнии
+ui/crafting/cooking/categories/4/name	Main Courses	Plats principaux	Основные блюда	Основни ястия
+ui/crafting/cooking/categories/4/sub_categories/0/name	Hand Crafted	Préparés à la main	Без огня	Ръчно изработени
+ui/crafting/cooking/categories/4/sub_categories/1/name	Grilled	Grillés	Гриль	На грил
+ui/crafting/cooking/categories/4/sub_categories/2/name	Sauteed	À la poêle	Слегка поджаренные	Сотирани
+ui/crafting/cooking/categories/4/sub_categories/3/name	Fried	Frits	Жареные в масле	Пържени
+ui/crafting/cooking/categories/4/sub_categories/4/name	Baked	Au four	Печёные	Печива
+ui/crafting/cooking/categories/4/sub_categories/5/name	Roasted	Braisés	Обжаренные	Печени
+ui/crafting/cooking/categories/4/sub_categories/6/name	Steamed	À la vapeur	На пару	На пара
+ui/crafting/cooking/categories/4/sub_categories/7/name	Simmered	Mijotés	Тушёные	Варени на тих огън
+ui/crafting/cooking/categories/4/sub_categories/8/name	Chilled	Frais	Охлаждённые	Охладени
+ui/crafting/cooking/categories/5/name	Desserts	Desserts	Десерты	Десерти
+ui/crafting/cooking/categories/5/sub_categories/0/name	Hand Crafted	Préparés à la main	Простые	Ръчно изработени
+ui/crafting/cooking/categories/5/sub_categories/1/name	Baked	Au four	Печёные	Печива
+ui/crafting/cooking/categories/5/sub_categories/2/name	Fried	Frits	Жареные	Пържени
+ui/crafting/cooking/categories/5/sub_categories/3/name	Steamed	À la vapeur	На пару	На пара
+ui/crafting/cooking/categories/5/sub_categories/4/name	Frozen	Glacés	Мороженые	Замразени
+ui/crafting/cooking/categories/5/sub_categories/5/name	Candy	Confiseries	Засахаренные	Бонбони
+ui/crafting/cooking/categories/6/name	Drinks	Boissons	Напитки	Напитки
+ui/crafting/cooking/categories/6/sub_categories/0/name	Cold	Froides	Холодные	Студени
+ui/crafting/cooking/categories/6/sub_categories/1/name	Hot	Chaudes	Горячие	Топли
+ui/crafting/dragon_forging/categories/0/name	Swords	Épées	Мечи	Мечове
+ui/crafting/dragon_forging/categories/0/sub_categories/0/name	Swords	Épées	Мечи	Мечове
+ui/crafting/dragon_forging/categories/1/name	Materials	Matériaux	Материалы	Материали
+ui/crafting/dragon_forging/categories/1/sub_categories/0/name	Materials	Matériaux	Материалы	Материали
+ui/crafting/milling/categories/0/name	Animal Feed	Nourriture pour animaux	Корм для скота	Храна за животни
+ui/crafting/milling/categories/0/sub_categories/0/name	Animal Feed	Nourriture pour animaux	Корм для скота	Храна за животни
+ui/crafting/milling/categories/1/name	Animal Products	Produits pour animaux	Продукты животноводства	Животински продукти
+ui/crafting/milling/categories/1/sub_categories/0/name	Animal Products	Produits pour animaux	Продукты животноводства	Животински продукти
+ui/crafting/milling/categories/2/name	Milled Ingredients	Ingrédients moulus	Молотые ингредиенты	Смлени съставки
+ui/crafting/milling/categories/2/sub_categories/0/name	Milled Ingredients	Ingrédients moulus	Молотые ингредиенты	Смлени съставки
+ui/crafting/milling/categories/3/name	Miscellaneous	Divers	Прочее	Разни
+ui/crafting/milling/categories/3/sub_categories/0/name	Miscellaneous	Divers	Прочее	Разни
+ui/crafting/refining/categories/0/name	Essence Stones	Pierres d'essence	Камни эссенции	Камъни на есенцията
+ui/crafting/refining/categories/0/sub_categories/0/name	Essence Stones	Pierres d'essence	Камни эссенции	Камъни на есенцията
+ui/crafting/refining/categories/1/name	Materials	Matériaux	Материалы	Материали
+ui/crafting/refining/categories/1/sub_categories/0/name	Materials	Matériaux	Материалы	Материали
+ui/crafting/woodcrafting/categories/0/name	Sets	Ensembles	Наборы	Комплекти
+ui/crafting/woodcrafting/categories/0/sub_categories/0/name	Automation Set	Automatisation	Автоматика	Комплект за автоматизация
+ui/crafting/woodcrafting/categories/0/sub_categories/10/name	Cottage Garden Set	Jardin fleuri	Дачный сад	Комплект „Вилна градина“
+ui/crafting/woodcrafting/categories/0/sub_categories/11/name	Counter Set	Comptoir	Прилавок	Комплект плотове
+ui/crafting/woodcrafting/categories/0/sub_categories/12/name	Craft Set	Artisanat	Ремесло	Комплект за изработка
+ui/crafting/woodcrafting/categories/0/sub_categories/13/name	Crop Sign Set (Spring)	Pancartes de cultures de printemps	Знаки: урожай весны	Комплект пролетни табели за култури
+ui/crafting/woodcrafting/categories/0/sub_categories/14/name	Crop Sign Set (Summer)	Pancartes de cultures d'été	Знаки: урожай лета	Комплект летни табели за култури
+ui/crafting/woodcrafting/categories/0/sub_categories/15/name	Crop Sign Set (Fall)	Pancartes de cultures d'automne	Знаки: урожай осени	Комплект есенни табели за култури
+ui/crafting/woodcrafting/categories/0/sub_categories/16/name	Crop Sign Set (Winter)	Pancartes de cultures d'hiver	Знаки: урожай зимы	Комплект зимни табели за култури
+ui/crafting/woodcrafting/categories/0/sub_categories/17/name	Dragon Claw Altar Set	Autel de la griffe du dragon	Драконий алтарь	Комплект олтар на драконовия нокът
+ui/crafting/woodcrafting/categories/0/sub_categories/18/name	Emerald Set	Émeraude	Изумрудный набор	Изумруден комплект
+ui/crafting/woodcrafting/categories/0/sub_categories/19/name	Explorer Set	Exploration	Искательский набор	Изследователски комплект
+ui/crafting/woodcrafting/categories/0/sub_categories/2/name	Bakery Decor Set	Pâtisserie	Кондитерская	Комплект за украса на пекарна
+ui/crafting/woodcrafting/categories/0/sub_categories/20/name	Fall Set	Automnal	Осенний набор	Есенен комплект
+ui/crafting/woodcrafting/categories/0/sub_categories/21/name	Faux Spring Plant Set	Plantes printanières artificielles	Муляж: весна	Комплект изкуствени пролетни растения
+ui/crafting/woodcrafting/categories/0/sub_categories/22/name	Faux Summer Plant Set	Plantes estivales artificielles	Муляж: лето	Комплект изкуствени летни растения
+ui/crafting/woodcrafting/categories/0/sub_categories/23/name	Faux Fall Plant Set	Plantes automnales artificielles	Муляж: осень	Комплект изкуствени есенни растения
+ui/crafting/woodcrafting/categories/0/sub_categories/24/name	Faux Winter Plant Set	Plantes hivernales artificielles	Муляж: зима	Комплект изкуствени зимни растения
+ui/crafting/woodcrafting/categories/0/sub_categories/25/name	Faux Deep Woods Set	Plantes artificielles de Boissombre	Муляж: Глубокая чаща	Комплект изкуствени растения от Дълбоката гора
+ui/crafting/woodcrafting/categories/0/sub_categories/26/name	Faux Mines Plant Set	Plantes artificielles des mines	Муляж: шахты	Комплект изкуствени минни растения
+ui/crafting/woodcrafting/categories/0/sub_categories/27/name	Faux Shell Set	Coquillages artificiels	Муляж: ракушки	Комплект изкуствени черупки
+ui/crafting/woodcrafting/categories/0/sub_categories/28/name	Fishing Set	Tout pour la pêche	Рыбалка	Риболовен комплект
+ui/crafting/woodcrafting/categories/0/sub_categories/29/name	Haunted Attic Set	Grenier hanté	Мрачный чердак	Комплект за обитаван от духове таван
+ui/crafting/woodcrafting/categories/0/sub_categories/3/name	Basic Chest Set	Coffre ordinaire	Базовые сундуки	Комплект обикновени сандъци
+ui/crafting/woodcrafting/categories/0/sub_categories/30/name	Insect Set	Entomologie	Насекомые	Комплект за насекоми
+ui/crafting/woodcrafting/categories/0/sub_categories/31/name	Kitchen Set	Ustensiles de cuisine	Кухонный набор	Кухненски комплект
+ui/crafting/woodcrafting/categories/0/sub_categories/32/name	Lava Caves Set	Grotte volcanique	Лавовая пещера	Комплект за Лавовите пещери
+ui/crafting/woodcrafting/categories/0/sub_categories/33/name	Lemon Set			Lemon Set
+ui/crafting/woodcrafting/categories/0/sub_categories/34/name	Lovely Cottage Set	Intérieur de bon goût	Милый дом	Комплект „Очарователна вила“
+ui/crafting/woodcrafting/categories/0/sub_categories/35/name	Mermaid Set	Sirène	Набор: русалка	Комплект русалка
+ui/crafting/woodcrafting/categories/0/sub_categories/36/name	Mineshaft Set	Mine	Шахта	Комплект за минна галерия
+ui/crafting/woodcrafting/categories/0/sub_categories/37/name	Mistrian History Set	Passé de Mistria	История Мистрии	Комплект „Историята на Мистрия“
+ui/crafting/woodcrafting/categories/0/sub_categories/39/name	Ornate Rug Set	Tapis ouvragé	Расшитые ковры	Комплект богато украсени килими
+ui/crafting/woodcrafting/categories/0/sub_categories/4/name	Basic Set	Ordinaire	Базовый набор	Основен комплект
+ui/crafting/woodcrafting/categories/0/sub_categories/40/name	Paving Stone Set	Dallage	Тротуарная плитка	Комплект каменна настилка
+ui/crafting/woodcrafting/categories/0/sub_categories/41/name	Picnic Decor Set	Pique-nique	Пикник	Комплект за пикник
+ui/crafting/woodcrafting/categories/0/sub_categories/42/name	Ruins Set			Ruins Set
+ui/crafting/woodcrafting/categories/0/sub_categories/43/name	Rustic Cabin Set	Cabane rustique	Шале	Комплект „Рустикална хижа“
+ui/crafting/woodcrafting/categories/0/sub_categories/44/name	Shooting Star Set	Étoile filante	Звездопад	Комплект „Падащи звезди“
+ui/crafting/woodcrafting/categories/0/sub_categories/45/name	Spring Set	Printanier	Весенний набор	Пролетен комплект
+ui/crafting/woodcrafting/categories/0/sub_categories/46/name	Starter Farm Set	Débuts en agriculture	Базовая ферма	Комплект за начална ферма
+ui/crafting/woodcrafting/categories/0/sub_categories/47/name	Stone Garden Set	Jardin minéral	Каменный сад	Каменен градински комплект
+ui/crafting/woodcrafting/categories/0/sub_categories/48/name	Summer Set	Estival	Летний набор	Летен комплект
+ui/crafting/woodcrafting/categories/0/sub_categories/49/name	Tabletop Clutter Set	Bric-à-brac de cuisine	Настольные украшения	Комплект за дреболии по масата
+ui/crafting/woodcrafting/categories/0/sub_categories/5/name	Bathroom Set	Salle de bain	Ванная	Комплект за баня
+ui/crafting/woodcrafting/categories/0/sub_categories/50/name	Tide Set	Fonds sous-marins	Набор: приливы	Комплект „Прилив“
+ui/crafting/woodcrafting/categories/0/sub_categories/51/name	Training Dummy Set	Mannequin d'entraînement	Тренировочные куклы	Комплект тренировъчен манекен
+ui/crafting/woodcrafting/categories/0/sub_categories/52/name	Void Set	Objets du néant		Комплект „Бездната“
+ui/crafting/woodcrafting/categories/0/sub_categories/53/name	Witch Queen Set	Reine-sorcière	Королевы-ведьмы	Комплект „Кралицата на вещиците“
+ui/crafting/woodcrafting/categories/0/sub_categories/54/name	Worn Set	Ancien	Потёртый набор	Износен комплект
+ui/crafting/woodcrafting/categories/0/sub_categories/6/name	Cavern Set	Caverne	Подземный грот	Пещерен комплект
+ui/crafting/woodcrafting/categories/0/sub_categories/8/name	Chess Piece Set	Pièces d'échec	Шахматные фигуры	Комплект шахматни фигури
+ui/crafting/woodcrafting/categories/0/sub_categories/9/name	Cooking Set	Batterie de cuisine	Готовка	Готварски комплект
+ui/crafting/woodcrafting/categories/1/name	Functional	Pratique	Функциональные	Функционални
+ui/crafting/woodcrafting/categories/1/sub_categories/0/name	Automation	Automatisation	Автоматика	Автоматизация
+ui/crafting/woodcrafting/categories/1/sub_categories/1/name	All Misc. Functional	Divers	Разное	Всички функционални
+ui/crafting/woodcrafting/categories/1/sub_categories/2/name	Calendar	Calendrier	Календарь	Календар
+ui/crafting/woodcrafting/categories/1/sub_categories/3/name	Chests & Storage	Coffres et rangement	Сундуки и хранение	Сандъци и съхранение
+ui/crafting/woodcrafting/categories/1/sub_categories/4/name	Diary	Journal	Дневник	Дневник
+ui/crafting/woodcrafting/categories/1/sub_categories/5/name	Miscellaneous			Miscellaneous
+ui/crafting/woodcrafting/categories/10/name	Rugs	Tapis	Ковры	Килими
+ui/crafting/woodcrafting/categories/10/sub_categories/0/name	Large	Grands	Большие	Големи
+ui/crafting/woodcrafting/categories/10/sub_categories/1/name	Medium	Moyens	Средние	Средни
+ui/crafting/woodcrafting/categories/10/sub_categories/2/name	Small	Petits	Маленькие	Малки
+ui/crafting/woodcrafting/categories/11/name	Windows	Ouvertures	Окна	Прозорци
+ui/crafting/woodcrafting/categories/11/sub_categories/0/name	Window	Fenêtre	Окно	Прозорци
+ui/crafting/woodcrafting/categories/12/name	Wall Decor	Décorations murales	Настенный декор	Стенна украса
+ui/crafting/woodcrafting/categories/12/sub_categories/0/name	Misc. Wall Decor	Divers	Разное	Разни
+ui/crafting/woodcrafting/categories/12/sub_categories/1/name	Wall Art	Œuvres d'art murales	Настенные панно	Стенни картини
+ui/crafting/woodcrafting/categories/12/sub_categories/2/name	Wall Hanging	Décorations suspendues	Настенные украшения	Висящи декорации
+ui/crafting/woodcrafting/categories/13/name	Plants	Plantes	Растения	Растения
+ui/crafting/woodcrafting/categories/13/sub_categories/0/name	Freestanding	Plantes hautes	Отдельно стоящие	Свободностоящи
+ui/crafting/woodcrafting/categories/13/sub_categories/1/name	Misc. Plants	Divers	Разное	Разни
+ui/crafting/woodcrafting/categories/13/sub_categories/2/name	Potted	Plantes en pot	Горшки	В саксии
+ui/crafting/woodcrafting/categories/13/sub_categories/3/name	Tabletop	Plantes d'intérieur	Настольные	За маса
+ui/crafting/woodcrafting/categories/14/name	Decorative Items	Objets décoratifs	Декор	Декоративни предмети
+ui/crafting/woodcrafting/categories/14/sub_categories/0/name	Home Essentials	Indispensables	Домашняя утварь	Домашни принадлежности
+ui/crafting/woodcrafting/categories/14/sub_categories/1/name	Kitchen	Pour la cuisine	Кухня	Кухня
+ui/crafting/woodcrafting/categories/14/sub_categories/2/name	Misc. Decor	Divers	Разное	Разни
+ui/crafting/woodcrafting/categories/14/sub_categories/3/name	Office	Pour le bureau	Кабинет	Офис
+ui/crafting/woodcrafting/categories/15/name	Miscellaneous	Divers	Разное	Разни
+ui/crafting/woodcrafting/categories/15/sub_categories/0/name	Miscellaneous	Divers	Разное	Разни
+ui/crafting/woodcrafting/categories/2/name	Farm & Outdoor	Ferme et jardin	Ферма и сад	Ферма и открито
+ui/crafting/woodcrafting/categories/2/sub_categories/0/name	Crop Signs	Pancartes de cultures	Знаки растений	Табели за култури
+ui/crafting/woodcrafting/categories/2/sub_categories/1/name	Farm	Ferme	Ферма	Ферма
+ui/crafting/woodcrafting/categories/2/sub_categories/2/name	Fencing	Clôture	Заборы	Огради
+ui/crafting/woodcrafting/categories/2/sub_categories/3/name	Garden	Jardin	Сад	Градина
+ui/crafting/woodcrafting/categories/2/sub_categories/4/name	Ground	Sol	Ландшафт	Земя
+ui/crafting/woodcrafting/categories/2/sub_categories/5/name	Misc. Outdoor	Divers	Разное	Разни за открито
+ui/crafting/woodcrafting/categories/3/name	Flooring	Revêtements de sol	Пол	Подови настилки
+ui/crafting/woodcrafting/categories/3/sub_categories/0/name	Carpet	Tapis	Ковёр	Килими
+ui/crafting/woodcrafting/categories/3/sub_categories/1/name	Misc. Flooring	Divers	Разное	Разни подови настилки
+ui/crafting/woodcrafting/categories/3/sub_categories/2/name	Novelty	Fantaisie	Необычные	Причудливи
+ui/crafting/woodcrafting/categories/3/sub_categories/3/name	Tile	Carrelage	Плитка	Плочки
+ui/crafting/woodcrafting/categories/3/sub_categories/4/name	Wood	Bois	Дерево	Дърво
+ui/crafting/woodcrafting/categories/4/name	Wallpaper	Papiers peints	Обои	Тапети
+ui/crafting/woodcrafting/categories/4/sub_categories/0/name	Wallpaper	Papiers peints	Обои	Тапети
+ui/crafting/woodcrafting/categories/5/name	Seating	Sièges	Мебель для сидения	Мебели за сядане
+ui/crafting/woodcrafting/categories/5/sub_categories/0/name	Accent Chairs	Chaises décoratives	Кресла	Акцентни столове
+ui/crafting/woodcrafting/categories/5/sub_categories/1/name	Dining Chairs	Chaises de salle à manger	Стулья	Трапезни столове
+ui/crafting/woodcrafting/categories/5/sub_categories/2/name	Misc. Seating	Divers	Разное	Разни мебели за сядане
+ui/crafting/woodcrafting/categories/5/sub_categories/3/name	Sofas	Canapés	Диваны	Дивани
+ui/crafting/woodcrafting/categories/5/sub_categories/4/name	Stools	Tabourets	Табуретки	Табуретки
+ui/crafting/woodcrafting/categories/6/name	Beds	Lits	Кровати	Легла
+ui/crafting/woodcrafting/categories/6/sub_categories/0/name	Double	Doubles	Двуспальные	Двойни
+ui/crafting/woodcrafting/categories/6/sub_categories/1/name	Single	Simples	Односпальные	Единични
+ui/crafting/woodcrafting/categories/7/name	Tables	Tables	Столы	Маси
+ui/crafting/woodcrafting/categories/7/sub_categories/0/name	Coffee Tables	Tables basses	Журнальные столики	Холни маси
+ui/crafting/woodcrafting/categories/7/sub_categories/1/name	Consoles	Consoles	Консольные столики	Конзолни маси
+ui/crafting/woodcrafting/categories/7/sub_categories/2/name	Counters	Comptoirs	Прилавки	Плотове
+ui/crafting/woodcrafting/categories/7/sub_categories/3/name	Dining Tables	Tables de salle à manger	Обеденные столы	Трапезни маси
+ui/crafting/woodcrafting/categories/7/sub_categories/4/name	Dressing Tables	Coiffeuses	Трюмо	Тоалетки
+ui/crafting/woodcrafting/categories/7/sub_categories/5/name	Side Tables	Petites tables	Боковые столики	Помощни маси
+ui/crafting/woodcrafting/categories/8/name	Shelves & Drawers	Étagères et meubles	Шкафы и комоды	Рафтове и чекмеджета
+ui/crafting/woodcrafting/categories/8/sub_categories/0/name	Armoires	Armoires	Гардеробы	Гардероби
+ui/crafting/woodcrafting/categories/8/sub_categories/1/name	Bookshelves	Bibliothèques	Книжные шкафы	Библиотеки
+ui/crafting/woodcrafting/categories/8/sub_categories/2/name	Drawers	Commodes	Комоды	Скринове
+ui/crafting/woodcrafting/categories/8/sub_categories/3/name	Nightstands	Tables de nuit	Тумбочки	Нощни шкафчета
+ui/crafting/woodcrafting/categories/8/sub_categories/4/name	Wall Shelves	Étagères murales	Полки	Стенни рафтове
+ui/crafting/woodcrafting/categories/9/name	Lighting	Éclairages	Освещение	Осветление
+ui/crafting/woodcrafting/categories/9/sub_categories/0/name	Floor	Lampes sur pied	Напольное	Подови
+ui/crafting/woodcrafting/categories/9/sub_categories/1/name	Misc. Lighting	Divers	Разное	Разни
+ui/crafting/woodcrafting/categories/9/sub_categories/2/name	Table	Lampes	Настольное	Настолни
+ui/crafting/woodcrafting/categories/9/sub_categories/3/name	Wall	Lampes murales	Настенное	Стенни
+ui/skill_menu/archaeology/name	Archaeology	Archéologie	Археология	Археология
+ui/skill_menu/blacksmithing/name	Blacksmithing	Ferronnerie	Кузница	Ковачество
+ui/skill_menu/combat/name	Combat	Combat	Сражение	Бой
+ui/skill_menu/cooking/name	Cooking	Cuisine	Готовка	Готвене
+ui/skill_menu/farming/name	Farming	Agriculture	Земледелие	Земеделие
+ui/skill_menu/fishing/name	Fishing	Pêche	Рыбалка	Риболов
+ui/skill_menu/mining/name	Mining	Extraction minière	Добыча	Минно дело
+ui/skill_menu/mount/name	Mistmare	Brumella	Марево	Мъглокон
+ui/skill_menu/ranching/name	Ranching	Élevage	Животноводство	Животновъдство
+ui/skill_menu/woodcrafting/name	Woodcrafting	Menuiserie	Ремесло	Дърводелство
