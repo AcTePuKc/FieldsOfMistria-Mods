@@ -77,6 +77,18 @@ Do not use masculine wording as the fallback. Do not add `<it>`, `<all>`, or
 offer those selections because the current text has no matching variants; a
 visible choice without a matching branch can make part of a line disappear.
 
+## Kinship terms in natural dialogue
+
+For `Great Aunt` / `Great Aunt Elsie`, prefer `леля` / `леля Елси` in ordinary
+dialogue when the exact genealogical degree is not relevant to the scene.
+
+The literal Bulgarian kinship term `пралеля` is correct and is written as one
+word, but it is uncommon and visually easy to misread in fast-moving dialogue.
+Using `леля` keeps the relationship clear and the line natural for the player.
+Retain `пралеля` only where the exact family relationship itself is important,
+for example in genealogy, exposition, or a line that explicitly contrasts
+family generations.
+
 ## Children in partner-specific dialogue
 
 Child-related dialogue is authored separately for each partner. Do not assume
