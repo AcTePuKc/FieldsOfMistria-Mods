@@ -1,0 +1,30 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-bank-eiland-post-8h-best-friend-01"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_0/1" = "Повечето следобеди прекарвах в библиотеката на майка ми, изучавайки история и древни езици. Беше чудесен начин да пътувам до далечни места!"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_0/2" = "Всъщност едва когато намерих онзи калдосиански пръстен с печат, започнах да ценя историята, която през цялото време е била около мен."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_0/3" = "Сега съм благодарен на по-младото си аз, че е стигнало до археологията по такъв заобиколен път!"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_0/init" = "Като дете не прекарвах толкова време навън, колкото сега."
+
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_2/1" = "Най-новата мода при десертите пристигна... черен пипер върху сладолед!"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_2/2" = "Солта е едно, но пипер? Абсурдно е."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_2/3" = "Както и да е, просто трябва да го опитам възможно най-скоро."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_2/4" = "Може да го опитаме заедно!"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_2/init" = "Чу ли голямата новина от Столицата, [Ari]?"
+
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_4/1" = "Не би ли било чудно да живееш в епохата на алдите? Или във времето на Вещите кралици?"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_4/2" = "Но съм сигурен, че някой ден хората ще гледат и на най-обикновените неща от нашето ежедневие и ще ги смятат за удивителни."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_4/3" = "И разбира се... ти живееш в тази епоха!"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_4/4" = "Няма как да пропусна това!"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_4/init" = "Чудиш ли се понякога какъв би бил животът ти, ако беше роден в друга епоха?"
+
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_5/1" = "Нека ти взема едно! После ще ми разкажеш как е минал денят ти."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_5/2" = "Заповядай, халба от най-доброто в Хана! Наздраве!"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_5/init" = "А, [Ari]! Тъкмо си мислех, че ще е хубаво да пийнем по нещо заедно."
+
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_6/1" = "Разгледайте спокойно различните крила на нашето учреждение, където ще откриете местни чудеса и богатата история на Мистрия..."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_6/2" = "Голяма част от тази колекция е събрана почти еднолично благодарение на [Ari], член на Историческото дружество и неизменна част от местните приключения!"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_6/3" = "Е? Как ти звучи сценарият ми за обиколката дотук? Според мен началото е силно!"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_best_friend/eiland_post_8h_best_friend_6/init" = "Кхъм. Добре дошли, уважаеми гости, в световноизвестния Музей за история и култура на Мистрия!"
