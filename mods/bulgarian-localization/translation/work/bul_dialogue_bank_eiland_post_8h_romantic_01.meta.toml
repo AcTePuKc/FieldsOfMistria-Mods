@@ -1,0 +1,25 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-bank-eiland-post-8h-romantic-01"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_0/1" = "Разбира се, това е било по времето, когато е бил на фронта, преди да получи благородническа титла."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_0/2" = "По своему е романтично..."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_0/3" = "Но съм благодарен, че мога да бъда близо до човека, на когото държа, и да сме заедно всеки ден."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_0/init" = "Странно е да си помисля, че когато баща ми е започнал да ухажва майка ми, са можели да общуват само с писма."
+
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_1/1" = "Наскоро започнах ново проучване върху историята на алдарийските традиции на ухажване!"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_1/2" = "Някои обичаи, като $Фестивала на падащите звезди$, почти не са се променили през годините..."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_1/3" = "Но най-много ме очароват точно нещата, които са се променили!"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_1/3/prompts/0" = "О, разкажи ми още!"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_1/3/prompts/1" = "А защо изследваш традициите на ухажване?"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_1/4" = "Е, днешните алдарийци обикновено подаряват храна по-често от всичко друго."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_1/5" = "Докато предците ни, алдите, по-често са подарявали на любимите си цветя и скъпоценни камъни."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_1/6" = "Аз, ъъ... реших, че този път ще е забавно да последвам по-стария обичай."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_1/7" = "Заповядай, [Ari]. Това е за теб."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_1/8" = "А... ами напоследък тази тема не ми излиза от ума."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_1/9" = "Интересно е. Днешните алдарийци обикновено подаряват храна по-често от всичко друго."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_1/10" = "Докато предците ни, алдите, по-често са подарявали на любимите си цветя и скъпоценни камъни."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_1/11" = "Аз, ъъ... реших, че този път ще е забавно да последвам по-стария обичай."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_1/12" = "Заповядай, [Ari]. Това е за теб."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_1/init" = "От известно време искам да ти кажа нещо, [Ari]!"
