@@ -1,0 +1,33 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-bank-eiland-post-8h-romantic-02"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_2/1" = "Тогава защо оставам без думи всеки път, когато се приближиш?"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_2/init" = "Сред уменията, които трябваше да усвоя като благородник, никога не съм смятал красноречието си за слаба страна."
+
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_3/1" = "О, [Ari]!"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_3/2" = "Извинявай, бях се замислил."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_3/2/prompts/0" = "За какво мислиш?"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_3/2/prompts/1" = "Всичко наред ли е?"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_3/3" = "А, да. Просто..."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_3/4" = "Напоследък все повече мисля за бъдещето."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_3/5" = "Винаги съм знаел, че Аделайн ще бъде наследницата на родителите ни."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_3/6" = "И винаги съм бил благодарен за това."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_3/7" = "Но когато знаеш, че бъдещето ти зависи почти изцяло от това, което сам си изградиш..."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_3/8" = "Как се чувстваш по този въпрос?"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_3/8/prompts/0" = "Радвам се, че можеш свободно да следваш мечтите си!"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_3/8/prompts/1" = "Няма значение. За мен ти си принц, Айленд."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_3/9" = "[Ari]... толкова се радвам, че ме разбираш."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_3/10" = "Аделайн наследи много отговорности като бъдеща баронеса, докато на мен ми беше дадена свободата да вървя през живота със собствено темпо."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_3/11" = "Надявам се някой ден, ако имам свои деца..."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_3/12" = "И те да имат същата свобода да следват мечтите си."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_3/13" = "Ха-ха!"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_3/14" = "О, [Ari]... благодаря ти."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_3/15" = "Но те уверявам, че съм твърде назад в реда на наследяване, за да имам истински шанс някога да стана принц!"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_3/init" = "..."
+
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_4/1" = "Това е подарък за теб от „Калинката“, пекарната на семейството на Райс!"
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_4/2" = "Реших, че може да ти хареса да опиташ техния специалитет, =Златен чийзкейк=."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_4/3" = "Хапни го, докато е още пресен."
+"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_4/init" = "Ето те и теб, [Ari]! Току-що получих една изключително спешна пратка от Столицата..."
