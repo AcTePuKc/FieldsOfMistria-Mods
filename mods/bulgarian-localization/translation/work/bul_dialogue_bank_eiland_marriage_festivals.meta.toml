@@ -1,0 +1,16 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-bank-eiland-marriage-festivals"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Eiland/Relationship Lines/Marriage/marriage_festival_mornings/animal_festival/1" = "Нямам търпение да започне $Фестивалът на животните$! Това е единственото време от годината, когато мога да си хапна =Поничка във формата на крава=!"
+"Conversations/Bank/Eiland/Relationship Lines/Marriage/marriage_festival_mornings/animal_festival/init" = "Добро утро, [Ari]."
+"Conversations/Bank/Eiland/Relationship Lines/Marriage/marriage_festival_mornings/harvest_festival/1" = "Да закусим ли нещо по-леко днес?"
+"Conversations/Bank/Eiland/Relationship Lines/Marriage/marriage_festival_mornings/harvest_festival/2" = "Не бива да се натъпкваме преди да започне $Фестивалът на реколтата$!"
+"Conversations/Bank/Eiland/Relationship Lines/Marriage/marriage_festival_mornings/harvest_festival/init" = "Добро утро, [Ari]."
+"Conversations/Bank/Eiland/Relationship Lines/Marriage/marriage_festival_mornings/shooting_star_festival/1" = "$Фестивалът на падащите звезди$ е тази вечер."
+"Conversations/Bank/Eiland/Relationship Lines/Marriage/marriage_festival_mornings/shooting_star_festival/2" = "Наистина нямам търпение да му се насладим заедно."
+"Conversations/Bank/Eiland/Relationship Lines/Marriage/marriage_festival_mornings/shooting_star_festival/init" = "Добро утро, [Ari]."
+"Conversations/Bank/Eiland/Relationship Lines/Marriage/marriage_festival_mornings/spring_festival/1" = "$Пролетният фестивал$ е днес!"
+"Conversations/Bank/Eiland/Relationship Lines/Marriage/marriage_festival_mornings/spring_festival/2" = "Ще бъде много забавно, има толкова сезонни лакомства за опитване!"
+"Conversations/Bank/Eiland/Relationship Lines/Marriage/marriage_festival_mornings/spring_festival/init" = "Добро утро, [Ari]."
