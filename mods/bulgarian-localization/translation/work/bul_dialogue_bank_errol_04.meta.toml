@@ -3,9 +3,9 @@ id = "fom-bg-work-dialogue-bank-errol-04"
 asset_kind = "L10nTarget"
 
 [asset_properties]
-"Conversations/Bank/Errol/Banked Lines/week_one_pt_2/week_one_pt_2/1" = "Хората тук са чудесни, нали? А вече и ти си един от тях."
+"Conversations/Bank/Errol/Banked Lines/week_one_pt_2/week_one_pt_2/1" = "Хората тук са чудесни, нали? А вече можем да причислим и теб към тях."
 "Conversations/Bank/Errol/Banked Lines/week_one_pt_2/week_one_pt_2/init" = "Привет, [Ari]!"
-"Conversations/Bank/Errol/Banked Lines/welcome_to_the_museum/welcome_to_the_museum/init" = "Добре дошъл в Музея! Разгледай спокойно колекцията ни."
+"Conversations/Bank/Errol/Banked Lines/welcome_to_the_museum/welcome_to_the_museum/init" = "Заповядай в Музея! Разгледай спокойно колекцията ни."
 "Conversations/Bank/Errol/Banked Lines/western_ruins/western_ruins/init" = "Тези руини не са нито алдарийски, нито калдосиански... колко любопитно."
 "Conversations/Bank/Errol/Banked Lines/western_ruins/western_ruins_alt/init" = "Най-сетне да имаме потвърждение, че тези руини са от епохата на Вещите кралици... невероятно."
 "Conversations/Bank/Errol/Banked Lines/western_ruins_stroll/western_ruins_stroll/init" = "Радвам се да те видя, [Ari]! Чудесен ден за разходка до Западните руини."
