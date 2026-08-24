@@ -5,7 +5,7 @@ asset_kind = "L10nTarget"
 [asset_properties]
 "Conversations/Bank/Errol/Banked Lines/Brunch/brunch/init" = "Няма по-добро място за късна закуска от Хана на Спящия дракон. Уф... преядох."
 "Conversations/Bank/Errol/Banked Lines/basement/basement_1/init" = "Привет!"
-"Conversations/Bank/Errol/Banked Lines/bathhouse/bathhouse/init" = "Няма нищо по-хубаво от гореща баня през студения сезон."
+"Conversations/Bank/Errol/Banked Lines/bathhouse/bathhouse/init" = "Няма нищо по-хубаво от гореща баня през зимата."
 "Conversations/Bank/Errol/Banked Lines/bathhouse/bathhouse_2/1" = "Банята определено е за предпочитане, благодаря!"
 "Conversations/Bank/Errol/Banked Lines/bathhouse/bathhouse_2/init" = "Истинска благословия е, че Джунипър вдъхна нов живот на Банята. Някога имаше дни, в които изкарвах цяла смяна в Мините, а после се миех в ледената река."
 "Conversations/Bank/Errol/Banked Lines/beach_walk/beach_walk/init" = "Ще е приятно да завърша уикенда с малко морски бриз... може би ще се разходя до Плажа."
