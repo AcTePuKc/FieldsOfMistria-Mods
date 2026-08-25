@@ -3,6 +3,7 @@ id = "fom-bg-work-dialogue-bank-elsie-04"
 asset_kind = "L10nTarget"
 
 [asset_properties]
+"Conversations/Bank/Elsie/Banked Lines/week_one_pt_2/week_one_pt_2/1" = "В Мистрия има чар, който Столицата никога не би могла да предложи."
 "Conversations/Bank/Elsie/Banked Lines/week_one_pt_2/week_one_pt_2/init" = "Знам, че за някои Мистрия може да изглежда като малко затънтено градче, но не бързай със заключенията..."
 "Conversations/Bank/Elsie/Banked Lines/week_one_pt_2/week_two/1" = "Но не можах да я намеря никъде!"
 "Conversations/Bank/Elsie/Banked Lines/week_one_pt_2/week_two/2" = "Беше много странно."
