@@ -3,6 +3,8 @@ id = "fom-bg-work-dialogue-bank-errol-03"
 asset_kind = "L10nTarget"
 
 [asset_properties]
+"Conversations/Bank/Errol/Banked Lines/old_man/old_man/1" = "Ах, не ми обръщай внимание... просто приказките на един щастлив старец."
+"Conversations/Bank/Errol/Banked Lines/old_man/old_man/init" = "Явно възрастта не е пречка, когато човек реши да поеме живота си в нова посока."
 "Conversations/Bank/Errol/Banked Lines/old_miner/old_miner/init" = "Кой би предположил, че един стар миньор като мен някой ден ще стане куратор на музей!"
 "Conversations/Bank/Errol/Banked Lines/olric_listened/olric_listened/1" = "Само горкият Олрик изслушваше дивите ми предположения за произхода им!"
 "Conversations/Bank/Errol/Banked Lines/olric_listened/olric_listened/init" = "Когато бях бригадир, само аз се интересувах от артефактите, на които се натъквахме."
