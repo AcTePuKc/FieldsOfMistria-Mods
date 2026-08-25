@@ -1,0 +1,20 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-bank-elsie-market-02"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Elsie/Market Lines/market_taliferro/market_taliferro_1/1" = "Предполагам, че затова толкова се старае."
+"Conversations/Bank/Elsie/Market Lines/market_taliferro/market_taliferro_1/2" = "Или пък просто наистина е задник."
+"Conversations/Bank/Elsie/Market Lines/market_taliferro/market_taliferro_1/init" = "Фамилията Талиферо има голяма тежест в Столицата, но самото семейство напоследък е изпаднало в затруднение."
+"Conversations/Bank/Elsie/Market Lines/market_taliferro/market_taliferro_2/1" = "И трябва да е, щом всяка събота мъкне цяла кухня до градския площад и после обратно."
+"Conversations/Bank/Elsie/Market Lines/market_taliferro/market_taliferro_2/init" = "Талиферо е изненадващо стегнат под онези бели готварски дрехи."
+"Conversations/Bank/Elsie/Market Lines/market_taliferro/market_taliferro_3/1" = "Покрай него започнах много повече да ценя хубавата храна..."
+"Conversations/Bank/Elsie/Market Lines/market_taliferro/market_taliferro_3/2" = "А още повече - скромните готвачи!"
+"Conversations/Bank/Elsie/Market Lines/market_taliferro/market_taliferro_3/init" = "Доста пъти съм хапвала в заведението на Талиферо в Столицата!"
+"Conversations/Bank/Elsie/Market Lines/market_taliferro/market_taliferro_4/1" = "Понякога ябълката не пада по-далеч от ябълковия тарт, ако ме разбираш."
+"Conversations/Bank/Elsie/Market Lines/market_taliferro/market_taliferro_4/init" = "Всъщност неведнъж съм вечеряла с родителите на Талиферо."
+"Conversations/Bank/Elsie/Market Lines/market_vera_1/market_vera_1/init" = "Черното е прекрасен цвят за коса, но сребристото подхожда повече на гардероба ми."
+"Conversations/Bank/Elsie/Market Lines/market_vera_2/market_vera_2/init" = "Вера ми предложи да боядиса косата ми, но аз си я предпочитам естествена."
+"Conversations/Bank/Elsie/Market Lines/market_vera_3/market_vera_3/1" = "Говорят си за това, но винаги си остават с естественото розово. Трябва малко да поживеят!"
+"Conversations/Bank/Elsie/Market Lines/market_vera_3/market_vera_3/init" = "Чудя се дали Аделайн и Айленд някога наистина биха се престрашили да боядисат косите си в някой шантав цвят..."
+"Conversations/Bank/Elsie/Market Lines/market_vera_4/market_vera_4/init" = "Хубавото на сребристата коса е, че изглежда толкова изискано!"
