@@ -1,0 +1,23 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-bank-elsie-market-01"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Elsie/Market Lines/market_darcy_1/market_darcy_1/init" = "В повечето неща в живота съм доста авантюристична, но когато става дума за чай, съм страшно придирчива. =Чай с жасмин= ми е любим! За щастие Дарси винаги има."
+"Conversations/Bank/Elsie/Market Lines/market_darcy_2/market_darcy_2/init" = "=Чай с жасмин= на Дарси е направо божествен... само ароматът му е наслада за сетивата."
+"Conversations/Bank/Elsie/Market Lines/market_darcy_3/market_darcy_3/init" = "Обожавам =Чай с жасмин= на Дарси... винаги ме настройва романтично."
+"Conversations/Bank/Elsie/Market Lines/market_darcy_4/market_darcy_4/init" = "Не всяка чаша чай става еднаква, но Дарси почти винаги го уцелва... сигурно следи много внимателно колко дълго го запарва."
+"Conversations/Bank/Elsie/Market Lines/market_louis_1/market_louis_1/init" = "Само не казвай на никого, но обикновено поръчвам половината колекция на Луи още преди официално да я представи."
+"Conversations/Bank/Elsie/Market Lines/market_louis_2/market_louis_2/init" = "Луи винаги ми заделя по нещо... Ако има нещо блестящо, ефирно или искрящо, просто трябва да го пробвам!"
+"Conversations/Bank/Elsie/Market Lines/market_louis_3/market_louis_3/1" = "И преди, и след това името му беше на устата на всички."
+"Conversations/Bank/Elsie/Market Lines/market_louis_3/market_louis_3/init" = "Купувах дрехи от Луи още в Столицата, преди да го прогонят..."
+"Conversations/Bank/Elsie/Market Lines/market_louis_4/market_louis_4/1" = "И все пак, пътуванията из страната явно са му се отразили добре, а усетът му изобщо не е пострадал."
+"Conversations/Bank/Elsie/Market Lines/market_louis_4/market_louis_4/init" = "Ужасна история беше това с прогонването на Луи от Столицата. И всичко заради едно недоразумение."
+"Conversations/Bank/Elsie/Market Lines/market_merri_1/market_merri_1/init" = "Мери има чудесен усет как да обзаведе едно място... в Столицата би била великолепен интериорен дизайнер."
+"Conversations/Bank/Elsie/Market Lines/market_merri_2/market_merri_2/init" = "Цялата ми стая е обзаведена с комплект мебели, който купих от Мери още в деня, когато пристигнах в Мистрия. Беше съдба! Просто го обожавам."
+"Conversations/Bank/Elsie/Market Lines/market_merri_3/market_merri_3/init" = "Купи ли вече нещо от Мери, [Ari]? Не чакай... една хубава мебел може напълно да преобрази стаята!"
+"Conversations/Bank/Elsie/Market Lines/market_merri_4/market_merri_4/init" = "Мери ми довери, че прекрасно може и сама да носи мебелите от сергията си... просто ѝ харесва Хейдън и Олрик да го правят вместо нея. Това момиче си знае работата..."
+"Conversations/Bank/Elsie/Market Lines/market_stillwell_1/market_stillwell_1/init" = "Всеки път, когато помоля Стилуел да ми предскаже нещо за любовта, той изпада в транс... а после се изчервява, докато не припадне."
+"Conversations/Bank/Elsie/Market Lines/market_stillwell_2/market_stillwell_2/init" = "Гадаенето на Стилуел ужасно ме забавлява. Всичките тези стенания и вопли за мрака и времето... по своему е доста романтично."
+"Conversations/Bank/Elsie/Market Lines/market_stillwell_3/market_stillwell_3/init" = "„Любовта разцъфтява във вечната градина“... предсказанията на Стилуел са толкова цветисти. Може би той трябва да напише биографията ми..."
+"Conversations/Bank/Elsie/Market Lines/market_stillwell_4/market_stillwell_4/init" = "Помолих Стилуел за любовно предсказание, но накрая аз го изслушах и му дадох няколко съвета. Може и да вижда бъдещето, но все пак е млад... дръж се, Стилуел!"
