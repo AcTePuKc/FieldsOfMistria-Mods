@@ -3,8 +3,8 @@ id = "fom-bg-work-dialogue-bank-hemlock-market-01"
 asset_kind = "L10nTarget"
 
 [asset_properties]
-"Conversations/Bank/Hemlock/Market Lines/market_darcy_1/market_darcy_1/init" = "Нямам нищо против =Кафе=, но се чудя дали Дарси няма някоя тъмна =Бира= отзад..."
-"Conversations/Bank/Hemlock/Market Lines/market_darcy_2/market_darcy_2/init" = "Джози обожава чай, но аз така и не му станах почитател. =Кафе= обаче... от време на време вечер си пийвам."
+"Conversations/Bank/Hemlock/Market Lines/market_darcy_1/market_darcy_1/init" = "=Кафето= си го харесвам достатъчно, но се чудя дали Дарси няма някоя тъмна =Бира= отзад..."
+"Conversations/Bank/Hemlock/Market Lines/market_darcy_2/market_darcy_2/init" = "Джози обожава чай, но аз така и не му станах почитател. =Кафето= обаче... от време на време вечер си пийвам."
 "Conversations/Bank/Hemlock/Market Lines/market_darcy_3/market_darcy_3/init" = "Май съм човек на средното изпичане... като цяло предпочитам нещата по средата."
 "Conversations/Bank/Hemlock/Market Lines/market_darcy_4/market_darcy_4/init" = "С мляко, без мляко... =Кафе= ми харесва и по двата начина."
 "Conversations/Bank/Hemlock/Market Lines/market_louis_1/market_louis_1/init" = "Джози и без това е зашеметяваща, а тоалетите на Луи направо довършват картината!"
