@@ -1,0 +1,19 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-bank-juniper-04"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Banked Lines/foraging/foraging/1" = "Шкафът ми винаги е зареден."
+"Conversations/Bank/Juniper/Banked Lines/foraging/foraging/init" = "В Мистрия си е добре за събиране на диви растения, нали? Почвата поддържа какво ли не през всички сезони."
+"Conversations/Bank/Juniper/Banked Lines/foraging/foraging_2/1" = "Мога да излизам да събирам растения два пъти по-често, отколкото у дома! Всичко израства отново за нула време."
+"Conversations/Bank/Juniper/Banked Lines/foraging/foraging_2/init" = "Сподели с мен малко от фермерската си мъдрост, [Ari]. Има ли нещо особено в почвата на Мистрия?"
+"Conversations/Bank/Juniper/Banked Lines/foraging/foraging_3/1" = "Никога нямам достатъчно =Коприва=!"
+"Conversations/Bank/Juniper/Banked Lines/foraging/foraging_3/init" = "Не знам защо се мотая по източния път. На мен ми трябва =Коприва=."
+"Conversations/Bank/Juniper/Banked Lines/foraging/foraging_4/init" = "Събирането на диви растения в Мистрия е направо неестествено добро. Начинът, по който тази земя се възстановява... определено има нещо особено в нея."
+"Conversations/Bank/Juniper/Banked Lines/foraging_verdant/foraging_verdant/init" = "Природата около Мистрия е толкова зелена, че събирането на диви растения винаги си заслужава."
+"Conversations/Bank/Juniper/Banked Lines/formula/formula/1" = "Когато стане напечено, умните си лягат."
+"Conversations/Bank/Juniper/Banked Lines/formula/formula/init" = "Ъх, зациклила съм на формулата за тази смес. Как беше онази стара приказка?"
+"Conversations/Bank/Juniper/Banked Lines/free_wine/free_wine/init" = "Оценявам безплатната супа в Хана, но бих предпочела безплатно вино."
+"Conversations/Bank/Juniper/Banked Lines/front_desk_rain_complaint/front_desk_rain_complaint/init" = "Дъжд, дъжд, върви си... бих могла да те прогоня със заклинание, но ми се спи толкова много..."
+"Conversations/Bank/Juniper/Banked Lines/glad_elsie_is_here/glad_elsie_is_here/1" = "Моето идване, разбира се."
+"Conversations/Bank/Juniper/Banked Lines/glad_elsie_is_here/glad_elsie_is_here/init" = "Това, че Елси дойде в Мистрия, е второто най-хубаво нещо, което се е случвало на това забутано селце."
