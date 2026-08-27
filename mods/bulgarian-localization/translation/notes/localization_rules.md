@@ -77,6 +77,34 @@ Do not use masculine wording as the fallback. Do not add `<it>`, `<all>`, or
 offer those selections because the current text has no matching variants; a
 visible choice without a matching branch can make part of a line disappear.
 
+### Dedicated `they` QA pass
+
+Before finalizing a dialogue batch or NPC, run a dedicated pass for the `they`
+branch. In Bulgarian, plural agreement often extends beyond the obvious noun or
+adjective inside the variant tag. Check the whole sentence for singular forms
+that also need to change.
+
+Common leak points include:
+
+- `си` -> `сте`;
+- `ти` -> `ви`;
+- `теб` -> `вас`;
+- `те` as an object pronoun -> `ви` when addressing the player;
+- `кажи` -> `кажете`;
+- `искаш` -> `искате`;
+- `можеш` -> `можете`;
+- `настани се` -> `настанете се`;
+- `почини си` -> `починете си`;
+- `забрави` -> `забравете`;
+- `стопли се` -> `стоплете се`;
+- `ще пристигнеш` -> `ще пристигнете`.
+
+Do not assume that tagging only the gendered adjective or noun is sufficient.
+If the surrounding verb, pronoun, auxiliary, or imperative changes for plural
+`they`, include that part in the variant as well. Multiple variant groups may
+appear in the same sentence when that keeps the Bulgarian natural and avoids
+unnecessary duplication.
+
 ## Kinship terms in natural dialogue
 
 For `Great Aunt` / `Great Aunt Elsie`, prefer `леля` / `леля Елси` in ordinary
