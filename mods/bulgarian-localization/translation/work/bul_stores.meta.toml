@@ -5,7 +5,7 @@ asset_kind = "L10nTarget"
 [asset_properties]
 "stores/balor/name" = "Фургонът на Балор"
 "stores/blacksmith/name" = "Ковачницата"
-"stores/carpenter/name" = "Дърводелската работилница"
+"stores/carpenter/name" = "Дърводелница"
 "stores/darcy/name" = "Щандът на Дарси"
 "stores/elsie_spring_festival/name" = "Щанд за дрехи"
 "stores/general/name" = "Смесен магазин"
