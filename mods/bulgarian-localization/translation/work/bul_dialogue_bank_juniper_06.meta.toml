@@ -3,10 +3,10 @@ id = "fom-bg-work-dialogue-bank-juniper-06"
 asset_kind = "L10nTarget"
 
 [asset_properties]
-"Conversations/Bank/Juniper/Banked Lines/let_me_sleep/let_me_sleep/init" = "Хм? Няма нужда да ме <he>будиш</he><she>будиш</she><they>будите</they>... <he>остави</he><she>остави</she><they>оставете</they> парите на плота и се <he>наслаждавай</he><she>наслаждавай</she><they>наслаждавайте</they> на банята... дай ми да поспя..."
+"Conversations/Bank/Juniper/Banked Lines/let_me_sleep/let_me_sleep/init" = "Хм? Няма нужда да ме <he>будиш</he><she>будиш</she><they>будите</they>... <he>остави</he><she>остави</she><they>оставете</they> парите на плота и се <he>наслаждавай</he><she>наслаждавай</she><they>наслаждавайте</they> на банята... <he>остави ме</he><she>остави ме</she><they>оставете ме</they> да поспя..."
 "Conversations/Bank/Juniper/Banked Lines/leylines_for_power/leylines_for_power/init" = "Мистрия е прорязана от магически линии... ако успея да ги картографирам всичките, ще мога да използвам силата им за... е, няма значение. Не си <he>блъскай хубавата главица</he><she>блъскай хубавата главица</she><they>блъскайте хубавите главици</they> с това."
 "Conversations/Bank/Juniper/Banked Lines/long_sunday/long_sunday/init" = "Днес беше работна неделя... искам само да зяпам кристалната топка и да не мисля за нищо."
 "Conversations/Bank/Juniper/Banked Lines/magical_music/magical_music/init" = "Има нещо толкова магическо в музиката."
 "Conversations/Bank/Juniper/Banked Lines/manor_garden_wander/manor_garden_wander/init" = "Не съм особено романтична, но започвам да разбирам защо Елси толкова обича тази градина."
-"Conversations/Bank/Juniper/Banked Lines/manor_pond/manor_pond/1" = "Тези са различни от онези, които Терития все измъква от реката."
+"Conversations/Bank/Juniper/Banked Lines/manor_pond/manor_pond/1" = "Тези са различни от онези, които Терития все хваща в реката."
 "Conversations/Bank/Juniper/Banked Lines/manor_pond/manor_pond/init" = "Дойдох да проуча колебанията в една магическа линия, но накрая се загледах в рибите в езерото при Имението."
