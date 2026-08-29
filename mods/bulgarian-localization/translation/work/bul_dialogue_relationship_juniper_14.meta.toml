@@ -1,0 +1,11 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-relationship-juniper-14"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/dozy_dog_bed_0/1" = "Малки бродирани Доузита по хавлиите НАИСТИНА биха били сладки..."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/dozy_dog_bed_0/init" = "С Доузи тъкмо обсъждахме как да подобрим Банята."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/dozy_dog_bed_1/1" = "Кой да предположи, че дълбоко в себе си е истинско фермерско куче?"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/dozy_dog_bed_1/init" = "Доузи страшно се забавлява да тича из цялата тази земя."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/dozy_dog_bed_2/1" = "<he>Няма да повярваш</he><she>Няма да повярваш</she><they>Няма да повярвате</they> какви клюки чува!"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/dozy_dog_bed_2/init" = "Доузи тъкмо ми разказваше как е минал денят му."
