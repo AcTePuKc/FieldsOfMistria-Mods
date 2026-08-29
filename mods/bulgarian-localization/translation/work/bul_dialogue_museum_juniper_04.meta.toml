@@ -1,0 +1,11 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-museum-juniper-04"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Museum Lines/void_snail/void_snail/1" = "Толкова е в мой стил!"
+"Conversations/Bank/Juniper/Museum Lines/void_snail/void_snail/init" = "[Ari]! <he>Виждал ли си</he><she>Виждала ли си</she><they>Виждали ли сте</they> $Охлюва от Бездната$ в Музея? Черен охлюв, който обича да живее в пълен мрак..."
+"Conversations/Bank/Juniper/Museum Lines/water_sphere/water_sphere/1" = "Трябва да го оставя на мира, но когато видя нещо толкова кръгло и красиво, просто няма как да не се замисля."
+"Conversations/Bank/Juniper/Museum Lines/water_sphere/water_sphere/init" = "$Водната сфера$ в Музея е загадъчна. Нито едно от очевидните магически обяснения не пасва."
+"Conversations/Bank/Juniper/Museum Lines/weightless_stone/weightless_stone/1" = "Зловещ? Какво му е толкова зловещото на една неземна, носеща се празнота без ясна цел, която не се подчинява на природните закони?"
+"Conversations/Bank/Juniper/Museum Lines/weightless_stone/weightless_stone/init" = "Вален казва, че $Безтегловният камък$ в Музея е зловещ."
