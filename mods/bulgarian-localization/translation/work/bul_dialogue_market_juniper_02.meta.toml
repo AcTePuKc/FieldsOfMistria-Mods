@@ -1,0 +1,10 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-market-juniper-02"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Market Lines/market_louis_4/market_louis_4/init" = "Горкият Луи, прокуден от Столицата... Мога да разваля проклятие, без дори да се изпотя, но изгнанието е съвсем друга работа."
+"Conversations/Bank/Juniper/Market Lines/market_merri_1/market_merri_1/init" = "Мери ме обожава... с месеци реставрираше онова кръгло легло, но никой не го купуваше, докато не се появих аз. Има дори пуф за Доузи... как да устоя?"
+"Conversations/Bank/Juniper/Market Lines/market_merri_2/market_merri_2/init" = "Мери ми помогна много бързо да обзаведа Банята, след като пристигнах... дори успя да ми намери идеалния стол за бюрото."
+"Conversations/Bank/Juniper/Market Lines/market_merri_2/market_merri_2/init$_sequence_entry_1$" = "Онзи ден Вален го нарече „трон“, представяш ли си? Ако имах трон, нямаше да е толкова скромен!"
+"Conversations/Bank/Juniper/Market Lines/market_merri_3/market_merri_3/init" = "Имам предостатъчно поставки за отвари, но Мери се оглежда за някоя старинна. Старите вещи пазят сила, [Ari]."
