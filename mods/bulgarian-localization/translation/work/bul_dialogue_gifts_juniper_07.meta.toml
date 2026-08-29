@@ -1,0 +1,15 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-gifts-juniper-07"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/toasted_sunflower_seeds/1" = "Благодаря, [Ari]."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/toasted_sunflower_seeds/init" = "А, тези =Печени слънчогледови семки= ще са чудесни за похапване."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/void_newt/1" = "Аз-"
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/void_newt/2" = "О!"
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/void_newt/3" = "Благодаря, [Ari], обожавам го!"
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/void_newt/init" = "К-какво е това?"
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/water_chestnut_fritters/init" = "=Панирани водни кестени=! <he>Имаш добър вкус</he><she>Имаш добър вкус</she><they>Имате добър вкус</they>, [Ari]."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/white_wine/init" = "Обичам си по чаша =Бяло вино=. А и би било невъзпитано да <he>ти откажа</he><she>ти откажа</she><they>ви откажа</they>."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines_follow_up/void_newt_follow_up_0/1" = "Сложих $Тритона от Бездната$, който <he>ми даде</he><she>ми даде</she><they>ми дадохте</they>, в котела си за съхранение, но явно е изпълзял, докато не съм гледала."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines_follow_up/void_newt_follow_up_0/init" = "Странно..."
