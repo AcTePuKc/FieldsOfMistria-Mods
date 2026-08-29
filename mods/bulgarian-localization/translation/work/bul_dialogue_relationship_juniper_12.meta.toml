@@ -1,0 +1,20 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-relationship-juniper-12"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/basement_0/1" = "Ако не е така, сигурна съм, че мога да оправя настроението <he>ти</he><she>ти</she><they>ви</they>."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/basement_0/init" = "Добре ли минава денят <he>ти</he><she>ти</she><they>ви</they>?"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/basement_1/1" = "Трябва да взема няколко неща."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/basement_1/init" = "Трябва ли ни нещо от Смесения магазин?"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/basement_2/1" = "Или да взема нещо за вкъщи от Хана?"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/basement_2/init" = "Иска ли <he>ти се</he><she>ти се</she><they>ви се</they> да готвиш тази вечер?"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/basement_3/1" = "Винаги е толкова старателен - разделя всичко по материи и цветове!"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/basement_3/init" = "Доузи планира голямо пране. <he>Кажи ми, ако имаш</he><she>Кажи ми, ако имаш</she><they>Кажете ми, ако имате</they> нещо допълнително за добавяне, става ли?"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/basement_4/1" = "<he>Ела тук и ме целуни</he><she>Ела тук и ме целуни</she><they>Елате тук и ме целунете</they>."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/basement_4/init" = "А, идеално време."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/basement_5/1" = "Но искам да <he>знаеш, че се чувствам... късметлийка, задето съм с теб</he><she>знаеш, че се чувствам... късметлийка, задето съм с теб</she><they>знаете, че се чувствам... късметлийка, задето съм с вас</they>."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/basement_5/2" = "Само да не <he>си вирнеш носа</he><she>си вирнеш носа</she><they>си вирнете носа</they> заради това!"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/basement_5/init" = "Понякога... ми е трудно да говоря за по-дълбоките си чувства, [Ari]."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/basement_6/1" = "Е... това изобщо не ме притеснява."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/basement_6/init" = "Май не <he>можеш да стоиш далеч от мен</he><she>можеш да стоиш далеч от мен</she><they>можете да стоите далеч от мен</they>, а, [Ari]?"
