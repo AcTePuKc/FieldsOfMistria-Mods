@@ -1,0 +1,14 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-relationship-juniper-13"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/domestic_flavor_0/1" = "Така че не им се връзвай, ако някой от двамата се опита да си изпроси още една порция."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/domestic_flavor_0/init" = "[pet_name] и Доузи ядоха заедно по-рано."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/domestic_flavor_1/1" = "А и един помощник в Банята няма да ни е излишен..."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/domestic_flavor_1/init" = "Мисля, че Доузи учи [pet_name] на нови номера! Толкова е сладко!"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/domestic_flavor_2/1" = "<he>Виждал си</he><she>Виждала си</she><they>Виждали сте</they> леглото ми в Банята. Аз съм момиче, което обича да се разполага нашироко през нощта!"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/domestic_flavor_2/init" = "[Ari]... освен ако <he>не искаш да започнеш да спиш</he><she>не искаш да започнеш да спиш</she><they>не искате да започнете да спите</they> на пода с Доузи, ни трябва по-голямо легло."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/domestic_flavor_3/init" = "Толкова е удобно да работя от вкъщи. Харесва ми котелът ми да е винаги подръка."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/domestic_flavor_4/1" = "Понякога един магически експеримент просто не може да чака, докато стигна до Банята."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/domestic_flavor_4/init" = "[Ari], <he>ще бъдеш ли така добър да се погрижиш</he><she>ще бъдеш ли така добра да се погрижиш</she><they>ще бъдете ли така добри да се погрижите</they> да има място за котела ми вкъщи?"
