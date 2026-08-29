@@ -4,7 +4,7 @@ asset_kind = "L10nTarget"
 
 [asset_properties]
 "Conversations/Bank/Juniper/Gift Lines/gift_lines/toasted_sunflower_seeds/1" = "Благодаря, [Ari]."
-"Conversations/Bank/Juniper/Gift Lines/gift_lines/toasted_sunflower_seeds/init" = "А, тези =Печени слънчогледови семки= ще са чудесни за похапване."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/toasted_sunflower_seeds/init" = "А, тези =Печени слънчогледови семки= са чудесна занимавка."
 "Conversations/Bank/Juniper/Gift Lines/gift_lines/void_newt/1" = "Аз-"
 "Conversations/Bank/Juniper/Gift Lines/gift_lines/void_newt/2" = "О!"
 "Conversations/Bank/Juniper/Gift Lines/gift_lines/void_newt/3" = "Благодаря, [Ari], обожавам го!"
