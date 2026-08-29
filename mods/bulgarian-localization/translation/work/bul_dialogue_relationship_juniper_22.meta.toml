@@ -1,0 +1,14 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-relationship-juniper-22"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_festival_mornings/animal_festival/1" = "Доузи пак участва в надпреварата... Ще му дам нещо вкусно, независимо дали спечели или не!"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_festival_mornings/animal_festival/init" = "Днес е $Фестивалът на животните$!"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_festival_mornings/harvest_festival/1" = "Чудесен повод да извадя обувките си за танци."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_festival_mornings/harvest_festival/init" = "Всяка година очаквам с нетърпение $Фестивала на реколтата$..."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_festival_mornings/shooting_star_festival/1" = "Нямам търпение да посетим Върха заедно!"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_festival_mornings/shooting_star_festival/2" = "Ще можем да броим звездите заедно..."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_festival_mornings/shooting_star_festival/init" = "Тази вечер е $Фестивалът на падащите звезди$..."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_festival_mornings/spring_festival/1" = "Нямам търпение да си купя някои сезонни лакомства!"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_festival_mornings/spring_festival/init" = "Днес е $Пролетният фестивал$..."
