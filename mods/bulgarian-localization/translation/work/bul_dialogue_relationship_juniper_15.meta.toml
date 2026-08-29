@@ -1,0 +1,15 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-relationship-juniper-15"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/dreams_0/1" = "<he>Сънува ли нещо предвещаващо снощи</he><she>Сънува ли нещо предвещаващо снощи</she><they>Сънувахте ли нещо предвещаващо снощи</they>?"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/dreams_0/init" = "Добро утро!"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/evening_0/1" = "Нека тази вечер си починем. Само <he>ти и аз</he><she>ти и аз</she><they>вие и аз</they>."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/evening_0/init" = "Добър вечер, [Ari]."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/evening_1/1" = "Радвам се, че имам при кого да се прибирам у дома."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/evening_1/init" = "Какъв ден!"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/evening_2/1" = "Уверявам <he>те</he><she>те</she><they>ви</they>, чувството беше взаимно."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/evening_2/init" = "Надявам се, че <he>си успял да изкараш деня, без да тъгуваш прекалено много за мен</he><she>си успяла да изкараш деня, без да тъгуваш прекалено много за мен</she><they>сте успели да изкарате деня, без да тъгувате прекалено много за мен</they>."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/evening_3/1" = "Надявах се <he>скоро да се прибереш</he><she>скоро да се прибереш</she><they>скоро да се приберете</they>, любов моя."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/evening_3/init" = "А, ето <he>те</he><she>те</she><they>ви</they>!"
