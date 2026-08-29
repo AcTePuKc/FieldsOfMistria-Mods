@@ -1,0 +1,15 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-date-juniper-06"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Date Lines/park/park_accept_1/1" = "Къде искаш да ме отведеш този път, [Ari]?"
+"Conversations/Bank/Juniper/Date Lines/park/park_accept_1/2" = "В... $Парка$?"
+"Conversations/Bank/Juniper/Date Lines/park/park_accept_1/3" = "Е, все успяваш да ме изненадаш, така че... добре."
+"Conversations/Bank/Juniper/Date Lines/park/park_accept_1/init" = "О, познавам този поглед."
+"Conversations/Bank/Juniper/Date Lines/park/park_accept_2/1" = "Ти. Аз. Паркът."
+"Conversations/Bank/Juniper/Date Lines/park/park_accept_2/init" = "Хей."
+"Conversations/Bank/Juniper/Date Lines/park/park_follow_up_1/1" = "Този път извади късмет, [Ari]."
+"Conversations/Bank/Juniper/Date Lines/park/park_follow_up_1/init" = "Добре, признавам. Прекарах си страхотно с теб в $Парка$."
+"Conversations/Bank/Juniper/Date Lines/park/park_follow_up_2/1" = "А сега е едно от любимите ми места."
+"Conversations/Bank/Juniper/Date Lines/park/park_follow_up_2/init" = "Странно е като си помисля колко пъти съм минавала покрай този $Парк$ и изобщо не съм му обръщала внимание."
