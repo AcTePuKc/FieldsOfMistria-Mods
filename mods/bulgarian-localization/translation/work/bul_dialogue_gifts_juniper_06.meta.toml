@@ -1,0 +1,16 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-gifts-juniper-06"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/red_wine/init" = "=Червено вино=? Обичам си по чаша червено."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/shadow_flower/1" = "Благодаря, [Ari]. Такова цвете ми подхожда."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/shadow_flower/init" = "А, =Сенчесто цвете=."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/sod/1" = "Изискано."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/sod/init" = "<he>Даваш</he><she>Даваш</she><they>Давате</they> пръст на собственичката на Банята?"
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/spell_fruit/1" = "Е, няма да разпитвам. Което значи, че и <he>ти не трябва да ме питаш</he><she>ти не трябва да ме питаш</she><they>вие не трябва да ме питате</they> за каква магия ще използвам този плод."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/spell_fruit/init" = "А откъде <he>намери</he><she>намери</she><they>намерихте</they> =Магически плод=?"
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/spell_fruit_parfait/1" = "Макар че изглежда като прахосване на потенциална съставка за работата ми..."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/spell_fruit_parfait/2" = "Чувала съм, че вкусът му е направо магически."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/spell_fruit_parfait/3" = "Значи май ще трябва да му се насладя както трябва. Благодаря, [Ari]."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/spell_fruit_parfait/init" = "=Парфе с магически плод=!"
