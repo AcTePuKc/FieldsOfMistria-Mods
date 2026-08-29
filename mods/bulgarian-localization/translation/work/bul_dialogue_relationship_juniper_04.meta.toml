@@ -1,0 +1,18 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-relationship-juniper-04"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Relationship Lines/Child/baby_daily_dialogue/baby_0/1" = "И мен ме кара да се усмихвам."
+"Conversations/Bank/Juniper/Relationship Lines/Child/baby_daily_dialogue/baby_0/init" = "[infant] е в чудесно настроение днес!"
+"Conversations/Bank/Juniper/Relationship Lines/Child/baby_daily_dialogue/baby_1/1" = "Напомня ми на <he>твоята</he><she>твоята</she><they>вашата</they>!"
+"Conversations/Bank/Juniper/Relationship Lines/Child/baby_daily_dialogue/baby_1/init" = "Няма ли [infant] най-очарователната усмивка?"
+"Conversations/Bank/Juniper/Relationship Lines/Child/baby_daily_dialogue/baby_2/1" = "Мислех днес да се отбия при нея."
+"Conversations/Bank/Juniper/Relationship Lines/Child/baby_daily_dialogue/baby_2/init" = "Селин все пита кога ще може да прекара малко време с [infant]."
+"Conversations/Bank/Juniper/Relationship Lines/Child/baby_daily_dialogue/baby_3/1" = "Е, късметлийка съм!"
+"Conversations/Bank/Juniper/Relationship Lines/Child/baby_daily_dialogue/baby_3/init" = "Май [infant] започва да прилича на <he>теб</he><she>теб</she><they>вас</they>."
+"Conversations/Bank/Juniper/Relationship Lines/Child/baby_daily_dialogue/baby_4/1" = "Смехът ѝ толкова прилича на моя!"
+"Conversations/Bank/Juniper/Relationship Lines/Child/baby_daily_dialogue/baby_4/2" = "О-хо-хо!"
+"Conversations/Bank/Juniper/Relationship Lines/Child/baby_daily_dialogue/baby_4/init" = "Толкова ми стопля сърцето, когато [child_0] се смее..."
+"Conversations/Bank/Juniper/Relationship Lines/Child/baby_daily_dialogue/baby_5/1" = "Няма нищо по-хубаво от това малката [infant] да ме гледа с такова доверие и обич."
+"Conversations/Bank/Juniper/Relationship Lines/Child/baby_daily_dialogue/baby_5/init" = "Чудесно е да бъдеш майка."
