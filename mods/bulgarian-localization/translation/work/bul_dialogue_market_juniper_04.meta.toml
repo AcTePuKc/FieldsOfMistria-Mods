@@ -1,0 +1,13 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-market-juniper-04"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Market Lines/market_taliferro/market_taliferro_1/1" = "Той не би оценил хубава храна, дори да го удари право в лицето!"
+"Conversations/Bank/Juniper/Market Lines/market_taliferro/market_taliferro_1/2" = "Дори гарнитурите да го ударят в лицето! И десертът също!"
+"Conversations/Bank/Juniper/Market Lines/market_taliferro/market_taliferro_1/init" = "Този Талиферо..."
+"Conversations/Bank/Juniper/Market Lines/market_taliferro/market_taliferro_2/1" = "С нов език може би най-после ще оцени готвенето ми!"
+"Conversations/Bank/Juniper/Market Lines/market_taliferro/market_taliferro_2/init" = "Само между нас - обмислям да превърна Талиферо в жаба."
+"Conversations/Bank/Juniper/Market Lines/market_taliferro/market_taliferro_3/init" = "А, старият ми враг... $Предизвикателството в готвенето$ на Талиферо."
+"Conversations/Bank/Juniper/Market Lines/market_taliferro/market_taliferro_4/1" = "Някои хора си мислят, че великолепната, идеално оформена коса им дава право да говорят каквито грубости си поискат."
+"Conversations/Bank/Juniper/Market Lines/market_taliferro/market_taliferro_4/init" = "Уф, Талиферо."
