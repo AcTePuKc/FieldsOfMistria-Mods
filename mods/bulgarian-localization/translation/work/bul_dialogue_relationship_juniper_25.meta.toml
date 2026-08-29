@@ -3,7 +3,7 @@ id = "fom-bg-work-dialogue-relationship-juniper-25"
 asset_kind = "L10nTarget"
 
 [asset_properties]
-"Conversations/Bank/Juniper/Relationship Lines/Marriage/post_wedding_lines/marriage_5/1" = "[Ari]! Погали ме по косата! Целуни ме по челото, поглези ме!"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/post_wedding_lines/marriage_5/1" = "[Ari]! <he>Погали ме по косата! Целуни ме по челото, поглези ме!</he><she>Погали ме по косата! Целуни ме по челото, поглези ме!</she><they>Погалете ме по косата! Целунете ме по челото, поглезете ме!</they>"
 "Conversations/Bank/Juniper/Relationship Lines/Marriage/post_wedding_lines/marriage_5/1/prompts/0" = "Разбира се!"
 "Conversations/Bank/Juniper/Relationship Lines/Marriage/post_wedding_lines/marriage_5/1/prompts/1" = "Веднага, сладурче."
 "Conversations/Bank/Juniper/Relationship Lines/Marriage/post_wedding_lines/marriage_5/2" = "Аах."
