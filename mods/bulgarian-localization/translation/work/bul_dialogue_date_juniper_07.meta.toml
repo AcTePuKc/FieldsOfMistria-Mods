@@ -1,0 +1,11 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-date-juniper-07"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Date Lines/post_baby/post_baby_date_accept/1" = "Първо да оставим [child_0] при Елси."
+"Conversations/Bank/Juniper/Date Lines/post_baby/post_baby_date_accept/2" = "Сигурна съм, че ще си прекарат чудесно заедно."
+"Conversations/Bank/Juniper/Date Lines/post_baby/post_baby_date_accept/init" = "Една среща звучи точно на място."
+"Conversations/Bank/Juniper/Date Lines/post_baby/post_baby_date_follow_up/1" = "Хубаво беше да останем малко насаме."
+"Conversations/Bank/Juniper/Date Lines/post_baby/post_baby_date_follow_up/2" = "И си личи, че [child_0] се е забавлявала с Елси."
+"Conversations/Bank/Juniper/Date Lines/post_baby/post_baby_date_follow_up/init" = "Прекарах си страхотно на срещата ни, [Ari]."
