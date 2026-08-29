@@ -1,0 +1,13 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-relationship-juniper-20"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/winter_evening_0/1" = "Все пак май ще е най-добре да прекарам остатъка от деня на закрито."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/winter_evening_0/init" = "Няма да позволя малко сняг да ме спре да нося ботуши на висок ток."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/winter_evening_1/1" = "Идеално време да се сгуша до <he>теб</he><she>теб</she><they>вас</they>."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/winter_evening_1/init" = "Още една студена зимна вечер."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/winter_morning_0/1" = "Пролетта няма да дойде достатъчно скоро."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/winter_morning_0/init" = "Определено е добре за бизнеса, но тези студени зимни дни..."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/winter_morning_1/1" = "Посещенията в Банята със сигурност ще се увеличат."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/winter_morning_1/init" = "Днес навън е направо смразяващо!"
