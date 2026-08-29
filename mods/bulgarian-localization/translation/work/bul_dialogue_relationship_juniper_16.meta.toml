@@ -1,0 +1,19 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-relationship-juniper-16"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/fall_evening_0/1" = "Доузи все настоява да отида при Вален на преглед."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/fall_evening_0/2" = "Сякаш самият той вече не е почти в зимен сън!"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/fall_evening_0/init" = "Това прохладно есенно време направо ме приспива."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/fall_evening_1/1" = "Е, стига да си <he>близо до мен</he><she>близо до мен</she><they>близо до мен</they>, все ще намеря начин да се стопля... някак."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/fall_evening_1/init" = "Нощите стават направо хладни, не <he>мислиш ли</he><she>мислиш ли</she><they>мислите ли</they>?"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/fall_morning_0/1" = "<he>Мислиш ли, че мога да го представя</he><she>Мислиш ли, че мога да го представя</she><they>Мислите ли, че мога да го представя</they> като нова сезонна смес?"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/fall_morning_0/init" = "По някакъв начин в Банята все попадат листа..."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/fall_morning_1/1" = "Идеален ден да го прекараш с жена си, не <he>мислиш ли</he><she>мислиш ли</she><they>мислите ли</they>?"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/fall_morning_1/init" = "Какъв прекрасен есенен ден."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/morning_0/1" = "<he>Спa ли добре</he><she>Спa ли добре</she><they>Спахте ли добре</they>?"
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/morning_0/2" = "Аз определено спах чудесно, с <he>теб до мен</he><she>теб до мен</she><they>вас до мен</they>."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/morning_0/init" = "Добро утро, [Ari]."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/morning_1/1" = "Да се възползваме максимално от деня."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/morning_1/init" = "Добро утро, [Ari]!"
