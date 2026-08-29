@@ -1,0 +1,11 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-market-juniper-01"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Market Lines/market_darcy_1/market_darcy_1/init" = "Повечето вещици си падат по чая, но аз предпочитам =лате=. Дарси го прави точно както трябва. О, а и рисува нещо в пяната... това е важно."
+"Conversations/Bank/Juniper/Market Lines/market_darcy_2/market_darcy_2/init" = "[Ari], виж! Дарси нарисува Доузи в пяната на латето ми! Толкова... сладко... П-прекалено е сладко, за да го изпия..."
+"Conversations/Bank/Juniper/Market Lines/market_darcy_3/market_darcy_3/init" = "Дарси разбира, че не съм капризна - просто знам какво харесвам и всеки път го искам точно така."
+"Conversations/Bank/Juniper/Market Lines/market_louis_1/market_louis_1/init" = "Беше приятна изненада да открия добър шивач дори тук, в провинцията."
+"Conversations/Bank/Juniper/Market Lines/market_louis_2/market_louis_2/init" = "Луи прави убийствени ботуши. Този човек е незаменим..."
+"Conversations/Bank/Juniper/Market Lines/market_louis_3/market_louis_3/init" = "Луи винаги уважава решението ми да вдигна подгъва и да сваля деколтето."
