@@ -1,0 +1,23 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-relationship-juniper-01"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Relationship Lines/Basement/relationship_basement/juniper_best_friend_basement_1/init" = "Добро утро, [Ari]."
+"Conversations/Bank/Juniper/Relationship Lines/Basement/relationship_basement/juniper_best_friend_basement_2/1" = "Денят сякаш е пълен с възможности, нали?"
+"Conversations/Bank/Juniper/Relationship Lines/Basement/relationship_basement/juniper_best_friend_basement_2/init" = "Хмм..."
+"Conversations/Bank/Juniper/Relationship Lines/Basement/relationship_basement/juniper_best_friend_basement_3/1" = "Дръж ме в течение."
+"Conversations/Bank/Juniper/Relationship Lines/Basement/relationship_basement/juniper_best_friend_basement_3/init" = "Имаш ли нещо интересно планирано за днес?"
+"Conversations/Bank/Juniper/Relationship Lines/Basement/relationship_basement/juniper_best_friend_basement_4/1" = "Радвам се, че <he>се отби</he><she>се отби</she><they>се отбихте</they>."
+"Conversations/Bank/Juniper/Relationship Lines/Basement/relationship_basement/juniper_best_friend_basement_4/init" = "<he>Знаеш ли какво</he><she>Знаеш ли какво</she><they>Знаете ли какво</they>, [Ari]?"
+"Conversations/Bank/Juniper/Relationship Lines/Basement/relationship_basement/juniper_best_friend_basement_5/1" = "<he>Кажи ми, ако искаш да се включиш</he><she>Кажи ми, ако искаш да се включиш</she><they>Кажете ми, ако искате да се включите</they>."
+"Conversations/Bank/Juniper/Relationship Lines/Basement/relationship_basement/juniper_best_friend_basement_5/init" = "Мисля по-късно да изпробвам ново заклинание..."
+"Conversations/Bank/Juniper/Relationship Lines/Basement/relationship_basement/juniper_best_friend_basement_6/1" = "<he>Имаш ли някоя нова клюка за споделяне</he><she>Имаш ли някоя нова клюка за споделяне</she><they>Имате ли някоя нова клюка за споделяне</they>?"
+"Conversations/Bank/Juniper/Relationship Lines/Basement/relationship_basement/juniper_best_friend_basement_6/init" = "Още един ден в Мистрия..."
+"Conversations/Bank/Juniper/Relationship Lines/Basement/relationship_basement/juniper_best_friend_basement_7/1" = "<he>Ще се присъединиш ли към мен</he><she>Ще се присъединиш ли към мен</she><they>Ще се присъедините ли към мен</they>, [Ari]?"
+"Conversations/Bank/Juniper/Relationship Lines/Basement/relationship_basement/juniper_best_friend_basement_7/init" = "Време е да се отпусна след дългия ден..."
+"Conversations/Bank/Juniper/Relationship Lines/Basement/relationship_basement/juniper_best_friend_basement_8/1" = "Но щом <he>си тук</he><she>си тук</she><they>сте тук</they>... може и да почакат."
+"Conversations/Bank/Juniper/Relationship Lines/Basement/relationship_basement/juniper_best_friend_basement_8/init" = "Имам още няколко неща за довършване тази вечер."
+"Conversations/Bank/Juniper/Relationship Lines/Basement/relationship_basement/juniper_best_friend_basement_9/1" = "Не <he>можа да устоиш</he><she>можа да устоиш</she><they>можахте да устоите</they> да си поговорим още веднъж преди лягане, а?"
+"Conversations/Bank/Juniper/Relationship Lines/Basement/relationship_basement/juniper_best_friend_basement_9/2" = "Не <he>те виня</he><she>те виня</she><they>ви виня</they>."
+"Conversations/Bank/Juniper/Relationship Lines/Basement/relationship_basement/juniper_best_friend_basement_9/init" = "Добър вечер, [Ari]."
