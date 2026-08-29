@@ -1,0 +1,16 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-relationship-juniper-17"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/rainy_evening_0/1" = "Може би трябва да приключим по-рано и да се насладим на уюта."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/rainy_evening_0/init" = "Чуй само този дъжд..."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/rainy_morning_0/1" = "Ще е приятно и тихо. Мога да свърша куп работа."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/rainy_morning_0/init" = "Дъждовен ден..."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/sleepy_0/1" = "Мм, май пак стоях будна до твърде късно..."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/sleepy_0/2" = "Нищо, което едно =Лате= да не може да оправи."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/sleepy_0/init" = "Прозявка..."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/snowy_evening_0/1" = "Сигурна съм, че тази вечер ще спим чудесно."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/snowy_evening_0/init" = "Толкова е тихо, докато навън вали сняг..."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/snowy_morning_0/1" = "Или... <he>можеш да ме намериш</he><she>можеш да ме намериш</she><they>можете да ме намерите</they>, а аз ще <he>те стопля</he><she>те стопля</she><they>ви стопля</they>."
+"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/snowy_morning_0/init" = "Ако <he>измръзнеш</he><she>измръзнеш</she><they>измръзнете</they> в този сняг, защо не <he>се отбиеш</he><she>се отбиеш</she><they>се отбиете</they> в Банята?"
