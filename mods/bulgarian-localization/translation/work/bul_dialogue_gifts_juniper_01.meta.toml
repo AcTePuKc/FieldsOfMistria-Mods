@@ -1,0 +1,20 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-gifts-juniper-01"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/ancient_royal_scepter/1" = "Какъв съвършено подходящ подарък."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/ancient_royal_scepter/init" = "=Древен кралски скиптър=? За мен?"
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/ancient_royal_scepter_2/1" = "<he>Бъди спокоен</he><she>Бъди спокойна</she><they>Бъдете спокойни</they> - ще се грижа добре за него."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/ancient_royal_scepter_2/init" = "=Древен кралски скиптър=! Явно имаш доста високо мнение за мен, [Ari]."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/birthday_gift/1" = "О-хо-хо-хо!"
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/birthday_gift/init" = "Няма нищо като да получаваш данък на рождения си ден."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/black_tablet/1" = "Е... чудесно зловеща е."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/black_tablet/2" = "Благодаря, [Ari]."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/black_tablet/init" = "На мен ли даваш тази =Черна плоча=?"
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/crunchy_chickpeas/init" = "Този =Хрупкав нахут= изглежда чудесно изпечен и точно колкото трябва осолен! Благодаря."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/crystal/init" = "О, =Кристал=. От тях никога не стигат. Благодаря."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/crystal_rose/1" = "Поласкана съм, че нещо толкова красиво ти е напомнило за мен."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/crystal_rose/init" = "=Кристална роза=! Великолепно."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/crystal_rose_2/1" = "Не, не ми казвай. Харесва ми загадката."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/crystal_rose_2/init" = "=Кристална роза=! От какви мрачни дълбини я извади?"
