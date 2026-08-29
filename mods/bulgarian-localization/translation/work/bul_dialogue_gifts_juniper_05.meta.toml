@@ -1,0 +1,20 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-gifts-juniper-05"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/mushroom_brew/1" = "Вкусът не е за всеки, което значи повече за мен."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/mushroom_brew/init" = "Обожавам земния вкус на =Гъбена отвара=. Благодаря, [Ari]."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/nettle/1" = "Дано =Копривата= не <he>те е опарила</he><she>те е опарила</she><they>ви е опарила</they>, докато си я брал."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/nettle/init" = "<he>Знаеш</he><she>Знаеш</she><they>Знаете</they> ли, още като малка се научих да бера =Коприва=."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/neutral_gift/init" = "Хмм. Благодаря."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/newt/init" = "О, [Ari], не беше нужно! Един хубав пресен =Тритон= винаги ще ми влезе в употреба."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/night_queen/1" = "О, <he>не знаеше</he><she>не знаеше</she><they>не знаехте</they>? Е... връщане няма."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/night_queen/init" = "Интересно е, нали, че цветя като =Царицата на нощта= имат определени магически свойства?"
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/pizza/1" = "<he>Днес ми направи голяма услуга</he><she>Днес ми направи голяма услуга</she><they>Днес ми направихте голяма услуга</they>, [Ari]."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/pizza/init" = "А, =Пица=. Хубава е топла, още по-хубава студена - наистина съвършената храна."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/poinsettia/1" = "Макар че не са толкова отровни, колкото човек би се надявал. Е, нищо."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/poinsettia/2" = "Все пак благодаря."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/poinsettia/init" = "Нищо не освежава една стая като хубава =Коледна звезда=."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/red_toadstool/1" = "Надявам се, че <he>си внимавал</he><she>си внимавала</she><they>сте внимавали</they> с нея - доста е отровна."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/red_toadstool/init" = "=Червена мухоморка=! Благодаря, [Ari]."
