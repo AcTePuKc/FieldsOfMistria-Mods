@@ -4,7 +4,7 @@ asset_kind = "L10nTarget"
 
 [asset_properties]
 "Conversations/Bank/Juniper/Market Lines/market_vera_1/market_vera_1/init" = "Може би трябва да оставя Вера да ми направи прическата..."
-"Conversations/Bank/Juniper/Market Lines/market_vera_2/market_vera_2/1" = "Имам отвара, от която кожата посинява, [Ari]. Защото <he>ще се задушиш, ако я изпиеш</he><she>ще се задушиш, ако я изпиеш</she><they>ще се задушите, ако я изпиете</they>. Още работя по нея."
+"Conversations/Bank/Juniper/Market Lines/market_vera_2/market_vera_2/1" = "Имам отвара, от която кожата посинява, [Ari]. Просто <he>защото ще се задушиш, ако я изпиеш</he><she>защото ще се задушиш, ако я изпиеш</she><they>защото ще се задушите, ако я изпиете</they>. Все още работя по нея."
 "Conversations/Bank/Juniper/Market Lines/market_vera_2/market_vera_2/init" = "Вера казва, че има боя, от която косата става синя... ха!"
 "Conversations/Bank/Juniper/Market Lines/market_vera_3/market_vera_3/1" = "Просто искам да видя какво ще стане."
 "Conversations/Bank/Juniper/Market Lines/market_vera_3/market_vera_3/init" = "<he>Мислиш ли</he><she>Мислиш ли</she><they>Мислите ли</they>, че Вера ще забележи, ако влея мана в боята ѝ за коса...?"
