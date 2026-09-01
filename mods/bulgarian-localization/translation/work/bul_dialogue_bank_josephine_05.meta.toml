@@ -1,0 +1,7 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-bank-josephine-05"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Josephine/Banked Lines/hemlock_cleans/hemlock_cleans/1" = "Лично аз обичам съпруг, който чисти!"
+"Conversations/Bank/Josephine/Banked Lines/hemlock_cleans/hemlock_cleans/init" = "Слава богу, Хемлок обича подредения хан."
