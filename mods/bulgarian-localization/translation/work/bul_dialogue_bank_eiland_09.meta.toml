@@ -4,7 +4,7 @@ asset_kind = "L10nTarget"
 
 [asset_properties]
 "Conversations/Bank/Eiland/Gift Lines/gift_lines/alda_feather_pendant/1" = "Благодаря, [Ari]. Ще го пазя като съкровище."
-"Conversations/Bank/Eiland/Gift Lines/gift_lines/alda_feather_pendant/init" = "Алдийска висулка с перо? Макар че вече не е така, някога такива висулки са се подарявали в знак на голяма обич."
+"Conversations/Bank/Eiland/Gift Lines/gift_lines/alda_feather_pendant/init" = "=Алдийска висулка с перо=? Макар че вече не е така, някога такива висулки са се подарявали в знак на голяма обич."
 "Conversations/Bank/Eiland/Gift Lines/gift_lines/apple_pie/1" = "Благодаря, [Ari]! Това е истинско лакомство."
 "Conversations/Bank/Eiland/Gift Lines/gift_lines/apple_pie/init" = "Само как ухае този =Ябълков пай=!"
 "Conversations/Bank/Eiland/Gift Lines/gift_lines/berries_and_cream/1" = "Благодаря, [Ari]."
