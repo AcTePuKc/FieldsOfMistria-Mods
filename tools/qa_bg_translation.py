@@ -34,6 +34,9 @@ INTENTIONAL_PLACEHOLDER_MISMATCHES = {
     # English exposes additional <it>/<none> branches here; Bulgarian uses
     # its supported he/she/they variants after a context review.
     "Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_0/3",
+    # Source has an <else> branch, but Bulgarian intentionally exposes only
+    # he/she/they; the runtime test showed that <else> is not a usable fallback.
+    "Conversations/gameplay_triggered/inspect_dragonsworn_tablet/2",
 }
 GENDER_BRANCH_RE = re.compile(
     r"<he>(?P<he>.*?)</he><she>(?P<she>.*?)</she><they>(?P<they>.*?)</they>",

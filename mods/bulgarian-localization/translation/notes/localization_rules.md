@@ -104,7 +104,9 @@ automatic replacement for a missing `he` or `she` branch. A line containing
 only `they` and `else` did not provide the expected fallback when another
 pronoun was selected. Keep `<else>` only when it is present and semantically
 needed in the source; it is not a shortcut for removing ordinary Bulgarian
-gender variants.
+gender variants. If a source `<else>` branch has no usable Bulgarian purpose,
+it may be intentionally omitted, but the exact key must be recorded in the QA
+allowlist so the omission remains visible and deliberate.
 
 Do not use masculine wording as the fallback. Do not add `<it>`, `<all>`, or
 `<none>` branches to ordinary Bulgarian dialogue. The Bulgarian pack does not
