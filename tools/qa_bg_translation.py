@@ -21,7 +21,7 @@ TOKEN_RE = re.compile(
 # reported rather than hidden.
 TECHNICAL_TEXT_RE = re.compile(
     r"(?:\[[^\]\r\n]+\]|\{[^}\r\n]+\}|%(?!\s+[sdif])[-+#0 ]*\d*(?:\.\d+)?[sdif]|"
-    r"\\[nrt\\\"']|</?(?:he|she|they)>|\$\{[^}]+\})"
+    r"\\[nrt\\\"']|</?(?:he|she|they|else)>|\$\{[^}]+\})"
 )
 LATIN_RE = re.compile(r"[A-Za-z]")
 ALLOWED_LATIN_RE = re.compile(

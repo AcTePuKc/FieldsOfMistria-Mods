@@ -12,7 +12,7 @@ asset_kind = "L10nTarget"
 "ui/tutorials/farming/title" = "Урок: Земеделие"
 
 # First farm introduction cutscene
-"Cutscenes/Story Events/farm_introduction/farm_introduction/init" = "А... здравей! Ти сигурно си [Ari]. Аз съм Селин, приятно ми е да се запознаем!"
+"Cutscenes/Story Events/farm_introduction/farm_introduction/init" = "А... здравей! Ти сигурно си [ARI]. Аз съм Селин, приятно ми е да се запознаем!"
 "Cutscenes/Story Events/farm_introduction/farm_introduction/1" = "Изглежда, че ще бъдем съседи! Затова ти донесох малък подарък за новия дом... ъъ, за новото поле."
 "Cutscenes/Story Events/farm_introduction/farm_introduction/2" = "Ето ти $мотика$ — ще ти трябва, за да $разореш полето си$! И аз обичам да се занимавам с градинарство, затова имах една в повече."
 "Cutscenes/Story Events/farm_introduction/farm_introduction/3" = "Ако искаш да $разшириш полето си$, ще ти трябва $лопата$. Можеш да я купиш от $Смесения магазин$ на семейството ми."
