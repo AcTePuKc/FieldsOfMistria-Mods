@@ -4,7 +4,7 @@ asset_kind = "L10nTarget"
 
 [asset_properties]
 "Conversations/Bank/Juniper/Banked Lines/week_one_pt_1/week_one_pt_1/1" = "Жозефин вече има нов човек, за когото да се грижи."
-"Conversations/Bank/Juniper/Banked Lines/week_one_pt_1/week_one_pt_1/init" = "Аха, новото попълнение. Май трябва да съм <he>ти</he><she>ти</she><they>ви</they> благодарна - до появата <he>ти</he><she>ти</she><they>ви</they> аз бях новото попълнение."
+"Conversations/Bank/Juniper/Banked Lines/week_one_pt_1/week_one_pt_1/init" = "<he>Аха, новото попълнение. Май трябва да съм ти благодарна — до появата ти аз бях новото попълнение.</he><she>Аха, новото попълнение. Май трябва да съм ти благодарна — до появата ти аз бях новото попълнение.</she><they>Аха, новото попълнение. Май трябва да съм ви благодарна — до появата ви аз бях новото попълнение.</they>"
 "Conversations/Bank/Juniper/Banked Lines/week_one_pt_2/week_one_pt_2/1" = "„Не очаквах да прекарам най-секси годините си в това забутано градче, но ето ме.“"
 "Conversations/Bank/Juniper/Banked Lines/week_one_pt_2/week_one_pt_2/2" = "А, само аз ли? Хм."
 "Conversations/Bank/Juniper/Banked Lines/week_one_pt_2/week_one_pt_2/init" = "Знам какво <he>си мислиш</he><she>си мислиш</she><they>си мислите</they>..."

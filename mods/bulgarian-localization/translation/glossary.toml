@@ -13,6 +13,7 @@ status = "working"
 [terms]
 "Farming" = { bulgarian = "Земеделие", status = "approved for current work", notes = "Skill-menu label and category; use context-specific grammar in tutorial prose." }
 "General Store" = { bulgarian = "Смесен магазин", status = "approved for current work", notes = "Natural Bulgarian term for the village shop carrying varied goods; confirmed against other localizations." }
+"Ladybird" = { bulgarian = "Калинката", status = "approved for current work", notes = "Proper name of the bakery run by Ryis's family. Keep distinct from the generic insect item Ladybug = Калинка." }
 "Town Leader" = { bulgarian = "кмет", status = "approved for current work", notes = "Adeline's role in Mistria; use Кмет in the NPC job label and кмет in dialogue when grammar requires lowercase." }
 "Balor's Wagon" = { bulgarian = "Вагонът на Балор", status = "approved for current work", notes = "Name of Balor's travelling shop wagon." }
 "crop" = { bulgarian = "култура", status = "provisional", notes = "Use реколта when the sentence means harvested produce." }
@@ -83,6 +84,7 @@ status = "working"
 "Lost & Found" = { bulgarian = "Изгубени вещи", status = "provisional", notes = "Natural Bulgarian tutorial/title phrasing; verify the actual box label." }
 "Lost & Found box" = { bulgarian = "кутия за изгубени вещи", status = "provisional", notes = "Use consistently for the town collection box." }
 "Essence" = { bulgarian = "Есенция", status = "provisional", notes = "Established game resource term; verify capitalization in the UI." }
+"Offer (altar/statue action)" = { bulgarian = "Принеси", status = "approved for current work", notes = "Use for presenting an item or Essence to an altar/statue; do not use the generic Предложи in this interaction." }
 "Shrine" = { bulgarian = "светилище", status = "approved for current work", notes = "Caldarus's shrine and related interaction point." }
 "skill perk" = { bulgarian = "умение", status = "pending terminology review", notes = "Natural Bulgarian for the tutorial; consider бонус/перк only if the official UI distinguishes it." }
 "Ruins" = { bulgarian = "Руините", status = "approved for current work", notes = "Location name in the Dark Floors tutorial and story quests." }
@@ -144,6 +146,7 @@ status = "working"
 "Combat" = { bulgarian = "Бой", status = "approved for current work", notes = "Short skill-menu label; use combat context to inflect in prose." }
 "Mining" = { bulgarian = "Минно дело", status = "approved for current work", notes = "Skill-menu label; use копаене when referring to the player action in tutorials." }
 "Woodcrafting" = { bulgarian = "Дърводелство", status = "approved for current work", notes = "Skill-menu label; use Изработка only for the general crafting action where appropriate." }
+"Bathhouse" = { bulgarian = "Банята", status = "approved for current work", notes = "The named bathhouse building in Mistria; use Банята for the place and вана for the tub or bathing action. Keep generic historical обществените къпални when the source is not referring to the building." }
 "Bath Soap" = { bulgarian = "сапун за баня", status = "approved for current work", notes = "Date-inspiration item that unlocks the Bathhouse Date." }
 "Dollhouse Bench" = { bulgarian = "пейка за куклена къща", status = "approved for current work", notes = "Date-inspiration item that unlocks the Park Date." }
 "Inn Menu" = { bulgarian = "меню от хана", status = "approved for current work", notes = "Date-inspiration item that unlocks the Inn Meal Date." }
@@ -265,13 +268,13 @@ status = "working"
 "Thorn Vine" = { bulgarian = "бодлива лоза", status = "approved for current work", notes = "All-season forageable plant." }
 "Walnut" = { bulgarian = "орех", status = "approved for current work", notes = "All-season forageable nut." }
 "Water Chestnut" = { bulgarian = "воден кестен", status = "approved for current work", notes = "Invasive cooking ingredient; do not confuse with chestnut." }
-"Wintergreen Berry" = { bulgarian = "плод на гоултерия", status = "approved for current work", notes = "Winter forageable fruit; use the plant name гоултерия." }
+"Wintergreen Berry" = { bulgarian = "плод на гаултерия", status = "approved for current work", notes = "Winter forageable fruit; use the plant name гаултерия." }
 "Glowberry" = { bulgarian = "светеща ягода", status = "approved for current work", notes = "Fantasy winter forageable berry that naturally glows." }
-"Middlemist" = { bulgarian = "Мидълмист", status = "approved for current work", notes = "Proper name of a rare red camellia; do not translate it as mist." }
+"Middlemist" = { bulgarian = "Мидълмист", status = "approved for current work", notes = "Keep the short proper name. It refers to the real rare red camellia cultivar Camellia japonica 'Middlemist's Red' (roughly 'червена камелия Мидълмист'); do not translate it as 'мъгла' or expand it in the game-facing item name." }
 "Pineshroom" = { bulgarian = "борова гъба", status = "approved for current work", notes = "Winter mushroom; translate the pine/mushroom compound naturally." }
 "Plum Blossom" = { bulgarian = "цвят от слива", status = "approved for current work", notes = "Winter flower; use the blossom form rather than the fruit." }
 "Snowdrop Anemone" = { bulgarian = "кокичева анемона", status = "provisional", notes = "Spring flower; literal compound retained until in-game visual QA." }
-"Spirit Mushroom" = { bulgarian = "гъба на духовете", status = "approved for current work", notes = "All-season fantasy mushroom." }
+"Spirit Mushroom" = { bulgarian = "Призрачна гъба", status = "approved for current work", notes = "All-season fantasy mushroom; use the same short name in the item, museum dialogue, and compound names such as Чай с призрачна гъба." }
 "Cauliflower" = { bulgarian = "карфиол", status = "approved for current work", notes = "Winter crop." }
 "Rice Stalk" = { bulgarian = "оризово стъбло", status = "approved for current work", notes = "Fall crop refined into rice." }
 "Tulip" = { bulgarian = "лале", status = "approved for current work", notes = "Spring flower; seed item is Семена от лале." }
@@ -307,7 +310,7 @@ status = "working"
 "Alpaca Wool" = { bulgarian = "алпакова вълна", status = "approved for current work" }
 "Animal Treat" = { bulgarian = "лакомство за животни", status = "approved for current work" }
 "Bristle" = { bulgarian = "четина", status = "approved for current work" }
-"Bull Horn" = { bulgarian = "бичи рог", status = "approved for current work" }
+"Bull Horn" = { bulgarian = "рог от бик", status = "approved for current work", notes = "Use the natural Bulgarian noun phrase, including in compound names such as Златен рог от бик." }
 "Horse Hair" = { bulgarian = "конски косъм", status = "approved for current work" }
 "Rabbit Wool" = { bulgarian = "заешка вълна", status = "approved for current work" }
 "Sheep Wool" = { bulgarian = "овча вълна", status = "approved for current work" }
@@ -325,7 +328,7 @@ status = "working"
 "Crystal Berry" = { bulgarian = "кристална ягода", status = "approved for current work", notes = "Fantasy berry used in cooking; inflect as needed." }
 "Spell Fruit" = { bulgarian = "магически плод", status = "approved for current work", notes = "Rare magical mine fruit; use consistently in items, quests, and dialogue." }
 "Clod" = { bulgarian = "буца", status = "provisional", notes = "Mine-monster family: каменна/рудна/сребърна буца as context requires." }
-"Essence Bat" = { bulgarian = "есенциален прилеп", status = "provisional", notes = "Mine monster; use the same form for pet skins and related furniture." }
+"Essence Bat" = { bulgarian = "прилеп на есенцията", status = "approved for current work", notes = "Named mine monster; use this form in drops, pet skins, and related furniture. Plural: прилепи на есенцията." }
 "Flame Spirit" = { bulgarian = "огнен дух", status = "provisional", notes = "Mine monster and pet-skin name." }
 "Flying Tome" = { bulgarian = "летящ том", status = "provisional", notes = "Mine monster and pet-skin name." }
 "Gryphon Statue" = { bulgarian = "статуя на грифон", status = "provisional", notes = "Mine monster and historical-furniture subject." }
@@ -342,7 +345,7 @@ status = "working"
 "Darcy" = { bulgarian = "Дарси", status = "approved for current work" }
 "Dell" = { bulgarian = "Дел", status = "approved for current work" }
 "Dozy" = { bulgarian = "Доузи", status = "approved for current work" }
-"Eiland" = { bulgarian = "Айленд", status = "approved for current work" }
+"Eiland" = { bulgarian = "Ейланд", status = "approved for current work", notes = "Final project choice. Supported by the Dutch source pronunciation and JP/KR localization clues; do not revert to Айленд without confirmed official English pronunciation." }
 "Elsie" = { bulgarian = "Елси", status = "approved for current work" }
 "Errol" = { bulgarian = "Ерол", status = "approved for current work" }
 "Hemlock" = { bulgarian = "Хемлок", status = "approved for current work" }
@@ -473,6 +476,9 @@ status = "working"
 "The Final Seal" = { bulgarian = "Последният печат", status = "approved for current work", notes = "Named final Mine seal and location." }
 "Dragonsworn Tablet" = { bulgarian = "Плочата на Драконовия заклетник", status = "approved for current work", notes = "Story tablet that reveals the offerings for the Final Seal." }
 "Dragonsworn" = { bulgarian = "Драконов заклетник / Драконова заклетница", status = "approved for current work", notes = "Use gender branches in player-facing prophecy text; the existing tablet title retains the masculine singular form." }
+"Dragon Pact Tablet" = { bulgarian = "Плоча на драконовия договор", status = "approved for current work; in-game length QA pending", notes = "Use договор consistently for the tablet and its museum dialogue. Revisit only if the game UI requires a shorter label; do not reintroduce пакт in isolated lines." }
+"Gem Cutting" = { bulgarian = "рязане на скъпоценни камъни", status = "approved for current work", notes = "Name of the date/activity. Use consistently for the marked activity in every character's dialogue; the activity includes shaping and polishing gems." }
+"Lapidary" = { bulgarian = "обработка на скъпоценни камъни", status = "approved for current work", notes = "Skill or school subject, distinct from the activity name Gem Cutting. Use рязане на скъпоценни камъни for the date/activity and шлифоване/полиране only for a specific process or result." }
 "Magic Essence" = { bulgarian = "магическата есенция", status = "approved for current work", notes = "Use this lore phrase distinctly from the collectible resource label Есенция when context requires it." }
 "Witchspeak" = { bulgarian = "вещерски език", status = "approved for current work", notes = "Language used on Mine tablets; use the definite form вещерския език in dialogue." }
 "The Lava Caves" = { bulgarian = "лавови пещери", status = "approved for current work", notes = "Use Лавови пещери as the location name." }

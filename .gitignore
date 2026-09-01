@@ -23,6 +23,7 @@ _portrait_diag/
 _private_work/
 _inspection*/
 _private_*.png
+.archive/
 findings.json
 report.md
 mods/*/translation/*_comparison.tsv

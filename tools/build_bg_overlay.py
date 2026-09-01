@@ -77,6 +77,7 @@ def main() -> int:
             override_count += 1
 
     root = args.overlay / "localization"
+    root.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(l10n_template, root / "l10n.meta.toml")
     write_table(root / "source_caches" / "bul.meta.toml", args.source_cache_id, "L10nSourceCache", source)
     write_table(root / "translations" / "bul.meta.toml", args.translation_id, "L10nTarget", translations)

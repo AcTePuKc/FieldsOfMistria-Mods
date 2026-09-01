@@ -4,7 +4,7 @@ Working notes for preserving character voice and relationships during the Bulgar
 
 These notes are translation guidance, not canonical lore. Prefer the source dialogue and in-game context when they conflict with a shorthand description here.
 
-## Eiland / Айленд
+## Eiland / Ейланд
 
 - Educated, earnest, historically minded and enthusiastic about archaeology and Mistria's past.
 - Often formal or bookish, but should still sound natural in Bulgarian rather than academic for its own sake.

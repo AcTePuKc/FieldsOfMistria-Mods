@@ -5,7 +5,7 @@ asset_kind = "L10nTarget"
 [asset_properties]
 "Cutscenes/Story Events/Mines/water_seal/water_seal/init" = "Тих шепот разкъсва тишината..."
 "Cutscenes/Story Events/Mines/water_seal/water_seal/1" = "^<he>Герою</he><she>Героиньо</she><they>Герои</they>... Печатът на водата...^"
-"Cutscenes/Story Events/Mines/water_seal/water_seal/2" = "На плочата е изписан непознат език. $Айленд може да успее да преведе текста, ако му занесеш претривка от плочата$."
+"Cutscenes/Story Events/Mines/water_seal/water_seal/2" = "На плочата е изписан непознат език. $Ейланд може да успее да преведе текста, ако му занесеш претривка от плочата$."
 "Cutscenes/Story Events/Mines/water_seal/break_water_seal/init" = "^<he>Герою</he><she>Героиньо</she><they>Герои</they>... благодаря ти... Аз съм...^"
 "Cutscenes/Story Events/Mines/water_seal/break_water_seal/1" = "^Драконовата... жрица...^"
 "Cutscenes/Story Events/Mines/water_seal/break_water_seal/2" = "^Среща... долу...^"

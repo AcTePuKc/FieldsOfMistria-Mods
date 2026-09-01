@@ -3,7 +3,7 @@ id = "fom-bg-work-dialogue-museum-juniper-02"
 asset_kind = "L10nTarget"
 
 [asset_properties]
-"Conversations/Bank/Juniper/Museum Lines/mistmoth/mistmoth/init" = "Никога не съм виждала нещо като онзи $Мъглен молец$ в Музея. Сигурно се среща само в Мистрия."
+"Conversations/Bank/Juniper/Museum Lines/mistmoth/mistmoth/init" = "Никога не съм виждала нещо като онази $Мъглена пеперуда$ в Музея. Сигурно се среща само в Мистрия."
 "Conversations/Bank/Juniper/Museum Lines/misty_black_mirror/misty_black_mirror/1" = "Никога не <he>казвай на никого какво виждаш</he><she>казвай на никого какво виждаш</she><they>казвайте на никого какво виждате</they> в отражението му. Ясно?"
 "Conversations/Bank/Juniper/Museum Lines/misty_black_mirror/misty_black_mirror/init" = "Онова $Мъгливо черно огледало$, което добавиха към колекцията на Музея..."
 "Conversations/Bank/Juniper/Museum Lines/red_obsidian/red_obsidian/1" = "Не е ли прекрасен?"

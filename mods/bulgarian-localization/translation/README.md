@@ -13,10 +13,37 @@ workflow is:
 1. Prepare source keys from the current `assets.zip` with
    `tools/prepare_bg_pipeline.py`.
 2. Translate only player-facing values in the generated Bulgarian work file.
-3. Run `tools/qa_bg_translation.py` before packaging.
-4. Review uncertain strings and glossary changes manually.
-5. Generate `translations/bul.meta.toml` and the matching source cache only
+3. Build a temporary merge from every file in `translation/work/` with
+   `tools/build_bg_overlay.py`; do not QA the stale generated package.
+4. Run `tools/qa_bg_translation.py` on that temporary merge before packaging.
+5. Review uncertain strings and glossary changes manually.
+6. Generate `translations/bul.meta.toml` and the matching source cache only
    after QA passes.
+
+The QA tool is intentionally useful before the translation is complete. It
+reports exact source fallbacks separately, checks only translated overrides,
+and keeps semantic, possible missing-gender, gender-token, punctuation, marker,
+and line-length items in separate review sections. The possible missing-gender
+section is intentionally broad: it uses English `you/your` as a recall-oriented
+signal, excludes prompts, and requires human context review. A typical local
+review run is:
+
+```powershell
+python tools/build_bg_overlay.py `
+  --source mods/bulgarian-localization/package/localization/source_caches/bul.meta.toml `
+  --work mods/bulgarian-localization/translation/work `
+  --overlay .archive/qa-work-overlay
+
+python tools/qa_bg_translation.py `
+  .archive/qa-work-overlay/localization/source_caches/bul.meta.toml `
+  .archive/qa-work-overlay/localization/translations/bul.meta.toml `
+  --json .archive/qa-work-report.json
+```
+
+The QA and overlay tools are project workflow files and must remain tracked on
+the `temp-translation` branch so they are available when the branch is later
+published. The `.archive` outputs are disposable local reports and are not
+uploaded.
 
 The Russian, French, and Spanish translations are secondary references only.
 They must not replace the English source when meaning, placeholders, or tone

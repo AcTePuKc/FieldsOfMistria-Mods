@@ -1,7 +1,7 @@
 [asset_properties]
 "locations/priestess_quarters/name" = "Покоите на жрицата"
 "Conversations/flavor_text/priestess_quarters_bed/init" = "Древно каменно легло."
-"Conversations/flavor_text/priestess_quarters_bed/1" = "Печката с драконов огън в основата му вероятно е служила за готвене и за топлина."
+"Conversations/flavor_text/priestess_quarters_bed/1" = "Печката с драконов огън в основата му вероятно е била използвана за готвене и отопление."
 "Conversations/flavor_text/priestess_quarters_bedroom_shelf_left/init" = "Украсен свитък лежи разгънат върху прашния рафт…"
 "Conversations/flavor_text/priestess_quarters_bedroom_shelf_left/1" = "^„Негово благородие става все по-предпазлив с нарастването на луната.“^"
 "Conversations/flavor_text/priestess_quarters_bedroom_shelf_left/2" = "^„Трябва да продължим да изпълняваме свещените ритуали въпреки събитията на повърхността.“^"

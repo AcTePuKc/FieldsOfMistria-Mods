@@ -5,7 +5,7 @@ asset_kind = "L10nTarget"
 [asset_properties]
 "Conversations/Bank/Juniper/Museum Lines/ancient_royal_scepter/ancient_royal_scepter/1" = "Може би някой ден постиженията ми ще са достойни за него!"
 "Conversations/Bank/Juniper/Museum Lines/ancient_royal_scepter/ancient_royal_scepter/2" = "О-хо-хо!"
-"Conversations/Bank/Juniper/Museum Lines/ancient_royal_scepter/ancient_royal_scepter/init" = "<he>Впечатли ме</he><she>Впечатли ме</she><they>Впечатлихте ме</they>, [Ari]. =Древният кралски скиптър=, който <he>предаде</he><she>предаде</she><they>предадохте</they>, е символ на властта на Кралицата-вещица."
+"Conversations/Bank/Juniper/Museum Lines/ancient_royal_scepter/ancient_royal_scepter/init" = "<he>Впечатли ме, [Ari]. =Древен кралски скиптър=, който предаде, е символ на властта на Кралицата-вещица.</he><she>Впечатли ме, [Ari]. =Древен кралски скиптър=, който предаде, е символ на властта на Кралицата-вещица.</she><they>Впечатлихте ме, [Ari]. =Древен кралски скиптър=, който предадохте, е символ на властта на Кралицата-вещица.</they>"
 "Conversations/Bank/Juniper/Museum Lines/ancient_stone_lantern/ancient_stone_lantern/1" = "Не си блъскай главата за това - ако Ерол последва съвета ми, ще запази сиянието си още хиляда години."
 "Conversations/Bank/Juniper/Museum Lines/ancient_stone_lantern/ancient_stone_lantern/init" = "Ерол ме повика за консултация относно $Древния каменен фенер$, който <he>дари</he><she>дари</she><they>дарихте</they>."
 "Conversations/Bank/Juniper/Museum Lines/dense_water/dense_water/1" = "Терития казва, че трябва да приема, че светът крие загадки, които никога няма да разрешим. Точно това не ми харесва!"

@@ -4,7 +4,7 @@ asset_kind = "L10nTarget"
 
 [asset_properties]
 "Conversations/Bank/Juniper/Banked Lines/orb_viewing/orb_viewing_4/init" = "Тихо, най-после хванах чист сигнал."
-"Conversations/Bank/Juniper/Banked Lines/orb_viewing/orb_viewing_5/init" = "Може да <he>останеш</he><she>останеш</she><they>останете</they>, но трябва да <he>мълчиш</he><she>мълчиш</she><they>мълчите</they>. Шоуто ми тъкмо започва да става интересно."
+"Conversations/Bank/Juniper/Banked Lines/orb_viewing/orb_viewing_5/init" = "Може да <he>останеш, но трябва да мълчиш</he><she>останеш, но трябва да мълчиш</she><they>останете, но трябва да мълчите</they>. Шоуто ми тъкмо започва да става интересно."
 "Conversations/Bank/Juniper/Banked Lines/orb_viewing/orb_viewing_6/1" = "Най-после... „42 смешни снимки на лабрадори, от които се превивах от смях“."
 "Conversations/Bank/Juniper/Banked Lines/orb_viewing/orb_viewing_6/init" = "Мъглата в кристалната ми топка се разсейва... образите започват да се появяват..."
 "Conversations/Bank/Juniper/Banked Lines/orb_viewing/orb_viewing_7/1" = "Утрешните обувки трябва да се планират още днес."

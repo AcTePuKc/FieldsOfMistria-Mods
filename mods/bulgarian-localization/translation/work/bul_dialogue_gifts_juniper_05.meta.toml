@@ -5,7 +5,7 @@ asset_kind = "L10nTarget"
 [asset_properties]
 "Conversations/Bank/Juniper/Gift Lines/gift_lines/mushroom_brew/1" = "Вкусът не е за всеки, което значи повече за мен."
 "Conversations/Bank/Juniper/Gift Lines/gift_lines/mushroom_brew/init" = "Обожавам земния вкус на =Гъбена отвара=. Благодаря, [Ari]."
-"Conversations/Bank/Juniper/Gift Lines/gift_lines/nettle/1" = "Дано =Копривата= не <he>те е опарила</he><she>те е опарила</she><they>ви е опарила</they> при брането."
+"Conversations/Bank/Juniper/Gift Lines/gift_lines/nettle/1" = "Дано копривата не <he>те е опарила</he><she>те е опарила</she><they>ви е опарила</they> при брането."
 "Conversations/Bank/Juniper/Gift Lines/gift_lines/nettle/init" = "<he>Знаеш</he><she>Знаеш</she><they>Знаете</they> ли, още като малка се научих да бера =Коприва=."
 "Conversations/Bank/Juniper/Gift Lines/gift_lines/neutral_gift/init" = "Хмм. Благодаря."
 "Conversations/Bank/Juniper/Gift Lines/gift_lines/newt/init" = "О, [Ari], не беше нужно! Един хубав пресен =Тритон= винаги ще ми влезе в употреба."
