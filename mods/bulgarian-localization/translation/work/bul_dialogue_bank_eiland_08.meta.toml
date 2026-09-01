@@ -1,0 +1,9 @@
+[meta_properties]
+id = "fom-bg-work-dialogue-bank-eiland-08"
+asset_kind = "L10nTarget"
+
+[asset_properties]
+"Conversations/Bank/Eiland/Market Lines/market_taliferro/market_taliferro_1/1" = "<he>Така че не се колебай да ми даряваш недооценените десерти</he><she>Така че не се колебай да ми даряваш недооценените десерти</she><they>Така че не се колебайте да ми дарявате недооценените десерти</they>!"
+"Conversations/Bank/Eiland/Market Lines/market_taliferro/market_taliferro_1/init" = "<he>Дори Талиферо да не хареса готвенето ти, аз ще го харесам</he><she>Дори Талиферо да не хареса готвенето ти, аз ще го харесам</she><they>Дори Талиферо да не хареса готвенето ви, аз ще го харесам</they>!"
+"Conversations/Bank/Eiland/Market Lines/market_taliferro/market_taliferro_2/1" = "<he>Забавно е, когато други хора готвят за теб</he><she>Забавно е, когато други хора готвят за теб</she><they>Забавно е, когато други хора готвят за вас</they>!"
+"Conversations/Bank/Eiland/Market Lines/market_taliferro/market_taliferro_2/init" = "Въпреки характера си, Талиферо определено е прав за едно..."
