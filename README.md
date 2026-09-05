@@ -20,4 +20,5 @@ See `mods/bulgarian-localization/translation/README.md` for the translation work
 
 Nexus publishing is always started manually from GitHub Actions. The first run
 can create a mod's initial Nexus main file from its page ID; after it succeeds,
-record the emitted File ID as a repository secret before publishing updates.
+copy its update File/Group ID from the Nexus UI into the matching repository
+secret before publishing updates.

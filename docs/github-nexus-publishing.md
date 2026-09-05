@@ -8,8 +8,11 @@ Nexus description, changelog, or Nexus file group.
 
 The manually dispatched Nexus workflow creates the initial main file when the
 selected mod has a page ID but no File ID secret yet. Keep the exact archive
-and its SHA-256 record with that release. The workflow has no automatic trigger:
-a GitHub release alone can never publish anything to Nexus.
+and its SHA-256 record with that release. Then copy the update File/Group ID
+shown in the Nexus UI into the matching repository secret. The workflow's API
+notice is an internal `mod-file` ID, not the legacy File/Group ID used for
+updates. The workflow has no automatic trigger: a GitHub release alone can
+never publish anything to Nexus.
 
 ## Per-mod release assets
 
@@ -26,7 +29,12 @@ plain-text `nexus-changelog.txt`. The workflow sends only the selected target's
 changelog. Nexus page descriptions are updated manually, so a release cannot
 replace another mod's page text.
 
-## Repository secrets
+## Registry and repository secrets
+
+`release/nexus-targets.json` is the public registry for release metadata:
+archive prefix, manifest ID, release-text directory, display name, and the two
+secret names. Add one entry there for a new mod; the workflow itself does not
+need to change.
 
 Configure these as GitHub repository secrets, never in source files:
 
@@ -38,21 +46,23 @@ Configure these as GitHub repository secrets, never in source files:
 - `NEXUS_JOURNAL_FILE_ID`: optional for the initial upload; required for later
   Journal Wider updates.
 
-The initial upload prints the created Nexus File ID in its workflow log. Add it
-to the matching secret before publishing the next version. It is distinct from
-the numeric mod-page ID.
+The initial upload's API notice is not the update File/Group ID. Obtain the
+correct Group ID from the Nexus UI, then add it to the matching secret before
+publishing the next version. It is distinct from the numeric mod-page ID.
 
 ## Safe upload procedure
 
 1. Build and test one mod archive locally.
 2. Confirm it contains exactly one `manifest.toml`, with the expected ID and version.
-3. Create a separate GitHub release/tag for that one mod, containing only the
+3. Add the mod to `release/nexus-targets.json` and configure its two named
+   secrets if it is a new target.
+4. Create a separate GitHub release/tag for that one mod, containing only the
    exact archive name from the table.
-4. Manually start `Publish Selected Mod to Nexus`, supplying the target, exact
+5. Manually start `Publish Selected Mod to Nexus`, supplying the target, exact
    version, and that release tag.
-5. After an initial upload, copy the emitted File ID into the matching repository
-   secret before its next update.
-6. Review the workflow summary and Nexus file page before announcing it.
+6. After an initial upload, copy the update File/Group ID from the Nexus UI into
+   the matching repository secret before its next update.
+7. Review the workflow summary and Nexus file page before announcing it.
 
 The workflow downloads one exact filename, verifies the archive manifest ID and
 version, resolves only the selected page's internal Nexus ID, and uploads only

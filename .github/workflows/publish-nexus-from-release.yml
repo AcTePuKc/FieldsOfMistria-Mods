@@ -5,10 +5,9 @@ on:
   workflow_dispatch:
     inputs:
       target:
-        description: The single mod to publish
+        description: Registry key for the single mod to publish
         required: true
-        type: choice
-        options: [font-choices, journal-wider]
+        type: string
       version:
         description: Exact MAJOR.MINOR.PATCH version, for example 0.1.0
         required: true
@@ -31,10 +30,6 @@ jobs:
     env:
       REPOSITORY: AcTePuKc/FieldsOfMistria-Mods
       NEXUS_API_KEY: ${{ secrets.NEXUS_API_KEY }}
-      NEXUS_FONT_CHOICES_MOD_ID: ${{ secrets.NEXUS_FONT_CHOICES_MOD_ID }}
-      NEXUS_FONT_CHOICES_FILE_ID: ${{ secrets.NEXUS_FONT_CHOICES_FILE_ID }}
-      NEXUS_JOURNAL_MOD_ID: ${{ secrets.NEXUS_JOURNAL_MOD_ID }}
-      NEXUS_JOURNAL_FILE_ID: ${{ secrets.NEXUS_JOURNAL_FILE_ID }}
 
     steps:
       - name: Check out release tag
@@ -49,23 +44,17 @@ jobs:
           $version = "${{ inputs.version }}"
           if ($version -notmatch '^\d+\.\d+\.\d+$') { throw "Version must use MAJOR.MINOR.PATCH format." }
 
-          switch ("${{ inputs.target }}") {
-            "font-choices" {
-              $assetName = "FontChoices-$version.zip"; $manifestId = "font_choices_act"
-              $releaseRoot = "release/font-choices"; $displayName = "Font Choices $version"
-              $modPageId = $env:NEXUS_FONT_CHOICES_MOD_ID; $fileId = $env:NEXUS_FONT_CHOICES_FILE_ID
-            }
-            "journal-wider" {
-              $assetName = "JournalWider-$version.zip"; $manifestId = "wide_journal_act"
-              $releaseRoot = "release/journal-wider"; $displayName = "Journal Wider $version"
-              $modPageId = $env:NEXUS_JOURNAL_MOD_ID; $fileId = $env:NEXUS_JOURNAL_FILE_ID
-            }
-            default { throw "Unsupported target." }
+          $registry = Get-Content -LiteralPath "release/nexus-targets.json" -Raw | ConvertFrom-Json -AsHashtable
+          $target = $registry["${{ inputs.target }}"]
+          if ($null -eq $target) { throw "Unknown target: ${{ inputs.target }}. Add it to release/nexus-targets.json first." }
+          foreach ($field in @("asset_prefix", "manifest_id", "release_root", "display_name", "mod_id_secret", "file_id_secret")) {
+            if ([string]::IsNullOrWhiteSpace([string]$target[$field])) { throw "Target ${{ inputs.target }} is missing registry field: $field" }
           }
 
-          foreach ($required in @($env:NEXUS_API_KEY, $modPageId)) {
-            if ([string]::IsNullOrWhiteSpace($required)) { throw "The selected target is missing a required Nexus repository secret." }
-          }
+          $assetName = "$($target.asset_prefix)-$version.zip"
+          $manifestId = [string]$target.manifest_id
+          $releaseRoot = [string]$target.release_root
+          $displayName = "$($target.display_name) $version"
 
           $changelogPath = Join-Path $releaseRoot "nexus-changelog.txt"
           $changelog = if (Test-Path -LiteralPath $changelogPath) { (Get-Content -LiteralPath $changelogPath -Raw).Trim() } else { "" }
@@ -74,13 +63,26 @@ jobs:
           "asset_name=$assetName" >> $env:GITHUB_OUTPUT
           "manifest_id=$manifestId" >> $env:GITHUB_OUTPUT
           "display_name=$displayName" >> $env:GITHUB_OUTPUT
-          "mod_page_id=$modPageId" >> $env:GITHUB_OUTPUT
-          "file_id=$fileId" >> $env:GITHUB_OUTPUT
-          "first_publish=$([string]::IsNullOrWhiteSpace($fileId).ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT
+          "mod_id_secret=$($target.mod_id_secret)" >> $env:GITHUB_OUTPUT
+          "file_id_secret=$($target.file_id_secret)" >> $env:GITHUB_OUTPUT
           "release_root=$releaseRoot" >> $env:GITHUB_OUTPUT
           "changelog<<EOF" >> $env:GITHUB_OUTPUT
           $changelog >> $env:GITHUB_OUTPUT
           "EOF" >> $env:GITHUB_OUTPUT
+
+      - name: Load selected Nexus settings
+        id: nexus_settings
+        shell: pwsh
+        env:
+          MOD_PAGE_ID: ${{ secrets[steps.target.outputs.mod_id_secret] }}
+          FILE_ID: ${{ secrets[steps.target.outputs.file_id_secret] }}
+        run: |
+          if ([string]::IsNullOrWhiteSpace($env:NEXUS_API_KEY) -or [string]::IsNullOrWhiteSpace($env:MOD_PAGE_ID)) {
+            throw "The selected target is missing its Nexus API key or page-ID secret."
+          }
+          "mod_page_id=$env:MOD_PAGE_ID" >> $env:GITHUB_OUTPUT
+          "file_id=$env:FILE_ID" >> $env:GITHUB_OUTPUT
+          "first_publish=$([string]::IsNullOrWhiteSpace($env:FILE_ID).ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT
 
       - name: Download only the selected release archive
         id: download
@@ -112,13 +114,13 @@ jobs:
         shell: pwsh
         run: |
           $headers = @{ apikey = $env:NEXUS_API_KEY; "User-Agent" = "FieldsOfMistria-mod-release-workflow" }
-          $uri = "https://api.nexusmods.com/v3/games/fieldsofmistria/mods/${{ steps.target.outputs.mod_page_id }}"
+          $uri = "https://api.nexusmods.com/v3/games/fieldsofmistria/mods/${{ steps.nexus_settings.outputs.mod_page_id }}"
           $mod = Invoke-RestMethod -Uri $uri -Headers $headers
           if ([string]::IsNullOrWhiteSpace([string]$mod.data.id)) { throw "Nexus did not return an internal mod ID." }
           "mod_id=$($mod.data.id)" >> $env:GITHUB_OUTPUT
 
       - name: Create the first Nexus main file
-        if: steps.target.outputs.first_publish == 'true'
+        if: steps.nexus_settings.outputs.first_publish == 'true'
         id: first_publish
         shell: pwsh
         run: |
@@ -199,15 +201,14 @@ jobs:
           }
           $newFileId = [string]$created.data.id
           if ([string]::IsNullOrWhiteSpace($newFileId)) { throw "Nexus created the file but did not return its File ID." }
-          "file_id=$newFileId" >> $env:GITHUB_OUTPUT
-          Write-Host "::notice title=Nexus File ID::$newFileId"
+          Write-Host "::notice title=Nexus internal ModFile ID (not File/Group ID)::$newFileId"
 
       - name: Publish an update to Nexus Mods
-        if: steps.target.outputs.first_publish != 'true'
+        if: steps.nexus_settings.outputs.first_publish != 'true'
         uses: Nexus-Mods/upload-action@v1.0.0-beta.10
         with:
           api_key: ${{ secrets.NEXUS_API_KEY }}
-          file_id: ${{ steps.target.outputs.file_id }}
+          file_id: ${{ steps.nexus_settings.outputs.file_id }}
           mod_id: ${{ steps.nexus_mod.outputs.mod_id }}
           filename: ${{ steps.download.outputs.asset_path }}
           version: ${{ inputs.version }}

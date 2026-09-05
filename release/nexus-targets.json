@@ -1,0 +1,18 @@
+{
+  "font-choices": {
+    "asset_prefix": "FontChoices",
+    "manifest_id": "font_choices_act",
+    "release_root": "release/font-choices",
+    "display_name": "Font Choices",
+    "mod_id_secret": "NEXUS_FONT_CHOICES_MOD_ID",
+    "file_id_secret": "NEXUS_FONT_CHOICES_FILE_ID"
+  },
+  "journal-wider": {
+    "asset_prefix": "JournalWider",
+    "manifest_id": "wide_journal_act",
+    "release_root": "release/journal-wider",
+    "display_name": "Journal Wider",
+    "mod_id_secret": "NEXUS_JOURNAL_MOD_ID",
+    "file_id_secret": "NEXUS_JOURNAL_FILE_ID"
+  }
+}
