@@ -137,7 +137,7 @@ jobs:
           $uploadId = [string]$upload.data.id
           $presignedUrl = [string]$upload.data.presigned_url
           if ([string]::IsNullOrWhiteSpace($uploadId) -or [string]::IsNullOrWhiteSpace($presignedUrl)) { throw "Nexus did not create an upload session." }
-          & curl.exe --fail --silent --show-error --request PUT --upload-file $asset.FullName --header "Content-Type: application/octet-stream" --header "Content-Disposition:" $presignedUrl
+          & curl.exe --fail --silent --show-error --request PUT --upload-file $asset.FullName --header "Content-Type: application/octet-stream" --header "Content-Disposition;" $presignedUrl
           if ($LASTEXITCODE -ne 0) { throw "Nexus storage upload failed." }
           Invoke-NexusJson "POST" "/uploads/$uploadId/finalise" | Out-Null
 
