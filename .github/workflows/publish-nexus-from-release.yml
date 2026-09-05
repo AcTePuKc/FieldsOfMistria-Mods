@@ -101,9 +101,11 @@ jobs:
           Expand-Archive -LiteralPath "${{ steps.download.outputs.asset_path }}" -DestinationPath $extractPath -Force
           $manifests = @(Get-ChildItem -LiteralPath $extractPath -Recurse -File -Filter manifest.toml)
           if ($manifests.Count -ne 1) { throw "Expected exactly one manifest.toml; found $($manifests.Count)." }
-          $manifest = Get-Content -LiteralPath $manifests[0].FullName -Raw | ConvertFrom-Toml
-          if ($manifest.id -ne "${{ steps.target.outputs.manifest_id }}") { throw "Archive manifest ID does not match selected target." }
-          if ($manifest.version -ne "${{ inputs.version }}") { throw "Archive manifest version does not match requested version." }
+          $manifestText = Get-Content -LiteralPath $manifests[0].FullName -Raw
+          $manifestId = [regex]::Match($manifestText, '(?m)^id\s*=\s*"([^"]+)"\s*$').Groups[1].Value
+          $manifestVersion = [regex]::Match($manifestText, '(?m)^version\s*=\s*"([^"]+)"\s*$').Groups[1].Value
+          if ($manifestId -ne "${{ steps.target.outputs.manifest_id }}") { throw "Archive manifest ID does not match selected target." }
+          if ($manifestVersion -ne "${{ inputs.version }}") { throw "Archive manifest version does not match requested version." }
 
       - name: Resolve Nexus internal mod ID
         id: nexus_mod
