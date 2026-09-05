@@ -1,0 +1,213 @@
+# Test-only Font Lab input.  The generator copies each untouched source font
+# into a distinct engine asset because font metadata is read with the asset.
+
+[[font]]
+id = "ibm_plex"
+label = "IBM Plex"
+source = "fonts/fnt_font_choices_ibm_plex.ttf"
+languages = ["eng", "bul", "fra", "spa", "rus", "por", "pol"]
+
+[[font.variant]]
+id = "compact_shaded"
+label = "Compact — 14x12 — shaded"
+size = 14
+line_height = 12
+allow_shading = true
+short_label = "Compact"
+targets = ["all", "standard", "popup_description", "textbox"]
+languages = ["eng", "bul", "fra", "spa", "rus", "por", "tur"]
+
+[[font.variant]]
+id = "standard_shaded"
+label = "Standard — 17x13 — shaded"
+size = 17
+line_height = 13
+allow_shading = true
+short_label = "Standard"
+targets = ["all", "standard", "popup_description", "textbox"]
+languages = ["eng", "bul", "fra", "spa", "por", "pol", "tur"]
+
+[[font.variant]]
+id = "tall_shaded"
+label = "Tall — 19x14 — shaded"
+size = 19
+line_height = 14
+allow_shading = true
+short_label = "Tall"
+targets = ["popup_description", "textbox"]
+languages = ["eng", "bul", "fra", "spa", "rus", "por", "tur"]
+
+[[font.variant]]
+id = "standard_flat"
+label = "Standard — 17x13 — flat"
+size = 17
+line_height = 13
+allow_shading = false
+short_label = "Flat"
+targets = ["all", "standard", "popup_description", "textbox"]
+languages = ["eng", "bul", "fra", "spa", "por", "pol", "tur"]
+
+[[font]]
+id = "sofia_condensed"
+label = "Sofia Condensed"
+source = "fonts/fnt_font_choices_sofia_condensed.ttf"
+languages = ["bul", "rus"]
+
+[[font.variant]]
+id = "standard_shaded"
+label = "Standard — 17x13 — shaded"
+short_label = "17 shaded"
+size = 17
+line_height = 13
+allow_shading = true
+targets = ["all", "standard", "popup_description", "textbox"]
+
+[[font.variant]]
+id = "standard_flat"
+label = "Standard — 17x13 — flat"
+short_label = "17 flat"
+size = 17
+line_height = 13
+allow_shading = false
+targets = ["all", "standard", "popup_description", "textbox"]
+
+[[font.variant]]
+id = "tall_shaded"
+label = "Tall — 19x14 — shaded"
+short_label = "19 tall"
+size = 19
+line_height = 14
+allow_shading = true
+targets = ["popup_description", "textbox"]
+
+[[font]]
+id = "monomakh"
+label = "Monomakh"
+source = "fonts/fnt_font_choices_monomakh.ttf"
+languages = ["eng", "bul", "fra", "spa", "rus", "por", "tur"]
+
+[[font.variant]]
+id = "standard_shaded"
+label = "Standard — 17x13 — shaded"
+short_label = "17 shaded"
+size = 17
+line_height = 13
+allow_shading = true
+targets = ["all", "standard", "popup_description", "textbox"]
+
+[[font.variant]]
+id = "standard_flat"
+label = "Standard — 17x13 — flat"
+short_label = "17 flat"
+size = 17
+line_height = 13
+allow_shading = false
+targets = ["all", "standard", "popup_description", "textbox"]
+
+[[font.variant]]
+id = "tall_shaded"
+label = "Tall — 19x14 — shaded"
+short_label = "19 tall"
+size = 19
+line_height = 14
+allow_shading = true
+targets = ["popup_description", "textbox"]
+
+[[font]]
+id = "ponomar"
+label = "Ponomar"
+source = "fonts/fnt_font_choices_ponomar.ttf"
+languages = ["eng", "bul", "fra", "spa", "rus", "por"]
+
+[[font.variant]]
+id = "standard_shaded"
+label = "Standard — 17x13 — shaded"
+short_label = "17 shaded"
+size = 17
+line_height = 13
+allow_shading = true
+targets = ["all", "standard", "popup_description", "textbox"]
+
+[[font.variant]]
+id = "standard_flat"
+label = "Standard — 17x13 — flat"
+short_label = "17 flat"
+size = 17
+line_height = 13
+allow_shading = false
+targets = ["all", "standard", "popup_description", "textbox"]
+
+[[font.variant]]
+id = "tall_shaded"
+label = "Tall — 19x14 — shaded"
+short_label = "19 tall"
+size = 19
+line_height = 14
+allow_shading = true
+targets = ["popup_description", "textbox"]
+
+[[font]]
+id = "triodion"
+label = "Triodion"
+source = "fonts/fnt_font_choices_triodion.ttf"
+languages = ["eng", "bul", "fra", "spa", "rus", "por"]
+
+[[font.variant]]
+id = "standard_shaded"
+label = "Standard — 17x13 — shaded"
+short_label = "17 shaded"
+size = 17
+line_height = 13
+allow_shading = true
+targets = ["all", "standard", "popup_description", "textbox"]
+
+[[font.variant]]
+id = "standard_flat"
+label = "Standard — 17x13 — flat"
+short_label = "17 flat"
+size = 17
+line_height = 13
+allow_shading = false
+targets = ["all", "standard", "popup_description", "textbox"]
+
+[[font.variant]]
+id = "tall_shaded"
+label = "Tall — 19x14 — shaded"
+short_label = "19 tall"
+size = 19
+line_height = 14
+allow_shading = true
+targets = ["popup_description", "textbox"]
+
+[[font]]
+id = "sofia_extra_condensed"
+label = "Sofia Extra Condensed"
+source = "fonts/fnt_font_choices_sofia_extra_condensed.ttf"
+languages = ["bul", "rus"]
+
+[[font.variant]]
+id = "standard_shaded"
+label = "Standard — 17x13 — shaded"
+short_label = "17 shaded"
+size = 17
+line_height = 13
+allow_shading = true
+targets = ["all", "standard", "popup_description", "textbox"]
+
+[[font.variant]]
+id = "standard_flat"
+label = "Standard — 17x13 — flat"
+short_label = "17 flat"
+size = 17
+line_height = 13
+allow_shading = false
+targets = ["all", "standard", "popup_description", "textbox"]
+
+[[font.variant]]
+id = "tall_shaded"
+label = "Tall — 19x14 — shaded"
+short_label = "19 tall"
+size = 19
+line_height = 14
+allow_shading = true
+targets = ["popup_description", "textbox"]

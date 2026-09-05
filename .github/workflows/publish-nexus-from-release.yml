@@ -1,12 +1,20 @@
-name: Publish Nexus From Release
+name: Publish Selected Mod to Nexus
 
+# Deliberately manual. A GitHub release must never publish every archive in it.
 on:
-  release:
-    types: [published]
   workflow_dispatch:
     inputs:
+      target:
+        description: The single mod to publish
+        required: true
+        type: choice
+        options: [font-choices, journal-wider]
+      version:
+        description: Exact MAJOR.MINOR.PATCH version, for example 0.1.0
+        required: true
+        type: string
       tag:
-        description: GitHub release tag to publish to Nexus
+        description: GitHub release tag containing this one archive
         required: true
         type: string
 
@@ -14,7 +22,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: nexus-${{ github.event.release.tag_name || inputs.tag }}
+  group: nexus-${{ inputs.target }}-${{ inputs.version }}
   cancel-in-progress: false
 
 jobs:
@@ -22,99 +30,100 @@ jobs:
     runs-on: windows-latest
     env:
       REPOSITORY: AcTePuKc/FieldsOfMistria-Mods
+      NEXUS_API_KEY: ${{ secrets.NEXUS_API_KEY }}
+      NEXUS_FONT_CHOICES_MOD_ID: ${{ secrets.NEXUS_FONT_CHOICES_MOD_ID }}
+      NEXUS_FONT_CHOICES_FILE_ID: ${{ secrets.NEXUS_FONT_CHOICES_FILE_ID }}
+      NEXUS_JOURNAL_MOD_ID: ${{ secrets.NEXUS_JOURNAL_MOD_ID }}
+      NEXUS_JOURNAL_FILE_ID: ${{ secrets.NEXUS_JOURNAL_FILE_ID }}
 
     steps:
-      - name: Check out repository
+      - name: Check out release tag
         uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.tag }}
 
-      - name: Resolve GitHub release and Nexus changelog
-        id: release
+      - name: Resolve one target and validate inputs
+        id: target
         shell: pwsh
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: |
-          if ("${{ github.event_name }}" -eq "release") {
-            $tag = "${{ github.event.release.tag_name }}"
-          }
-          else {
-            $tag = "${{ inputs.tag }}"
-          }
+          $version = "${{ inputs.version }}"
+          if ($version -notmatch '^\d+\.\d+\.\d+$') { throw "Version must use MAJOR.MINOR.PATCH format." }
 
-          if ([string]::IsNullOrWhiteSpace($tag)) {
-            throw "A GitHub release tag is required."
-          }
-
-          $release = gh release view $tag --repo $env:REPOSITORY --json tagName | ConvertFrom-Json
-          $version = $release.tagName.TrimStart("v")
-          if ([string]::IsNullOrWhiteSpace($version)) {
-            throw "Could not resolve a version from tag '$tag'."
-          }
-
-          $changelogPath = "release/nexus-changelog.txt"
-          if (-not (Test-Path -LiteralPath $changelogPath)) {
-            throw "Nexus changelog is missing: $changelogPath"
+          switch ("${{ inputs.target }}") {
+            "font-choices" {
+              $assetName = "FontChoices-$version.zip"; $manifestId = "font_choices_act"
+              $releaseRoot = "release/font-choices"; $displayName = "Font Choices $version"
+              $modPageId = $env:NEXUS_FONT_CHOICES_MOD_ID; $fileId = $env:NEXUS_FONT_CHOICES_FILE_ID
+            }
+            "journal-wider" {
+              $assetName = "JournalWider-$version.zip"; $manifestId = "wide_journal_act"
+              $releaseRoot = "release/journal-wider"; $displayName = "Journal Wider $version"
+              $modPageId = $env:NEXUS_JOURNAL_MOD_ID; $fileId = $env:NEXUS_JOURNAL_FILE_ID
+            }
+            default { throw "Unsupported target." }
           }
 
-          $changelog = (Get-Content -LiteralPath $changelogPath -Raw).Trim()
-          if ([string]::IsNullOrWhiteSpace($changelog)) {
-            throw "release/nexus-changelog.txt must not be empty."
+          foreach ($required in @($env:NEXUS_API_KEY, $modPageId, $fileId)) {
+            if ([string]::IsNullOrWhiteSpace($required)) { throw "The selected target is missing a required Nexus repository secret." }
           }
 
-          "tag=$($release.tagName)" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
-          "version=$version" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
-          "changelog<<EOF" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
-          $changelog | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
-          "EOF" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+          $changelogPath = Join-Path $releaseRoot "nexus-changelog.txt"
+          $changelog = if (Test-Path -LiteralPath $changelogPath) { (Get-Content -LiteralPath $changelogPath -Raw).Trim() } else { "" }
+          if ([string]::IsNullOrWhiteSpace($changelog)) { throw "Nexus changelog is missing or empty: $changelogPath" }
 
-      - name: Download release archive
+          "asset_name=$assetName" >> $env:GITHUB_OUTPUT
+          "manifest_id=$manifestId" >> $env:GITHUB_OUTPUT
+          "display_name=$displayName" >> $env:GITHUB_OUTPUT
+          "mod_page_id=$modPageId" >> $env:GITHUB_OUTPUT
+          "file_id=$fileId" >> $env:GITHUB_OUTPUT
+          "changelog<<EOF" >> $env:GITHUB_OUTPUT
+          $changelog >> $env:GITHUB_OUTPUT
+          "EOF" >> $env:GITHUB_OUTPUT
+
+      - name: Download only the selected release archive
         id: download
         shell: pwsh
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           New-Item -ItemType Directory -Force -Path .\release-download | Out-Null
-          gh release download "${{ steps.release.outputs.tag }}" `
-            --repo $env:REPOSITORY `
-            --pattern "FieldsOfMistriaBulgarian-*.zip" `
-            --dir .\release-download
+          gh release download "${{ inputs.tag }}" --repo $env:REPOSITORY --pattern "${{ steps.target.outputs.asset_name }}" --dir .\release-download
+          $archive = Join-Path $PWD "release-download/${{ steps.target.outputs.asset_name }}"
+          if (-not (Test-Path -LiteralPath $archive -PathType Leaf)) { throw "Selected archive is missing: $archive" }
+          "asset_path=$archive" >> $env:GITHUB_OUTPUT
 
-          $archives = @(Get-ChildItem -LiteralPath .\release-download -Filter "FieldsOfMistriaBulgarian-*.zip")
-          if ($archives.Count -ne 1) {
-            throw "Expected exactly one FieldsOfMistriaBulgarian zip asset, found $($archives.Count)."
-          }
-
-          "asset_path=$($archives[0].FullName)" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+      - name: Validate selected archive manifest
+        shell: pwsh
+        run: |
+          $extractPath = Join-Path $PWD "release-archive-check"
+          Expand-Archive -LiteralPath "${{ steps.download.outputs.asset_path }}" -DestinationPath $extractPath -Force
+          $manifests = @(Get-ChildItem -LiteralPath $extractPath -Recurse -File -Filter manifest.toml)
+          if ($manifests.Count -ne 1) { throw "Expected exactly one manifest.toml; found $($manifests.Count)." }
+          $manifest = Get-Content -LiteralPath $manifests[0].FullName -Raw | ConvertFrom-Toml
+          if ($manifest.id -ne "${{ steps.target.outputs.manifest_id }}") { throw "Archive manifest ID does not match selected target." }
+          if ($manifest.version -ne "${{ inputs.version }}") { throw "Archive manifest version does not match requested version." }
 
       - name: Resolve Nexus internal mod ID
         id: nexus_mod
         shell: pwsh
-        env:
-          NEXUS_API_KEY: ${{ secrets.NEXUS_API_KEY }}
-          NEXUS_MOD_PAGE_ID: ${{ secrets.NEXUS_MOD_ID }}
         run: |
-          $headers = @{
-            apikey = $env:NEXUS_API_KEY
-            "User-Agent" = "FieldsOfMistriaBulgarian-release-workflow"
-          }
-          $uri = "https://api.nexusmods.com/v3/games/fieldsofmistria/mods/$($env:NEXUS_MOD_PAGE_ID)"
+          $headers = @{ apikey = $env:NEXUS_API_KEY; "User-Agent" = "FieldsOfMistria-mod-release-workflow" }
+          $uri = "https://api.nexusmods.com/v3/games/fieldsofmistria/mods/${{ steps.target.outputs.mod_page_id }}"
           $mod = Invoke-RestMethod -Uri $uri -Headers $headers
-          if ([string]::IsNullOrWhiteSpace([string]$mod.data.id)) {
-            throw "Nexus did not return an internal mod ID for page ID '$($env:NEXUS_MOD_PAGE_ID)'."
-          }
-          "mod_id=$($mod.data.id)" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+          if ([string]::IsNullOrWhiteSpace([string]$mod.data.id)) { throw "Nexus did not return an internal mod ID." }
+          "mod_id=$($mod.data.id)" >> $env:GITHUB_OUTPUT
 
-      - name: Publish to Nexus Mods
+      - name: Publish selected archive to Nexus Mods
         uses: Nexus-Mods/upload-action@v1.0.0-beta.10
         with:
           api_key: ${{ secrets.NEXUS_API_KEY }}
-          # Nexus calls this the Group ID in its UI; the action keeps the older
-          # input name file_id. Both refer to the existing file update chain.
-          file_id: ${{ secrets.NEXUS_FILE_ID }}
+          # Nexus calls this the Group ID; the action retains the older file_id name.
+          file_id: ${{ steps.target.outputs.file_id }}
           mod_id: ${{ steps.nexus_mod.outputs.mod_id }}
           filename: ${{ steps.download.outputs.asset_path }}
-          version: ${{ steps.release.outputs.version }}
-          changelog: ${{ steps.release.outputs.changelog }}
-          display_name: FieldsOfMistriaBulgarian ${{ steps.release.outputs.version }}
+          version: ${{ inputs.version }}
+          changelog: ${{ steps.target.outputs.changelog }}
+          display_name: ${{ steps.target.outputs.display_name }}
           category: main
           archive_existing_version: true
           update_mod_version: true

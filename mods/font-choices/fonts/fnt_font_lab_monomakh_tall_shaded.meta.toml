@@ -1,0 +1,8 @@
+[meta_properties]
+id = "4f412b8223b1f6c8"
+asset_kind = "Font"
+
+[asset_properties]
+minimum_expected_size = 19
+minimum_expected_line_height = 14
+allow_shading = true

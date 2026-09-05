@@ -1,0 +1,4 @@
+Initial 0.1.0 release.
+Widens the Journal and reflows supported pages to use the additional space.
+Improves layouts for residents, inventory, customization, quests, animals, spellcasting, maps, and Almanac pages.
+Includes compatibility handling for the optional Mistria Auxiliary Bag Inventory hotbar.

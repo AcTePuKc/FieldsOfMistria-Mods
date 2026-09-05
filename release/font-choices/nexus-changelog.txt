@@ -1,0 +1,4 @@
+Initial 0.1.0 release.
+Adds optional language-aware font profiles for supported game languages.
+Adds curated per-role choices and an opt-in global Experimental picker.
+Includes safe fallback when a saved font selection is no longer available.

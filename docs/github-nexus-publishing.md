@@ -1,55 +1,65 @@
 # GitHub and Nexus Mods publishing
 
-The first version of each mod should be uploaded to Nexus Mods manually. No Nexus secret is needed for that release.
+Every mod is packaged, released, and published independently. Font Choices,
+Journal Wider, and Bulgarian Localization must never share a release archive,
+Nexus description, changelog, or Nexus file group.
 
-The first release can be packaged with the manually triggered
-`Package Bulgarian Mod` workflow. It creates only a validated GitHub Actions
-artifact and SHA-256 file; it does not contact Nexus Mods. Download that
-artifact and upload it manually as version `0.1.0`. The package directory must
-be populated first at `mods/bulgarian-localization/package/`.
+## First release of a mod
 
-After the first manual upload has created the target main file, the active
-`.github/workflows/publish-nexus-from-release.yml` workflow can publish future
-GitHub releases to Nexus Mods.
+Upload version `0.1.0` manually to its already-created Nexus page. This first
+upload creates the main file's **Group ID**. Keep the exact archive and its
+SHA-256 record with that release.
 
-## Secrets used after the first Nexus file exists
+The Nexus workflow is deliberately manual-only. It cannot run merely because a
+GitHub release was published.
 
-If GitHub Actions is enabled later, configure these as repository secrets:
+## Per-mod release assets
 
-- `NEXUS_API_KEY`: the Nexus API key used by the upload action.
-- `NEXUS_FILE_ID`: the existing main file's **Group ID** from Nexus's API Info
-  dialog. The upload action retains the older `file_id` input name, although
-  Nexus now calls this value a Group ID.
-- `NEXUS_MOD_ID`: the numeric mod-page ID from the mod page URL. The workflow
-  resolves Nexus's separate internal mod ID automatically before adding the
-  changelog entry.
+| Target | Required archive name | Manifest ID | Release text directory |
+| --- | --- | --- | --- |
+| `font-choices` | `FontChoices-<version>.zip` | `font_choices_act` | `release/font-choices/` |
+| `journal-wider` | `JournalWider-<version>.zip` | `wide_journal_act` | `release/journal-wider/` |
 
-These values have different meanings. `NEXUS_FILE_ID` is not a replacement for
-`NEXUS_MOD_ID`. A future mod receives its own pair, while `NEXUS_API_KEY`
-remains shared.
+`<version>` is the exact `MAJOR.MINOR.PATCH` version in the archive's
+`manifest.toml`.
 
-The numeric ID in a Nexus mod URL is the value used for `NEXUS_MOD_ID`. Open
-the main file's **API Info** dialog in the Nexus Files tab and copy its Group
-ID as `NEXUS_FILE_ID`.
+Each release text directory has its own `nexus-description.bbcode` and
+plain-text `nexus-changelog.txt`. The workflow sends only the selected target's
+changelog. Nexus page descriptions are updated manually, so a release cannot
+replace another mod's page text.
 
-## Safe local lookup
+## Secrets after the first manual upload
 
-For a future lookup, create a temporary ignored `.env` from `.env.example`, set only the API key, run the project helper, and remove the file immediately afterward. Never put the API key in a script, TOML file, workflow, README, issue, or commit.
+Configure these as GitHub repository secrets, never in source files:
 
-The repository will not store `NEXUS_FILE_ID` or `NEXUS_MOD_ID` either. They belong in GitHub repository secrets after the first Nexus file has been created.
+- `NEXUS_API_KEY`: shared Nexus API key.
+- `NEXUS_FONT_CHOICES_MOD_ID`: Font Choices page ID (`1448`).
+- `NEXUS_FONT_CHOICES_FILE_ID`: Font Choices main-file Group ID.
+- `NEXUS_JOURNAL_MOD_ID`: Journal Wider page ID (`1449`).
+- `NEXUS_JOURNAL_FILE_ID`: Journal Wider main-file Group ID.
 
-## Changelog formatting
+Nexus calls the file-chain value a **Group ID**. The upload action calls the
+same value `file_id`; it is distinct from the numeric mod-page ID.
 
-Keep three kinds of release text separate:
+## Safe upload procedure
 
-- GitHub Release notes: English Markdown, suitable for GitHub readers.
-- Nexus description: English public description in `release/nexus-description.txt`.
-- Nexus changelog: Bulgarian plain text in `release/nexus-changelog.txt`, one change per line, without Markdown bullet prefixes.
+1. Build and test one mod archive locally.
+2. Confirm it contains exactly one `manifest.toml`, with the expected ID and version.
+3. Create a GitHub release containing the one exact archive name from the table.
+4. For a first release, upload that archive manually to the matching Nexus page
+   and store its Group ID in the matching repository secret.
+5. For later releases, manually start `Publish Selected Mod to Nexus`, supplying
+   the target, exact version, and exact GitHub release tag.
+6. Review the workflow summary and Nexus file page before announcing it.
 
-The Nexus changelog is not the same as the GitHub Release body. The upload action sends the dedicated plain-text file to Nexus.
+The workflow downloads one exact filename, verifies the archive manifest ID and
+version, resolves only the selected page's internal Nexus ID, and uploads only
+to the selected page's Group ID. It has no wildcard archive selection and no
+release-published trigger.
 
 ## Privacy and copyrighted source data
 
-The repository should remain private during translation. Do not commit the original `assets.zip`, extracted localization files, complete English source-key dumps, generated game archives, or other copyrighted game data. Keep those files locally and generate release archives only when needed.
-
-Before making the repository public, review the final package and documentation for source-data leakage and confirm that the distribution contents comply with the game's modding and distribution rules.
+Do not commit the original game `assets.zip`, extracted localization files,
+complete English source-key dumps, generated game archives, or other
+copyrighted game data. Keep those files locally and generate release archives
+only when needed. Review every public package and document before release.
