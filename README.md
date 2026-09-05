@@ -18,4 +18,6 @@ See `mods/bulgarian-localization/translation/README.md` for the translation work
 
 ## Release policy
 
-The first Nexus Mods release will be uploaded manually. GitHub-to-Nexus automation will only be enabled after the first Nexus main file exists and its identifiers have been verified.
+Nexus publishing is always started manually from GitHub Actions. The first run
+can create a mod's initial Nexus main file from its page ID; after it succeeds,
+record the emitted File ID as a repository secret before publishing updates.

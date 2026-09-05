@@ -63,7 +63,7 @@ jobs:
             default { throw "Unsupported target." }
           }
 
-          foreach ($required in @($env:NEXUS_API_KEY, $modPageId, $fileId)) {
+          foreach ($required in @($env:NEXUS_API_KEY, $modPageId)) {
             if ([string]::IsNullOrWhiteSpace($required)) { throw "The selected target is missing a required Nexus repository secret." }
           }
 
@@ -76,6 +76,8 @@ jobs:
           "display_name=$displayName" >> $env:GITHUB_OUTPUT
           "mod_page_id=$modPageId" >> $env:GITHUB_OUTPUT
           "file_id=$fileId" >> $env:GITHUB_OUTPUT
+          "first_publish=$([string]::IsNullOrWhiteSpace($fileId).ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT
+          "release_root=$releaseRoot" >> $env:GITHUB_OUTPUT
           "changelog<<EOF" >> $env:GITHUB_OUTPUT
           $changelog >> $env:GITHUB_OUTPUT
           "EOF" >> $env:GITHUB_OUTPUT
@@ -113,11 +115,57 @@ jobs:
           if ([string]::IsNullOrWhiteSpace([string]$mod.data.id)) { throw "Nexus did not return an internal mod ID." }
           "mod_id=$($mod.data.id)" >> $env:GITHUB_OUTPUT
 
-      - name: Publish selected archive to Nexus Mods
+      - name: Create the first Nexus main file
+        if: steps.target.outputs.first_publish == 'true'
+        id: first_publish
+        shell: pwsh
+        run: |
+          $headers = @{ apikey = $env:NEXUS_API_KEY; "User-Agent" = "FieldsOfMistria-mod-release-workflow" }
+          $archive = "${{ steps.download.outputs.asset_path }}"
+          $asset = Get-Item -LiteralPath $archive
+          $changelog = (Get-Content -LiteralPath "${{ steps.target.outputs.release_root }}/nexus-changelog.txt" -Raw).Trim()
+
+          function Invoke-NexusJson($Method, $Path, $Body = $null) {
+            $uri = "https://api.nexusmods.com/v3$Path"
+            if ($null -eq $Body) { return Invoke-RestMethod -Method $Method -Uri $uri -Headers $headers }
+            return Invoke-RestMethod -Method $Method -Uri $uri -Headers $headers -ContentType "application/json" -Body ($Body | ConvertTo-Json -Depth 8)
+          }
+
+          $upload = Invoke-NexusJson "POST" "/uploads" @{ size_bytes = [int64]$asset.Length; filename = $asset.Name }
+          $uploadId = [string]$upload.data.id
+          $presignedUrl = [string]$upload.data.presigned_url
+          if ([string]::IsNullOrWhiteSpace($uploadId) -or [string]::IsNullOrWhiteSpace($presignedUrl)) { throw "Nexus did not create an upload session." }
+          Invoke-WebRequest -Method Put -Uri $presignedUrl -InFile $asset.FullName -ContentType "application/octet-stream" | Out-Null
+          Invoke-NexusJson "POST" "/uploads/$uploadId/finalise" | Out-Null
+
+          $deadline = (Get-Date).AddMinutes(5)
+          do {
+            Start-Sleep -Seconds 2
+            $status = Invoke-NexusJson "GET" "/uploads/$uploadId"
+          } while ($status.data.state -ne "available" -and (Get-Date) -lt $deadline)
+          if ($status.data.state -ne "available") { throw "Nexus upload did not become available within five minutes." }
+
+          $created = Invoke-NexusJson "POST" "/mod-files" @{
+            upload_id = $uploadId
+            mod_id = "${{ steps.nexus_mod.outputs.mod_id }}"
+            name = "${{ steps.target.outputs.display_name }}"
+            description = $changelog
+            version = "${{ inputs.version }}"
+            file_category = "main"
+            primary_mod_manager_download = $true
+            allow_mod_manager_download = $true
+            show_requirements_pop_up = $false
+          }
+          $newFileId = [string]$created.data.id
+          if ([string]::IsNullOrWhiteSpace($newFileId)) { throw "Nexus created the file but did not return its File ID." }
+          "file_id=$newFileId" >> $env:GITHUB_OUTPUT
+          Write-Host "::notice title=Nexus File ID::$newFileId"
+
+      - name: Publish an update to Nexus Mods
+        if: steps.target.outputs.first_publish != 'true'
         uses: Nexus-Mods/upload-action@v1.0.0-beta.10
         with:
           api_key: ${{ secrets.NEXUS_API_KEY }}
-          # Nexus calls this the Group ID; the action retains the older file_id name.
           file_id: ${{ steps.target.outputs.file_id }}
           mod_id: ${{ steps.nexus_mod.outputs.mod_id }}
           filename: ${{ steps.download.outputs.asset_path }}
