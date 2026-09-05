@@ -133,12 +133,50 @@ jobs:
             return Invoke-RestMethod -Method $Method -Uri $uri -Headers $headers -ContentType "application/json" -Body ($Body | ConvertTo-Json -Depth 8)
           }
 
-          $upload = Invoke-NexusJson "POST" "/uploads" @{ size_bytes = [int64]$asset.Length; filename = $asset.Name }
+          $upload = Invoke-NexusJson "POST" "/uploads/multipart" @{ size_bytes = $asset.Length.ToString(); filename = $asset.Name }
           $uploadId = [string]$upload.data.id
-          $presignedUrl = [string]$upload.data.presigned_url
-          if ([string]::IsNullOrWhiteSpace($uploadId) -or [string]::IsNullOrWhiteSpace($presignedUrl)) { throw "Nexus did not create an upload session." }
-          & curl.exe --fail --silent --show-error --request PUT --upload-file $asset.FullName --header "Content-Type: application/octet-stream" --header "Content-Disposition;" $presignedUrl
-          if ($LASTEXITCODE -ne 0) { throw "Nexus storage upload failed." }
+          $partUrls = @($upload.data.part_presigned_urls)
+          $partSize = [int64]$upload.data.part_size_bytes
+          $completeUrl = [string]$upload.data.complete_presigned_url
+          if ([string]::IsNullOrWhiteSpace($uploadId) -or $partUrls.Count -eq 0 -or $partSize -le 0 -or [string]::IsNullOrWhiteSpace($completeUrl)) { throw "Nexus did not create a multipart upload session." }
+
+          $stream = [System.IO.File]::OpenRead($asset.FullName)
+          $client = [System.Net.Http.HttpClient]::new()
+          $parts = @()
+          try {
+            for ($index = 0; $index -lt $partUrls.Count; $index++) {
+              $remaining = $asset.Length - $stream.Position
+              if ($remaining -le 0) { throw "Nexus returned more upload parts than the archive needs." }
+              $length = [int][Math]::Min($partSize, $remaining)
+              $bytes = [byte[]]::new($length)
+              $read = 0
+              while ($read -lt $length) {
+                $count = $stream.Read($bytes, $read, $length - $read)
+                if ($count -le 0) { throw "Could not read the selected archive." }
+                $read += $count
+              }
+              $request = [System.Net.Http.HttpRequestMessage]::new([System.Net.Http.HttpMethod]::Put, [string]$partUrls[$index])
+              $content = [System.Net.Http.ByteArrayContent]::new($bytes)
+              $content.Headers.ContentType = [System.Net.Http.Headers.MediaTypeHeaderValue]::Parse("application/octet-stream")
+              $content.Headers.ContentLength = $read
+              $request.Content = $content
+              $response = $client.Send($request)
+              if (-not $response.IsSuccessStatusCode) { throw "Nexus storage upload failed for part $($index + 1): $([int]$response.StatusCode)." }
+              $etag = [string]$response.Headers.ETag.Tag
+              if ([string]::IsNullOrWhiteSpace($etag)) { throw "Nexus storage did not return an ETag for part $($index + 1)." }
+              $parts += [pscustomobject]@{ Number = $index + 1; ETag = $etag }
+            }
+            if ($stream.Position -ne $asset.Length) { throw "Nexus returned too few upload parts for the archive." }
+            $xmlParts = ($parts | ForEach-Object { "  <Part><PartNumber>$($_.Number)</PartNumber><ETag>$($_.ETag)</ETag></Part>" }) -join "`n"
+            $xml = "<CompleteMultipartUpload>`n$xmlParts`n</CompleteMultipartUpload>"
+            $completeRequest = [System.Net.Http.HttpRequestMessage]::new([System.Net.Http.HttpMethod]::Post, $completeUrl)
+            $completeRequest.Content = [System.Net.Http.StringContent]::new($xml, [System.Text.Encoding]::UTF8, "application/xml")
+            $completeResponse = $client.Send($completeRequest)
+            if (-not $completeResponse.IsSuccessStatusCode) { throw "Nexus multipart completion failed: $([int]$completeResponse.StatusCode)." }
+          } finally {
+            $stream.Dispose()
+            $client.Dispose()
+          }
           Invoke-NexusJson "POST" "/uploads/$uploadId/finalise" | Out-Null
 
           $deadline = (Get-Date).AddMinutes(5)
