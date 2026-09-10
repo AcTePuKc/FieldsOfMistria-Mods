@@ -1,0 +1,3 @@
+Initial 0.1.0 release.
+Adds Fields of Mistria support to Vortex through AIM.
+Creates the mods folder when needed and runs AIM after Vortex deploys the active Fields of Mistria profile.

@@ -14,5 +14,14 @@
     "display_name": "Journal Wider",
     "mod_id_secret": "NEXUS_JOURNAL_MOD_ID",
     "file_id_secret": "NEXUS_JOURNAL_FILE_ID"
+  },
+  "vortex-support": {
+    "asset_prefix": "AIM-Vortex-Support",
+    "release_root": "release/vortex-support",
+    "display_name": "Fields of Mistria Vortex Support",
+    "mod_id_secret": "NEXUS_VORTEX_SUPPORT_MOD_ID",
+    "file_id_secret": "NEXUS_VORTEX_SUPPORT_FILE_ID",
+    "package_kind": "vortex-extension",
+    "nexus_game_domain": "site"
   }
 }
