@@ -1,8 +1,8 @@
 # GitHub and Nexus Mods publishing
 
-Every mod is packaged, released, and published independently. Font Choices,
-Journal Wider, and Bulgarian Localization must never share a release archive,
-Nexus description, changelog, or Nexus file group.
+Every mod and Vortex extension is packaged, released, and published
+independently. They must never share a release archive, Nexus description,
+changelog, or Nexus file group.
 
 ## First release of a mod
 
@@ -16,13 +16,14 @@ never publish anything to Nexus.
 
 ## Per-mod release assets
 
-| Target | Required archive name | Manifest ID | Release text directory |
+| Target | Required archive name | Package check | Release text directory |
 | --- | --- | --- | --- |
-| `font-choices` | `FontChoices-<version>.zip` | `font_choices_act` | `release/font-choices/` |
-| `journal-wider` | `JournalWider-<version>.zip` | `wide_journal_act` | `release/journal-wider/` |
+| `font-choices` | `FontChoices-<version>.zip` | `font_choices_act` manifest | `release/font-choices/` |
+| `journal-wider` | `JournalWider-<version>.zip` | `wide_journal_act` manifest | `release/journal-wider/` |
+| `vortex-support` | `AIM-Vortex-Support-<version>.zip` | root `index.js`, `info.json`, `gameart.png` | `release/vortex-support/` |
 
-`<version>` is the exact `MAJOR.MINOR.PATCH` version in the archive's
-`manifest.toml`.
+`<version>` is the exact `MAJOR.MINOR.PATCH` version in the archive's manifest
+or Vortex extension `info.json`.
 
 Each release text directory has its own `nexus-description.bbcode` and
 plain-text `nexus-changelog.txt`. The workflow sends only the selected target's
@@ -45,15 +46,24 @@ Configure these as GitHub repository secrets, never in source files:
   later Font Choices updates.
 - `NEXUS_JOURNAL_FILE_ID`: optional for the initial upload; required for later
   Journal Wider updates.
+- `NEXUS_VORTEX_SUPPORT_MOD_ID`: Fields of Mistria Vortex Support page ID.
+- `NEXUS_VORTEX_SUPPORT_FILE_ID`: optional for the initial upload; required for
+  later Vortex Support updates.
 
 The initial upload's API notice is not the update File/Group ID. Obtain the
 correct Group ID from the Nexus UI, then add it to the matching secret before
 publishing the next version. It is distinct from the numeric mod-page ID.
 
+Vortex Support is a `site` Nexus page under **Vortex > Extensions**, not a
+`fieldsofmistria` game-mod page. Its registry entry uses
+`package_kind: vortex-extension` and `nexus_game_domain: site`; ordinary game
+mods retain the default `fieldsofmistria` domain.
+
 ## Safe upload procedure
 
 1. Build and test one mod archive locally.
-2. Confirm it contains exactly one `manifest.toml`, with the expected ID and version.
+2. Confirm a game-mod archive contains exactly one expected `manifest.toml`, or
+   a Vortex archive has its three root files and matching `info.json` version.
 3. Add the mod to `release/nexus-targets.json` and configure its two named
    secrets if it is a new target.
 4. Create a separate GitHub release/tag for that one mod, containing only the

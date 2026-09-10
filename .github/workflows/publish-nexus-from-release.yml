@@ -47,14 +47,17 @@ jobs:
           $registry = Get-Content -LiteralPath "release/nexus-targets.json" -Raw | ConvertFrom-Json -AsHashtable
           $target = $registry["${{ inputs.target }}"]
           if ($null -eq $target) { throw "Unknown target: ${{ inputs.target }}. Add it to release/nexus-targets.json first." }
-          foreach ($field in @("asset_prefix", "manifest_id", "release_root", "display_name", "mod_id_secret", "file_id_secret")) {
+          foreach ($field in @("asset_prefix", "release_root", "display_name", "mod_id_secret", "file_id_secret")) {
             if ([string]::IsNullOrWhiteSpace([string]$target[$field])) { throw "Target ${{ inputs.target }} is missing registry field: $field" }
           }
 
           $assetName = "$($target.asset_prefix)-$version.zip"
+          $packageKind = if ([string]::IsNullOrWhiteSpace([string]$target.package_kind)) { "mod" } else { [string]$target.package_kind }
           $manifestId = [string]$target.manifest_id
+          if ($packageKind -eq "mod" -and [string]::IsNullOrWhiteSpace($manifestId)) { throw "Mod target ${{ inputs.target }} is missing manifest_id." }
           $releaseRoot = [string]$target.release_root
           $displayName = "$($target.display_name) $version"
+          $nexusGameDomain = if ([string]::IsNullOrWhiteSpace([string]$target.nexus_game_domain)) { "fieldsofmistria" } else { [string]$target.nexus_game_domain }
 
           $changelogPath = Join-Path $releaseRoot "nexus-changelog.txt"
           $changelog = if (Test-Path -LiteralPath $changelogPath) { (Get-Content -LiteralPath $changelogPath -Raw).Trim() } else { "" }
@@ -66,6 +69,8 @@ jobs:
           "mod_id_secret=$($target.mod_id_secret)" >> $env:GITHUB_OUTPUT
           "file_id_secret=$($target.file_id_secret)" >> $env:GITHUB_OUTPUT
           "release_root=$releaseRoot" >> $env:GITHUB_OUTPUT
+          "package_kind=$packageKind" >> $env:GITHUB_OUTPUT
+          "nexus_game_domain=$nexusGameDomain" >> $env:GITHUB_OUTPUT
           "changelog<<EOF" >> $env:GITHUB_OUTPUT
           $changelog >> $env:GITHUB_OUTPUT
           "EOF" >> $env:GITHUB_OUTPUT
@@ -96,25 +101,35 @@ jobs:
           if (-not (Test-Path -LiteralPath $archive -PathType Leaf)) { throw "Selected archive is missing: $archive" }
           "asset_path=$archive" >> $env:GITHUB_OUTPUT
 
-      - name: Validate selected archive manifest
+      - name: Validate selected archive
         shell: pwsh
         run: |
           $extractPath = Join-Path $PWD "release-archive-check"
           Expand-Archive -LiteralPath "${{ steps.download.outputs.asset_path }}" -DestinationPath $extractPath -Force
-          $manifests = @(Get-ChildItem -LiteralPath $extractPath -Recurse -File -Filter manifest.toml)
-          if ($manifests.Count -ne 1) { throw "Expected exactly one manifest.toml; found $($manifests.Count)." }
-          $manifestText = Get-Content -LiteralPath $manifests[0].FullName -Raw
-          $manifestId = [regex]::Match($manifestText, '(?m)^id\s*=\s*"([^"]+)"\s*$').Groups[1].Value
-          $manifestVersion = [regex]::Match($manifestText, '(?m)^version\s*=\s*"([^"]+)"\s*$').Groups[1].Value
-          if ($manifestId -ne "${{ steps.target.outputs.manifest_id }}") { throw "Archive manifest ID does not match selected target." }
-          if ($manifestVersion -ne "${{ inputs.version }}") { throw "Archive manifest version does not match requested version." }
+          if ("${{ steps.target.outputs.package_kind }}" -eq "vortex-extension") {
+            foreach ($name in @("index.js", "info.json", "gameart.png")) {
+              if (-not (Test-Path -LiteralPath (Join-Path $extractPath $name) -PathType Leaf)) { throw "Vortex extension is missing root file: $name" }
+            }
+            $info = Get-Content -LiteralPath (Join-Path $extractPath "info.json") -Raw | ConvertFrom-Json
+            if ($info.type -ne "game") { throw "Vortex extension info.json must have type 'game'." }
+            if ($info.version -ne "${{ inputs.version }}") { throw "Vortex extension version does not match requested version." }
+          }
+          else {
+            $manifests = @(Get-ChildItem -LiteralPath $extractPath -Recurse -File -Filter manifest.toml)
+            if ($manifests.Count -ne 1) { throw "Expected exactly one manifest.toml; found $($manifests.Count)." }
+            $manifestText = Get-Content -LiteralPath $manifests[0].FullName -Raw
+            $manifestId = [regex]::Match($manifestText, '(?m)^id\s*=\s*"([^"]+)"\s*$').Groups[1].Value
+            $manifestVersion = [regex]::Match($manifestText, '(?m)^version\s*=\s*"([^"]+)"\s*$').Groups[1].Value
+            if ($manifestId -ne "${{ steps.target.outputs.manifest_id }}") { throw "Archive manifest ID does not match selected target." }
+            if ($manifestVersion -ne "${{ inputs.version }}") { throw "Archive manifest version does not match requested version." }
+          }
 
       - name: Resolve Nexus internal mod ID
         id: nexus_mod
         shell: pwsh
         run: |
           $headers = @{ apikey = $env:NEXUS_API_KEY; "User-Agent" = "FieldsOfMistria-mod-release-workflow" }
-          $uri = "https://api.nexusmods.com/v3/games/fieldsofmistria/mods/${{ steps.nexus_settings.outputs.mod_page_id }}"
+          $uri = "https://api.nexusmods.com/v3/games/${{ steps.target.outputs.nexus_game_domain }}/mods/${{ steps.nexus_settings.outputs.mod_page_id }}"
           $mod = Invoke-RestMethod -Uri $uri -Headers $headers
           if ([string]::IsNullOrWhiteSpace([string]$mod.data.id)) { throw "Nexus did not return an internal mod ID." }
           "mod_id=$($mod.data.id)" >> $env:GITHUB_OUTPUT
